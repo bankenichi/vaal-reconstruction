@@ -4,17 +4,17 @@
 
 Proportions carry Wilson 95% confidence intervals. Underlying data: `token_classification.csv`, `gate1_rescore_rerun.csv`, `gate2_rescore_rerun.csv`, `NULL_MODEL_RESULTS_RERUN.md`, `BATTERY_E_RERUN.md`, `EXPERIMENT_LOG.md`, `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Archive counterparts (`gate1_rescore.csv`, `NULL_HONESTY_OUTPUT.md`, `RESCORE_OUTPUT.md`, `SYNTAX_EXPERIMENT_LOG.md`) are labelled stopgap / historical where quoted.
 
-**Headline (re-run, 2026-09-16).** Form-first lookup recovers the predeclared root, language class, and sense on **7 of 78** section-9 rows. After Gate 2 and the hardening protocol, **3 of 78 are H (3.8%, 95% CI [1.3, 10.7])** per token, or **3 of 69 distinct roots (4.3% [1.5, 12.0])**. Hardened set: *xefe, Quecholli, Ixchel*. Selection-matched Fisher on the new 2x2 (Battery A C, then Battery D C) is **p = 0.09494** at trial level and **p = 0.3069** at item level (any-C). Recovery-scored matched tests are **p = 1** (trial) and **p = 0.9991** (item): almost no real-plant recoveries versus the pseudo D-C arm. Distinct-string count equals trial count (500/500). No unconditional binomial versus a 4.6% floor. No sigma label.
+**Headline (re-run, 2026-09-16, Ixchel Gate 1 honesty).** Form-first lookup recovers the predeclared root, language class, and sense on **6 of 78** section-9 rows. After Gate 2 and the hardening protocol, **2 of 78 are H (2.6%, 95% CI [0.7, 8.9])** per token, or **2 of 69 distinct roots (2.9% [0.8, 10.0])**. Hardened set: *xefe, Quecholli*. *Ixchel* is C+L: Battery E recovered the Cordemex herb string, not the approved theonym / Godstealer sense (Gate 1 recovery miss; gloss unchanged). Selection-matched Fisher on the new 2x2 (Battery A C, then Battery D C) is **p = 0.09494** at trial level and **p = 0.3069** at item level (any-C). Recovery-scored matched tests are **p = 1** (trial) and **p = 0.9991** (item): almost no real-plant recoveries versus the pseudo D-C arm. Distinct-string count equals trial count (500/500). No unconditional binomial versus a 4.6% floor. No sigma label.
 
 The published all-noise rejection of about 2 x 10^-15 (and the enlarged-base 3 x 10^-18) remains withdrawn as a headline. The stopgap matched range from the 2026-07 files (p about 0.005 to 0.06) is historical; it is not this epoch's null result.
 
-Agreed lexicon population: **78 section-9 rows**, each with an H/C/S/O status. L is a tag only. Battery-tested Gate 1 is the **61-row** `strict_committed_results_rerun_batch*.csv` set. *pul / puul* now has a decode artifact (Gate 1 recovery yes, Gate 2 fall, tier C*). Battery E: *Quecholli* 5/5 recovery, *Ixchel* 5/5 (Cordemex gloss is the medicinal-herb string, not a goddess entry), *Panquetzaliztli* 0/5 (absent from attached dicts). *ek* is a C control, not H.
+Agreed lexicon population: **78 section-9 rows**, each with an H/C/S/O status. L is a tag only. Battery-tested Gate 1 is the **61-row** `strict_committed_results_rerun_batch*.csv` set. *pul / puul* now has a decode artifact (Gate 1 recovery yes, Gate 2 fall, tier C*). Battery E: *Quecholli* 5/5 recovery (H+L), *Ixchel* 5/5 on the Cordemex herb string (not the approved theonym; Gate 1 miss, now C+L), *Panquetzaliztli* 0/5 (absent from attached dicts). *ek* is a C control, not H.
 
 | Population | N tokens | N distinct roots | Hardened (H) | Share (token) | 95% CI |
 |---|---:|---:|---:|---:|---|
 | Strict-CSV battery (ids 1-61) | 61 | 52 | 1 | 1.6% | [0.3, 8.7] |
-| Battery-tested + Battery E names (enlarged) | 64 | 55 | 3 | 4.7% | [1.6, 12.9] |
-| Section 9 lexicon (agreed, all 78 gated) | 78 | 69 | 3 | 3.8% | [1.3, 10.7] |
+| Battery-tested + Battery E names (enlarged) | 64 | 55 | 2 | 3.1% | [0.9, 10.7] |
+| Section 9 lexicon (agreed, all 78 gated) | 78 | 69 | 2 | 2.6% | [0.7, 8.9] |
 
 Old headlines (22 H of 62; 17 H of 78 stopgap; 23/62 vs a 4.6% floor) do not rebuild from the re-run CSVs. They are retained only as prior epochs.
 
@@ -44,12 +44,12 @@ The per-root H count stays 1 because *xefe* is not in a merge family. *te* (C*) 
 
 | Tier | Count | Notes |
 |---|---:|---|
-| Hardened (H / H+L) | 3 | both gates, protocol-clean (*xefe*; *Quecholli* H+L; *Ixchel* H+L) |
+| Hardened (H / H+L) | 2 | both gates, protocol-clean (*xefe*; *Quecholli* H+L) |
 | Committed + competitor (C* / C+L*) | 30 | Gate 2 fall plus 2026-09-16 tournaments (five new stars: *ik'el, 'Ibil, mucane, kifba, Tzokan'te*) |
-| Committed, latitude-dependent (C / C+L) | 44 | includes former L-only rows now gated; *pul* C* with a decode artifact |
+| Committed, latitude-dependent (C / C+L) | 45 | includes former L-only rows now gated; *Ixchel* C+L after Gate 1 sense miss; *pul* is C* |
 | Soft (S+L) | 1 | *Xatlene* (own note: one unresolved vowel step) |
 
-L is never a lone tier. Per distinct root on this frame: **3 H of 69 = 4.3% [1.5, 12.0]** (same grouping; *pul* and the 13 former L-only rows each add a distinct root; the three Battery E names each add a distinct root).
+L is never a lone tier. Per distinct root on this frame: **2 H of 69 = 2.9% [0.8, 10.0]** (same grouping; *pul* and the 13 former L-only rows each add a distinct root; the three Battery E names each add a distinct root).
 
 Gate pass rates on both bases (61-row strict CSV, recovery scoring, not legacy any-C):
 
@@ -60,15 +60,15 @@ Gate pass rates on both bases (61-row strict CSV, recovery scoring, not legacy a
 | Gate 1, protocol-clean recovery | 4/61 = 6.6% [2.6, 15.7] (the three protocol flags are recovery-no) | 4/52 = 7.7% [3.0, 18.2] |
 | Gate 2, different-meaning competitor (any language) | 38 survive / 58 testable = 65.5% [52.7, 76.4] (3 names N/A) | 30 survive / 49 testable = 61.2% [47.2, 73.6] |
 
-On the 78-row frame: Gate 1 recovery **7/78 = 9.0% [4.4, 17.4]** (adds *pul*, *Quecholli*, *Ixchel*); protocol-clean the same 7. Gate 2: **50 survive / 75 testable = 66.7% [55.4, 76.3]** per token, **42/66 = 63.6% [51.6, 74.2]** per distinct root.
+On the 78-row frame: Gate 1 recovery **6/78 = 7.7% [3.6, 15.8]** (adds *pul*, *Quecholli*; *Ixchel* is a sense miss); protocol-clean the same 6. Gate 2: **50 survive / 75 testable = 66.7% [55.4, 76.3]** per token, **42/66 = 63.6% [51.6, 74.2]** per distinct root.
 
 Reading: a handful of rows reconstruct under recovery-scored strict rules. About two thirds of testable rows have no different-meaning competitor **written by this lookup**. That is the protocol's certification rate after the re-run, not a direct measure of gloss correctness. Decoder C labels often attach a different sense or language than `committed_readings.csv` (the F1 hole, re-measured).
 
-Hardened readings that survive both gates and the protocol, 3 of 78: *xefe, Quecholli, Ixchel*.
+Hardened readings that survive both gates and the protocol, 2 of 78: *xefe, Quecholli*.
 
 Demoted from the stopgap H list (not new etymologies; decoder mismatch, Gate 2 fall, or coverage miss): *ascensionada, che', -en, Eztli Pilli, ich, k'áak', ki', kujkuali, máax, náach, Ti, u, waaj, Panquetzaliztli*. *pul / puul* now has an artifact (C*). Stopgap demotions that remain demoted: *akal, ek, tul, uch', xi, k'ux, ma*.
 
-*Ixchel* caveat: attached Cordemex prints a medicinal-herb gloss on the string *ix chel*. Recovery is of the attested lexeme form, not a newly invented goddess etymology.
+*Ixchel* demotion: attached Cordemex prints a medicinal-herb gloss on the string *ix chel*. The approved frozen sense is the theonym / Godstealer reading. Herb ≠ that sense, so Gate 1 fails. Tier C+L. Gloss text unchanged.
 
 ## 2. Null-model error rates (pooled, 500 pseudo + 150 real per battery), 95% CI
 
@@ -112,7 +112,7 @@ Conditioning on selection, this epoch does not reject the null at conventional 0
 
 **Withdrawn as translation confidence / pending a non-circular b.** The PPV formula is algebraically fine. Inputs from this re-run would use recovery TPR = 0.033 and Battery D FPR = 0.068, which makes even an optimistic b produce a weak diagnostic. The tables below keep the **archived any-C** wiring so the old method stays inspectable. Do not read them as "probability the English gloss is right."
 
-**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file. Post-hoc rival-reading tournaments on the 16 dual 5/5-clash lines: `RIVAL_READING_TOURNAMENTS.md` (five new C* stars; H unchanged). Particle probes: `PARTICLE_PROBES_3_7.md`. Secure-line grades on the same 51 published English lines (editorial stress test, not PPV): 0/51 secure, 12/51 working, 38/51 fragile, 1/51 opaque-blocked (`SECURE_LINE_TAGS.md`). Leave-one-text-out: ok 12/51 = 23.5% [14.0, 36.8], T3 0/13 ok (`LEAVE_ONE_TEXT_OUT.md`). Family-audit grouping footnotes: `MORPHOLOGICAL_FAMILY_AUDIT.md` (headline distinct-root N unchanged). *Panquetzaliztli* compound pass: missing whole form, stays C+L (`ONOMATIC_COMPOUND_PASS.md`).
+**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file. Post-hoc rival-reading tournaments on the 16 dual 5/5-clash lines: `RIVAL_READING_TOURNAMENTS.md` (five new C* stars; H is 2 of 78 after the Ixchel Gate 1 honesty pass). Particle probes: `PARTICLE_PROBES_3_7.md`. Secure-line grades on the same 51 published English lines (editorial stress test, not PPV): 0/51 secure, 12/51 working, 38/51 fragile, 1/51 opaque-blocked (`SECURE_LINE_TAGS.md`). Leave-one-text-out: ok 12/51 = 23.5% [14.0, 36.8], T3 0/13 ok (`LEAVE_ONE_TEXT_OUT.md`). Family-audit grouping footnotes: `MORPHOLOGICAL_FAMILY_AUDIT.md` (headline distinct-root N unchanged). *Panquetzaliztli* compound pass: missing whole form, stays C+L (`ONOMATIC_COMPOUND_PASS.md`). *Ixchel* is C+L (herb ≠ approved theonym).
 
 The question the formula answers, per reading, is the **positive predictive value (PPV)**: given that a token was certified (committed / hardened), the probability it is a genuine root rather than a chance dictionary coincidence.
 
@@ -138,7 +138,7 @@ The C > H inversion at the same prior is a specification error, not a finding ab
 
 Two defensible statements, one assumption-free and one model-based:
 
-1. **Assumption-free (measured, re-run 2026-09-16):** the hardened core of the battery-tested lexicon is **1.6%, 95% CI [0.3%, 8.7%]** per token (1 of 61), or **1.9%, 95% CI [0.3%, 10.1%]** counted over the 52 distinct roots (§7a). On the section-9 table a reader consults it is **3.8% [1.3, 10.7]** (3 of 78) per token, or **4.3% [1.5, 12.0]** (3 of 69) per distinct root. On the enlarged base (61 + three Battery E names) it is **4.7% [1.6, 12.9]** (3 of 64) per token, or **5.5% [1.9, 14.9]** (3 of 55) per distinct root. This is the protocol's certification rate, not a direct measure of gloss correctness. The stopgap 17/78 figure is historical.
+1. **Assumption-free (measured, re-run 2026-09-16, Ixchel honesty):** the hardened core of the battery-tested lexicon is **1.6%, 95% CI [0.3%, 8.7%]** per token (1 of 61), or **1.9%, 95% CI [0.3%, 10.1%]** counted over the 52 distinct roots (§7a). On the section-9 table a reader consults it is **2.6% [0.7, 8.9]** (2 of 78) per token, or **2.9% [0.8, 10.0]** (2 of 69) per distinct root. On the enlarged base (61 + three Battery E names) it is **3.1% [0.9, 10.7]** (2 of 64) per token, or **3.6% [1.0, 12.3]** (2 of 55) per distinct root. This is the protocol's certification rate, not a direct measure of gloss correctness. The stopgap 17/78 figure is historical.
 
 2. **Model-based (per-reading confidence): withdrawn as translation confidence.** Recompute only if a non-circular b and recovery-scored PPV are both accepted; until then leave pending.
 
@@ -164,14 +164,14 @@ Per-reading confidence (PPV) by tier, using each tier's measured TPR/FPR:
 
 Worked sentence example, the Kamasan Smith line *Ti ek tala jare'yantul!* "Into the dark you come; and so, your waning!" (6 tokens). **Withdrawn as translation confidence.** After this re-run none of *Ti, ek, tul* is H; *yan* is not a lexicon row.
 
-Best/worst real lines remain **withdrawn as translation confidence**. Tokens that remain H are a Spanish loan (*xefe*) and two exact attested name-strings (*Quecholli*, *Ixchel*).
+Best/worst real lines remain **withdrawn as translation confidence**. Tokens that remain H are a Spanish loan (*xefe*) and one exact attested name-string (*Quecholli*). *Ixchel* is C+L.
 
 ## 7. The base rate b, estimated from data (not assumed)
 
 b (fraction of Vaal built from real palette roots) is the dominant uncertainty in the PPV. Bounding it empirically. The name-roster proxy is unchanged as a descriptive count of naming behaviour. It is circular as an input to a PPV that already uses the same method, and it is not used here to produce a current translation-confidence interval.
 
 - **Proper-noun proxy (palette-scoped).** The §12 roster is a closed, un-cherry-pickable sample. Four figures are documented out-of-palette borrowings (Apep, Ralakesh, Arakaali, Omnitect) and are out of scope. Among the **33 in-scope names, 19 carry an attested palette root: about 58%.** Many rest on chance-resistant structural markers (the Nahuatl -tl/-tli/-atl absolutives). Clean-parse-only floor about 15-18% (58% is soft-inclusive). Folding the 4 borrowings back into the denominator gives 19/37 about 51%, but that penalizes b for design choices outside the palette's scope and is the wrong denominator.
-- **Mixture model b=(O - FPR)/(TPR - FPR): not usable here.** Using re-run recovery TPR (0.033) and D FPR (0.068) with O = 3/78 also fails as a translation diagnostic: O and TPR still answer overlapping questions once the same lookup writes both the lexicon and the plants.
+- **Mixture model b=(O - FPR)/(TPR - FPR): not usable here.** Using re-run recovery TPR (0.033) and D FPR (0.068) with O = 2/78 also fails as a translation diagnostic: O and TPR still answer overlapping questions once the same lookup writes both the lexicon and the plants.
 - **Consequence:** the palette-scoped proxy puts b about 58% (above the 50% neutral prior). Conversion into a hardened PPV is **withdrawn as translation confidence**. We do not stretch to b=75%.
 
 ## 7a. Non-independence of related tokens (distinct-root recount)

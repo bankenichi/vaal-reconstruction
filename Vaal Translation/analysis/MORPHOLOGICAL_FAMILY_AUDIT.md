@@ -10,7 +10,7 @@ That rule already collapses 16 of 61 battery tokens into 7 families (52 distinct
 
 **Sharpening (appendix, not a recount).** A shared **piece** that is not the head of both rows is a footnote, not a merge. Counting that piece twice as independent evidence is the thing to delete. Merging the rows would be a new etymology of the second head. Footnote, do not merge.
 
-Sensitivity if *Tzokan'te* were forced into *cha'tsoke*'s *ts'ook* piece: 69 heads become 68, H share 3/68 = 4.4% [1.5, 12.1] instead of 3/69 = 4.3% [1.5, 12.0]. Not adopted. Heads differ (*ka'a* vs *ts'ook*). Headline N stays **52 / 55 / 69**.
+Sensitivity if *Tzokan'te* were forced into *cha'tsoke*'s *ts'ook* piece: 69 heads become 68, H share 2/68 = 2.9% [0.8, 10.1] instead of 2/69 = 2.9% [0.8, 10.0]. Not adopted. Heads differ (*ka'a* vs *ts'ook*). Headline N stays **52 / 55 / 69**.
 
 ## 2. Families already in §17.7 (61-row)
 
@@ -77,5 +77,5 @@ Verdict: one *ik'* root, unexplained medial residue, same kind of honesty as *k'
 
 - Duplicate independent-count claims removed only as **footnotes** (shared *ts'ook*, shared *ma'*, shared *-ba' / -ane*). Rows not merged.
 - *tul* / *pul* stay two heads.
-- Distinct-root headlines unchanged: **1/52, 3/55, 3/69**.
+- Distinct-root headlines unchanged by this audit: **1/52, 2/55, 2/69** after Ixchel Gate 1 honesty.
 - No §9 reading replaced. The only forced segmentation note is leftover *yuc* on *ikba'yucane*.

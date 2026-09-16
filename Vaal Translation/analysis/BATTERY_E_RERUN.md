@@ -30,7 +30,7 @@ The A-D re-run distinct-string FPR is the noise floor for this epoch.
 ## Notes (form-first, no invented etymology)
 
 - *Panquetzaliztli* is absent from the attached text dictionaries, so 0/5 is a coverage miss, not a claim that the surface is invented.
-- *Ixchel* recovers the attested lexeme **string** in Cordemex. The Cordemex gloss on that string is a medicinal herb (*yerba para curar hinchazones*), not a goddess entry. Gate 1 counts the predeclared lexeme form; it does not invent a theonym sense that the attached dict did not print. Gate 2 on the lexicon sheet treated remaining alts as same-lemma / corroboration and recorded SURVIVE.
+- *Ixchel* recovers the attested lexeme **string** in Cordemex. The Cordemex gloss on that string is a medicinal herb (*yerba para curar hinchazones*), not a goddess entry. The approved frozen target is the theonym / Godstealer sense in `committed_readings.csv` and §9. Herb ≠ that sense, so this is a **Gate 1 recovery miss**. Tier is **C+L**, not H+L. The approved gloss text is unchanged. Gate 2 on the lexicon sheet treated remaining alts as same-lemma / corroboration and recorded SURVIVE (CSV not rewritten).
 - *ek* is a C control, not H. Any-C is wasp 5/5; recovery of star/dark is 0/5.
 
 ## Gate 2 (different-meaning competitor, any language)

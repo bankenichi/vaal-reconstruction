@@ -110,11 +110,11 @@ Distinct-string FPR primary: A 64/500, C 32/500, D 34/500. Matched A-then-D any-
 
 **Battery E.** `BATTERY_E_RERUN.md`, `battery_e_rerun_raw.md`. Fresh unique pseudos. *Quecholli* 5/5 recovery, *Ixchel* 5/5 (Cordemex herb-string on the lexeme form), *Panquetzaliztli* 0/5 (not in attached dicts). Controls: *naach* 5/5 recovery, *ek* 0/5 recovery / 5/5 any-C wasp (C, not H), *kutsen* 0/5 recovery / 5/5 any-C, *sakilja* 0/5, *kilya* 0/5. Distractors 1/60 C.
 
-**Gate 1 lexicon.** 78/78 rows in `strict_committed_results_rerun_batch{1-4}.csv` and `gate1_rescore_rerun.csv`. Recovery yes: 7/78 (*k'áak'*, *náach*, *tul*, *xefe*, *pul / puul*, *Quecholli*, *Ixchel*). Protocol-clean the same 7. On the 61-row frame: 4/61. *pul* now has an artifact (no longer `no_artifact`).
+**Gate 1 lexicon.** 78/78 rows in `strict_committed_results_rerun_batch{1-4}.csv` and `gate1_rescore_rerun.csv`. Recovery yes: 6/78 (*k'áak'*, *náach*, *tul*, *xefe*, *pul / puul*, *Quecholli*). *Ixchel* is a sense miss (Cordemex herb ≠ approved theonym). Protocol-clean the same 6. On the 61-row frame: 4/61. *pul* now has an artifact (no longer `no_artifact`).
 
 **Gate 2.** 78/78 in `adversarial_results_rerun_batch{1-4}.csv` and `gate2_rescore_rerun.csv`. Survive 50 / 75 testable (38/58 on ids 1-61). Same-language competitors on.
 
-**Hardening.** `token_classification.csv` rewritten after both gates (prerun snapshot preserved). H = 3 of 78: *xefe*, *Quecholli* H+L, *Ixchel* H+L. Dual-base: 1/61 and 1/52 on the battery frame; 3/64 and 3/55 enlarged; 3/78 and 3/69 section 9.
+**Hardening.** `token_classification.csv` rewritten after both gates (prerun snapshot preserved). H was first 3 of 78 (*xefe*, *Quecholli* H+L, *Ixchel* H+L). Ixchel Gate 1 honesty (later the same day): herb ≠ approved theonym, so *Ixchel* is C+L. Current H = 2 of 78: *xefe*, *Quecholli* H+L. Dual-base: 1/61 and 1/52 on the battery frame; 2/64 and 2/55 enlarged; 2/78 and 2/69 section 9.
 
 **Syntax.** Gloss-blind panel on disk: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Analyst-level 3/3 vs 0/2, Fisher p = 0.10 (not significant; N = 5). Historical 2026-07 3/3 vs 0/2 p = 0.10 is not gloss-blind.
 
@@ -153,7 +153,7 @@ Kenichi ordered plan items 1 then 2 executed without a permission wait. Not a ne
 
 **Tournaments.** Protocol and brackets: `RIVAL_READING_TOURNAMENTS.md`, `rival_tournament_brackets.csv`. Targets: the 16 lines that were 5/5 clash in both T-M and T-D, the highest-clash tokens (*ik'el, kutsen, 'Ibil, mucane, tlayeb*), and line 9 *kuxte'* as the methodology example. Form-first, neighbor field allowed, gold not a search key.
 
-Outcomes: no new H. Five new C* stars (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*) for exact homophones the lookup Gate-2 CSV did not write. *kutsen* turkey is the same lemma as sacrificial bird. *tlayeb* ladder is a cross-graft loser; night/dark kept. *kuxte'* life beats Nawat *kuxta* cacao-tree (T-M 5/5 vs T-D 5/5). Soft tokens *puyao, Otsuks, Axba, Kíibsa'* stay S. Losers logged in master §10.13, not deleted. Section-9 split: H 3 / C* 30 / C 44 / S 1 (was 3 / 25 / 49 / 1). `gate2_rescore_rerun.csv` unchanged.
+Outcomes: no new H. Five new C* stars (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*) for exact homophones the lookup Gate-2 CSV did not write. *kutsen* turkey is the same lemma as sacrificial bird. *tlayeb* ladder is a cross-graft loser; night/dark kept (C+L, not starred). *kuxte'* life beats Nawat *kuxta* cacao-tree (T-M 5/5 vs T-D 5/5). Soft tokens *puyao, Otsuks, Axba, Kíibsa'* stay S. Losers logged in master §10.13, not deleted. Section-9 split after tournaments: H 3 / C* 30 / C 44 / S 1 (was 3 / 25 / 49 / 1). After Ixchel Gate 1 honesty: H 2 / C* 30 / C 45 / S 1. `gate2_rescore_rerun.csv` unchanged.
 
 **Particle probes.** `PARTICLE_PROBES_3_7.md`. Verdicts: *ka ti* leaning verbal-question linker; *ta'* leaning relational; presentative leaning one slot; *le le* still open; *-yan-* still open; *tlayeb* category still open (prenominal order already settled). Possession not upgraded.
 
@@ -165,15 +165,25 @@ Kenichi ordered plan items 3-6 without a permission wait. Skip item 7 (larger sy
 
 **Family audit.** `MORPHOLOGICAL_FAMILY_AUDIT.md`. Head-root grouping kept. Shared pieces footnoted, not merged (*ts'ook*, *ma'*). *tul* / *pul* two roots. Headline N stays 52 / 55 / 69. *ikba'yucane* leftover *yuc* logged; no new etymology.
 
-**Onomastic / compound.** `ONOMATIC_COMPOUND_PASS.md`. *Panquetzaliztli* still missing as a whole form. *pantli* "bandera" is in Campbell/Cordemex; free *quetza* "raise" is not; *-liztli* is a tail. No decode artifact for Battery-E recovery. Stays C+L. *Quecholli* and *Ixchel* stay H+L. No new H.
+**Onomastic / compound.** `ONOMATIC_COMPOUND_PASS.md`. *Panquetzaliztli* still missing as a whole form. *pantli* "bandera" is in Campbell/Cordemex; free *quetza* "raise" is not; *-liztli* is a tail. No decode artifact for Battery-E recovery. Stays C+L. *Quecholli* stays H+L. *Ixchel* demoted to C+L (Gate 1 sense miss). No new H.
 
 **Secure-line tags.** `SECURE_LINE_TAGS.md`, `secure_line_tags.csv`. 51 published English lines. Secure 0/51 = 0.0% [0.0, 7.0]; working 12/51 = 23.5% [14.0, 36.8]; fragile 38/51 = 74.5% [61.1, 84.5]; opaque-blocked 1/51 = 2.0% [0.3, 10.3] (*yan* in *jare'yantul*). Not PPV. Not a sentence-band product.
 
 Scorer: `score_loto_secure.py`.
 
+## 2026-09-16 Ixchel Gate 1 honesty and Sol blockers
+
+Kenichi ordered: do not change published English or approved senses. *Ixchel* approved gloss stays Godstealer / theonym. Battery E recovered Cordemex herb, so Gate 1 is a recovery miss. `token_classification.csv` *Ixchel* H+L to C+L. H = 2 of 78 (*xefe*, *Quecholli*). Gate 1 recovery 6/78. Split H 2 / C* 30 / C 45 / S 1.
+
+Unsupported "very unlikely pure noise" / "committed lexicon is probable" language stripped from master §1, STATISTICAL_SUMMARY, PROJECT_MEMORY, AGENTS. Replaced with matched p = 0.09494 / 0.3069 and recovery-scored p = 1 / 0.9991.
+
+Text 5 / Kamasan: *yan* is O, not a full committed parse. "Open items are narrow" softened: 30 C* + 45 C remain. Morpheme index Hardened labels aligned to `token_classification.csv`. Tournament rows *'Ibil*, *mucane*, *kifba* already C*; *tlayeb* stays C+L (ladder is a cross-graft, logged). No gloss rewrites. No PDF rebuild.
+
+Writeup: `analysis/SOL56_BLOCKERS_APPLIED.md`.
+
 ## Task status
 
-Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, translation batteries T-M / T-D, rival-reading tournaments, §3.7 particle probes, leave-one-text-out, the morphological family audit, the onomastic compound pass, and secure-line tags are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs, with a tournament overlay on C* counts (`token_classification.csv`) and family-audit footnotes that do not change 52 / 55 / 69. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. Secure-line grades: `SECURE_LINE_TAGS.md`. LOTO: `LEAVE_ONE_TEXT_OUT.md`. Tournaments: `RIVAL_READING_TOURNAMENTS.md`. Particle probes: `PARTICLE_PROBES_3_7.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
+Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, translation batteries T-M / T-D, rival-reading tournaments, §3.7 particle probes, leave-one-text-out, the morphological family audit, the onomastic compound pass, and secure-line tags are on disk. Ixchel Gate 1 honesty: H is 2 of 78. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs plus that demotion, with a tournament overlay on C* counts (`token_classification.csv`) and family-audit footnotes that do not change 52 / 55 / 69. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. Secure-line grades: `SECURE_LINE_TAGS.md` (working 12/51 unchanged by Ixchel). LOTO: `LEAVE_ONE_TEXT_OUT.md`. Tournaments: `RIVAL_READING_TOURNAMENTS.md`. Particle probes: `PARTICLE_PROBES_3_7.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
 
 ## Reproduce / resume
 

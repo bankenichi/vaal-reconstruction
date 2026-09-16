@@ -284,7 +284,7 @@ Already **soft** in §10.9. Lookup whole-forms: miss. *tsuk* "cluster" and *ba'a
 | *Otsuks, Axba, Kíibsa'* | S (§10) | stay S | **S** | open steps remain |
 | *itsok, uch', tlapec, ta'nuk, niáach* | already C/C\* | no move | same | already logged or latitude-only |
 
-No token is promoted to **H**. No competitor is silently deleted. Hypothesis check: most 5/5 clashes **are** Cordemex / ilide exact hits that lose once the rest of the corpus is scored. Three of those hits were not previously starred (*ik'el, 'Ibil, mucane*). One (*kutsen* turkey) was the same root. *tlayeb* ladder never deserved a lexicon row.
+No token is promoted to **H**. No competitor is silently deleted. Hypothesis check: most 5/5 clashes **are** Cordemex / ilide exact hits that lose once the rest of the corpus is scored. Three of those hits were not previously starred (*ik'el, 'Ibil, mucane*). One (*kutsen* turkey) was the same root. *tlayeb* ladder never deserved a lexicon row. Sol follow-up: keep Kenichi's gloss on *'Ibil*, *mucane*, *tlayeb*, *kifba*; C* already on *'Ibil*, *mucane*, *kifba*; *tlayeb* stays C+L because the ladder rival is a cross-graft, logged in §10.13.
 
 ## 7. Files touched (this pass)
 
