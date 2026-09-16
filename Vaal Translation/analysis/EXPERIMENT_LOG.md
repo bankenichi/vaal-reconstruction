@@ -157,9 +157,23 @@ Outcomes: no new H. Five new C* stars (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*)
 
 **Particle probes.** `PARTICLE_PROBES_3_7.md`. Verdicts: *ka ti* leaning verbal-question linker; *ta'* leaning relational; presentative leaning one slot; *le le* still open; *-yan-* still open; *tlayeb* category still open (prenominal order already settled). Possession not upgraded.
 
+## 2026-09-16 leave-one-text-out, family audit, onomastic pass, secure-line tags
+
+Kenichi ordered plan items 3-6 without a permission wait. Skip item 7 (larger syntax panel). Item 8 phonology is out. Not a PDF rebuild. Dictionaries not committed.
+
+**LOTO.** `LEAVE_ONE_TEXT_OUT.md`, `loto_line_scores.csv`. Same 51-line partition as the translation battery. Training: other texts' surfaces plus training gold only. Held-out gold is the scoring key, not a search key. Stem transfer licensed for documented families. Wilson 95%: ok 12/51 = 23.5% [14.0, 36.8]; ok+partial 33/51 = 64.7% [51.0, 76.4]. T3 0/13 ok (weakest fold). T4 ok is vocative-inflated (5/12; 0/7 if *Atziri!* and *U'te mucane* gifts drop). Macro-average ok 18.3%.
+
+**Family audit.** `MORPHOLOGICAL_FAMILY_AUDIT.md`. Head-root grouping kept. Shared pieces footnoted, not merged (*ts'ook*, *ma'*). *tul* / *pul* two roots. Headline N stays 52 / 55 / 69. *ikba'yucane* leftover *yuc* logged; no new etymology.
+
+**Onomastic / compound.** `ONOMATIC_COMPOUND_PASS.md`. *Panquetzaliztli* still missing as a whole form. *pantli* "bandera" is in Campbell/Cordemex; free *quetza* "raise" is not; *-liztli* is a tail. No decode artifact for Battery-E recovery. Stays C+L. *Quecholli* and *Ixchel* stay H+L. No new H.
+
+**Secure-line tags.** `SECURE_LINE_TAGS.md`, `secure_line_tags.csv`. 51 published English lines. Secure 0/51 = 0.0% [0.0, 7.0]; working 12/51 = 23.5% [14.0, 36.8]; fragile 38/51 = 74.5% [61.1, 84.5]; opaque-blocked 1/51 = 2.0% [0.3, 10.3] (*yan* in *jare'yantul*). Not PPV. Not a sentence-band product.
+
+Scorer: `score_loto_secure.py`.
+
 ## Task status
 
-Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, translation batteries T-M / T-D, rival-reading tournaments, and §3.7 particle probes are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs, with a tournament overlay on C* counts (`token_classification.csv`). Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. Tournaments: `RIVAL_READING_TOURNAMENTS.md`. Particle probes: `PARTICLE_PROBES_3_7.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
+Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, translation batteries T-M / T-D, rival-reading tournaments, §3.7 particle probes, leave-one-text-out, the morphological family audit, the onomastic compound pass, and secure-line tags are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs, with a tournament overlay on C* counts (`token_classification.csv`) and family-audit footnotes that do not change 52 / 55 / 69. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. Secure-line grades: `SECURE_LINE_TAGS.md`. LOTO: `LEAVE_ONE_TEXT_OUT.md`. Tournaments: `RIVAL_READING_TOURNAMENTS.md`. Particle probes: `PARTICLE_PROBES_3_7.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
 
 ## Reproduce / resume
 
@@ -174,3 +188,4 @@ Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, translation 
 - Gloss-blind syntax packets: `python3 syntax_rerun_build_packets.py`. Log: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
 - Translation batteries T-M / T-D: `python3 translation_battery_extract_gold.py` then `python3 score_translation_battery.py` then `python3 explore_translation_battery.py`. Protocol: `TRANSLATION_BATTERY_PROTOCOL.md`. Results: `TRANSLATION_BATTERY_RESULTS.md`.
 - Rival-reading tournaments: `RIVAL_READING_TOURNAMENTS.md` (lookup: `python3 dict_lookup.py --build` then per-token queries). Particle probes: `PARTICLE_PROBES_3_7.md`.
+- LOTO / secure-line: `python3 score_loto_secure.py`. Writeups: `LEAVE_ONE_TEXT_OUT.md`, `SECURE_LINE_TAGS.md`, `MORPHOLOGICAL_FAMILY_AUDIT.md`, `ONOMATIC_COMPOUND_PASS.md`.

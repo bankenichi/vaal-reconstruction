@@ -112,7 +112,7 @@ Conditioning on selection, this epoch does not reject the null at conventional 0
 
 **Withdrawn as translation confidence / pending a non-circular b.** The PPV formula is algebraically fine. Inputs from this re-run would use recovery TPR = 0.033 and Battery D FPR = 0.068, which makes even an optimistic b produce a weak diagnostic. The tables below keep the **archived any-C** wiring so the old method stays inspectable. Do not read them as "probability the English gloss is right."
 
-**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file. Post-hoc rival-reading tournaments on the 16 dual 5/5-clash lines: `RIVAL_READING_TOURNAMENTS.md` (five new C* stars; H unchanged). Particle probes: `PARTICLE_PROBES_3_7.md`.
+**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file. Post-hoc rival-reading tournaments on the 16 dual 5/5-clash lines: `RIVAL_READING_TOURNAMENTS.md` (five new C* stars; H unchanged). Particle probes: `PARTICLE_PROBES_3_7.md`. Secure-line grades on the same 51 published English lines (editorial stress test, not PPV): 0/51 secure, 12/51 working, 38/51 fragile, 1/51 opaque-blocked (`SECURE_LINE_TAGS.md`). Leave-one-text-out: ok 12/51 = 23.5% [14.0, 36.8], T3 0/13 ok (`LEAVE_ONE_TEXT_OUT.md`). Family-audit grouping footnotes: `MORPHOLOGICAL_FAMILY_AUDIT.md` (headline distinct-root N unchanged). *Panquetzaliztli* compound pass: missing whole form, stays C+L (`ONOMATIC_COMPOUND_PASS.md`).
 
 The question the formula answers, per reading, is the **positive predictive value (PPV)**: given that a token was certified (committed / hardened), the probability it is a genuine root rather than a chance dictionary coincidence.
 
@@ -210,6 +210,8 @@ Only *xefe* is protocol-clean H in the 61-row frame, and it is not in these fami
 
 The 500-trial pseudo arm in this epoch is de-duplicated: **500 distinct strings of 500**. Ordinary Spanish exact hits on the loan palette are labelled Spanish C, not pure noise; the generator also excluded those strings from the pseudo arm. Distinct-string Battery D FPR is 34/500 = 6.8%.
 
+**Grouping appendix (family audit 2026-09-16).** Shared pieces that are not both rows' heads are footnotes, not merges (`MORPHOLOGICAL_FAMILY_AUDIT.md`). *tul* / *pul* stay two roots. Forcing *Tzokan'te* into *cha'tsoke* would move 69 to 68; not adopted. Headline N stays 52 / 55 / 69. *ikba'yucane* leftover *yuc* is residue, still in the *ik'* family.
+
 ## 8. Syntax (analyst-level)
 
 **Current (gloss-blind, 2026-09-16).** Three real-panel analysts vs two scrambled-panel analysts (seed 1729). Packets: surface lines only plus a form-only token list (no English glosses). Recovery rule: consistent linear order at medium or high confidence on at least two of the four word-order questions. Table: **3/3 vs 0/2, Fisher one-sided p = 0.10**, not significant. N = 5; small N. Do not publish a rule-level table as the p-value. Qualitative match to the six §3 conclusions is weaker than SYN-1 (possession undetermined for two of three real analysts). Copula and affix-edge findings are order-independent, not linear-syntax evidence. Full run: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Particle/order probes on the six §3.7 items: `PARTICLE_PROBES_3_7.md` (leaning or still open; possession not upgraded).
@@ -224,6 +226,7 @@ python3 null_honesty.py --rerun
 python3 rerun_score_pool.py
 python3 run_gates_rerun.py
 python3 run_battery_e_rerun.py
+python3 score_loto_secure.py
 ```
 
 Default `score.py`, `rescore_gate1.py`, `score_adversarial.py`, and `null_honesty.py` still point at the 2026-07 archives unless `--rerun` is passed. Do not mix epochs. Re-run plan: `EXPERIMENT_RERUN_PROTOCOL.md`.

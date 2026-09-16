@@ -1,0 +1,52 @@
+line_id,held_out,source_tag,vaal,score,known_exact,stem_transfer,unknown,reason
+1,T1,T1.1,"Atziri, Atziri, ek te mucane Vaal!",partial,Atziri Atziri ek mucane Vaal,,te,mucane and Vaal known from T3/T4 and T2/T3; ek in T5 is dark not star; te T1-only
+2,T1,T1.2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,fail,Yutsal,,Teoyuxtlane ascensionada Teoyuxtlane,Teoyuxtlane and ascensionada are T1-only; yutsal in T2 is the good-place piece only
+3,T1,T1.3,"Atziri, Atziri, ma kilya Zerphi!",partial,Atziri Atziri kilya,,ma[particle] Zerphi,kilya undying from T3; Zerphi T1-only; free ma is T1-only
+4,T1,T1.4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,partial,Ti itsok xi kujkuali,Kextal ik'bala,anab nochira,"itsok blood T3, kujkuali worthy T2, xi T3, ik'bala via ik' in T2/T4; Kextal via qexcan T3 is a stem hit not the vocative transform-us; anab and nochira T1-only"
+5,T1,T1.5,"Atziri, Atziri, ikba'yucane Vaal!",partial,Atziri Atziri Vaal,ikba'yucane,,Vaal known; ikba'yucane via ik' spirit/breath in T2/T3; deathless compound not in training
+6,T1,T1.6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,ok,A'te 'Ibil tlayeb kutsen A'te ik'el tlayeb kifba,,,A'te 'Ibil tlayeb kutsen / ik'el tlayeb kifba all attested in T2 with the same referents
+7,T1,T1.7,"Atziri, Atziri, ascenada akal!",fail,Atziri Atziri,,ascenada akal,ascenada and akal are T1-only
+8,T1,T1.8,Aiokmo til xu'te! Aiokmo tul jare elba!,partial,,Aiokmo Aiokmo tul jare elba,til xu'te,Aiokmo via 'Ayok T3; tul and jare via T5 jare'yantul; elba via Ela T4; til and xu'te T1-only
+9,T2,T2.1,Kuxte' kíimil'!,partial,,Kuxte',kíimil',kuxte' via kuxkal living in T4; kíimil' is T2-only
+10,T2,T2.2,Tlaxye' le Vaal!,fail,le Vaal,,Tlaxye',Tlaxye' people is T2-only; leftover le Vaal is not the published predication
+11,T2,T2.3,Ma'oxe ik'el!,partial,ik'el,,Ma'oxe,ik'el spirits from T1/T4; Ma'oxe countless is T2-only
+12,T2,T2.4,Atziri le'itzil!,partial,Atziri,le'itzil,,"Atziri known; le'itzil via itsok blood in T1/T3, not the T2 essence wording"
+13,T2,T2.5,Xatlene kujkuali!,partial,kujkuali,,Xatlene,kujkuali worthy from T1; Xatlene kindle is T2-only
+14,T2,T2.6,Gyan'uks ko'janti!,fail,,,Gyan'uks ko'janti,Gyan'uks and ko'janti are T2-only
+15,T2,T2.7,A'te 'Ibil!,ok,A'te 'Ibil,,,A'te 'Ibil is in T1 with flesh
+16,T2,T2.8,A'te ik'el!,ok,A'te ik'el,,,A'te ik'el is in T1 with spirit
+17,T2,T2.9,Yaxe chikula'!,fail,,,Yaxe chikula',Yaxe and chikula' are T2-only
+18,T2,T2.10,Tzokan'te ik'el!,ok,Tzokan'te ik'el,,,Tzokan'te ik'el last spirit is in T4
+19,T2,T2.11,A'te líimek!,fail,A'te,,líimek,líimek is T2-only; presentative alone does not recover those in the earth
+20,T2,T2.12,Yatle yutsal!,partial,Yatle yutsal,,,"Yatle there-stands from T3; Yutsal Utzaal from T1, not the lowercase good-place wording"
+21,T2,T2.13,Tlayeb kutsen!,ok,Tlayeb kutsen,,,Tlayeb kutsen is in T1
+22,T2,T2.14,Tlayeb kifba!,ok,Tlayeb kifba,,,Tlayeb kifba is in T1
+23,T2,T2.15,U'Te kuxkal!,ok,U'Te kuxkal,,,U'Te kuxkal living matches T4 A'te Kuxkal
+24,T2,T2.16,A'te yuquia!,fail,A'te,,yuquia,yuquia is T2-only
+25,T3,T3.1,Eche lu nochbe!,fail,,,Eche lu nochbe,Eche lu nochbe are T3-only; nochi in T1 nochira does not recover pour it out
+26,T3,T3.2,Kí' inib!,partial,,inib,Kí',inib via 'Ibil flesh in T1/T2; Kí' sweet is T3-only
+27,T3,T3.3,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.",partial,ta' en le mucane,'Ayok mujuk',u[particle] niáach i'chian,'Ayok via Aiokmo T1; ta' en in T4; mucane mighty in T1/T4; mujuk' via muk'; niáach i'chian T3-only
+28,T3,T3.4,A'te waja yatle u'tra buxa!,partial,A'te yatle,,waja u'tra buxa,"presentative and Yatle from T1/T2; waja, u'tra, buxa T3-only"
+29,T3,T3.5,A'te fukuur!,fail,A'te,,fukuur,fukuur is T3-only
+30,T3,T3.6,Xi daka puxe...,fail,Xi,,daka puxe,daka and puxe are T3-only; xi from T1 does not recover the draught
+31,T3,T3.7,'Ayok kifba Atziri kilya sakilja.,partial,kifba Atziri kilya,'Ayok,sakilja,"'Ayok, kifba, Atziri, kilya from T1/T2; sakilja white drink is T3-only"
+32,T3,T3.8,Ik'eche sakilja atla donuks.,partial,,Ik'eche atla,sakilja donuks,Ik'eche via ik' in T1/T2; atla via Atziri water-stem in T1; sakilja and donuks T3-only
+33,T3,T3.9,Donuks... ko'soxsal.,fail,,,Donuks ko'soxsal,Donuks and ko'soxsal are T3-only
+34,T3,T3.10,Donuks... ko'mujuk!,partial,,ko'mujuk,Donuks,ko'mujuk via mucane/muk' strength in T1/T4; Donuks T3-only
+35,T3,T3.11,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...",partial,Xi u'te a'te itsok le le Vaal,cha'tsoke qexcan,xefe yotlapek te'moxti,"xi, itsok, Vaal from T1; cha'tsoke via Tzokan'te ts'ook in T2/T4; qexcan via Kextal T1; xefe, yotlapek, te'moxti T3-only"
+36,T3,T3.12,Na' puyao.,fail,,,Na'[particle] puyao,puyao is T3-only
+37,T3,T3.13,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!",fail,u'te a'te itsok,,Ich tlapec puyao pu uch' ta'nuk,"only itsok blood is in training; tlapec, puyao, uch', ta'nuk, ich are T3-only"
+38,T4,T4.1,Otsuks! Tzokan'te u'te ik'el...,partial,Tzokan'te u'te ik'el,,Otsuks,Tzokan'te u'te ik'el last spirit from T2; Otsuks T4-only
+39,T4,T4.2,Atziri!,ok,Atziri,,,vocative Atziri is in T1/T2/T3
+40,T4,T4.3,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,partial,A'te Kuxkal tlayeb kutsen tlayeb ti,Ela,ukto Máax ka[particle] a'tul,"Kuxkal tlayeb kutsen from T2/T1; Ela via elba T1; ukto, Máax, a'tul T4-only"
+41,T4,T4.4,Atziri!,ok,Atziri,,,vocative Atziri is in T1/T2/T3
+42,T4,T4.5,Otsuks! Máax ka ti a'tul?,fail,ti,,Otsuks Máax ka[particle] a'tul,"Otsuks, Máax, a'tul are T4-only"
+43,T4,T4.6,U'te mucane!,ok,U'te mucane,,,U'te mucane mighty from T1/T3 with the presentative
+44,T4,T4.7,Máax ka ti cheyel?,fail,ti,,Máax ka[particle] cheyel,Máax and cheyel are T4-only
+45,T4,T4.8,U'te mucane!,ok,U'te mucane,,,U'te mucane as line 43
+46,T4,T4.9,Máax tlayeb mucane?,partial,tlayeb mucane,,Máax,tlayeb mucane from T1/T3; Máax T4-only so the interrogative is missing
+47,T4,T4.10,Atziri!,ok,Atziri,,,vocative Atziri is in T1/T2/T3
+48,T4,T4x.1,"Otsuks, quxzeh!",fail,,,Otsuks quxzeh,Otsuks and quxzeh are T4-only
+49,T4,T4x.2,Axba!? Kíibsa' ta' en!,fail,ta' en,,Axba Kíibsa',Axba and Kíibsa' are T4-only; ta' en in T3 does not recover kill
+50,T5,T5.1,Ti ek tala jare'yantul!,partial,Ti ek,jare'yantul,tala,"jare and tul from T1 (and so, waning); ek in T1 is star not dark; tala T5-only; yan not in training lexicon"
+51,T5,T5.2,Ti' ek'le upulché!,fail,,,Ti'[particle] ek'le upulché,upulché pul is T5-only and is not tul; ek'le cannot be licensed as dark from T1 star
