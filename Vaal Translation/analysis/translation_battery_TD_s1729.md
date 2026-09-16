@@ -1,0 +1,59 @@
+# T-D translation sheet (seed 1729, dictionaries only)
+
+Packet files opened: `brief.md`, `corpus.txt`, `token_lookup_dump.csv`, `worksheet_template.csv`, `README.md` under `analysis/translation_battery_TD_packet/`; helper `analysis/dict_lookup.py`; dictionaries under `/tmp/vaal_dicts` (Cordemex, Christenson K'iche', Campbell Pipil/Nawat, ilide Spanish-Maya, norma_maya, Nahuatl 1100 wordlist).
+
+Tie-break among equally plausible hits: folded lemma length descending, then `random.Random(1729).choice`. Proper names with no hit kept as names. Compounds segmented. Abstain on lines with no usable hit.
+
+| line_id | translation | confidence | notes |
+| --- | --- | --- | --- |
+| 1 | Atziri, Atziri, star yonder, buried one, Vaal! | medium | Atziri: proper name, no dict hit. ek: Yucatec EK' estrella (star); longer than Kiche ek to go, so star. te: Yucatec te Aculla/Alla (yonder/there); TE convidador logged as alt. mucane: segmented Maya muka'n soterrado/enterrada cosa (buried). Vaal: proper name, no hit. |
+| 2 | Holy-place, ascended! Holy-place, goodness! | medium | Teoyuxtlane: segmented Nahuatl teoyohtica holy + tlan place. ascensionada: Spanish ascender (ilide) feminine participle ascended. Yutsal: Maya UTS bello/hermoso/cosa buena; Cordemex yutsal ti' todo es bueno. |
+| 3 | Atziri, Atziri, do not rub the wound, Zerphi! | low | ma: Yucatec MA' no (negative particle); longer than Kiche ma. kilya: Maya K'ILYAH estregar o lastimar la llaga (rub/wound a sore); leftover ya. Zerphi: proper name, no hit. |
+| 4 | At enchantment, entirely all! Although it appears, spark, good, air perhaps! | low | Ti: Yucatec TI' en/por (at/in/to). itsok: ITS leche/lagrima/resina/goma plus residue ok (resin/tears/enchantment). anab: Yucatec unab Enteramente (entirely). nochira: Nahuatl nochi all/whole, residue ra. Kextal: Maya KEX aunque + TAL manifestarse. xi: Maya XI chispa (spark); Nahuatl xi- imperative come is alt. kujkuali: Nahuatl cualli/cuali good. ik'bala: IK' aire/viento + BALA' acaso (perhaps). |
+| 5 | Atziri, Atziri, air-buried Vaal! | low | ikba'yucane: segmented IK' air + muka'n-like buried (same -cane as mucane). Weak compound. Vaal: name. |
+| 6 | You yonder, shake, tla-rubber turkey! You yonder, bug, tla-rubber kifba! | low | A'te: Maya 2sg a (norma possessives a w-, u y-) + te yonder; read as vocative you yonder. 'Ibil: IBIL sacudir (shake) over EBIL stairs by seed 1729 tie-break, same length. tlayeb: Nahuatl tla- + Maya YEB; YEB senses ladder/rain/hule, seed pick hule rubber. kutsen: Maya KUTS; turkey vs plane/clean same length, seed pick turkey (pavo). ik'el: exact Cordemex/ilide ik'el bicho (bug) over IK'AL wind and IK'IL aerial by seed. kifba: no hit (K'IBA toponym lastimar la herida is weak alt). |
+| 7 | Atziri, Atziri, ascended, it approaches! | medium | ascenada: Spanish ascender. akal: Maya AKAL acercarse (approach); romper ropa is alt. |
+| 8 | No longer honorable, it wounds! No longer earth, jare, dawn! | low | Aiokmo: Nahuatl aco no longer (Nahuatl 1100); ayamo not yet is longer but worse form (no k). til: Maya TIL honrado/venerable/ilustre over Nawat soot by seed. xu'te: Nawat xuta to wound over xuti snail by seed. tul: Nawat tal earth/tierra over Maya TUL numeral and Kiche tul reed by seed (same length). jare: no useful hit (Kiche xar blue bird / jarik wear out not adopted). elba: Spanish alba dawn (ilide) over Maya ALBA soften by seed. |
+| 9 | Cacao-like tree, death! | medium | Kuxte': Nawat kuxta arbol parecido al cacao over gunny-sack by seed. kíimil': Yucatec/ilide kíimil muerte/morir/deceso (death); longer than Nawat kimil load. |
+| 10 | Tlaxye' the Vaal! | low | Tlaxye': no hit. le: Kiche le the over Maya LE aquel/ese by seed (same length); snare sense of LE rejected as less plausible with a name. Vaal: name. |
+| 11 | Not the day before yesterday, bug! | low | Ma'oxe: MA' no + OXE' antier (day before yesterday). ik'el: bicho (bug), seed pick. |
+| 12 | Atziri, the witchcraft! | low | le'itzil: le the + Kiche itz devil/witchcraft (ITS Maya resin/tears is alt). |
+| 13 | Xatlene, good! | low | Xatlene: no hit. kujkuali: Nahuatl cualli good. |
+| 14 | (abstain) | abstain | Gyan'uks: no dict hit. ko'janti: no dict hit. Cannot make the line. |
+| 15 | You yonder, shake! | medium | A'te: 2sg + te yonder. 'Ibil: IBIL shake (seed). |
+| 16 | You yonder, bug! | medium | A'te as above. ik'el: bicho (bug), seed pick among IK'AL/IK'IL/ik'el. |
+| 17 | Green insignia! | medium | Yaxe: Maya YAX; first vs green same lemma, seed pick green (also ilide ya'ax verde). chikula': Maya chikul; seed pick insignia among sign/silence/insignia. |
+| 18 | Sculpt yonder, bug! | low | Tzokan'te: Kiche tzok' sculpt/carve (longer than Maya TSOK punish/tear) + te yonder. ik'el: bug. |
+| 19 | You yonder, bottle! | low | A'te vocative. líimek: Kiche limet bottle (longer than mek twist). |
+| 20 | Tied-bundle goodness! | low | Yatle: Kiche yat gather together and tie up. yutsal: Maya UTS good/beautiful, yutsal ti' all is good. |
+| 21 | Tla-rubber turkey! | low | tlayeb + kutsen as in line 6. |
+| 22 | Tla-rubber kifba! | low | tlayeb as above. kifba: no hit. |
+| 23 | Its yonder, living-overflow! | low | U'Te: 3sg u (norma posesivos u y-) + te yonder. kuxkal: Maya KUX vivo/vida + KAL desbordarse (overflow); KUXKIN resucitar is related alt. |
+| 24 | You yonder, stretch out! | medium | A'te vocative. yuquia: Kiche yuq stretch out / hold out (hand). |
+| 25 | Oh, perhaps gourd-road! | low | Eche: Maya ACHE oh/hola/pobre de mi (interjection). lu: Kiche lo perhaps. nochbe: Maya NOCH irregular jicara + BE camino (road). |
+| 26 | Delicious inib! | low | Kí': Maya/Kiche ki' delicious/sweet/wine; seed pick delicious. inib: no hit. |
+| 27 | Complaint, ask in, his ghost the buried one, niáach i'chian. | low | 'Ayok: Maya AY queja particle + OK residue. ta': Kiche ta' to ask over Maya TA' gluttony by seed. en: Spanish en in (ilide en : ich, ichil) over 1sg -en by seed. u: Maya 3sg possessive (norma). mujuk': Kiche muj shadow/specter/ghost (j in surface); Maya MUUK fama is longer but poorer form. le: the. mucane: muka'n buried. niáach: no hit. i'chian: ICH face/rostro residue. |
+| 28 | You yonder, waja, tied-bundle, his other gourd! | low | waja: no solid hit (WA'AN standing is stretch). yatle: yat tie-bundle. u'tra: Spanish otra (ilide otra vez) other. buxa: Maya BUX gourd/bujete. |
+| 29 | You yonder, fukuur! | low | fukuur: no exact hit. Spanish furor appears in Cordemex Spanish index but form is distant; left untranslated. |
+| 30 | Spark, daka, perhaps... | low | Xi: Maya XI chispa (spark); Nahuatl xi- imperative alt. daka: no hit (Cordemex dacaso is Spanish). puxe: Kiche puxa perhaps. |
+| 31 | Complaint kifba Atziri rubbing-the-wound, whiteness. | low | 'Ayok as line 27. kifba: no hit. kilya: K'ILYAH. sakilja: Maya sakil blancura (whiteness) + ja (also ilide blanco : sak). |
+| 32 | Air-oh, whiteness, fable, donuks. | low | Ik'eche: IK' air + ACHE oh. sakilja: whiteness. atla: Maya ATLE Iabula (fable), longer than Nahuatl atl water. donuks: no hit. |
+| 33 | (abstain) | abstain | Donuks: no hit. ko'soxsal: no hit. Cannot make the line. |
+| 34 | Donuks... as-ghost! | low | Donuks: no hit. ko'mujuk: ko' + muj ghost/shadow (Kiche). |
+| 35 | Spark, its yonder obsidian-punish, you yonder enchantment, chief, I-base, the the Vaal, descend, qexcan... | low | Xi: spark. u'te: 3sg + yonder. cha'tsoke: Kiche cha' obsidian (seed vs TSOK) + Maya TSOK castigar/arrancar. a'te: you yonder. itsok: ITS enchantment. xefe: Spanish jefe chief (ilide). yotlapek: Spanish yo I (ilide yo : in, kin) + Nahuatl tlapechtia serve as a base. le le: the the. te'moxti: Nahuatl/Campbell temo bajar (descend), residue xti; temoa search is longer alt. qexcan: no hit. |
+| 36 | Mother stabs. | medium | Na': Maya na' madre (mother) over Kiche na' to feel by seed. puyao: Kiche puy to stab (not to death); puyij bump is alt. |
+| 37 | In the base, its yonder stab, you yonder enchantment in the deformed calluses! | low | Ich: Maya ICHIL in (ilide en : ich, ichil), longer than ICH face. tlapec: Nahuatl tlapechtia base. u'te: 3sg yonder. puyao: stab. a'te: you yonder. itsok: ITS. pu: Kiche pa in over pu become clear by seed. uch': Maya UCH' deformado/aplastado over Kiche uch' opossum by seed. ta'nuk: Maya TANAK calluses over TANOK planta del pie by seed. |
+| 38 | Miserable! Sculpt yonder, its yonder bug... | low | Otsuks: Maya otsil miserable (longer than OTS shrink and TSUK heap). Tzokan'te: tzok' sculpt + te. u'te. ik'el: bug. |
+| 39 | Atziri! | high | Proper name; no dictionary hit. Repeated vocative. |
+| 40 | You yonder living-overflow, tla-rubber turkey. Young boy, tla-rubber pine! Who who at the reward? | low | A'te Kuxkal tlayeb kutsen as above. Ela: exact pool ala/ila/ILA; seed pick Kiche ala young boy (Spanish ala wing and Maya ILA look are alts). ukto: Nahuatl ocotl / Nawat uku-t ocote pine. Máax: ilide quién : máax (who) over MAAX shield by seed. ka: Nawat ka quien/who over Nahuatl ka where by seed. ti: TI' at. a'tul: Maya ATAL ser pagado/galardonado (paid/rewarded). |
+| 41 | Atziri! | high | Proper name vocative. |
+| 42 | Miserable! Who who at the reward? | low | Otsuks: otsil miserable. Máax ka ti a'tul as line 40. |
+| 43 | Its yonder buried one! | medium | U'te: 3sg + te yonder. mucane: muka'n buried. |
+| 44 | Who who at the tree? | low | Máax ka ti as above. cheyel: Maya CHE'EL arbol (tree). |
+| 45 | Its yonder buried one! | medium | Same as line 43. |
+| 46 | Who tla-rubber buried one? | low | Máax who. tlayeb tla-rubber. mucane buried. |
+| 47 | Atziri! | high | Proper name vocative. |
+| 48 | Miserable, hate! | low | Otsuks: otsil miserable. quxzeh: Maya K'UX el que aborrece / odio / rencor (hate); Kiche k'ux gnaw is alt. |
+| 49 | Knock down!? Wax, ask in! | low | Axba: Maya AX derribar/tirar al suelo (knock down) + BA reflexive. Kíibsa': Maya KIB cera/candela (wax/candle), residue sa'. ta' en: ask in. |
+| 50 | At star, cloth, jare-help! | low | Ti: TI' at. ek: EK' star. tala: Spanish tela cloth (ilide tela : nook'). jare'yantul: jare opaque + Maya yantah pedir/ayudar (ask/help). |
+| 51 | At star-the, opposed tree! | low | Ti': TI' at/in. ek'le: EK' star + le the. upulché: Maya UPUL ser contrariado/resistido (be opposed) + CHE'/CHE'EL tree/wood (CHE'EL won length). |

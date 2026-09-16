@@ -1,0 +1,511 @@
+battery,seed,line_id,vaal,gold_en,translation,confidence,line_bin
+TM,1729,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, wasp this [mucane] Vaal!",low,clash
+TM,1729,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!",God-[yux]-place ascended! God-[yux]-place [Yutsal]!,low,partial
+TM,1729,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, not [kilya] Zerphi!",low,clash
+TM,1729,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!",At [itsok] [anab] all-[ira]! [Kextal] command [kujkuali] breath-bal!,low,clash
+TM,1729,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, [ikba'yucane] Vaal!",low,clash
+TM,1729,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!","Your this-place, shake [tlayeb] turkey! Your this-place, breath [tlayeb] [kifba]!",low,clash
+TM,1729,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended approach!",low,partial
+TM,1729,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!",No-longer honorable [xu'te]! No-longer overflowing [jare] [elba]!,low,clash
+TM,1729,9,Kuxte' kíimil'!,Life and death!,"Live, death!",medium,match
+TM,1729,10,Tlaxye' le Vaal!,The people of the Vaal!,[Tlaxye'] that Vaal!,low,clash
+TM,1729,11,Ma'oxe ik'el!,The countless spirits!,Not-[oxe] breath!,low,clash
+TM,1729,12,Atziri le'itzil!,"Atziri, the essence!",Atziri that-servant!,low,clash
+TM,1729,13,Xatlene kujkuali!,Kindle the worthy!,[Xatlene] [kujkuali]!,low,clash
+TM,1729,14,Gyan'uks ko'janti!,"Your new children, come, devour!",There-is [ko'janti]!,low,clash
+TM,1729,15,A'te 'Ibil!,Behold the flesh!,"Your this-place, shake!",medium,clash
+TM,1729,16,A'te ik'el!,Behold the spirit!,"Your this-place, breath!",medium,clash
+TM,1729,17,Yaxe chikula'!,The first sign!,First insignia!,medium,match
+TM,1729,18,Tzokan'te ik'el!,The last spirit!,"[Tzokan] this-place, breath!",low,clash
+TM,1729,19,A'te líimek!,Behold those in the earth!,"Your this-place, [líimek]!",low,clash
+TM,1729,20,Yatle yutsal!,There stands the good place!,[Yatle] [yutsal],abstain,abstain
+TM,1729,21,Tlayeb kutsen!,"In the dark, the offering!",[Tlayeb] turkey!,low,clash
+TM,1729,22,Tlayeb kifba!,"In the dark, the heart!",[Tlayeb] [kifba]!,abstain,abstain
+TM,1729,23,U'Te kuxkal!,Behold the living!,[U']this-place life-overflow!,low,partial
+TM,1729,24,A'te yuquia!,Behold the made!,"Your this-place, stretch!",low,clash
+TM,1729,25,Eche lu nochbe!,"Pour it out, all that we are!",[Eche] [lu] [nochbe]!,abstain,abstain
+TM,1729,26,Kí' inib!,"Sweet, my flesh!",Pleasant [inib]!,low,clash
+TM,1729,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","No-longer excrement in, [u] specter that [mucane], far [i'chian].",low,clash
+TM,1729,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,"Your this-place, barely [yatle] [u'tra] gourd!",low,clash
+TM,1729,29,A'te fukuur!,Behold the blaze!,"Your this-place, [fukuur]!",low,clash
+TM,1729,30,Xi daka puxe...,Bring the draught…,Command [daka] perhaps...,low,clash
+TM,1729,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",No-longer [kifba] Atziri [kilya] whiteness-[ja].,low,clash
+TM,1729,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",[Ik'eche] whiteness-[ja] water [donuks].,low,partial
+TM,1729,33,Donuks... ko'soxsal.,Drink… raw and fresh!,[Donuks] [ko'soxsal].,abstain,abstain
+TM,1729,34,Donuks... ko'mujuk!,Drink… and take strength!,[Donuks] [ko'mujuk]!,abstain,abstain
+TM,1729,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Command [u']this-place [cha'tsoke], your this-place [itsok] chief [yotlapek] that that Vaal descend-[xti] [qexcan]...",low,partial
+TM,1729,36,Na' puyao.,the reddened offering.,Mother [puyao].,low,clash
+TM,1729,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In [tlapec] [u']this-place [puyao], your this-place [itsok] [pu] crushed [ta'nuk]!",low,clash
+TM,1729,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,"[Otsuks]! [Tzokan] this-place, [u']this-place breath...",low,clash
+TM,1729,39,Atziri!,Atziri!,Atziri!,high,match
+TM,1729,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?",Your this-place life-overflow [tlayeb] turkey. Burn [tlayeb] [ukto]! Who that at [a'tul]?,low,partial
+TM,1729,41,Atziri!,Atziri!,Atziri!,high,match
+TM,1729,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,[Otsuks]! Who that at [a'tul]?,low,partial
+TM,1729,43,U'te mucane!,"Behold, the mighty!",[U']this-place [mucane]!,low,clash
+TM,1729,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who that at [cheyel]?,low,partial
+TM,1729,45,U'te mucane!,"Behold, the mighty!",[U']this-place [mucane]!,low,clash
+TM,1729,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who [tlayeb] [mucane]?,low,partial
+TM,1729,47,Atziri!,Atziri!,Atziri!,high,match
+TM,1729,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","[Otsuks], [quxzeh]!",abstain,abstain
+TM,1729,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",Knock-down-prepare!? [Kíibsa'] excrement in!,low,clash
+TM,1729,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!",At wasp [tala] [jare]-exist-full!,low,clash
+TM,1729,51,Ti' ek'le upulché!,"Into the dark, cast down!","At that dye-tree, opposed-wood!",medium,clash
+TM,9001,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, black yonder [mucane] Vaal!",low,partial
+TM,9001,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!","God-[yux]-place, ascended! God-[yux]-place [Yutsal]!",low,partial
+TM,9001,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, not [kilya] Zerphi!",low,clash
+TM,9001,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!",At [itsok] [anab] all-[ra]! [kex]-[tal] spark [kuj]-good [ik']-[bala]!,abstain,abstain
+TM,9001,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, [ikba'yucane] Vaal!",abstain,abstain
+TM,9001,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!","Yonder, shake [tlayeb] brush-clean! Yonder, insect [tlayeb] [kifba]!",low,clash
+TM,9001,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended, it approaches!",medium,partial
+TM,9001,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!",[Aiokmo] honorable [xu'te]! [Aiokmo] [tul] [jare] [elba]!,abstain,abstain
+TM,9001,9,Kuxte' kíimil'!,Life and death!,"Live-yonder, death!",medium,match
+TM,9001,10,Tlaxye' le Vaal!,The people of the Vaal!,[Tlaxye'] that Vaal!,low,clash
+TM,9001,11,Ma'oxe ik'el!,The countless spirits!,"Not-[oxe], insect!",low,clash
+TM,9001,12,Atziri le'itzil!,"Atziri, the essence!",Atziri that-[itzil]!,low,clash
+TM,9001,13,Xatlene kujkuali!,Kindle the worthy!,[Xatlene] [kuj]-good!,low,clash
+TM,9001,14,Gyan'uks ko'janti!,"Your new children, come, devour!",[Gyan'uks] [ko'janti]!,abstain,abstain
+TM,9001,15,A'te 'Ibil!,Behold the flesh!,"Yonder, shake!",medium,clash
+TM,9001,16,A'te ik'el!,Behold the spirit!,"Yonder, insect!",medium,clash
+TM,9001,17,Yaxe chikula'!,The first sign!,First [chikul]!,low,partial
+TM,9001,18,Tzokan'te ik'el!,The last spirit!,"Punish-yonder, insect!",medium,clash
+TM,9001,19,A'te líimek!,Behold those in the earth!,Yonder [líimek]!,low,clash
+TM,9001,20,Yatle yutsal!,There stands the good place!,[Yatle] [yutsal]!,abstain,abstain
+TM,9001,21,Tlayeb kutsen!,"In the dark, the offering!",[tlayeb] brush-clean!,low,clash
+TM,9001,22,Tlayeb kifba!,"In the dark, the heart!",[tlayeb] [kifba]!,abstain,abstain
+TM,9001,23,U'Te kuxkal!,Behold the living!,Its-yonder live-[kal]!,low,clash
+TM,9001,24,A'te yuquia!,Behold the made!,Yonder [yuquia]!,low,clash
+TM,9001,25,Eche lu nochbe!,"Pour it out, all that we are!",Alas [lu] [noch]-road!,low,clash
+TM,9001,26,Kí' inib!,"Sweet, my flesh!",[ki'] [inib]!,abstain,abstain
+TM,9001,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","[Ayok] [ta'] I, its [mujuk'] that [mucane], far [i'chian].",low,clash
+TM,9001,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,Yonder [waja] [yatle] [u'tra] gourd-[a]!,abstain,abstain
+TM,9001,29,A'te fukuur!,Behold the blaze!,Yonder [fukuur]!,low,clash
+TM,9001,30,Xi daka puxe...,Bring the draught…,Spark [daka] perhaps...,low,clash
+TM,9001,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",[Ayok] [kifba] Atziri [kilya] white-water.,low,partial
+TM,9001,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",[Ik'eche] white-water [atl]-[a] [donuks].,low,partial
+TM,9001,33,Donuks... ko'soxsal.,Drink… raw and fresh!,[Donuks]... [ko'soxsal].,abstain,abstain
+TM,9001,34,Donuks... ko'mujuk!,Drink… and take strength!,[Donuks]... mad-[mujuk]!,low,clash
+TM,9001,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Spark its-yonder [cha']-punish, yonder [itsok] chief [yotlapek] that that Vaal descend-[xti] [qexcan]...",low,partial
+TM,9001,36,Na' puyao.,the reddened offering.,Mother [puyao].,medium,clash
+TM,9001,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In [tlapec] its-yonder [puyao], yonder [itsok] [pu] crushed [ta'nuk]!",low,clash
+TM,9001,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,[Otsuks]! Punish-yonder its-yonder insect...,medium,clash
+TM,9001,39,Atziri!,Atziri!,Atziri!,high,match
+TM,9001,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?",Yonder live-[kal] [tlayeb] brush-clean. [Ela] [tlayeb] [ukto]! Who that at [a'tul]?,low,partial
+TM,9001,41,Atziri!,Atziri!,Atziri!,high,match
+TM,9001,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,[Otsuks]! Who that at [a'tul]?,medium,partial
+TM,9001,43,U'te mucane!,"Behold, the mighty!",Its-yonder [mucane]!,low,clash
+TM,9001,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who that at [cheyel]?,medium,partial
+TM,9001,45,U'te mucane!,"Behold, the mighty!",Its-yonder [mucane]!,low,clash
+TM,9001,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who [tlayeb] [mucane]?,low,partial
+TM,9001,47,Atziri!,Atziri!,Atziri!,high,match
+TM,9001,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","[Otsuks], [quxzeh]!",abstain,abstain
+TM,9001,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",Knock-self-down!? [Kíibsa'] [ta'] I!,low,clash
+TM,9001,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!",At black [tala] [jare']-there-is-[tul]!,low,partial
+TM,9001,51,Ti' ek'le upulché!,"Into the dark, cast down!","At that-black, it is opposed!",medium,partial
+TM,271828,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, wasp toward the buried Vaal!",medium,clash
+TM,271828,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!",God-place (yux residue) ascended! God-place Yutsal!,low,match
+TM,271828,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, not kilya Zerphi!",low,clash
+TM,271828,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!",At its-ok entirely all-ra! Kex-tal xi good (kuj residue) wind-bal!,low,clash
+TM,271828,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, ikba'-yuk-ane Vaal!",low,clash
+TM,271828,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!",There: shaken-one tlayeb turkey-I! There: insect tlayeb kifba!,low,clash
+TM,271828,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended approaching!",low,partial
+TM,271828,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!",Aiokmo honorable wound-te! Aiokmo full jare dawn!,low,clash
+TM,271828,9,Kuxte' kíimil'!,Life and death!,Live-te death!,medium,match
+TM,271828,10,Tlaxye' le Vaal!,The people of the Vaal!,Tlaxye' the Vaal!,low,clash
+TM,271828,11,Ma'oxe ik'el!,The countless spirits!,Not-oxe insect!,low,clash
+TM,271828,12,Atziri le'itzil!,"Atziri, the essence!",Atziri the-evil!,medium,clash
+TM,271828,13,Xatlene kujkuali!,Kindle the worthy!,What-(xa) good (kuj residue)!,low,clash
+TM,271828,14,Gyan'uks ko'janti!,"Your new children, come, devour!",Gyan'uks ko'janti!,low,clash
+TM,271828,15,A'te 'Ibil!,Behold the flesh!,There: shaken-one!,medium,clash
+TM,271828,16,A'te ik'el!,Behold the spirit!,There: insect!,medium,clash
+TM,271828,17,Yaxe chikula'!,The first sign!,First/green insignia!,medium,match
+TM,271828,18,Tzokan'te ik'el!,The last spirit!,Punish-te insect!,low,clash
+TM,271828,19,A'te líimek!,Behold those in the earth!,There: líimek (twist residue)!,low,clash
+TM,271828,20,Yatle yutsal!,There stands the good place!,Yatle talisman!,low,clash
+TM,271828,21,Tlayeb kutsen!,"In the dark, the offering!",tlayeb turkey-I!,low,clash
+TM,271828,22,Tlayeb kifba!,"In the dark, the heart!",[abstain] tlayeb kifba,abstain,abstain
+TM,271828,23,U'Te kuxkal!,Behold the living!,U-there life-throat!,low,match
+TM,271828,24,A'te yuquia!,Behold the made!,There: stretched-out!,low,clash
+TM,271828,25,Eche lu nochbe!,"Pour it out, all that we are!",Oh lu noch-road!,low,clash
+TM,271828,26,Kí' inib!,"Sweet, my flesh!",Pleasant my-ib!,low,clash
+TM,271828,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","Ayok dung I-am, u ghost the buried, far in-face.",low,clash
+TM,271828,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,There: if-ha Yatle u'tra gourd!,low,clash
+TM,271828,29,A'te fukuur!,Behold the blaze!,There: fukuur!,low,clash
+TM,271828,30,Xi daka puxe...,Bring the draught…,xi daka perhaps...,low,clash
+TM,271828,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",Ayok kifba Atziri kilya white-water.,low,partial
+TM,271828,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",Wind-eche white-water atla Donuks.,low,partial
+TM,271828,33,Donuks... ko'soxsal.,Drink… raw and fresh!,[abstain] Donuks ko'soxsal,abstain,abstain
+TM,271828,34,Donuks... ko'mujuk!,Drink… and take strength!,Donuks... ko'-ghost!,low,clash
+TM,271828,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","xi u-there untie-punish, there its-ok chief yotlapek the the Vaal descend-xti qexcan...",low,partial
+TM,271828,36,Na' puyao.,the reddened offering.,Mother puy-ao.,medium,clash
+TM,271828,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In/face base u-there puyao, there its-ok pu crush foot-sole!",low,clash
+TM,271828,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,Otsuks! Punish-te u-there insect...,low,clash
+TM,271828,39,Atziri!,Atziri!,Atziri!,high,match
+TM,271828,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?",There: Life-throat tlayeb turkey-I. Look tlayeb ukto! Who that at the-paid?,medium,partial
+TM,271828,41,Atziri!,Atziri!,Atziri!,high,match
+TM,271828,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,Otsuks! Who that at the-paid?,medium,partial
+TM,271828,43,U'te mucane!,"Behold, the mighty!",U-there buried/hidden!,medium,clash
+TM,271828,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who that at cheyel?,low,partial
+TM,271828,45,U'te mucane!,"Behold, the mighty!",U-there buried/hidden!,medium,clash
+TM,271828,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who tlayeb buried?,medium,partial
+TM,271828,47,Atziri!,Atziri!,Atziri!,high,match
+TM,271828,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Otsuks, quxzeh!",low,clash
+TM,271828,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",Knock-self-down!? wax dung I-am!,low,clash
+TM,271828,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!",At wasp coming jare-there-is-full!,low,clash
+TM,271828,51,Ti' ek'le upulché!,"Into the dark, cast down!",At that-star/black opposed-wood!,medium,partial
+TM,42,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, star there [mucane] Vaal!",medium,partial
+TM,42,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!",[Teoyuxtlane] ascended-fem! [Teoyuxtlane] [Yutsal]!,low,clash
+TM,42,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, not [kilya] Zerphi!",medium,clash
+TM,42,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!",At [itsok] entirely [nochira]! although-melt clinging-thing [kujkuali] [ik'bala]!,low,clash
+TM,42,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, [ikba'yucane] Vaal!",abstain,abstain
+TM,42,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!",You-there shake [tlayeb] turkey! You-there bug [tlayeb] [kifba]!,medium,clash
+TM,42,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, [ascenada] abhor!",medium,clash
+TM,42,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!",[Aiokmo] honorable wound! [Aiokmo] abundance [jare] deep!,low,clash
+TM,42,9,Kuxte' kíimil'!,Life and death!,"Alive, death!",high,match
+TM,42,10,Tlaxye' le Vaal!,The people of the Vaal!,[Tlaxye'] the Vaal!,medium,clash
+TM,42,11,Ma'oxe ik'el!,The countless spirits!,[Ma'oxe] bug!,medium,clash
+TM,42,12,Atziri le'itzil!,"Atziri, the essence!",Atziri the-[itzil]!,low,clash
+TM,42,13,Xatlene kujkuali!,Kindle the worthy!,[Xatlene] [kujkuali]!,abstain,abstain
+TM,42,14,Gyan'uks ko'janti!,"Your new children, come, devour!",[Gyan'uks] [ko'janti]!,low,clash
+TM,42,15,A'te 'Ibil!,Behold the flesh!,You-there shake!,high,clash
+TM,42,16,A'te ik'el!,Behold the spirit!,You-there bug!,high,clash
+TM,42,17,Yaxe chikula'!,The first sign!,Green insignia!,medium,match
+TM,42,18,Tzokan'te ik'el!,The last spirit!,[Tzokan'te] bug!,medium,clash
+TM,42,19,A'te líimek!,Behold those in the earth!,You-there [líimek]!,low,clash
+TM,42,20,Yatle yutsal!,There stands the good place!,[Yatle] [yutsal]!,abstain,abstain
+TM,42,21,Tlayeb kutsen!,"In the dark, the offering!",[Tlayeb] turkey!,medium,clash
+TM,42,22,Tlayeb kifba!,"In the dark, the heart!",[Tlayeb] [kifba]!,abstain,abstain
+TM,42,23,U'Te kuxkal!,Behold the living!,He-there living-throat!,medium,match
+TM,42,24,A'te yuquia!,Behold the made!,You-there [yuquia]!,low,clash
+TM,42,25,Eche lu nochbe!,"Pour it out, all that we are!",Poor [lu] gourd-seek-living!,low,clash
+TM,42,26,Kí' inib!,"Sweet, my flesh!",Soft [inib]!,low,clash
+TM,42,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","[Ayok] anger-another I, his [mujuk'] the [mucane], [niáach] [i'chian].",low,clash
+TM,42,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,You-there tortilla [yatle] [u'tra] [buxa]!,low,clash
+TM,42,29,A'te fukuur!,Behold the blaze!,You-there [fukuur]!,abstain,abstain
+TM,42,30,Xi daka puxe...,Bring the draught…,Clinging-thing [daka] perhaps...,low,clash
+TM,42,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",[Ayok] [kifba] Atziri [kilya] clarity-water.,low,clash
+TM,42,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",[Ik'eche] clarity-water [atla] [donuks].,low,partial
+TM,42,33,Donuks... ko'soxsal.,Drink… raw and fresh!,[Donuks]... [ko'soxsal].,abstain,abstain
+TM,42,34,Donuks... ko'mujuk!,Drink… and take strength!,[Donuks]... [ko'mujuk]!,abstain,abstain
+TM,42,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Clinging-thing he-there [cha'tsoke], you-there [itsok] chief [yotlapek] the the Vaal [te'moxti] [qexcan]...",low,partial
+TM,42,36,Na' puyao.,the reddened offering.,Womb [puyao].,medium,clash
+TM,42,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In [tlapec] he-there [puyao], you-there [itsok] [pu] crushed brawl!",low,clash
+TM,42,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,[Otsuks]! [Tzokan'te] he-there bug...,medium,clash
+TM,42,39,Atziri!,Atziri!,Atziri!,high,match
+TM,42,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?",You-there living-throat [tlayeb] turkey. Look [tlayeb] aromatic-pine! Who that at awaited?,medium,partial
+TM,42,41,Atziri!,Atziri!,Atziri!,high,match
+TM,42,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,[Otsuks]! Who that at awaited?,medium,partial
+TM,42,43,U'te mucane!,"Behold, the mighty!",He-there [mucane]!,medium,clash
+TM,42,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who that at [cheyel]?,medium,partial
+TM,42,45,U'te mucane!,"Behold, the mighty!",He-there [mucane]!,medium,clash
+TM,42,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who [tlayeb] [mucane]?,low,partial
+TM,42,47,Atziri!,Atziri!,Atziri!,high,match
+TM,42,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","[Otsuks], [quxzeh]!",abstain,abstain
+TM,42,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",[Axba]!? wax-[sa'] anger-another I!,low,clash
+TM,42,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!",At star [tala] [jare'yantul]!,low,clash
+TM,42,51,Ti' ek'le upulché!,"Into the dark, cast down!",At the-star be-opposed!,medium,clash
+TM,55555,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, black there buried Vaal!",medium,partial
+TM,55555,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!",Teoyuxtlane ascended! Teoyuxtlane Yutsal!,low,clash
+TM,55555,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, do not kilya Zerphi!",low,clash
+TM,55555,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!",At itsok anab all-ra! Kextal xi kujkuali ik'bala!,abstain,abstain
+TM,55555,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, ikba'yucane Vaal!",abstain,abstain
+TM,55555,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!",You-there Ibil tlayeb brush! You-there bug tlayeb kifba!,low,clash
+TM,55555,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended, approach!",medium,partial
+TM,55555,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!",Aiokmo honorable xu'te! Aiokmo abundant jare elba!,abstain,abstain
+TM,55555,9,Kuxte' kíimil'!,Life and death!,"Live-one, death!",high,match
+TM,55555,10,Tlaxye' le Vaal!,The people of the Vaal!,Tlaxye' the Vaal!,medium,clash
+TM,55555,11,Ma'oxe ik'el!,The countless spirits!,Ma'oxe bug!,low,clash
+TM,55555,12,Atziri le'itzil!,"Atziri, the essence!",Atziri le'itzil!,abstain,abstain
+TM,55555,13,Xatlene kujkuali!,Kindle the worthy!,Xatlene kujkuali!,abstain,abstain
+TM,55555,14,Gyan'uks ko'janti!,"Your new children, come, devour!",Gyan'uks ko'janti!,abstain,abstain
+TM,55555,15,A'te 'Ibil!,Behold the flesh!,You-there Ibil!,medium,clash
+TM,55555,16,A'te ik'el!,Behold the spirit!,You-there bug!,medium,clash
+TM,55555,17,Yaxe chikula'!,The first sign!,Yaxe chikula'!,low,clash
+TM,55555,18,Tzokan'te ik'el!,The last spirit!,Tzokan'te bug!,low,clash
+TM,55555,19,A'te líimek!,Behold those in the earth!,You-there limek!,low,clash
+TM,55555,20,Yatle yutsal!,There stands the good place!,Yatle Yutsal!,abstain,abstain
+TM,55555,21,Tlayeb kutsen!,"In the dark, the offering!",tlayeb brush!,low,clash
+TM,55555,22,Tlayeb kifba!,"In the dark, the heart!",tlayeb kifba!,abstain,abstain
+TM,55555,23,U'Te kuxkal!,Behold the living!,He-there Kuxkal (live-kal)!,medium,match
+TM,55555,24,A'te yuquia!,Behold the made!,You-there yuquia!,low,clash
+TM,55555,25,Eche lu nochbe!,"Pour it out, all that we are!",Eche lu nochbe!,abstain,abstain
+TM,55555,26,Kí' inib!,"Sweet, my flesh!",Better inib!,low,clash
+TM,55555,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","Ayok, I am angered, his mujuk' the buried-one, niáach i'chian.",low,clash
+TM,55555,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,You-there waja yatle u'tra buxa!,abstain,abstain
+TM,55555,29,A'te fukuur!,Behold the blaze!,You-there fukuur!,low,clash
+TM,55555,30,Xi daka puxe...,Bring the draught…,xi daka puxe...,abstain,abstain
+TM,55555,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",Ayok kifba Atziri kilya white-water.,low,partial
+TM,55555,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",Ik'eche white-water atla donuks.,abstain,abstain
+TM,55555,33,Donuks... ko'soxsal.,Drink… raw and fresh!,Donuks... ko'soxsal.,abstain,abstain
+TM,55555,34,Donuks... ko'mujuk!,Drink… and take strength!,Donuks... ko'mujuk!,abstain,abstain
+TM,55555,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","xi he-there cha'tsoke, you-there itsok chief yotlapek the the Vaal te'moxti qexcan...",low,partial
+TM,55555,36,Na' puyao.,the reddened offering.,Mother puyao.,medium,clash
+TM,55555,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In tlapec he-there puyao, you-there itsok pu crushed ta'nuk!",low,clash
+TM,55555,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,Otsuks! Tzokan'te he-there bug...,low,clash
+TM,55555,39,Atziri!,Atziri!,Atziri!,high,match
+TM,55555,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?",You-there Kuxkal tlayeb brush. Ela tlayeb ukto! Who that at a'tul?,medium,partial
+TM,55555,41,Atziri!,Atziri!,Atziri!,high,match
+TM,55555,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,Otsuks! Who that at a'tul?,medium,partial
+TM,55555,43,U'te mucane!,"Behold, the mighty!",He-there the buried-one!,medium,clash
+TM,55555,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who that at cheyel?,medium,partial
+TM,55555,45,U'te mucane!,"Behold, the mighty!",He-there the buried-one!,medium,clash
+TM,55555,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who tlayeb the buried-one?,medium,partial
+TM,55555,47,Atziri!,Atziri!,Atziri!,high,match
+TM,55555,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Otsuks, quxzeh!",abstain,abstain
+TM,55555,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",Axba!? Kíibsa' I am angered!,low,clash
+TM,55555,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!",At black tala jare'yantul!,low,partial
+TM,55555,51,Ti' ek'le upulché!,"Into the dark, cast down!","At the black-one, opposed!",medium,partial
+TD,1729,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, star yonder, buried one, Vaal!",medium,partial
+TD,1729,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!","Holy-place, ascended! Holy-place, goodness!",medium,clash
+TD,1729,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, do not rub the wound, Zerphi!",low,clash
+TD,1729,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!","At enchantment, entirely all! Although it appears, spark, good, air perhaps!",low,clash
+TD,1729,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, air-buried Vaal!",low,clash
+TD,1729,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!","You yonder, shake, tla-rubber turkey! You yonder, bug, tla-rubber kifba!",low,clash
+TD,1729,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended, it approaches!",medium,partial
+TD,1729,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!","No longer honorable, it wounds! No longer earth, jare, dawn!",low,clash
+TD,1729,9,Kuxte' kíimil'!,Life and death!,"Cacao-like tree, death!",medium,clash
+TD,1729,10,Tlaxye' le Vaal!,The people of the Vaal!,Tlaxye' the Vaal!,low,clash
+TD,1729,11,Ma'oxe ik'el!,The countless spirits!,"Not the day before yesterday, bug!",low,clash
+TD,1729,12,Atziri le'itzil!,"Atziri, the essence!","Atziri, the witchcraft!",low,clash
+TD,1729,13,Xatlene kujkuali!,Kindle the worthy!,"Xatlene, good!",low,clash
+TD,1729,14,Gyan'uks ko'janti!,"Your new children, come, devour!",,abstain,abstain
+TD,1729,15,A'te 'Ibil!,Behold the flesh!,"You yonder, shake!",medium,clash
+TD,1729,16,A'te ik'el!,Behold the spirit!,"You yonder, bug!",medium,clash
+TD,1729,17,Yaxe chikula'!,The first sign!,Green insignia!,medium,match
+TD,1729,18,Tzokan'te ik'el!,The last spirit!,"Sculpt yonder, bug!",low,clash
+TD,1729,19,A'te líimek!,Behold those in the earth!,"You yonder, bottle!",low,clash
+TD,1729,20,Yatle yutsal!,There stands the good place!,Tied-bundle goodness!,low,match
+TD,1729,21,Tlayeb kutsen!,"In the dark, the offering!",Tla-rubber turkey!,low,clash
+TD,1729,22,Tlayeb kifba!,"In the dark, the heart!",Tla-rubber kifba!,low,clash
+TD,1729,23,U'Te kuxkal!,Behold the living!,"Its yonder, living-overflow!",low,partial
+TD,1729,24,A'te yuquia!,Behold the made!,"You yonder, stretch out!",medium,clash
+TD,1729,25,Eche lu nochbe!,"Pour it out, all that we are!","Oh, perhaps gourd-road!",low,clash
+TD,1729,26,Kí' inib!,"Sweet, my flesh!",Delicious inib!,low,clash
+TD,1729,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","Complaint, ask in, his ghost the buried one, niáach i'chian.",low,clash
+TD,1729,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,"You yonder, waja, tied-bundle, his other gourd!",low,clash
+TD,1729,29,A'te fukuur!,Behold the blaze!,"You yonder, fukuur!",low,clash
+TD,1729,30,Xi daka puxe...,Bring the draught…,"Spark, daka, perhaps...",low,clash
+TD,1729,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.","Complaint kifba Atziri rubbing-the-wound, whiteness.",low,clash
+TD,1729,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.","Air-oh, whiteness, fable, donuks.",low,clash
+TD,1729,33,Donuks... ko'soxsal.,Drink… raw and fresh!,,abstain,abstain
+TD,1729,34,Donuks... ko'mujuk!,Drink… and take strength!,Donuks... as-ghost!,low,clash
+TD,1729,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Spark, its yonder obsidian-punish, you yonder enchantment, chief, I-base, the the Vaal, descend, qexcan...",low,partial
+TD,1729,36,Na' puyao.,the reddened offering.,Mother stabs.,medium,clash
+TD,1729,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In the base, its yonder stab, you yonder enchantment in the deformed calluses!",low,clash
+TD,1729,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,"Miserable! Sculpt yonder, its yonder bug...",low,clash
+TD,1729,39,Atziri!,Atziri!,Atziri!,high,match
+TD,1729,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?","You yonder living-overflow, tla-rubber turkey. Young boy, tla-rubber pine! Who who at the reward?",low,partial
+TD,1729,41,Atziri!,Atziri!,Atziri!,high,match
+TD,1729,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,Miserable! Who who at the reward?,low,partial
+TD,1729,43,U'te mucane!,"Behold, the mighty!",Its yonder buried one!,medium,clash
+TD,1729,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who who at the tree?,low,partial
+TD,1729,45,U'te mucane!,"Behold, the mighty!",Its yonder buried one!,medium,clash
+TD,1729,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who tla-rubber buried one?,low,partial
+TD,1729,47,Atziri!,Atziri!,Atziri!,high,match
+TD,1729,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Miserable, hate!",low,clash
+TD,1729,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!","Knock down!? Wax, ask in!",low,clash
+TD,1729,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!","At star, cloth, jare-help!",low,clash
+TD,1729,51,Ti' ek'le upulché!,"Into the dark, cast down!","At star-the, opposed tree!",low,clash
+TD,9001,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, black brazilwood there, the buried Vaal!",medium,partial
+TD,9001,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!","God-place, ascended one! God-place, goodness!",medium,partial
+TD,9001,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, not earth Zerphi!",low,clash
+TD,9001,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!","At entirely all, tear out! Although spark, good wind-ball!",low,clash
+TD,9001,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, yuca-[unparsed] Vaal!",low,clash
+TD,9001,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!","You-there, shake the turkey-ladder! You-there, insect, ladder [kifba]!",low,clash
+TD,9001,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended approach!",medium,partial
+TD,9001,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!","[Aiokmo] honorable, to wound! [Aiokmo] full, in order that it soften in heat!",low,clash
+TD,9001,9,Kuxte' kíimil'!,Life and death!,"Cacao-like tree, death!",medium,clash
+TD,9001,10,Tlaxye' le Vaal!,The people of the Vaal!,[Tlaxye'] the Vaal!,low,clash
+TD,9001,11,Ma'oxe ik'el!,The countless spirits!,Not-cocoon insect!,low,clash
+TD,9001,12,Atziri le'itzil!,"Atziri, the essence!",Atziri the-sorcery!,low,clash
+TD,9001,13,Xatlene kujkuali!,Kindle the worthy!,"Snort-[unparsed], good!",low,clash
+TD,9001,14,Gyan'uks ko'janti!,"Your new children, come, devour!",,abstain,abstain
+TD,9001,15,A'te 'Ibil!,Behold the flesh!,"You-there, shake!",medium,clash
+TD,9001,16,A'te ik'el!,Behold the spirit!,"You-there, insect!",medium,clash
+TD,9001,17,Yaxe chikula'!,The first sign!,Prior insignia!,low,partial
+TD,9001,18,Tzokan'te ik'el!,The last spirit!,"Tear-out-there, insect!",low,clash
+TD,9001,19,A'te líimek!,Behold those in the earth!,"You-there, [limek]!",low,clash
+TD,9001,20,Yatle yutsal!,There stands the good place!,[Yatle] goodness!,low,match
+TD,9001,21,Tlayeb kutsen!,"In the dark, the offering!",Ladder turkey!,low,clash
+TD,9001,22,Tlayeb kifba!,"In the dark, the heart!",Ladder [kifba]!,low,clash
+TD,9001,23,U'Te kuxkal!,Behold the living!,"His-there, live-[kal]!",low,match
+TD,9001,24,A'te yuquia!,Behold the made!,"You-there, stretch out!",medium,clash
+TD,9001,25,Eche lu nochbe!,"Pour it out, all that we are!","Alas, [lu] gourd-[be]!",low,clash
+TD,9001,26,Kí' inib!,"Sweet, my flesh!",Sweet [inib]!,low,partial
+TD,9001,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","[Ayok] I ask, his shadow the buried one, far I-wait-for-you.",low,clash
+TD,9001,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,,abstain,abstain
+TD,9001,29,A'te fukuur!,Behold the blaze!,"You-there, [fukuur]!",low,clash
+TD,9001,30,Xi daka puxe...,Bring the draught…,"Spark, someone, perhaps...",low,clash
+TD,9001,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",[Ayok] [kifba] Atziri earth white.,low,partial
+TD,9001,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",You-who-are white water [donuks].,low,partial
+TD,9001,33,Donuks... ko'soxsal.,Drink… raw and fresh!,[Donuks]... mad-[sal].,low,clash
+TD,9001,34,Donuks... ko'mujuk!,Drink… and take strength!,[Donuks]... mad shadow!,low,clash
+TD,9001,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Spark his-there divide; you-there tear-out the chief [yotlapek] the the Vaal, descend where...",low,partial
+TD,9001,36,Na' puyao.,the reddened offering.,Mother kiss.,medium,clash
+TD,9001,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In the base, his-there kiss; you-there tear-out into opossum calluses!",low,clash
+TD,9001,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,"Heap! Tear-out-there, his-there insect...",low,clash
+TD,9001,39,Atziri!,Atziri!,Atziri!,high,match
+TD,9001,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?","You-there live-[kal], ladder turkey. Look, ladder [ukto]! Who who at is-paid?",low,partial
+TD,9001,41,Atziri!,Atziri!,Atziri!,high,match
+TD,9001,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,Heap! Who who at is-paid?,medium,partial
+TD,9001,43,U'te mucane!,"Behold, the mighty!","His-there, the buried one!",medium,clash
+TD,9001,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who who at announcement?,low,partial
+TD,9001,45,U'te mucane!,"Behold, the mighty!","His-there, the buried one!",medium,clash
+TD,9001,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who ladder buried?,low,partial
+TD,9001,47,Atziri!,Atziri!,Atziri!,high,match
+TD,9001,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Heap, [quxzeh]!",low,clash
+TD,9001,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",Knock-down!? [Kiibsa'] I ask!,low,clash
+TD,9001,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!","At black brazilwood cloth, in order that there-is full!",low,partial
+TD,9001,51,Ti' ek'le upulché!,"Into the dark, cast down!","At the black-that, be-opposed wood!",low,partial
+TD,271828,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, star there, buried Vaal!",medium,partial
+TD,271828,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!","God-place, ascended! God-place Yutsal!",low,match
+TD,271828,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, do not kilya Zerphi!",low,clash
+TD,271828,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!","At punished-resin, entirely all! Although, imperative good wind-hanging!",low,clash
+TD,271828,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, ikba'yucane Vaal!",low,clash
+TD,271828,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!",A'te Shake tlayeb turkey! A'te insect tlayeb kifba!,low,clash
+TD,271828,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended hate!",medium,partial
+TD,271828,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!","No longer soot, wound! No longer reed, he/she dawn!",low,clash
+TD,271828,9,Kuxte' kíimil'!,Life and death!,"Cacao-tree, die!",medium,clash
+TD,271828,10,Tlaxye' le Vaal!,The people of the Vaal!,Tlaxye' the Vaal!,low,clash
+TD,271828,11,Ma'oxe ik'el!,The countless spirits!,Not-oxe insect!,low,clash
+TD,271828,12,Atziri le'itzil!,"Atziri, the essence!",Atziri that-witchcraft!,low,clash
+TD,271828,13,Xatlene kujkuali!,Kindle the worthy!,Xatlene good!,low,clash
+TD,271828,14,Gyan'uks ko'janti!,"Your new children, come, devour!",Gyan'uks hurry!,low,clash
+TD,271828,15,A'te 'Ibil!,Behold the flesh!,A'te Shake!,medium,clash
+TD,271828,16,A'te ik'el!,Behold the spirit!,A'te insect!,medium,clash
+TD,271828,17,Yaxe chikula'!,The first sign!,First silence!,low,partial
+TD,271828,18,Tzokan'te ik'el!,The last spirit!,Punish-te insect!,low,clash
+TD,271828,19,A'te líimek!,Behold those in the earth!,A'te líimek!,abstain,abstain
+TD,271828,20,Yatle yutsal!,There stands the good place!,Yatle slabs!,low,clash
+TD,271828,21,Tlayeb kutsen!,"In the dark, the offering!",tlayeb turkey!,low,clash
+TD,271828,22,Tlayeb kifba!,"In the dark, the heart!",tlayeb kifba!,abstain,abstain
+TD,271828,23,U'Te kuxkal!,Behold the living!,U'Te life-kal!,low,partial
+TD,271828,24,A'te yuquia!,Behold the made!,A'te stretch-out!,medium,clash
+TD,271828,25,Eche lu nochbe!,"Pour it out, all that we are!",Hello lu nochbe!,low,clash
+TD,271828,26,Kí' inib!,"Sweet, my flesh!",Wine inib!,low,clash
+TD,271828,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","No longer I ask, his ghost the buried one, niáach i'chian.",low,clash
+TD,271828,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,A'te waja yatle u'tra gourd!,low,clash
+TD,271828,29,A'te fukuur!,Behold the blaze!,A'te fukuur!,abstain,abstain
+TD,271828,30,Xi daka puxe...,Bring the draught…,Spark daka perhaps...,low,clash
+TD,271828,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.",No longer kifba Atziri kilya whiteness.,low,clash
+TD,271828,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",You-who-are whiteness water donuks.,low,partial
+TD,271828,33,Donuks... ko'soxsal.,Drink… raw and fresh!,Donuks... ko'soxsal.,abstain,abstain
+TD,271828,34,Donuks... ko'mujuk!,Drink… and take strength!,Donuks... ko' ghost!,low,clash
+TD,271828,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Spark u'te cha'tsoke, a'te punished-resin chief yotlapek the the Vaal descend qexcan...",low,partial
+TD,271828,36,Na' puyao.,the reddened offering.,Mother kiss.,medium,clash
+TD,271828,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","In tlapec u'te kiss, a'te punished-resin palm opossum foot-callus!",low,clash
+TD,271828,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,Heap! Punish-te the insect...,low,clash
+TD,271828,39,Atziri!,Atziri!,Atziri!,high,match
+TD,271828,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?",A'te Life-kal tlayeb turkey. Ela tlayeb pine! Who who at paid?,low,partial
+TD,271828,41,Atziri!,Atziri!,Atziri!,high,match
+TD,271828,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,Heap! Who who at paid?,medium,partial
+TD,271828,43,U'te mucane!,"Behold, the mighty!",U'te buried!,medium,clash
+TD,271828,44,Máax ka ti cheyel?,Who are you to stand watch here?,Who who at cheyel?,low,partial
+TD,271828,45,U'te mucane!,"Behold, the mighty!",U'te buried!,medium,clash
+TD,271828,46,Máax tlayeb mucane?,Who is the mighty of the dark?,Who tlayeb buried?,low,partial
+TD,271828,47,Atziri!,Atziri!,Atziri!,high,match
+TD,271828,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Heap, quxzeh!",low,clash
+TD,271828,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!",Axba!? Wine-bsa I ask!,low,clash
+TD,271828,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!",At star cloth jare'yantul!,low,clash
+TD,271828,51,Ti' ek'le upulché!,"Into the dark, cast down!",At star-the thrown-tree!,medium,clash
+TD,42,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, wasp there, the buried Vaal!",medium,clash
+TD,42,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!","God-place, ascended one! God-place, the all-good!",medium,partial
+TD,42,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, not kilya Zerphi!",low,clash
+TD,42,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!","At there, tear out entirely the whole! Although, (imperative) all-right, hidden-air!",low,clash
+TD,42,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, ikba'yucane Vaal!",low,clash
+TD,42,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!","There: shake the ladder, brush-clean! There: virus, the ladder, kifba!",low,clash
+TD,42,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascended one, approach!",medium,partial
+TD,42,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!","Aiokmo honorable, wound! Aiokmo full, jare, dawn!",low,clash
+TD,42,9,Kuxte' kíimil'!,Life and death!,Cacao-like tree! Die!,medium,clash
+TD,42,10,Tlaxye' le Vaal!,The people of the Vaal!,Tlaxye' that Vaal!,low,clash
+TD,42,11,Ma'oxe ik'el!,The countless spirits!,"Ma'oxe, virus!",low,clash
+TD,42,12,Atziri le'itzil!,"Atziri, the essence!","Atziri, that servant!",medium,clash
+TD,42,13,Xatlene kujkuali!,Kindle the worthy!,"That-which, all-right!",low,clash
+TD,42,14,Gyan'uks ko'janti!,"Your new children, come, devour!",Gyan'uks ko'janti!,abstain,abstain
+TD,42,15,A'te 'Ibil!,Behold the flesh!,There: shake!,medium,clash
+TD,42,16,A'te ik'el!,Behold the spirit!,There: virus!,medium,clash
+TD,42,17,Yaxe chikula'!,The first sign!,Blue-green insignia!,medium,match
+TD,42,18,Tzokan'te ik'el!,The last spirit!,"Tear-out-there, virus!",low,clash
+TD,42,19,A'te líimek!,Behold those in the earth!,There: líimek!,low,clash
+TD,42,20,Yatle yutsal!,There stands the good place!,"Yatle, the all-good!",low,partial
+TD,42,21,Tlayeb kutsen!,"In the dark, the offering!","Ladder, brush-clean!",medium,clash
+TD,42,22,Tlayeb kifba!,"In the dark, the heart!","Ladder, kifba!",low,clash
+TD,42,23,U'Te kuxkal!,Behold the living!,There: life overflowing!,low,match
+TD,42,24,A'te yuquia!,Behold the made!,There: stretch out!,medium,clash
+TD,42,25,Eche lu nochbe!,"Pour it out, all that we are!","Poor one, perhaps, gourd-road!",low,clash
+TD,42,26,Kí' inib!,"Sweet, my flesh!","Better, inib!",low,clash
+TD,42,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","'Ayok, excrement I, its buried one of that buried one, far, vowed.",low,clash
+TD,42,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,"There: waja, Yatle, u'tra, gourd!",low,clash
+TD,42,29,A'te fukuur!,Behold the blaze!,There: fukuur!,low,clash
+TD,42,30,Xi daka puxe...,Bring the draught…,"(Imperative) daka, perhaps...",low,clash
+TD,42,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.","'Ayok kifba Atziri kilya, whiteness.",low,clash
+TD,42,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.","You-who-are, whiteness, fable, donuks.",low,clash
+TD,42,33,Donuks... ko'soxsal.,Drink… raw and fresh!,Donuks... ko'soxsal.,abstain,abstain
+TD,42,34,Donuks... ko'mujuk!,Drink… and take strength!,Donuks... the buried!,low,clash
+TD,42,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","(Imperative) there, cha'tsoke, there tear out, chief, bed, that that Vaal, descend, change-place...",low,partial
+TD,42,36,Na' puyao.,the reddened offering.,"Mother, stab.",low,clash
+TD,42,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","Face, bed, there stab, there tear out, flow, opossum, sole of the foot!",low,clash
+TD,42,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,Heap! Tear-out-there the virus...,low,clash
+TD,42,39,Atziri!,Atziri!,Atziri!,high,match
+TD,42,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?","There, life overflowing, ladder, brush-clean. Look, ladder, pine-torch! Who, who, at, be-paid?",low,partial
+TD,42,41,Atziri!,Atziri!,Atziri!,high,match
+TD,42,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,"Heap! Who, who, at, be-paid?",medium,partial
+TD,42,43,U'te mucane!,"Behold, the mighty!","There, the buried one!",medium,clash
+TD,42,44,Máax ka ti cheyel?,Who are you to stand watch here?,"Who, who, at cheyel?",low,partial
+TD,42,45,U'te mucane!,"Behold, the mighty!","There, the buried one!",medium,clash
+TD,42,46,Máax tlayeb mucane?,Who is the mighty of the dark?,"Who, ladder, buried one?",medium,partial
+TD,42,47,Atziri!,Atziri!,Atziri!,high,match
+TD,42,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Heap, pain-hate!",low,partial
+TD,42,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!","Knock down!? Wax, excrement I!",low,clash
+TD,42,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!","At there, wasp, here, jare-there-is-fullness!",low,clash
+TD,42,51,Ti' ek'le upulché!,"Into the dark, cast down!","Where, darkness, the opposed-tree!",medium,clash
+TD,55555,1,"Atziri, Atziri, ek te mucane Vaal!","Atziri, Atziri, star of the mighty Vaal!","Atziri, Atziri, black, no-good burial, Vaal!",low,partial
+TD,55555,2,Teoyuxtlane ascensionada! Teoyuxtlane Yutsal!,"Divine, ascended; divine Utzaal!","Prayer, lineage-ascent! Prayer, flagstones!",low,clash
+TD,55555,3,"Atziri, Atziri, ma kilya Zerphi!","Atziri, Atziri, undying as Zerphi!","Atziri, Atziri, do not blink, Zerphi!",medium,clash
+TD,55555,4,Ti itsok anab nochira! Kextal xi kujkuali ik'bala!,"To you, the blood of all your servants; transform us, make our spirit worthy!","There, tear out entirely all! Become visible, spark, good bullet!",low,clash
+TD,55555,5,"Atziri, Atziri, ikba'yucane Vaal!","Atziri, Atziri, undying breath of the Vaal!","Atziri, Atziri, ikba'yucane Vaal!",low,clash
+TD,55555,6,A'te 'Ibil tlayeb kutsen! A'te ik'el tlayeb kifba!,"Here, our flesh laid bare in the dark, the offering; here, our hidden self in the dark, the heart!","A'te ladder, arrange the leg! A'te breathe, arrange the wax-candle!",low,clash
+TD,55555,7,"Atziri, Atziri, ascenada akal!","Atziri, Atziri, risen into the eternal waters!","Atziri, Atziri, ascend, at the point of death!",medium,partial
+TD,55555,8,Aiokmo til xu'te! Aiokmo tul jare elba!,"No more burning to ash, no ending; no more dwindling to embers, no going out!","Aiokmo soot, wound! Aiokmo bald, worn-out, rehearse!",low,clash
+TD,55555,9,Kuxte' kíimil'!,Life and death!,"Cacao-like tree, perish!",medium,clash
+TD,55555,10,Tlaxye' le Vaal!,The people of the Vaal!,"Tlaxye', oh Vaal!",low,clash
+TD,55555,11,Ma'oxe ik'el!,The countless spirits!,Do not breathe!,medium,clash
+TD,55555,12,Atziri le'itzil!,"Atziri, the essence!","Atziri, angry and frowning!",medium,clash
+TD,55555,13,Xatlene kujkuali!,Kindle the worthy!,"Comb-wood, good!",low,clash
+TD,55555,14,Gyan'uks ko'janti!,"Your new children, come, devour!","Gyan'uks, agree!",low,clash
+TD,55555,15,A'te 'Ibil!,Behold the flesh!,A'te ladder!,low,clash
+TD,55555,16,A'te ik'el!,Behold the spirit!,A'te breathe!,low,clash
+TD,55555,17,Yaxe chikula'!,The first sign!,"Spring, silence!",medium,clash
+TD,55555,18,Tzokan'te ik'el!,The last spirit!,"Tzokan'te, breathe!",low,clash
+TD,55555,19,A'te líimek!,Behold those in the earth!,A'te bottle!,low,clash
+TD,55555,20,Yatle yutsal!,There stands the good place!,Fable of flagstones!,low,clash
+TD,55555,21,Tlayeb kutsen!,"In the dark, the offering!",Arrange the leg!,medium,clash
+TD,55555,22,Tlayeb kifba!,"In the dark, the heart!",Arrange the wax-candle!,medium,clash
+TD,55555,23,U'Te kuxkal!,Behold the living!,U'Te life!,low,partial
+TD,55555,24,A'te yuquia!,Behold the made!,"A'te, stretch out the hand!",medium,clash
+TD,55555,25,Eche lu nochbe!,"Pour it out, all that we are!","Poor stinging-nettle, misshapen gourd!",low,clash
+TD,55555,26,Kí' inib!,"Sweet, my flesh!","Grind corn, devoted one!",low,clash
+TD,55555,27,"'Ayok ta' en, u mujuk' le mucane, niáach i'chian.","Nothing more for me now; the strength of the mighty is in me, deep within her house.","Town-merchant, anger in, u semi-dark oh burial, dishonor, wake the sleeper.",low,clash
+TD,55555,28,A'te waja yatle u'tra buxa!,Behold the offering; there stands another!,"A'te waja, fable, u'tra, sweat!",low,clash
+TD,55555,29,A'te fukuur!,Behold the blaze!,,abstain,abstain
+TD,55555,30,Xi daka puxe...,Bring the draught…,"Spark, someone, perhaps...",medium,clash
+TD,55555,31,'Ayok kifba Atziri kilya sakilja.,"The heart beats no more; for Atziri, the undying, the white drink.","Town-merchant wax-candle, Atziri blinks white.",low,partial
+TD,55555,32,Ik'eche sakilja atla donuks.,"You are the breath within it, the sacred water, our draught.",Ik'eche white fable donuks.,low,clash
+TD,55555,33,Donuks... ko'soxsal.,Drink… raw and fresh!,Donuks... bird of prey that takes hens.,low,clash
+TD,55555,34,Donuks... ko'mujuk!,Drink… and take strength!,"Donuks... brief, short!",low,clash
+TD,55555,35,"Xi u'te cha'tsoke, a'te itsok xefe yotlapek le le Vaal te'moxti qexcan...","See, the end comes round again; behold the blood. Commander of the Vaal altar, where all are remade…","Spark u'te punish, a'te tear out, chief, they were getting angry, oh oh Vaal, go down, only...",low,partial
+TD,55555,36,Na' puyao.,the reddened offering.,"Stepmother, iron crowbar.",low,clash
+TD,55555,37,"Ich tlapec u'te puyao, a'te itsok pu uch' ta'nuk!","On the altar, watch it redden; behold the blood; drink deep, great one!","Face, flat stone, u'te crowbar, a'te tear out, thigh, kind, brawl!",low,clash
+TD,55555,38,Otsuks! Tzokan'te u'te ik'el...,Company! Behold the last spirit…,Loosen! Tzokan'te u'te breathe...,low,clash
+TD,55555,39,Atziri!,Atziri!,Atziri!,high,match
+TD,55555,40,A'te Kuxkal tlayeb kutsen. Ela tlayeb ukto! Máax ka ti a'tul?,"Behold the living, the offering in the dark. The dark torch burns! Who goes there?","A'te living-one, arrange the leg. Intended husband, arrange ukto! Goblin, who knows, the inviter is paid?",low,partial
+TD,55555,41,Atziri!,Atziri!,Atziri!,high,match
+TD,55555,42,Otsuks! Máax ka ti a'tul?,Company! Who goes there?,"Loosen! Goblin, who knows, the inviter is paid?",low,partial
+TD,55555,43,U'te mucane!,"Behold, the mighty!",U'te burial!,low,clash
+TD,55555,44,Máax ka ti cheyel?,Who are you to stand watch here?,"Goblin, who knows, the inviter, boundary?",low,partial
+TD,55555,45,U'te mucane!,"Behold, the mighty!",U'te burial!,low,clash
+TD,55555,46,Máax tlayeb mucane?,Who is the mighty of the dark?,"Goblin, arrange the burial?",low,clash
+TD,55555,47,Atziri!,Atziri!,Atziri!,high,match
+TD,55555,48,"Otsuks, quxzeh!","Company, bite! Be fierce!","Loosen, quxzeh!",low,clash
+TD,55555,49,Axba!? Kíibsa' ta' en!,"What!? Kill, before me!","Knock down!? Wax-candle, anger in!",low,clash
+TD,55555,50,Ti ek tala jare'yantul!,"Into the dark you come; and so, your waning!","There, black cloth, arrive!",medium,partial
+TD,55555,51,Ti' ek'le upulché!,"Into the dark, cast down!","Where that is opposed, resisted!",medium,clash
