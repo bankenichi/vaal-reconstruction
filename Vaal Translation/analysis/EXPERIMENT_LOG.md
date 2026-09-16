@@ -147,9 +147,19 @@ Exploratory tables (per-text, vocative sensitivity, clash hotspots, Fleiss kappa
 
 Methodology did not raise vs-gold match+partial on this corpus. T-M abstains more; T-D clashes more (Spanish-gloss drift on line 9: cacao-tree vs life). PPV / sentence bands stay withdrawn as model-based translation confidence; these CIs are vs-gold / inter-translator agreement under this kit.
 
+## 2026-09-16 rival-reading tournaments and §3.7 particle probes
+
+Kenichi ordered plan items 1 then 2 executed without a permission wait. Not a new null-model battery. Not a PDF rebuild. Dictionaries not committed.
+
+**Tournaments.** Protocol and brackets: `RIVAL_READING_TOURNAMENTS.md`, `rival_tournament_brackets.csv`. Targets: the 16 lines that were 5/5 clash in both T-M and T-D, the highest-clash tokens (*ik'el, kutsen, 'Ibil, mucane, tlayeb*), and line 9 *kuxte'* as the methodology example. Form-first, neighbor field allowed, gold not a search key.
+
+Outcomes: no new H. Five new C* stars (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*) for exact homophones the lookup Gate-2 CSV did not write. *kutsen* turkey is the same lemma as sacrificial bird. *tlayeb* ladder is a cross-graft loser; night/dark kept. *kuxte'* life beats Nawat *kuxta* cacao-tree (T-M 5/5 vs T-D 5/5). Soft tokens *puyao, Otsuks, Axba, Kíibsa'* stay S. Losers logged in master §10.13, not deleted. Section-9 split: H 3 / C* 30 / C 44 / S 1 (was 3 / 25 / 49 / 1). `gate2_rescore_rerun.csv` unchanged.
+
+**Particle probes.** `PARTICLE_PROBES_3_7.md`. Verdicts: *ka ti* leaning verbal-question linker; *ta'* leaning relational; presentative leaning one slot; *le le* still open; *-yan-* still open; *tlayeb* category still open (prenominal order already settled). Possession not upgraded.
+
 ## Task status
 
-Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, and translation batteries T-M / T-D are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
+Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, translation batteries T-M / T-D, rival-reading tournaments, and §3.7 particle probes are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs, with a tournament overlay on C* counts (`token_classification.csv`). Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. Tournaments: `RIVAL_READING_TOURNAMENTS.md`. Particle probes: `PARTICLE_PROBES_3_7.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
 
 ## Reproduce / resume
 
@@ -163,3 +173,4 @@ Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, and translat
 - Protocol: `EXPERIMENT_RERUN_PROTOCOL.md`.
 - Gloss-blind syntax packets: `python3 syntax_rerun_build_packets.py`. Log: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
 - Translation batteries T-M / T-D: `python3 translation_battery_extract_gold.py` then `python3 score_translation_battery.py` then `python3 explore_translation_battery.py`. Protocol: `TRANSLATION_BATTERY_PROTOCOL.md`. Results: `TRANSLATION_BATTERY_RESULTS.md`.
+- Rival-reading tournaments: `RIVAL_READING_TOURNAMENTS.md` (lookup: `python3 dict_lookup.py --build` then per-token queries). Particle probes: `PARTICLE_PROBES_3_7.md`.

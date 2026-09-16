@@ -115,7 +115,7 @@ TM-TD match+partial remains +0.013 [-0.067, +0.088]. The vocatives inflate the h
 
 ### Clash hotspots
 
-Sixteen lines are 5/5 clash in **both** batteries (16/51 = 31.4% of the corpus). Shared misses, not methodology: lines 3, 6, 10, 11, 15, 16, 18, 21, 24, 27, 36, 37, 38, 43, 45, 49. Recurring false friends include *ik'el* as breath/bug/virus rather than spirit, *kutsen* as turkey/brush rather than offering, *'Ibil* as shake rather than flesh, and *mucane* as buried rather than mighty.
+Sixteen lines are 5/5 clash in **both** batteries (16/51 = 31.4% of the corpus). Shared misses, not methodology: lines 3, 6, 10, 11, 15, 16, 18, 21, 24, 27, 36, 37, 38, 43, 45, 49. Recurring false friends include *ik'el* as breath/bug/virus rather than spirit, *kutsen* as turkey/brush rather than offering, *'Ibil* as shake rather than flesh, and *mucane* as buried rather than mighty. Post-hoc tournaments (form-first, neighbor field scored, losers logged): `RIVAL_READING_TOURNAMENTS.md`. Insect, shake, and bury are real dictionary hits that lose the multi-line field; turkey is the same lemma as the committed bird; they are not silently deleted.
 
 Largest T-M vs T-D split on match+partial: **line 9** (*Life and death!*): T-M 5/5 match, T-D 5/5 clash (cacao-tree + death). Next: line 32 (4/5 vs 2/5 partial on white-water / draught), line 51 (3/5 vs 1/5 dark+cast). Largest T-D advantage: line 20 (*the good place*), 0/5 vs 3/5, where T-M mostly abstained on *yutsal* and T-D used the Cordemex *yutsal* "all-good" hit.
 
@@ -182,5 +182,6 @@ Default is clash. Name-only overlap is match only when gold itself is the vocati
 - Scores: `translation_battery_line_scores.csv`, `translation_battery_token_scores.csv`, `translation_battery_pairwise.csv`, `translation_battery_score_summary.csv`, `translation_battery_explore.csv`
 - Scorer: `score_translation_battery.py`
 - Exploratory: `explore_translation_battery.py`
+- Rival-reading tournaments (post-hoc, not a third battery): `RIVAL_READING_TOURNAMENTS.md`, `rival_tournament_brackets.csv`
 
 Reproduce: `python3 translation_battery_extract_gold.py && python3 score_translation_battery.py && python3 explore_translation_battery.py`
