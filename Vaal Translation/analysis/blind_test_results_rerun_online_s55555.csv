@@ -1,0 +1,131 @@
+id,string,found,confidence,root,lang,gloss,residue,notes
+1,elane,N,none,,,,,no attested form hit
+2,huali,N,none,,,,,no attested form hit
+3,donuktul,N,none,,,,,no attested form hit
+4,ketzlapuxa,N,none,,,,,no attested form hit
+5,tzakaal,Y,soft,tzak,K'iche',to cook (usually by by boiling or steaming),aal,loose: attested root as substring; source=Christenson K'iche'; kind=prefix
+6,xomato,N,none,,,,,no attested form hit
+7,sak'bal,Y,C,SAKBAL,Yucatec Maya,"atrepsia, enfermedad de los ninos, Gulebri·",,exact folded match (length/glottal only); source=Cordemex; kind=exact
+8,yucanti,Y,soft,yuca,Spanish,"Spanish: ts’íin, ts’íim",nti,loose: attested root as substring; source=ilide Spanish-Maya; kind=prefix
+9,litziri,Y,soft,litz,K'iche',young hawk (clis clis bird),iri,loose: attested root as substring; source=Christenson K'iche'; kind=prefix
+10,puxti,N,none,,,,,no attested form hit
+11,mujuk',N,none,,,,,no attested form hit
+12,elba,Y,C,alba,Spanish,"Spanish: píik’ sáas, sáastal",,exact Spanish loan-palette hit; source=ilide Spanish-Maya; kind=exact
+13,a'tsene,N,none,,,,,no attested form hit
+14,cutsukuur,N,none,,,,,no attested form hit
+15,itzul,Y,C,itzul,K'iche',pizote (squirrel-like mammal),,exact folded match (length/glottal only); source=Christenson K'iche'; kind=exact
+16,a'tsokmotl,N,none,,,,,no attested form hit
+17,ikbaquxa,N,none,,,,,no attested form hit
+18,kuxkane,N,none,,,,,no attested form hit
+19,ik'iib,N,none,,,,,no attested form hit
+20,atzoatzil,N,none,,,,,no attested form hit
+21,mapokal,N,none,,,,,no attested form hit
+22,u'tsokexti,N,none,,,,,no attested form hit
+23,jare,N,none,,,,,no attested form hit
+24,Guatelitzi,N,none,,,,,no attested form hit
+25,kuema,N,none,,,,,no attested form hit
+26,ikuxa,N,none,,,,,no attested form hit
+27,mujkula,N,none,,,,,no attested form hit
+28,azcada,N,none,,,,,no attested form hit
+29,pokmo,N,none,,,,,no attested form hit
+30,ka'tsoxta,Y,soft,kats,Yucatec Maya,Mordedura,oxta,loose: attested root as substring; source=Cordemex; kind=prefix
+31,quxzeh,N,none,,,,,no attested form hit
+32,Ela,Y,C,ala,Spanish,Spanish: xiik’,,exact Spanish loan-palette hit; source=ilide Spanish-Maya; kind=exact
+33,atzul,N,none,,,,,no attested form hit
+34,xomascen,N,none,,,,,no attested form hit
+35,aiokal,N,none,,,,,no attested form hit
+36,naaxibalin,N,none,,,,,no attested form hit
+37,azcaniba,N,none,,,,,no attested form hit
+38,Eztli,N,none,,,,,no attested form hit
+39,aiona,N,none,,,,,no attested form hit
+40,tetzi,N,none,,,,,no attested form hit
+41,kahk,N,none,,,,,no attested form hit
+42,mapokaal,N,none,,,,,no attested form hit
+43,eztla,N,none,,,,,no attested form hit
+44,ek,Y,C,IK,Yucatec Maya,"? camp no acordarse de algo, perder la me- TUBUL KAL 5: discordar las voces.",,exact folded match (length/glottal only); source=Cordemex; kind=exact
+45,tala,Y,C,tela,Spanish,"Spanish: nook’, xéet’",,exact Spanish loan-palette hit; source=ilide Spanish-Maya; kind=exact
+46,itsok,N,none,,,,,no attested form hit
+47,kuataat,N,none,,,,,no attested form hit
+48,kuatzi,N,none,,,,,no attested form hit
+49,ucado,N,none,,,,,no attested form hit
+50,xichik,Y,C,xich,Yucatec Maya,Subir,,"root plus attested same-language affix, no residue; source=Cordemex; kind=affix"
+51,itsaka,N,none,,,,,no attested form hit
+52,zak'iin,N,none,,,,,no attested form hit
+53,icheye,N,none,,,,,no attested form hit
+54,chara,N,none,,,,,no attested form hit
+55,puxtle,N,none,,,,,no attested form hit
+56,tzolitziri,N,none,,,,,no attested form hit
+57,mucane,N,none,,,,,no attested form hit
+58,kujuks,N,none,,,,,no attested form hit
+59,elayelatl,N,none,,,,,no attested form hit
+60,xicte'moxe,N,none,,,,,no attested form hit
+61,ikuli,N,none,,,,,no attested form hit
+62,kilya,N,none,,,,,no attested form hit
+63,yanti,N,none,,,,,no attested form hit
+64,soxtani,N,none,,,,,no attested form hit
+65,mektoti,N,none,,,,,no attested form hit
+66,tzula,N,none,,,,,no attested form hit
+67,kujkuemat,N,none,,,,,no attested form hit
+68,Otsuks,N,none,,,,,no attested form hit
+69,kujukua,N,none,,,,,no attested form hit
+70,echitil,N,none,,,,,no attested form hit
+71,mapoche,N,none,,,,,no attested form hit
+72,zakaaka,N,none,,,,,no attested form hit
+73,kifba,N,none,,,,,no attested form hit
+74,puxtli,N,none,,,,,no attested form hit
+75,itzocheyeb,N,none,,,,,no attested form hit
+76,kiimek,N,none,,,,,no attested form hit
+77,kuematli,N,none,,,,,no attested form hit
+78,fukul,N,none,,,,,no attested form hit
+79,tizoli,N,none,,,,,no attested form hit
+80,pochiti,Y,soft,POCH,Yucatec Maya,desear mucho 0 con ansia,iti,loose: attested root as substring; source=Cordemex; kind=prefix
+81,cha'tsoke,N,none,,,,,no attested form hit
+82,telina,N,none,,,,,no attested form hit
+83,tizokmoxe,N,none,,,,,no attested form hit
+84,atzahk,N,none,,,,,no attested form hit
+85,kamatota,N,none,,,,,no attested form hit
+86,cotaala,N,none,,,,,no attested form hit
+87,xechitzul,Y,soft,XECH,Yucatec Maya,"patente, manifiesto, visible",itzul,loose: attested root as substring; source=Cordemex; kind=prefix
+88,teoyuquat,N,none,,,,,no attested form hit
+89,buxka,N,none,,,,,no attested form hit
+90,ti,Y,C,TE,Yucatec Maya,convida:Jor que convida 2. ah chan I,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+91,ketzolo,N,none,,,,,no attested form hit
+92,kutsoke,Y,soft,KUTS,Yucatec Maya,"acepiIIar 4, 8: Iimpiar con pafio a",oke,loose: attested root as substring; source=Cordemex; kind=prefix
+93,puyana,Y,C,payana,Nahuatl,"aplastar los terrones, romper, hacer",,exact folded match (length/glottal only); source=Campbell Pipil/Nawat CN; kind=exact
+94,aioka,N,none,,,,,no attested form hit
+95,pochbe,Y,soft,POCH,Yucatec Maya,desear mucho 0 con ansia,be,loose: attested root with small leftover; source=Cordemex; kind=prefix
+96,moxsa'oxe,N,none,,,,,no attested form hit
+97,quemalat,Y,soft,quema,Spanish,Spanish: tóok,lat,loose: attested root as substring; source=ilide Spanish-Maya; kind=prefix
+98,cutsokal,N,none,,,,,no attested form hit
+99,ikbaqual,N,none,,,,,no attested form hit
+100,qexcan,N,none,,,,,no attested form hit
+101,ucadoriek,N,none,,,,,no attested form hit
+102,xillinab,N,none,,,,,no attested form hit
+103,xomatzi,N,none,,,,,no attested form hit
+104,Maax,Y,C,MAAX,Yucatec Maya,el que se abroquela bien,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+105,Kuxkal,N,none,,,,,no attested form hit
+106,kisha'oxe,N,none,,,,,no attested form hit
+107,koryat,N,none,,,,,no attested form hit
+108,tizoat,N,none,,,,,no attested form hit
+109,motsa,Y,soft,MOTS,Yucatec Maya,lombrices que erian algunos hombres y animales 3: u mots u nak' winik: lombriz que esta en el,a,loose: attested root with small leftover; source=Cordemex; kind=prefix
+110,ketzaka,N,none,,,,,no attested form hit
+111,quatle,N,none,,,,,no attested form hit
+112,Kextal,N,none,,,,,no attested form hit
+113,ik'el,Y,C,IK'AL,Yucatec Maya,andar la mar brava con el recio viento; ik'a1 u,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+114,taax,Y,C,tux,K'iche',bud of branch from which twigs sprout,,exact folded match (length/glottal only); source=Christenson K'iche'; kind=exact
+115,kutsen,Y,C,KUTS,Yucatec Maya,"acepiIIar 4, 8: Iimpiar con pafio a",,"root plus attested same-language affix, no residue; source=Cordemex; kind=affix"
+116,pilyane,N,none,,,,,no attested form hit
+117,sakilja,Y,soft,sakil,Yucatec Maya,Albo,ja,loose: attested root with small leftover; source=Cordemex; kind=prefix
+118,tlayeb,N,none,,,,,no attested form hit
+119,kujkuxe,N,none,,,,,no attested form hit
+120,yutsoxtlat,N,none,,,,,no attested form hit
+121,cotlota,N,none,,,,,no attested form hit
+122,Atziri,N,none,,,,,no attested form hit
+123,maliimil,Y,soft,mali,Yucatec Maya,Antes,imil,loose: attested root as substring; source=Cordemex; kind=prefix
+124,ta'nuk,Y,C,TANAK,Yucatec Maya,ciertos callos que se hacen en los pies y en las,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+125,yutse,N,none,,,,,no attested form hit
+126,masala,Y,soft,masa,Spanish,"Spanish: sakam, huuch’",la,loose: attested root with small leftover; source=ilide Spanish-Maya; kind=prefix
+127,naach,Y,C,NAACH,Yucatec Maya,venir de lejos 0 de lugar distante 3.,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+128,til,Y,C,TEL,Yucatec Maya,cierta comez6n que por tiempo de las calabazas da a los indios en las piernas.,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+129,atli,Y,C,ATLE,Yucatec Maya,Iabula,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+130,doryao,N,none,,,,,no attested form hit

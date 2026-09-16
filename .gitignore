@@ -25,9 +25,18 @@ norma_maya.pdf
 
 # Attached dictionary extracts used for decode only (never commit)
 Cordemex_FULL*.txt
+**/Cordemex_FULL*
 kiche_christenson_FULL*.txt
+**/kiche_christenson_FULL*
 nawat_Campbell*.txt
+**/nawat_Campbell*
 ilide_SpanMaya*.md
+**/ilide_SpanMaya*
 norma_maya.md
+**/norma_maya.md
+# Hashed upload copies of wordlists (decode-only). The tracked root
+# Nahuatl_1100_MyLittleWordLand.md from initial import stays in git.
+Nahuatl_1100_MyLittleWordLand_*.md
 *.dict_cache
 /tmp/vaal_dict_index.pkl
+**/vaal_dict_index.pkl

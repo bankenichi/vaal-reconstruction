@@ -316,4 +316,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--rerun", action="store_true",
+                   help="score re-run files into NULL_MODEL_RESULTS_RERUN.md; do not touch archives")
+    args = p.parse_args()
+    if args.rerun:
+        from rerun_score_pool import main as rerun_main
+        rerun_main()
+    else:
+        main()

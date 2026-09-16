@@ -472,6 +472,8 @@ def gloss_quality(g: str) -> int:
         score -= 6
     if "..." in g:
         score -= 1
+    if re.search(r"\b(juan|como |idem)\b", gl):
+        score -= 4
     return score
 
 
