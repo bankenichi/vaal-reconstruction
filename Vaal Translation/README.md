@@ -8,7 +8,7 @@ Two deliverables: the master document `Vaal_Reconstruction.md` (18 sections) and
 
 Three layers, each tested rather than merely asserted.
 
-- **Lexicon (master §9).** 78 section-9 rows, each with an H/C/S/O status (L is a tag). 17 are hardened after recovery scoring (14 of 61 battery-tested, plus three Battery E names). A token earns Hardened only if a strict decode recovers the predeclared root, language class, and sense AND it survives a blind adversarial search that includes same-language homophones. The old 2 x 10^-15 null-rejection headline is withdrawn; the selection-matched range is p ≈ 0.005 to 0.06 (marginal).
+- **Lexicon (master §9).** 78 section-9 rows, each with an H/C/S/O status (L is a tag). 17 are hardened after the stopgap recovery scoring (14 of 61 battery-tested, plus three Battery E names; dual-base and provisional third-base tables in §17.5-17.7). A token earns Hardened only if a strict decode recovers the predeclared root, language class, and sense AND it survives a blind adversarial search that includes same-language homophones. The old 2 x 10^-15 null-rejection headline is withdrawn as a headline; the selection-matched stopgap range is p about 0.005 to 0.06 (marginal). True remediation is a full re-run (`analysis/EXPERIMENT_RERUN_PROTOCOL.md`), not permanent demotion-only prose.
 - **Syntax (master §3).** The grammar is derived in isolation from the corpus's own distribution, never importing a source language's grammar, then blind-confirmed by independent analysts and checked against a scrambled-corpus negative control.
 - **Phonology (master §2.6, §17.9).** The source-to-Vaal spelling correspondences are collected and hardened as orthographic rules. A phonetic phonology from audio is deliberately out of scope (see the §2.6 scope note).
 
@@ -26,6 +26,7 @@ Vaal Translation/
 
   analysis/                The method and its evidence (why the readings are trustworthy)
     STATISTICAL_SUMMARY.md          Companion to master §17: tiers, PPV, base rate, distinct-root recount.
+    EXPERIMENT_RERUN_PROTOCOL.md    True remediation plan (Batteries A-E). The 2026-09 rescore is a STOPGAP.
     NULL_MODEL_PROTOCOL.md          How the decoder's false-positive rate is measured.
     NULL_MODEL_RESULTS.md           Battery A/B/C/D results (the latitude x dictionary-access 2x2), metrics, conclusions.
     HARDENING_PROTOCOL.md           The two-gate test a token must pass to earn Hardened.

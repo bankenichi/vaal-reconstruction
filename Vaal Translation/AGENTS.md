@@ -110,6 +110,7 @@ Vaal Translation/
     NULL_MODEL_RESULTS.md    Batteries A/B/C results, metrics, conclusions.
     ADVERSARIAL_RESULTS.md   Adversarial survival of the committed lexicon.
     EXPERIMENT_LOG.md        Concise evidence-based run record; reproduce/resume instructions.
+    EXPERIMENT_RERUN_PROTOCOL.md  True remediation (Batteries A-E). The 2026-09 rescore is a STOPGAP.
     TIGHTENED_LATITUDE.md    The strict ruleset used for Battery C and Gate 1.
     STATISTICAL_SUMMARY.md   Companion to master §17: tier tables, PPV, base rate, distinct-root recount.
     token_classification.csv Per-token tier (H / C* / C) with gate outcomes.
@@ -140,7 +141,7 @@ Campbell, *The Pipil Language of El Salvador* (Nawat), is in `sources/dictionari
 - Master document: 18 sections, roughly 147 morpheme index elements; 59 citations.
 - Texts 1 and 2: closed and source-validated against game files.
 - Texts 3, 4, 5: documented, with soft tokens tracked in section 10, not yet promoted.
-- Statistical hardening (§17), post 2026-09 remediation: lexicon population 78 section-9 rows with H/C/S/O (L is a tag). Hardened 17/78 = 21.8% [14.1, 32.2] after recovery scoring. The 2 x 10^-15 all-noise headline is withdrawn; honest matched range p ≈ 0.005 to 0.06 (marginal). Companion: `analysis/STATISTICAL_SUMMARY.md`, `analysis/RESCORE_OUTPUT.md`.
+- Statistical hardening (§17): 78 section-9 rows with H/C/S/O (L is a tag). Stopgap hardened share 17/78 = 21.8% [14.1, 32.2] per token (17/69 distinct roots); battery 14/61 / 14/52; provisional Battery E third base 17/64 / 17/55. The 2 x 10^-15 all-noise headline is withdrawn as a headline; stopgap matched range p about 0.005 to 0.06 (marginal). True remediation is the re-run in `analysis/EXPERIMENT_RERUN_PROTOCOL.md`. Companion: `analysis/STATISTICAL_SUMMARY.md`, `analysis/RESCORE_OUTPUT.md`.
 - Syntax and grammar (§3): derived in isolation from the corpus. Three analysts reproduced the order rules on the supplied alignment; at analyst level vs scrambled control the Fisher is 3/3 vs 0/2, p = 0.10. Analysts were not blind to project glosses. Protocol/log: `SYNTAX_CONFIRMATION_PROTOCOL.md`, `SYNTAX_EXPERIMENT_LOG.md`.
 - Phonology: correspondence/stylization rules collected in §2.6 and hardened orthographically in §17.9; a phonetic (audio-based) phonology is deliberately out of scope (§2.6 scope note).
 - Known open items: the *o-...-s* wrapping around *tsuk* in *Otsuks*; the exact K'iche' lemma behind *jare'*; *fukuur* phonetic fit; *ta'* (*ti'* vs *taak*); *ukto* in the Text 4 catechism (leading reading Nahuatl *ocotl* "pine torch," soft).
