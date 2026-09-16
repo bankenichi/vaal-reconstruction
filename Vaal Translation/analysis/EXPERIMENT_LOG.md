@@ -15,6 +15,7 @@ Evidence-based record of the statistical work behind the lexicon hardening (mast
 | Strict decode of committed lexicon | strict latitude, per committed token | n/a | 61 committed tokens | `strict_committed_results_batch{1..4}.csv` |
 | Syntax confirmation (historical, 2026-07) | independent derivation + scrambled control | 1729 (scramble) | 3 real + 2 scrambled analysts | `SYNTAX_EXPERIMENT_LOG.md` |
 | Syntax confirmation (gloss-blind re-run) | same, surface lines and form-only tokens only | 1729 (scramble) | 3 real + 2 scrambled analysts | `SYNTAX_EXPERIMENT_LOG_RERUN.md` |
+| Translation batteries T-M / T-D | T-M methodology on vs T-D dictionaries only; vs-gold + inter-translator CIs | same 5 | 5 translators x 51 lines each battery | `TRANSLATION_BATTERY_RESULTS.md`, `translation_battery_T{M,D}_s{seed}.csv` |
 
 Scorers: `score.py` (null model; prints legacy any-C and committed-recovery TPR), `score_adversarial.py` (Gate 2, including same-language homophones), `rescore_gate1.py`, `null_honesty.py`. Classification: `token_classification.csv` (78 rows). Proof of rescored counts: `RESCORE_OUTPUT.md`, `NULL_HONESTY_OUTPUT.md`.
 
@@ -127,9 +128,28 @@ Real panel: analysts A, B, C. Scrambled panel: D, E (not told the corpus was scr
 
 Analyst-level 2x2 (recovered consistent word-order regularities): 3/3 real vs 0/2 scrambled. Fisher one-sided p = 0.10. Small N. Not significant. Qualitative match to §3 is weaker without English (possession undetermined for A and B). Copula and affix findings are order-independent. Historical SYN-1 3/3 vs 0/2 p = 0.10 remains labelled not gloss-blind. Full writeup: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. PPV / sentence bands stay withdrawn as translation confidence.
 
+## 2026-09-16 translation batteries T-M / T-D
+
+Protocol: `TRANSLATION_BATTERY_PROTOCOL.md`. Closed 51-line surface corpus (Texts 1-4 plus Kamasan Smith), same packet as `syntax_rerun_corpus_real.txt`. Seeds 1729, 9001, 271828, 42, 55555. Five independent translators per battery.
+
+T-M: surface + methodology packet (form-first / palette / HARDENING_PROTOCOL / TIGHTENED_LATITUDE) + dictionaries. T-D: surface + dictionaries only. Blind to published English, §9, `committed_readings.csv`, other sheets, §17 answers, and gold. Gold extracted after all ten sheets existed (`translation_battery_extract_gold.py`). Dictionaries never committed.
+
+Headlines are Wilson 95% CIs, not Fisher / 10^-15 tests (`TRANSLATION_BATTERY_RESULTS.md`):
+
+- T-M match 27/255 = 10.6% [7.4, 15.0]; match+partial 75/255 = 29.4% [24.2, 35.3]
+- T-D match 22/255 = 8.6% [5.8, 12.7]; match+partial 72/255 = 28.2% [23.1, 34.1]
+- T-M minus T-D match +0.020 [-0.031, +0.071]; match+partial +0.012 [-0.067, +0.090] (bootstrap 10,000 line-slots)
+- Pairwise no-gold compatibility: T-M 247/510 = 48.4% [44.1, 52.8]; T-D 237/510 = 46.5% [42.2, 50.8]
+
+Secondary (hypothesis-aligned, not the match headline): clash T-M 139/255 = 54.5% [48.4, 60.5] vs T-D 172/255 = 67.5% [61.5, 72.9]; abstain 41/255 = 16.1% [12.1, 21.1] vs 11/255 = 4.3% [2.4, 7.6]. Bootstrap TM-TD clash -0.129 [-0.212, -0.043]; abstain +0.118 [+0.067, +0.169]. Methodology changes withholding vs asserting, not vs-gold match+partial.
+
+Exploratory tables (per-text, vocative sensitivity, clash hotspots, Fleiss kappa, token confusion): `explore_translation_battery.py`, `translation_battery_explore.csv`, written in `TRANSLATION_BATTERY_RESULTS.md`. Labeled exploratory.
+
+Methodology did not raise vs-gold match+partial on this corpus. T-M abstains more; T-D clashes more (Spanish-gloss drift on line 9: cacao-tree vs life). PPV / sentence bands stay withdrawn as model-based translation confidence; these CIs are vs-gold / inter-translator agreement under this kit.
+
 ## Task status
 
-Re-run Batteries A-E, Gate 1, Gate 2, and the gloss-blind syntax panel are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
+Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, and translation batteries T-M / T-D are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Line-level translation agreement CIs: `TRANSLATION_BATTERY_RESULTS.md`. PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
 
 ## Reproduce / resume
 
@@ -142,3 +162,4 @@ Re-run Batteries A-E, Gate 1, Gate 2, and the gloss-blind syntax panel are on di
 - Per-token hardening test: `HARDENING_PROTOCOL.md`.
 - Protocol: `EXPERIMENT_RERUN_PROTOCOL.md`.
 - Gloss-blind syntax packets: `python3 syntax_rerun_build_packets.py`. Log: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
+- Translation batteries T-M / T-D: `python3 translation_battery_extract_gold.py` then `python3 score_translation_battery.py` then `python3 explore_translation_battery.py`. Protocol: `TRANSLATION_BATTERY_PROTOCOL.md`. Results: `TRANSLATION_BATTERY_RESULTS.md`.

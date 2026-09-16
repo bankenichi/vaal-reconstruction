@@ -112,6 +112,8 @@ Conditioning on selection, this epoch does not reject the null at conventional 0
 
 **Withdrawn as translation confidence / pending a non-circular b.** The PPV formula is algebraically fine. Inputs from this re-run would use recovery TPR = 0.033 and Battery D FPR = 0.068, which makes even an optimistic b produce a weak diagnostic. The tables below keep the **archived any-C** wiring so the old method stays inspectable. Do not read them as "probability the English gloss is right."
 
+**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file.
+
 The question the formula answers, per reading, is the **positive predictive value (PPV)**: given that a token was certified (committed / hardened), the probability it is a genuine root rather than a chance dictionary coincidence.
 
 PPV = (TPR x b) / (TPR x b + FPR x (1 - b)), where **b** is the base rate: the prior probability that any given Vaal token was actually built from a real root (as opposed to invented phonaesthetic filler). **b is the one quantity we cannot measure** (it depends on GGG's undocumented design process), so PPV is reported across a plausible range.
@@ -139,6 +141,8 @@ Two defensible statements, one assumption-free and one model-based:
 1. **Assumption-free (measured, re-run 2026-09-16):** the hardened core of the battery-tested lexicon is **1.6%, 95% CI [0.3%, 8.7%]** per token (1 of 61), or **1.9%, 95% CI [0.3%, 10.1%]** counted over the 52 distinct roots (§7a). On the section-9 table a reader consults it is **3.8% [1.3, 10.7]** (3 of 78) per token, or **4.3% [1.5, 12.0]** (3 of 69) per distinct root. On the enlarged base (61 + three Battery E names) it is **4.7% [1.6, 12.9]** (3 of 64) per token, or **5.5% [1.9, 14.9]** (3 of 55) per distinct root. This is the protocol's certification rate, not a direct measure of gloss correctness. The stopgap 17/78 figure is historical.
 
 2. **Model-based (per-reading confidence): withdrawn as translation confidence.** Recompute only if a non-circular b and recovery-scored PPV are both accepted; until then leave pending.
+
+3. **Inter-translator / vs-gold (measured, not PPV):** see `TRANSLATION_BATTERY_RESULTS.md`. Do not mix that table with the certification rates in (1) or the withdrawn PPV in (2).
 
 ## 5. Two honest caveats
 

@@ -1,0 +1,59 @@
+# T-D translation sheet (seed 271828)
+
+Packet files opened: `translation_battery_TD_packet/brief.md`, `corpus.txt`, `token_lookup_dump.csv`, `worksheet_template.csv`; dictionaries under `/tmp/vaal_dicts` (Cordemex, Christenson K'iche', Campbell Pipil/Nawat, ilide Spanish-Maya, norma_maya, Nahuatl 1100); `dict_lookup.py` used as string-search helper only.
+
+Tie-break: equally plausible hits sorted by folded lemma length descending, then `random.Random(271828).choice`. Spanish hits allowed. Abstain used where no usable hit made a line.
+
+| line_id | translation | confidence | notes |
+| --- | --- | --- | --- |
+| 1 | Atziri, Atziri, star there, buried Vaal! | medium | Atziri=no dict hit (name). ek=EK' Yucatec estrella/star (ek' len3 beats ek wasp/go; among black/grease/star seed pick=star). te=Yucatec alla/aculla there. mucane=MUK Cordemex enterrar/cubrir/encubrir plus MUKA'N soterrado; no exact whole-form. Vaal=no dict hit (name). |
+| 2 | God-place, ascended! God-place Yutsal! | low | Teoyuxtlane=no exact; teotl Nawat CN dios/god plus tlan Nahuatl after/under (seed among after/under=after). yux leftover. ascensionada=Spanish participle of ascender (ilide ascender: na'akal). Yutsal=no exact; tsal Yucatec lajas/losas slabs. |
+| 3 | Atziri, Atziri, do not kilya Zerphi! | low | ma=K'iche' negative indicator plus Yucatec MA' no/en ninguna manera plus ilide no: ma' (ma' longer than ma; among ma' not/pain seed=not). kilya=no exact; kil residue. Zerphi=no dict hit (name). |
+| 4 | At punished-resin, entirely all! Although, imperative good wind-hanging! | low | Ti=ti' Yucatec locative en/sin/por at-in-by (surface Ti; locative judged over reverse-index 'Por/find'). itsok=no exact; its Yucatec resina plus tsok Castigar/punish (seed among punish/tear-out=punish). anab=unab Yucatec Enteramente. nochira=nochi Nahuatl all (seed all/whole=all) residue ra. Kextal=kex Yucatec aunque (seed although/exchange=although) plus tal. xi=Nawat xi- imperative (Campbell 3.7.8.1) judged over spark/year. kujkuali=no exact; cuali/cualli Nahuatl good. ik'bala=no exact; ik'/iik' Yucatec/ilide viento/aire wind plus kbal colgando / bal. |
+| 5 | Atziri, Atziri, ikba'yucane Vaal! | low | ikba'yucane=no exact whole-form; substrings bay Yucatec como/asi, yuca Spanish ts'iin, can Nahuatl where. Not assembled. Vaal=name. |
+| 6 | A'te Shake tlayeb turkey! A'te insect tlayeb kifba! | low | A'te=no exact (a plus te there leftover possible). 'Ibil=IBIL Yucatec sacudir/shake (exact). tlayeb=no exact; tla Nahuatl prefix only. kutsen=KUTS Yucatec pavo turkey plus -en affix (seed among turkey/leg/brush=turkey). ik'el=ilide ik'el insecto (exact; seed among bug/insect/microbe/moth/virus=insect). kifba=no dict hit. |
+| 7 | Atziri, Atziri, ascended hate! | medium | ascenada=Spanish ascended (same loan as ascensionada / ilide ascender). akal=Yucatec Aborrecer/hate (seed among approach/hate/irascible/quarrel=hate). |
+| 8 | No longer soot, wound! No longer reed, he/she dawn! | low | Aiokmo=no exact; Nahuatl aco no longer analog, residue iokmo. til=Nawat tile soot / Yucatec honrado (seed among honorable/property/soot=soot). xu'te=xuta Nawat to wound (apostrophe variant). tul=K'iche' reed (seed among full/person-count/reed=reed). jare=no exact; are' K'iche' he/she (j leftover). elba=alba Spanish dawn (ilide alba: piik' saas). |
+| 9 | Cacao-tree, die! | medium | Kuxte'=kuxta Nawat arbol parecido al cacao (dump variant hit; seed cacao-tree/sack=cacao-tree). Also kux Yucatec vida as shorter leftover. kíimil'=ilide kíimil morir/die (seed among death/die/perish/wither=die). |
+| 10 | Tlaxye' the Vaal! | low | Tlaxye'=no exact; tla Nahuatl only. le=Yucatec pron ese/el/aquel plus K'iche' le the (demonstrative before a name judged over snare/leaf). Vaal=name. |
+| 11 | Not-oxe insect! | low | Ma'oxe=no exact; ma' not plus oxe leftover. ik'el=insect as line 6. |
+| 12 | Atziri that-witchcraft! | low | le'itzil=no exact; le' K'iche' that/those plus itz K'iche' devil/witchcraft. |
+| 13 | Xatlene good! | low | Xatlene=no exact; atl Nahuatl water, tlen Nahuatl what. kujkuali=cualli good as line 4. |
+| 14 | Gyan'uks hurry! | low | Gyan'uks=no exact; yan Yucatec haber/tener there-is. ko'janti=no exact; koj K'iche' to hurry (seed hurry/puma=hurry). |
+| 15 | A'te Shake! | medium | A'te=no exact. 'Ibil=IBIL sacudir/shake. |
+| 16 | A'te insect! | medium | ik'el=ilide insecto, seed=insect. |
+| 17 | First silence! | low | Yaxe=no exact; yax ilide primero/first (seed first/green=first). chikula'=chikul Yucatec Silencio (seed insignia/sign/silence=silence) residue a. |
+| 18 | Punish-te insect! | low | Tzokan'te=no exact; tsok Yucatec Castigar (seed punish). ik'el=insect. |
+| 19 | A'te líimek! | abstain | A'te=no exact. líimek=no dict hit. Cannot make the line from attached dictionaries. |
+| 20 | Yatle slabs! | low | Yatle=no dict hit. yutsal=no exact; tsal Yucatec lajas/losas slabs. |
+| 21 | tlayeb turkey! | low | tlayeb=no exact. kutsen=turkey as line 6. |
+| 22 | tlayeb kifba! | abstain | tlayeb=no exact. kifba=no dict hit. Cannot make the line. |
+| 23 | U'Te life-kal! | low | U'Te=no exact (same shape as A'te). kuxkal=no exact; kux Yucatec vida/life, kal leftover. |
+| 24 | A'te stretch-out! | medium | yuquia=yuq<u> K'iche' stretch out / hold out (hand) residue ia. |
+| 25 | Hello lu nochbe! | low | Eche=no exact; ACHE Yucatec i hola / i pobre (dump near-hit). lu=no exact; lu' ilide bagre if glottal added, not used as primary. nochbe=noch Yucatec prefix (jicara/repentino/cocodrilo) residue be. |
+| 26 | Wine inib! | low | Kí'=ki' Yucatec vino (seed among better/sweet/wine=wine). inib=no dict hit. |
+| 27 | No longer I ask, his ghost the buried one, niáach i'chian. | low | 'Ayok=no exact; aco Nahuatl no longer analog. ta'=K'iche' ta' to ask (with en, ask judged over gluttony/excrement). en=Yucatec EN first person soy/estoy (seed I-am / Spanish en=I-am). u=Yucatec 3sg possessive el/lo/su (Cordemex). mujuk'=no exact; muj K'iche' shadow/specter/ghost. le=the/that. mucane=buried as line 1. niáach=no exact. i'chian=no exact; ich in, chia Nahuatl wait. |
+| 28 | A'te waja yatle u'tra gourd! | low | waja=no dict hit. yatle=no dict hit. u'tra=no dict hit. buxa=BUX Yucatec calabacillas / small gourd residue a. |
+| 29 | A'te fukuur! | abstain | fukuur=no dict hit (initial f, no Spanish furor/furia entry used). Cannot make the line. |
+| 30 | Spark daka perhaps... | low | Xi=xi Yucatec Chispa/spark (exact; Nawat xi- imperative also attested). daka=no exact; aka Nahuatl alguien. puxe=puxa K'iche' perhaps. |
+| 31 | No longer kifba Atziri kilya whiteness. | low | 'Ayok=no longer analog. kifba=opaque. kilya=opaque. sakilja=sakil Yucatec/ilide blancura/whiteness residue ja. |
+| 32 | You-who-are whiteness water donuks. | low | Ik'eche=no exact; kech Yucatec tu que eres. sakilja=whiteness. atla=atl Nahuatl water residue a (ATLE Iabula also dump). donuks=no exact; nuk Yucatec gordo/antepasado leftover do-uks. |
+| 33 | Donuks... ko'soxsal. | abstain | Donuks=no exact. ko'soxsal=no exact; kos Yucatec gavilan, sal empeines. Cannot make the line. |
+| 34 | Donuks... ko' ghost! | low | ko'mujuk=no exact; muj K'iche' shadow/ghost as mujuk'. |
+| 35 | Spark u'te cha'tsoke, a'te punished-resin chief yotlapek the the Vaal descend qexcan... | low | Xi=spark. u'te=no exact. cha'tsoke=no exact; hats Yucatec apartar/dividir. itsok=punished-resin. xefe=jefe Spanish chief (ilide jefe; x~j). yotlapek=no exact; tla Nahuatl. le le=the the. te'moxti=temo Nahuatl bajar/descend residue xti. qexcan=no exact. |
+| 36 | Mother kiss. | medium | Na'=Yucatec/ilide na' madre/mother (head sense; madrastra also exact). puyao=no exact; puy Yucatec Beso/kiss (seed kiss/stab=kiss). |
+| 37 | In tlapec u'te kiss, a'te punished-resin palm opossum foot-callus! | low | Ich=ilide dentro/en in (ich exact). tlapec=no exact. puyao=kiss. pu=K'iche' palm of the hand (seed among brood/flow/edge/lasso/palm/throat/clear=palm). uch'=K'iche' opossum (seed crushed/long-ago/opossum=opossum). ta'nuk=TANAK Yucatec callos de los pies (seed calluses-feet). |
+| 38 | Heap! Punish-te the insect... | low | Otsuks=no exact; tsuk Yucatec monton/heap. Tzokan'te=tsok punish. u'te=opaque. ik'el=insect. |
+| 39 | Atziri! | high | Atziri=no dict hit; kept as name. Line is only the name. |
+| 40 | A'te Life-kal tlayeb turkey. Ela tlayeb pine! Who who at paid? | low | Kuxkal=kux vida. tlayeb=opaque. kutsen=turkey. Ela=no exact (ILA mira not used: vowel shift). ukto=no exact; Campbell uku-t ocote / CN ocotl pino, residue to. Máax=ilide quién / Cordemex dquien who (interrogative frame Máax ka ti, not crush/goblin). ka=Nawat quien who (seed madrono/where/who=who). ti=at/in. a'tul=atal Yucatec Pagar/paid (apostrophe variant). |
+| 41 | Atziri! | high | Name only, as line 39. |
+| 42 | Heap! Who who at paid? | medium | Otsuks=tsuk heap. Máax ka ti a'tul as line 40. |
+| 43 | U'te buried! | medium | U'te=no exact. mucane=MUK buried/hidden. |
+| 44 | Who who at cheyel? | low | Máax ka ti as line 40. cheyel=no exact; che Yucatec wood/tree, yel leftover. |
+| 45 | U'te buried! | medium | Same as line 43. |
+| 46 | Who tlayeb buried? | low | Máax=who. tlayeb=opaque. mucane=buried. |
+| 47 | Atziri! | high | Name only. |
+| 48 | Heap, quxzeh! | low | Otsuks=tsuk heap. quxzeh=no dict hit. |
+| 49 | Axba!? Wine-bsa I ask! | low | Axba=no dict hit. Kíibsa'=no exact; ki' wine leftover bsa. ta' en=ask I as line 27. |
+| 50 | At star cloth jare'yantul! | low | Ti=at. ek=star as line 1. tala=tela Spanish cloth (ilide tela: nook'). jare'yantul=no exact; are' he/she, yan there-is, tul reed. |
+| 51 | At star-the thrown-tree! | medium | Ti'=ti' locative at/in. ek'le=no exact; EK' estrella plus le the. upulché=PUL Yucatec arrojar/throw plus CHE' palo/tree; also UPUL ser contrariado plus che' affix. |

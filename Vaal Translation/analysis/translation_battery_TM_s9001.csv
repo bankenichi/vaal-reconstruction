@@ -1,0 +1,52 @@
+line_id,translation,confidence,notes
+1,"Atziri, Atziri, black yonder [mucane] Vaal!",low,"Atziri/Vaal: no dict hit, kept as names (vocative). ek: apostrophe-optional matches Yucatec ek' (Cordemex cosa negra); lemma ek' longer than ek so ek' wins over wasp EK; seed 9001 among black vs star picks black (estrella and combined palo-de-tinte/estrella/negro logged). te: Yucatec alla/aculla/lugar yonder (convidador and cacao-classifier competitors; corpus A'te/u'te treats te as function piece). mucane: no strict/loose hit (muka'n buried is c~k, forbidden)."
+2,"God-[yux]-place, ascended! God-[yux]-place [Yutsal]!",low,"Teoyuxtlane segmented Nahuatl teotl god (Campbell CN) + unexplained yux + tlan place/under (Campbell -tlan). Cross-graft forbidden so yux stays residue, not ixtli. ascensionada: no exact lemma; Spanish loan from ilide ascender (na'akal), feminine -ada same-language. Yutsal: no hit (yutsil adversity is a~i, forbidden)."
+3,"Atziri, Atziri, not [kilya] Zerphi!",low,"ma / ma': Yucatec negative particle (Cordemex no es particula negativa; ilide no : ma'). kilya: no strict or loose hit. Soft near-miss Nahuatl quilia he/she tells him (Nahuatl 1100) needs k~qu and y~i, not granted. Zerphi: no hit, kept as name."
+4,At [itsok] [anab] all-[ra]! [kex]-[tal] spark [kuj]-good [ik']-[bala]!,abstain,"Ti: Yucatec ti' locative en/sin/por (also Mes competitor on ti without glottal). itsok: no whole hit; pieces its Encantamiento and tsok punish, not a legal one-language cover. anab: strict miss; loose Yucatec unab entirely. nochira: Nahuatl nochi all/whole + residue ra (Spanish ira would be cross-graft). Kextal: no whole hit; kex aunque sea / esta bien + tal leftover. xi: Yucatec chispa / cosa correcliza (Nahuatl xi- command and xi year logged). kujkuali: Nahuatl cuali/cualli good/well with unexplained kuj (cuahcualli not a legal reconstruct). ik'bala: no whole hit; ik' breath/air cluster + bala leftover."
+5,"Atziri, Atziri, [ikba'yucane] Vaal!",abstain,ikba'yucane: no strict/loose whole hit. Pieces ik' / ba' / yuca (Spanish) / -cane do not cover same-language without residue. Not equated to mucane.
+6,"Yonder, shake [tlayeb] brush-clean! Yonder, insect [tlayeb] [kifba]!",low,"A'te segmented a' (Yucatec particle) + te yonder. 'Ibil: Yucatec IBIL sacudir (must be shaken). tlayeb: no hit (tla Nahuatl + yeb Yucatec escalera is cross-graft). kutsen: Yucatec kuts + affix -en; seed 9001 among brush-clean vs turkey picks acepillar/limpiar. ik'el: Yucatec ik'el insecto/bicho (ilide insecto : ik'el). kifba: no hit; /f/ flags Spanish, still opaque."
+7,"Atziri, Atziri, ascended, it approaches!",medium,"ascenada: same Spanish ascen-/ascender family as line 2, not an exact attached lemma. akal: Yucatec AKAL; seed 9001 among acercarse vs romperse ropa picks approach. Aborrecer/enojadizo logged."
+8,[Aiokmo] honorable [xu'te]! [Aiokmo] [tul] [jare] [elba]!,abstain,"Aiokmo: no hit (ayac nobody is not a legal reconstruct). til: Yucatec TIL honrado, venerable, ilustre (Nawat soot competitor). xu'te: strict miss; loose Nawat xuta to wound / xuti water-snail. tul: many Yucatec homophones (full, person-count, abundance); not committed. jare: /r/ flags K'iche' or Spanish; no exact (are / jarik not covering). elba: strict miss; loose Spanish alba dawn (ilide alba : piik' saas)."
+9,"Live-yonder, death!",medium,Kuxte': whole miss; segmented Yucatec kux cosa viva / vivo + te'. Loose Nawat kuxta cacao-like tree logged. kíimil': Yucatec kíimil death/die (ilide muerte/morir/deceso : kíimil; Cordemex cosa muerta). Seed among death-cluster glosses. Nawat kimil load is lower palette.
+10,[Tlaxye'] that Vaal!,low,Tlaxye': no hit (tlaxcalli tortilla is not a legal reconstruct). le: Yucatec demonstrative ese/el/aquel (Cordemex); snare lazo competitor discarded by neighbor Vaal as NP. Vaal: name.
+11,"Not-[oxe], insect!",low,Ma'oxe: no whole hit; ma' negative + OXE' antier (day before yesterday). ik'el insect as line 6.
+12,Atziri that-[itzil]!,low,le'itzil: no whole hit; le demonstrative + itzil leftover (loose K'iche' itzel howl is e~i).
+13,[Xatlene] [kuj]-good!,low,Xatlene: no hit (atl water is an infix piece only). kujkuali as line 4: Nahuatl good with kuj residue.
+14,[Gyan'uks] [ko'janti]!,abstain,"Gyan'uks: no hit; /g/ flags Nahuatl, but cua-/cui- diagnostic does not reconstruct gyan. ko'janti: no hit; ko' has Yucatec loco/valiente/descortezar homophones, janti leftover."
+15,"Yonder, shake!",medium,A'te as line 6. 'Ibil IBIL sacudir.
+16,"Yonder, insect!",medium,A'te as line 6. ik'el insecto.
+17,First [chikul]!,low,"Yaxe: no exact; Yucatec yax first/green/primavera with residue e (suffix e too short for strict affix). chikula': chikul with residue a'; Cordemex reverse cluster insignia/firma/silencio/bisono, no unique sense, left as [chikul]."
+18,"Punish-yonder, insect!",medium,Tzokan'te: no whole hit; Yucatec tsok castigar y castigo + te yonder. ik'el insect.
+19,Yonder [líimek]!,low,líimek: no hit. Pieces lim/mek do not cover the surface.
+20,[Yatle] [yutsal]!,abstain,Neither token has a strict or loose whole-form hit.
+21,[tlayeb] brush-clean!,low,tlayeb opaque. kutsen as line 6 (kuts+en acepillar).
+22,[tlayeb] [kifba]!,abstain,Both tokens opaque under strict; kifba /f/ still a miss.
+23,Its-yonder live-[kal]!,low,"U'Te: u 3sg possessive (norma_maya u y-) + te yonder. kuxkal: no whole hit; kux living + kal leftover (kal has many Yucatec senses, not committed). KUXKIN resurrect is not kuxkal."
+24,Yonder [yuquia]!,low,"yuquia: no exact; soft K'iche' yuq / yuq<u> stretch out / hold out, residue ia."
+25,Alas [lu] [noch]-road!,low,Eche: strict miss on Eche; loose Yucatec ACHE alas/pobre-de-mi particle (hola de Campeche competitor; seed among those two picks alas). lu: strict miss. nochbe: noch leftover + Yucatec be camino/obra.
+26,[ki'] [inib]!,abstain,"Kí': many Yucatec ki' homophones (sweet, wine, pleasant, drunk); no unique sense. inib: no hit."
+27,"[Ayok] [ta'] I, its [mujuk'] that [mucane], far [i'chian].",low,"'Ayok: no hit. ta': Yucatec TA' enojar a otro (K'iche' ta' to ask logged, lower palette). en: Yucatec EN 1sg soy/estoy (Spanish en in is lower palette). u: 3sg (norma_maya). mujuk': no whole hit; K'iche' muj shadow/ghost + uk' leftover. le mucane: demonstrative + opaque. niáach: no exact; near Yucatec NAACH/náach far / come from afar (extra i). i'chian: no exact; near CHI'AN bitten or vowed."
+28,Yonder [waja] [yatle] [u'tra] gourd-[a]!,abstain,waja/yatle: no hits. u'tra: /r/ flags K'iche' or Spanish; no exact (otra would be o~u). buxa: Yucatec bux small wild gourds + residue a.
+29,Yonder [fukuur]!,low,fukuur: no hit; /f/ flags Spanish. A'te yonder.
+30,Spark [daka] perhaps...,low,Xi: Yucatec xi chispa / cosa correcliza (Nahuatl xi- command competitor). daka: no hit; /d/ flags Spanish. puxe: strict miss; loose K'iche' puxa perhaps (Momostenango).
+31,[Ayok] [kifba] Atziri [kilya] white-water.,low,'Ayok/kifba/kilya opaque as above. sakilja: Yucatec sakil albo/blancura + ja'/ha' water (same-language compound).
+32,[Ik'eche] white-water [atl]-[a] [donuks].,low,Ik'eche: no hit. sakilja as line 31. atla: strict miss; Nahuatl atl water + residue a (loose ATLE fabula). donuks: no hit; /d/ flags Spanish; -uks coda not a free morpheme.
+33,[Donuks]... [ko'soxsal].,abstain,Both opaque. ko' leftover plus soxsal unattested.
+34,[Donuks]... mad-[mujuk]!,low,"ko'mujuk: ko' Yucatec loco/desatinado (valiente competitor) + mujuk as line 27 (K'iche' muj ghost, residue). Cross-language compound not claimed; pieces only."
+35,"Spark its-yonder [cha']-punish, yonder [itsok] chief [yotlapek] that that Vaal descend-[xti] [qexcan]...",low,Xi/u'te/a'te/le/le/Vaal as above. cha'tsoke: cha' chicle/resina (or aflojar) + tsok punish + e. xefe: Spanish jefe chief (ilide jefe; x~j). yotlapek: no hit (Campbell tlapechtli bed/frame is not a legal reconstruct). te'moxti: Nahuatl temo bajar + residue xti. qexcan: no hit. itsok opaque.
+36,Mother [puyao].,medium,Na': Yucatec na' madre/mamá (ilide madre : na'). House NA is the no-glottal competitor; surface has glottal. Seed among mother vs stepmother picks mother. puyao: no hit.
+37,"In [tlapec] its-yonder [puyao], yonder [itsok] [pu] crushed [ta'nuk]!",low,"Ich: Yucatec ICH many homophones (face, eye, in); locative in/inside used from adverbial slot next to tlapec, competitors logged. tlapec/puyao/itsok opaque. pu: Yucatec camada/flujo. uch': Yucatec UCH' deformado; aplastado (UCH long-ago competitor). ta'nuk: strict soft TANU; loose TANOK planta del pie / TANAK calluses."
+38,[Otsuks]! Punish-yonder its-yonder insect...,medium,"Otsuks: no hit, kept as vocative name-like form (ots leftover, -uks not a free coda). Tzokan'te + u'te + ik'el as above."
+39,Atziri!,high,Vocative name; no dictionary etymology attempted.
+40,Yonder live-[kal] [tlayeb] brush-clean. [Ela] [tlayeb] [ukto]! Who that at [a'tul]?,low,A'te/kuxkal/tlayeb/kutsen as above. Ela: strict miss (ELEL flame needs extra l; loose Spanish ala wing / K'iche' ala boy). ukto: no hit (ocotl pine is not a legal reconstruct under strict or loose lookup). Máax: Yucatec quién (ilide quién : máax; Cordemex iquien preguntando under max). Shield/crush/duende are longer-lemma maax competitors; question slot Máax ka ti bounds to who. ka: Yucatec que. ti: locative. a'tul: strict miss; loose ATAL paid/rewarded (or a' + tul).
+41,Atziri!,high,Vocative name.
+42,[Otsuks]! Who that at [a'tul]?,medium,Otsuks opaque vocative. Máax ka ti a'tul as line 40.
+43,Its-yonder [mucane]!,low,U'te as line 23. mucane opaque.
+44,Who that at [cheyel]?,medium,Máax ka ti as line 40. cheyel: no hit (che' tree + yel leftover not claimed).
+45,Its-yonder [mucane]!,low,Same as line 43.
+46,Who [tlayeb] [mucane]?,low,Máax quién. tlayeb and mucane opaque.
+47,Atziri!,high,Vocative name.
+48,"[Otsuks], [quxzeh]!",abstain,quxzeh: no hit. Otsuks opaque vocative.
+49,Knock-self-down!? [Kíibsa'] [ta'] I!,low,"Axba: Yucatec AX derribar, tirar al suelo + BA reflexive pronoun. Kíibsa': no hit; kib cera/candela + sa' leftover. ta' en as line 27."
+50,At black [tala] [jare']-there-is-[tul]!,low,Ti locative. ek as line 1 (ek' black). tala: strict miss; loose Spanish tela cloth. jare'yantul: /r/ in jare' opaque; yan Yucatec ser/estar/haber + tul leftover. Not a committed compound.
+51,"At that-black, it is opposed!",medium,"Ti' locative. ek'le: ek' black + le demonstrative. upulche: Yucatec UPUL ser contrariado o resistido + Maya suffix che (dict_lookup affix, no residue). Competitor segmentation u + pul throw + che' tree; seed 9001 among those two picks UPUL+che."
