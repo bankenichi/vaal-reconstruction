@@ -1407,11 +1407,16 @@ Question: if several Vaal words share one dictionary root, have we been counting
 
 The counts above treat each committed token as an independent trial. That overstates the evidence wherever several tokens descend from one root: *ik'bala*, *ikba'yucane*, *Ik'eche*, and *ik'el* are all built on Yucatec *ik'* "spirit, breath," so they are four surface forms of a single lexical bet, not four independent confirmations. The recount below is stated on the **61-row chance-check list**; the enlarged headline base, with the three check-E names, is in "A third base" at the end of this subsection. *pul* now has a decode artifact and lives in the 78-row frame as C*, not in the 61-row list.
 
-**Levels of dependence.** Question: when related observations are mixed together, have we been counting one lexical bet as several independent confirmations? What was done: those repeats were sorted into four nested levels, from the same word reused, to different forms of one lemma, to the same grammatical construction, to glosses that cluster in one theme. Why it matters: a raw token count treats each surface form as a new trial. That overstates the evidence wherever the forms are not independent. The table is a map of those four levels. It says how this document treats each one. It is not a new measurement, and it does not invent a new dependence rate.
+**Levels of dependence.** The four-row table below is a map of nested kinds of repeat, not a second chance check and not a share of the lexicon. Related observations inflate the evidence in different ways. Lumping them together hides which problem this subsection actually fixes.
 
-Related observations inflate the evidence at four nested levels. The recount in this subsection corrects the first two, which a raw token count conflates. Level 3 is handled separately as syntax (§17.8). Level 4 is flagged as a caveat on thematic over-reading and is not given a numeric correction.
+Why these four levels exist. Counting *Atziri* twice is not the same problem as counting *ik'bala* and *ik'el* as two dictionary bets, and neither is the same as treating every "article plus noun" line as extra proof of a root, or treating a cluster of water, dark, and blood glosses as independent confirmations of a theme. The rows run from the smallest repeat to the broadest. The recount in this subsection corrects only the first two. Level 3 is handled as syntax (§17.8). Level 4 is flagged rather than counted.
 
-How to read the table. Each row is a kind of repeat, not a share of the lexicon. Level 1 is the same surface form used more than once (repeated *Atziri*). Level 2 is different words built on one lemma (*ik'bala*, *ik'el*, *Ik'eche* from *ik'*); that collapse produces the 52 / 55 / 69 distinct-root counts used above. Level 3 is a reused grammatical frame (article before noun), tested as syntax rather than counted as extra lexical evidence. Level 4 is imagery clustering (water, dark, blood). It is a warning, not a recount.
+What each level means for a reader, and how to read the last column. That column is the handling rule for the row, not a score and not a new test result. Read across: what repeats, an example, then whether this document counts it, collapses it, sends it to syntax, or only warns.
+
+- **Level 1, token.** The same surface form, reused. Repeated *Atziri* is still one name. The last column splits two jobs: coverage counts each occurrence, because that is how often the translations use it; the independence claim counts the lemma once.
+- **Level 2, root.** Different words built on one dictionary lemma. *ik'bala*, *ik'el*, and *Ik'eche* are one bet on *ik'*, not three. The last column is the collapse used in the dual-base tables below: 52 distinct roots on the 61-row list, nine dependent forms removed. Those are the live counts already on the page, not a new rate.
+- **Level 3, construction.** The same grammatical frame, reused (article before noun). The last column sends this to §17.8. It is not extra lexical evidence.
+- **Level 4, semantic field.** Glosses clustering in one domain (water, dark, blood). The last column is a caveat on thematic over-reading. There is no numeric correction at this level.
 
 | Level | What repeats | Example | How this document treats it |
 |---|---|---|---|
@@ -1420,7 +1425,7 @@ How to read the table. Each row is a kind of repeat, not a share of the lexicon.
 | 3. Construction | the same grammatical frame, reused | prenominal article plus noun | tested as syntax, not counted as lexical evidence (§17.8) |
 | 4. Semantic field | glosses clustering in one domain | water, dark, and blood imagery | not corrected numerically; flagged as a caveat on thematic over-reading |
 
-What this does and does not claim. It claims that related tokens are not independent trials, and that collapsing them to distinct roots does not restore a large hardened core (see the dual-base table below). It does not claim a new chance-check p-value, a new hardened share, or a probability that a gloss is what the developers meant.
+The table does not change the dual-base hardened shares or the chance-check p-values below. It only says which kind of repeat was corrected, and which was not. It does not invent a dependence percentage, and it is not a probability that a gloss is what the developers meant.
 
 **Grouping rule.** Two committed tokens are merged when they share the same attested head root (the same §9 source lemma), regardless of affixes or compounding partners. Shared *affixes* (the reflexive *-ba'*, the honorific *-ane*) do not merge tokens whose head roots differ. Sixteen of the 61 chance-check tokens collapse into 7 root families:
 
