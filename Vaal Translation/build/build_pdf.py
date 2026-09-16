@@ -280,8 +280,8 @@ td em { color:#10463c; font-style:italic; }
 td strong { color:#5a1714; }
 
 .citations { margin-top:3mm; text-align:left; }
-.cite-cat { font-family:"Cinzel"; font-weight:normal; color:#7e221d; font-size:11.5pt;
-            letter-spacing:0.5px; margin:6mm 0 2.2mm 0; break-after:avoid;
+.cite-cat { font-family:"Cardo"; font-weight:bold; color:#7e221d; font-size:11pt;
+            letter-spacing:0; margin:6mm 0 2.2mm 0; break-after:avoid;
             text-align:left; background:none; border-bottom:none; padding:0; }
 .cite { display:flex; gap:7pt; font-size:9pt; line-height:1.36; margin:0 0 1.8mm 0; }
 .cite .cn { color:#7e221d; font-family:"Cinzel"; min-width:20pt; text-align:right; flex:0 0 auto; }
