@@ -47,4 +47,4 @@ PASS = no genuine different-meaning competitor in the recorded adversarial CSV.
 
 ## Standing rule
 
-No token may carry the `H` tier without both gates recorded. `H` is earned, not assumed. Re-run both gates after any change to the palette or the latitude rules, since both move the noise floor.
+No token may carry the `H` tier without both gates recorded. `H` is earned, not assumed. Re-run both gates after any change to the palette or the latitude rules, since both move the noise floor. The 2026-09 recovery rescore of archived CSVs is a STOPGAP; a full blind re-run is `EXPERIMENT_RERUN_PROTOCOL.md`.
