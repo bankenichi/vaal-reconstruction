@@ -1,4 +1,4 @@
-# Sol 56 blockers applied (2026-09-16)
+# Consistency corrections (2026-09-16)
 
 Kenichi scope lock: no published English line text changed; no approved sense rewritten; Ixchel stays Godstealer / theonym in §9 and `committed_readings.csv`; no PDF rebuild; no em dashes, middots, or emojis. Parent `Vaal_Reconstruction.md` kept byte-identical to canonical `Vaal Translation/Vaal_Reconstruction.md`.
 

@@ -179,7 +179,7 @@ Unsupported "very unlikely pure noise" / "committed lexicon is probable" languag
 
 Text 5 / Kamasan: *yan* is O, not a full committed parse. "Open items are narrow" softened: 30 C* + 45 C remain. Morpheme index Hardened labels aligned to `token_classification.csv`. Tournament rows *'Ibil*, *mucane*, *kifba* already C*; *tlayeb* stays C+L (ladder is a cross-graft, logged). No gloss rewrites. No PDF rebuild.
 
-Writeup: `analysis/SOL56_BLOCKERS_APPLIED.md`.
+Writeup: `analysis/CONSISTENCY_CORRECTIONS_2026-09-16.md`.
 
 ## Task status
 
