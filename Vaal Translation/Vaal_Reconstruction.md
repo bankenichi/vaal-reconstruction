@@ -27,13 +27,19 @@ The first three texts are **offerings flowing upward to Atziri**: the worshipper
 - **Secure-line grade.** An editorial grade of each published English line by how settled its load-bearing words are: secure, working, fragile, or blocked by an opaque word.
 - **Leave-one-text-out.** Rebuild the reading of each text without using that text's own words as support, then score how well the English still holds.
 
-**Most of the lexicon is not certified.** After those checks, **2 of 78 lexicon rows are hardened (2.6%, 95% CI 0.7-8.9%)**, or 2 of 69 distinct roots (2.9% [0.8, 10.0]). The two hardened readings are *xefe* and *Quecholli*. On the smaller test list used for the chance check, the share is 1 of 61 (1.6% [0.3, 8.7]) / 1 of 52 roots (1.9% [0.3, 10.1]). Split of the 78 rows: H 2 / C\* 30 / C 45 / S 1. The name *Ixchel* stays committed-plus-lore (C+L): lookup found the dictionary string, but as a medicinal herb, not the approved Godstealer sense. The approved gloss is unchanged. Five further rows were starred as rivals in 2026-09-16 (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*). Earlier, larger "hardened" counts are withdrawn.
+**Most of the lexicon is not certified.**
+Pessimistic: the lower 95% bound is 0.7% (well under 1 in 100). Average: **2 of 78 rows (2.6%)**, *xefe* and *Quecholli*. Optimistic: the upper 95% bound is 8.9% (still under 1 in 10). Counted by distinct root the share is 2 of 69 = 2.9% [0.8, 10.0]. On the smaller chance-check list: 1 of 61 = 1.6% [0.3, 8.7] / 1 of 52 roots = 1.9% [0.3, 10.1]. Split of the 78 rows: H 2 / C\* 30 / C 45 / S 1. The name *Ixchel* stays committed-plus-lore (C+L): lookup found the dictionary string, but as a medicinal herb, not the approved Godstealer sense. The approved gloss is unchanged. Five further rows were starred as rivals in 2026-09-16 (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*).
 
-**Chance tests do not currently beat noise.** Scoring any dictionary hit, real words vs nonsense, gives a borderline result (Fisher p ≈ 0.095 by trial, p = 0.09494; p ≈ 0.31 by item, p = 0.3069). Scoring only when the lookup recovers this project's declared sense removes that remaining signal (p = 1 / 0.9991). An older claim that Vaal is "not random noise" at about 2 x 10^-15 (and 3 x 10^-18 on an enlarged list), including a sigma label and the older "probable lexicon" wording, is withdrawn. These tests do not currently reject chance at 0.05 once the declared sense is required.
+**Chance tests do not currently beat noise.**
+This is a yes/no test against chance, not a share with a wide interval. Pessimistic (stricter criterion): when the lookup must recover this project's declared sense, there is no remaining signal (p = 1 by trial, p = 0.9991 by item). Average (any dictionary hit): still not significant at 0.05 (p = 0.09494 by trial, p = 0.3069 by item). Optimistic: even the more generous any-hit reading fails to reject chance at 0.05.
 
-**Grammar regularities were recovered without English, but not at a significant rate.** Analysts who saw Vaal lines without this project's English recovered word-order regularities on the real lines (3 of 3) and not on scrambled lines (0 of 2). That difference is not statistically significant (Fisher p = 0.10). Possession order is not locked. An earlier panel with the same 3/3 vs 0/2 counts had given the analysts English, so it is not the current claim. Particle questions in §3.7 are leaning or still open.
+**Grammar regularities were recovered without English, but not at a significant rate.**
+This check is a single small-sample test, not a range. Result: 3 of 3 analysts recovered word-order regularities on real lines, 0 of 2 on scrambled lines. Fisher p = 0.10, not significant. Possession order is not locked. Particle questions in §3.7 are leaning or still open.
 
-**Line-level English is weak.** Versus the 51 published English lines, match-plus-partial rates are about 29% whether the translator uses this project's method notes or dictionaries alone (method-on 75/255 = 29.4% [24.2, 35.3]; dictionaries-only 72/255 = 28.2% [23.1, 34.1]). Method notes do not raise agreement with the published English (the difference interval includes zero). They do cut clashes and raise abstentions. Secure-line grades on the same 51 lines: **0% secure** (0/51), about **24% working** (12/51 = 23.5% [14.0, 36.8]), about **75% fragile** (38/51 = 74.5% [61.1, 84.5]), 1/51 blocked by an opaque word. Leave-one-text-out: about **24% ok** (12/51 = 23.5% [14.0, 36.8]) and about **65% ok or partial** (33/51 = 64.7% [51.0, 76.4]); Text 3 is the weakest fold (0/13 ok). Older model-based "probability the line is right" percentages, including per-line bands built from retracted word-confidence figures, are withdrawn. They are not current results. The honest unit of confidence is the individual token.
+**Line-level English is weak.**
+Pessimistic: exact match with the published English is about 9-11%; **0 of 51 lines is fully secure**. Average: match or partial about 29%; about 24% of lines are working. Optimistic: match or partial still only about 35% at the upper 95% bound; working lines at most about 37%. Supporting numbers: method-on match 27/255 = 10.6% [7.4, 15.0], match+partial 75/255 = 29.4% [24.2, 35.3]; dictionaries-only match 22/255 = 8.6% [5.8, 12.7], match+partial 72/255 = 28.2% [23.1, 34.1]. Secure-line: 0/51 secure [0.0, 7.0], 12/51 working = 23.5% [14.0, 36.8], 38/51 fragile = 74.5% [61.1, 84.5], 1/51 blocked by an opaque word. Leave-one-text-out: 12/51 ok = 23.5% [14.0, 36.8], 33/51 ok or partial = 64.7% [51.0, 76.4]; Text 3 is the weakest fold (0/13 ok). Method notes do not raise agreement with the published English (the difference interval includes zero). They do cut clashes and raise abstentions. The honest unit of confidence is the individual token.
+
+Older withdrawn displays (all-noise 10^-15 headlines, per-line confidence bands, larger hardened counts) are historical only. They are not current results. See §17.10.
 
 ---
 
@@ -955,7 +961,7 @@ flowchart TD
 
 **Texts and transcriptions are stable. Interpretive and translation confidence is thin (§1, §17).** All five known Vaal texts are on the page. Texts 1 and 2 are closed and source-validated against the game files. Texts 3, 4, and 5 are documented; unresolved tokens stay in §10 rather than being forced into the committed lexicon. The combined lexicon (§9) has **78 rows**. **Two are hardened** (*xefe*, *Quecholli*). The rest are committed readings, 30 of them with a logged rival meaning. *Ixchel* stays C+L (lookup found a medicinal-herb gloss, not the approved Godstealer sense; the gloss is unchanged). Five further rows were starred as rivals in 2026-09-16 (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*); *tlayeb* stays C+L with the ladder rival logged. Particle questions in §3.7 are leaning or still open. The morpheme index (§15) inventories roughly 147 elements. Text 3, **Quemalani, the Elite Commander** (§6), contributes a five-line corpus with committed content tokens (folded into §9) and several flagged soft tokens (§10.4). Text 4, the **Drill Sergeant and Vaal Regiment** drill (§7), adds a fixed call-and-response built on committed roots (*Otsuks! ... U'te mucane!*), with its soft tokens (*a'tul*, *cheyel*, *Axba*, *quxzeh*, *Kíibsa'*) tracked in §10.9 and none promoted to §9.
 
-**Current standing (plain headlines; numbers in §17).** Only two lexicon rows survive both strict checks: **2 of 78 = 2.6% [0.7, 8.9]**, or 2 of 69 distinct roots = 2.9% [0.8, 10.0]. On the smaller chance-check list: 1 of 61 = 1.6% [0.3, 8.7] / 1 of 52 roots = 1.9% [0.3, 10.1]. Chance tests do not reject noise at 0.05 once the lookup must recover the declared sense (any-hit p = 0.09494 trial / 0.3069 item; declared-sense p = 1 / 0.9991). Independent translations match or partly match the published English about 29% of the time (method-on 29.4% [24.2, 35.3]; dictionaries-only 28.2% [23.1, 34.1]); method notes do not raise that rate. **None of the 51 published English lines is graded fully secure** (0/51); about 24% are working (12/51) and about 75% are fragile (38/51); 1/51 is blocked by an opaque word. Leave-one-text-out: about 24% ok (12/51), about 65% ok or partial (33/51); Text 3 is the weakest (0/13 ok). Grammar: word order recovered on 3/3 real panels vs 0/2 scrambled, Fisher p = 0.10, not significant; possession is not locked. An older claim that Vaal is "not random noise" at about 2 x 10^-15 is withdrawn. Per-line confidence bands built from retracted word-level probabilities are withdrawn. Tiers: **H** hardened, **C** committed, **C\*** rival logged, **S** soft, **L** a tag only.
+**Current standing (plain headlines; numbers in §17).** Only two lexicon rows survive both strict checks. Pessimistic: 0.7% (lower 95% bound). Average: **2 of 78 = 2.6%** (*xefe*, *Quecholli*). Optimistic: 8.9% (upper 95% bound). By distinct root: 2 of 69 = 2.9% [0.8, 10.0]. On the smaller chance-check list: 1 of 61 = 1.6% [0.3, 8.7] / 1 of 52 roots = 1.9% [0.3, 10.1]. Chance tests: this is a yes/no result, not a range; even the more generous any-hit reading fails to reject chance at 0.05 (p = 0.09494 trial / 0.3069 item), and the stricter declared-sense reading removes the remaining signal (p = 1 / 0.9991). Line-level English: pessimistic, exact match about 9-11% and **0/51 lines fully secure**; average, match or partial about 29% and about 24% working; optimistic, match or partial still only about 35% at the upper 95% bound. Leave-one-text-out: 24% ok [14.0, 36.8], 65% ok or partial [51.0, 76.4]; Text 3 is the weakest (0/13 ok). Grammar: a single small-sample test, 3/3 vs 0/2, Fisher p = 0.10, not significant; possession is not locked. Tiers: **H** hardened, **C** committed, **C\*** rival logged, **S** soft, **L** a tag only. Historical / withdrawn displays: §17.10.
 
 **Texts 1 and 2 are source-validated against the game files.** Text 1 is the datamined `VaalSermon_01` to `08`; Text 2's sixteen lines match both Cuachic Vault bosses' chant pools exactly, with zero drift, and the speaker roles are fixed: **Zelina** (Priestess) sings the call, **Zolin** (Priest) the response. *Ma'oxe* is confirmed verbatim.
 
@@ -1163,46 +1169,52 @@ This reconstruction has been improved by members of the Path of Exile community,
 
 ## 17. Statistical analysis: lexicon hardening and syntax confirmation
 
-This section is the evidence behind the Overview. Each subsection states the question, the result, and what that result does and does not prove. The numbers are from the 2026-09-16 experimental pass. Figures from the 2026-07 run, and from a 2026-08/09 rereading of those older files, are history; they are not mixed into the counts below.
+Live results only in §17.1-17.9. Past-iteration artifacts are in §17.10 and are not current claims. Numbers below are from the 2026-09-16 experimental pass. Dual-base tables (per token and per distinct root) are in §17.7. Worksheets live under `analysis/`.
 
-Seeds, worksheets, and per-token sheets live under `analysis/`. Current numbers: `NULL_MODEL_RESULTS_RERUN.md`, `TRANSLATION_BATTERY_RESULTS.md`, `SECURE_LINE_TAGS.md`, `LEAVE_ONE_TEXT_OUT.md`, `SYNTAX_EXPERIMENT_LOG_RERUN.md`, `HARDENING_PROTOCOL.md`. Dual-base tables (per token and per distinct root) are in §17.5-17.7.
+### 17.1 Current standing
 
-### 17.1 Methodology
+**Most of the lexicon is not certified.**
+Pessimistic: 0.7% hardened (lower 95% bound on 2/78). Average: **2 of 78 = 2.6%**, *xefe* and *Quecholli*. Optimistic: 8.9% (upper 95% bound). By distinct root: 2 of 69 = 2.9% [0.8, 10.0]. Chance-check list: 1 of 61 = 1.6% [0.3, 8.7] / 1 of 52 roots = 1.9% [0.3, 10.1]. Enlarged list that adds three proper names: 2 of 64 = 3.1% [0.9, 10.7] / 2 of 55 roots = 3.6% [1.0, 12.3]. Split of the 78 rows: H 2 / C\* 30 / C 45 / S 1. *Ixchel* is C+L (herb string recovered, approved Godstealer gloss unchanged).
 
-Four kinds of check were run.
+**Chance tests do not currently beat noise.**
+This is a yes/no test, not a share with a wide interval. Pessimistic (declared sense required): p = 1 by trial, p = 0.9991 by item. Average (any dictionary hit): p = 0.09494 by trial, p = 0.3069 by item. Optimistic: even any-hit fails to reject chance at 0.05.
 
-**Chance check (null model).** Question: does the lookup method certify fake Vaal-like strings as real words at the same rate as real corpus words? Each run mixes 100 nonsense strings (generated to look like Vaal from surface forms only; fixed seed; labels hidden) with 30 real committed tokens. A decoder that cannot see the answer key then looks up every item. Any dictionary root found for a nonsense string is a false positive by construction.
+**Grammar is a single small-sample test, not a range.** 3 of 3 analysts recovered word-order regularities on real lines, 0 of 2 on scrambled lines. Fisher p = 0.10, not significant. Possession order is not locked.
 
-The chance check was run in four combinations of spelling strictness and dictionary size, five random seeds each (1729, 9001, 271828, 42, 55555):
+**Line-level English is weak.**
+Pessimistic: exact match about 9-11%; **0/51 lines fully secure**. Average: match or partial about 29%; about 24% working. Optimistic: match or partial about 35% at the upper 95% bound; working about 37% at the upper 95% bound. Leave-one-text-out: pessimistic 14% ok (lower 95% bound); average 24% ok / 65% ok or partial; optimistic 76% ok or partial (upper 95% bound). Text 3 is 0/13 ok. Method notes do not raise agreement with the published English.
+
+These figures are protocol certification, chance-check p-values, and agreement with published English. They do not prove designer intent. Detail: §17.3-17.9. Historical displays: §17.10.
+
+### 17.2 How to read these checks
+
+**What was asked.** Four live checks. (1) Chance check: does lookup certify fake Vaal-like strings as real words at the same rate as real corpus words? (2) Hardening: for each lexicon row, does a blind lookup recover *this row's* declared root, language, and sense (Gate 1), and was no strong different-meaning rival written down (Gate 2)? **Hardened (H)** requires both. (3) Line-level English: if independent translators render the 51 published English lines, how often do they match that English? One arm used this project's method notes (**T-M**); the other used dictionaries only (**T-D**). Secure-line grades ask how settled each line's load-bearing words are. Leave-one-text-out asks whether a reading still holds if that text is left out of the lexicon. (4) Grammar: can analysts recover the word-order regularities of §3 from Vaal lines without this project's English, more often than on scrambled lines?
+
+**Chance-check design.** Each run mixes 100 nonsense strings (generated to look like Vaal from surface forms only; fixed seed; labels hidden) with 30 real committed tokens. A decoder that cannot see the answer key then looks up every item. Any dictionary root found for a nonsense string is a false positive by construction. Four combinations of spelling strictness and dictionary size, five seeds each (1729, 9001, 271828, 42, 55555):
 
 - **A** looser spelling rules, core dictionaries
 - **B** looser spelling rules, plus extra Nahuatl/Nawat wordlists
 - **C** stricter spelling rules, core dictionaries
 - **D** stricter spelling rules, plus extra Nahuatl/Nawat wordlists
 
-Each of A-D pools 500 nonsense strings and 150 real tokens. A fifth check (**E**) asked whether three proper names added after the main list (*Quecholli*, *Panquetzaliztli*, *Ixchel*) could be recovered as blind plants under the same strict-plus-extra-wordlist conditions as D. The 2026-09-16 pass used form-first lookup over attached text dictionaries; B and D did not browse the live web.
+Each of A-D pools 500 nonsense strings and 150 real tokens. A fifth check (**E**) asked whether three proper names added after the main list (*Quecholli*, *Panquetzaliztli*, *Ixchel*) could be recovered as blind plants under D's conditions. The 2026-09-16 pass used form-first lookup over attached text dictionaries; B and D did not browse the live web.
 
-**Recovery and rival-meaning checks.** Question: for a committed lexicon row, does a blind lookup recover *this row's* declared root, language class, and sense, and was no strong different-meaning rival written down? The first check is Gate 1; the second is Gate 2 (including same-language homophones and alternate segmentations). A token is **hardened (H)** only if both pass (`HARDENING_PROTOCOL.md`). Finding some other dictionary word is not a pass. Same-meaning cognates are corroboration, not a fall.
+**Rates.** For nonsense P and real R, each item is labeled `C` (committed-quality), `soft`, or `none`. `found` means C or soft.
 
-**Line-level English.** Question: if independent translators render the 51 published English lines from Vaal, how often do they match the published English? One arm used this project's method notes (**T-M**); the other used dictionaries only (**T-D**). Related editorial grades ask how settled each line's load-bearing words are (secure-line), and whether a reading still holds if that text is left out of the lexicon (leave-one-text-out).
+- **FPR(C)** = P_C / |P|. False-positive rate: nonsense wrongly certified. Lower is better.
+- **TPR(C)** = R_C / |R|. True-positive rate: real tokens certified. Higher is better.
+- **Discrimination(C)** = TPR(C) - FPR(C). 0 means the method cannot tell signal from noise.
+- **TPR(recovery)** counts a hit only when lookup recovers this project's declared root, language, and sense.
 
-**Grammar.** Question: can analysts recover the word-order regularities of §3 from Vaal lines without this project's English glosses, and more often than on scrambled lines?
+A 95% CI is the range that would contain the true share in 95% of repeats of this counting procedure. Where a result is a range, this section labels three readings: pessimistic (lower bound or stricter criterion), average (point estimate), optimistic (upper bound or looser criterion). No numbers are invented outside the live record. Where a check is a single yes/no test, that is stated instead of faking three shares.
 
-### 17.2 Metrics
-
-These rates ask how often the method certifies nonsense as a real word versus how often it certifies a real corpus word. For the nonsense population P and the real population R, each item is labeled `C` (committed-quality), `soft`, or `none`. `found` means C or soft. `P_C` is the count of nonsense labeled C, `|P|` the nonsense total, and so on.
-
-- **FPR(C)** = P_C / |P|. False-positive rate: the fraction of nonsense strings wrongly certified committed-quality. Lower is better.
-- **FPR(C+soft)** = (P_C + P_soft) / |P|. The same at the loosest bar (any root found).
-- **TPR(C)** = R_C / |R|. True-positive rate: the fraction of real tokens certified committed-quality. Higher is better.
-- **TPR(found)** = (R_C + R_soft) / |R|. The same at the loosest bar.
-- **Discrimination(C)** = TPR(C) - FPR(C). Absolute separation between signal and noise; 0 means the method cannot tell them apart.
-- **Enrichment(C)** = TPR(C) / FPR(C). How many times likelier a `C` is on a real token than on noise; 1x is worthless.
-- **TPR(recovery)** is TPR counted only when the lookup recovers this project's declared root, language, and sense, not any dictionary hit.
+**What these checks cannot measure.** How much of Vaal the designers built from real roots cannot be observed from inside the method. Developer spelling habits, unidentified source languages, transcription ambiguity, semantic drift in glossing, and game-localization English as ground truth can all move conclusions. The statistics constrain error rates. They do not certify that a gloss is what the developers meant.
 
 ### 17.3 Chance-check results
 
 **Headline.** The method finds dictionary strings on real Vaal words somewhat more often than on nonsense, but not by much. When the lookup must recover this project's declared sense, that remaining gap disappears.
+
+Pessimistic: declared-sense tests do not beat noise (p = 1 / 0.9991). Average: any-hit trial p = 0.09494, item p = 0.3069. Optimistic: even any-hit does not reject chance at 0.05.
 
 | Battery | FPR(C) | FPR(C+soft) | TPR(C) any-root | TPR(found) | Discrimination(C) | Enrichment(C) | TPR(recovery) |
 |---|---|---|---|---|---|---|---|
@@ -1211,31 +1223,35 @@ These rates ask how often the method certifies nonsense as a real word versus ho
 | C strict / core dicts | 0.064 | 0.182 | 0.233 | 0.333 | +0.169 | 3.6x | 0.033 |
 | D strict / + Nahuatl lists | 0.068 | 0.186 | 0.233 | 0.333 | +0.165 | 3.4x | 0.033 |
 
-The four combinations form a 2x2 of spelling strictness against dictionary size. Check D used the same attached files as B; no live web (`NULL_MODEL_RESULTS_RERUN.md`). Distinct-string count equals trial count (500/500).
+The four combinations form a 2x2 of spelling strictness against dictionary size. Check D used the same attached files as B; no live web (`NULL_MODEL_RESULTS_RERUN.md`). Distinct-string count equals trial count (500/500). Distinct-string D FPR is 34/500 = 6.8%.
 
-What that table means: (1) any-hit separation is real but modest (about 16-24 points). Recovery TPR is 3.3% in every cell, because exact hits often attach a different sense or language than this project's declared reading. (2) Adding the extra Nahuatl wordlists did **not** widen the gap (D vs C: FPR 0.064 to 0.068, TPR flat). Spelling strictness is still the axis that matters. (3) Tightening spelling rules (C vs A) cuts both false positives (0.128 to 0.064) and any-hit true positives (0.367 to 0.233). (4) The published claim that Vaal is **entirely random noise is rejected at p about 2 x 10^-15** stays **withdrawn**. This pass's replacement (`NULL_MODEL_RESULTS_RERUN.md`): any-hit A-then-D trial p = **0.09494** (35/55 vs 32/64), item p = **0.3069** (7/11 vs 32/64); declared-sense matched p = **1** / **0.9991**. The signal does not survive recovery scoring. No unconditional binomial versus a 4.6% floor. No sigma label.
+What that table means: (1) any-hit separation is real but modest (about 16-24 points). Recovery TPR is 3.3% in every cell, because exact hits often attach a different sense or language than this project's declared reading. (2) Extra Nahuatl wordlists did not widen the gap (D vs C: FPR 0.064 to 0.068, TPR flat). Spelling strictness is the axis that matters. (3) Tightening spelling rules (C vs A) cuts both false positives (0.128 to 0.064) and any-hit true positives (0.367 to 0.233). (4) Selection-matched replacement (`NULL_MODEL_RESULTS_RERUN.md`): any-hit A-then-D trial p = **0.09494** (35/55 vs 32/64), item p = **0.3069** (7/11 vs 32/64); declared-sense matched p = **1** / **0.9991**.
 
-**What this does and does not prove.** It does not currently reject chance at the usual 0.05 cutoff once the declared sense is required. The method finds dictionary strings. It does not recover this project's glosses at a rate that beats the same-filter noise arm.
+**What this does and does not prove.** It does not currently reject chance at 0.05 once the declared sense is required. The method finds dictionary strings. It does not recover this project's glosses at a rate that beats the same-filter noise arm.
 
-**Three proper names (check E), not a new noise-floor measurement.** *Quecholli*, *Panquetzaliztli*, and *Ixchel* were re-run as blind plants under D conditions (`BATTERY_E_RERUN.md`). *Quecholli* 5/5 recovery (H+L); *Ixchel* 5/5 on the attested dictionary string (Cordemex herb gloss, not the approved Godstealer sense: Gate 1 miss, now C+L); *Panquetzaliztli* 0/5 (compound absent from attached dictionaries). Controls: *naach* 5/5 recovery, *ek* 0/5 recovery / 5/5 any-hit wasp (C, not H). Distractors 1/60 C. They do not restore an unconditional 10^-15 rejection. Counts on the 61-row and enlarged frames are in §17.7.
+**Three proper names (check E).** *Quecholli*, *Panquetzaliztli*, and *Ixchel* were re-run as blind plants under D conditions (`BATTERY_E_RERUN.md`). *Quecholli* 5/5 recovery (H+L); *Ixchel* 5/5 on the attested dictionary string (Cordemex herb gloss, not the approved Godstealer sense: Gate 1 miss, now C+L); *Panquetzaliztli* 0/5 (compound absent from attached dictionaries). Controls: *naach* 5/5 recovery, *ek* 0/5 recovery / 5/5 any-hit wasp (C, not H). Distractors 1/60 C. Counts on the 61-row and enlarged frames are in §17.7.
 
 ### 17.4 How much of the lexicon is hardened?
 
-**Headline.** Two of 78 lexicon rows are hardened: *xefe* and *Quecholli*. That is not a large certified core.
+**Headline.** Two of 78 lexicon rows are hardened: *xefe* and *Quecholli*.
+
+Pessimistic: 0.7% (lower 95% bound on 2/78). Average: 2.6%. Optimistic: 8.9%.
 
 Gate 2, same-language homophones on: **38 survive / 58 testable = 65.5%** on the 61-row chance-check list, **50/75 = 66.7%** on the 78-row lexicon (`gate2_rescore_rerun.csv`). Residual limit: only rivals the lookup actually wrote can be scored. Some falls are OCR-junk alternatives in Cordemex; they still count because they were written down.
 
 Combining declared-sense Gate 1 with that Gate 2, **2 of 78 section-9 rows are H** (1 of 61 on the chance-check list, plus *Quecholli*). *Ixchel* is C+L (Gate 1 sense miss; approved gloss unchanged). Thirty are C\* / C+L\* after the 2026-09-16 rival-reading tournaments (was 25; five new stars: *ik'el, 'Ibil, mucane, kifba, Tzokan'te*). Forty-five are C / C+L. One is S. *pul / puul* has a decode artifact (Gate 1 yes, Gate 2 fall, C\*). No token may carry `H` without both gates recorded under recovery scoring. Proof of this pass: `analysis/gate1_rescore_rerun.csv`, `analysis/gate2_rescore_rerun.csv`.
 
-**Measured hardened share.** The hardened core of the committed lexicon is **2.6%, 95% CI [0.7%, 8.9%]** (2 of 78 section-9 tokens); counted over the 69 distinct roots it is **2.9%, 95% CI [0.8%, 10.0%]** (2 of 69). The 61-row chance-check list gives **1.6% [0.3, 8.7]** and **1.9% [0.3, 10.1]** (1 of 61 / 1 of 52). Folding in the three check-E names gives **3.1% [0.9, 10.7]** and **3.6% [1.0, 12.3]** (2 of 64 / 2 of 55); see "A third base" in §17.7. *Quecholli* is an exact attested dictionary string and so an easy plant relative to the text tokens; *Ixchel* hit the Cordemex string but not the approved sense (C+L); *Panquetzaliztli* missed because the compound is not in the attached dictionaries.
+**Measured hardened share.** 2 of 78 = **2.6%, 95% CI [0.7%, 8.9%]**; 2 of 69 distinct roots = **2.9% [0.8, 10.0]**. Chance-check list: **1.6% [0.3, 8.7]** / **1.9% [0.3, 10.1]** (1 of 61 / 1 of 52). Folding in the three check-E names: **3.1% [0.9, 10.7]** / **3.6% [1.0, 12.3]** (2 of 64 / 2 of 55). *Quecholli* is an exact attested dictionary string and so an easy plant relative to the text tokens; *Ixchel* hit the Cordemex string but not the approved sense (C+L); *Panquetzaliztli* missed because the compound is not in the attached dictionaries.
 
 **What this does and does not prove.** These figures are the protocol's certification rate: how often a reading survives hardening under form-first lookup. They are not a direct measure of translation correctness, and they are not a probability that the English gloss is what the developers meant.
 
-### 17.5 Line-level English (the live translation numbers)
+### 17.5 Line-level English
 
-Full working, with Wilson 95% intervals, is in `STATISTICAL_SUMMARY.md` and `analysis/TRANSLATION_BATTERY_RESULTS.md`. Coverage figures in §17.4 and §17.7 use `token_classification.csv`, `gate1_rescore_rerun.csv`, and `gate2_rescore_rerun.csv`.
+Full working, with Wilson 95% intervals, is in `STATISTICAL_SUMMARY.md` and `analysis/TRANSLATION_BATTERY_RESULTS.md`.
 
 **Headline.** Independent translations match or partly match the published English about 29% of the time. Method notes do not raise that rate. None of the 51 lines is graded fully secure.
+
+Pessimistic: exact match about 9-11% (T-D 8.6% [5.8, 12.7]; T-M 10.6% [7.4, 15.0]); 0/51 fully secure [0.0, 7.0]. Average: match or partial about 29% (T-M 29.4% [24.2, 35.3]; T-D 28.2% [23.1, 34.1]); working 23.5% [14.0, 36.8]. Optimistic: match or partial upper 95% bound 35.3%; working upper 95% bound 36.8%.
 
 Line-level English batteries T-M (method notes on) and T-D (dictionaries only), five seeds each, 51 surface lines, N = 255 line-slots per battery:
 
@@ -1244,42 +1260,29 @@ Line-level English batteries T-M (method notes on) and T-D (dictionaries only), 
 | T-M | 27/255 = 10.6% [7.4, 15.0] | 75/255 = 29.4% [24.2, 35.3] |
 | T-D | 22/255 = 8.6% [5.8, 12.7] | 72/255 = 28.2% [23.1, 34.1] |
 
-Bootstrap T-M minus T-D match+partial: +0.012, 95% percentile CI [-0.067, +0.090], includes zero. Method notes do not lift agreement with the published English on this corpus. They do change decoder behavior: T-M clash 139/255 = 54.5% [48.4, 60.5] vs T-D 172/255 = 67.5% [61.5, 72.9]; T-M abstain 41/255 = 16.1% [12.1, 21.1] vs T-D 11/255 = 4.3% [2.4, 7.6]. Those difference intervals exclude zero. Shared dictionaries still pull both arms into the same false friends when they assert (insect *ik'el*, shake *'Ibil*, bury *mucane*; logged in §10.13). Clash/abstain intervals and labeled exploratory tables (per-text, vocative sensitivity, Fleiss kappa) live in the same results file. Those rates are reproducibility under this dictionary kit, not a probability that a gloss is a genuine root, and not a per-line confidence product.
+Bootstrap T-M minus T-D match+partial: +0.012, 95% percentile CI [-0.067, +0.090], includes zero. Method notes do not lift agreement with the published English on this corpus. They do change decoder behavior: T-M clash 139/255 = 54.5% [48.4, 60.5] vs T-D 172/255 = 67.5% [61.5, 72.9]; T-M abstain 41/255 = 16.1% [12.1, 21.1] vs T-D 11/255 = 4.3% [2.4, 7.6]. Those difference intervals exclude zero. Shared dictionaries still pull both arms into the same false friends when they assert (insect *ik'el*, shake *'Ibil*, bury *mucane*; logged in §10.13). Clash/abstain intervals and labeled exploratory tables live in the same results file. Those rates are reproducibility under this dictionary kit, not a probability that a gloss is a genuine root.
 
-**Editorial stress test (secure-line grades).** For each of the same 51 published English lines, load-bearing tokens are tagged H / C / C* / S / O and the line is graded secure / working / fragile / opaque-blocked (`analysis/SECURE_LINE_TAGS.md`). Secure requires every load-bearing token to be H: **0/51 = 0.0% [0.0, 7.0]**. Working (all H or plain C): 12/51 = 23.5% [14.0, 36.8]. Fragile (any C* or S): 38/51 = 74.5% [61.1, 84.5]. Opaque-blocked (any O): 1/51 = 2.0% [0.3, 10.3] (Kamasan *jare'yantul*, because *yan* is not a §9 row). Almost no secure lines (none). About three quarters are fragile. Working count is unchanged by the Ixchel demotion (the name is not in the 51 lines). The only H token in that corpus is *xefe* (line 35), and that line is still fragile because *te'moxti* is S.
+**Editorial stress test (secure-line grades).** For each of the same 51 published English lines, load-bearing tokens are tagged H / C / C* / S / O and the line is graded secure / working / fragile / opaque-blocked (`analysis/SECURE_LINE_TAGS.md`). Secure requires every load-bearing token to be H: **0/51 = 0.0% [0.0, 7.0]**. Working (all H or plain C): 12/51 = 23.5% [14.0, 36.8]. Fragile (any C* or S): 38/51 = 74.5% [61.1, 84.5]. Opaque-blocked (any O): 1/51 = 2.0% [0.3, 10.3] (Kamasan *jare'yantul*, because *yan* is not a §9 row). About three quarters are fragile. Working count is unchanged by the Ixchel demotion (the name is not in the 51 lines). The only H token in that corpus is *xefe* (line 35), and that line is still fragile because *te'moxti* is S.
 
-**Leave-one-text-out.** Same 51 lines, five folds (`analysis/LEAVE_ONE_TEXT_OUT.md`). ok 12/51 = 23.5% [14.0, 36.8]; ok+partial 33/51 = 64.7% [51.0, 76.4]; fail 18/51 = 35.3% [23.6, 49.0]. Text 3 is the weakest fold: 0/13 ok. Text 4 ok is vocative-inflated (5/12; 0/7 if *Atziri!* and *U'te mucane* gifts drop). Macro-average ok 18.3%. This is internal transfer, not a new chance check.
+**Leave-one-text-out.** Same 51 lines, five folds (`analysis/LEAVE_ONE_TEXT_OUT.md`). Pessimistic: 14.0% ok (lower 95% bound); Text 3 is 0/13. Average: ok 12/51 = 23.5% [14.0, 36.8]; ok+partial 33/51 = 64.7% [51.0, 76.4]. Optimistic: 36.8% ok / 76.4% ok or partial (upper 95% bounds). Fail 18/51 = 35.3% [23.6, 49.0]. Text 4 ok is vocative-inflated (5/12; 0/7 if *Atziri!* and *U'te mucane* gifts drop). Macro-average ok 18.3%. This is internal transfer, not a new chance check.
 
 **What this does and does not prove.** About 29% match or partial match is the measured agreement with the published English, not a proof that those English lines are correct, and not a proof that they are wrong. Zero secure lines means no published English line is carried entirely by hardened vocabulary. A line is no stronger than its least-secure token. The honest unit of confidence remains the individual token. Across the connected corpus (Texts 1-4 and the Kamasan Smith: 51 lines, 186 tokens) a line runs **3.65 tokens** on average.
 
-#### Withdrawn / superseded (not for interpretation)
-
-The following displays were computed from older methods. They are kept here only so a reader can see what was withdrawn. **Do not quote them as current results.**
-
-- **All-noise headlines** of about 2 x 10^-15 and 3 x 10^-18, including a sigma column and the older "probable lexicon" / "very unlikely pure noise" wording.
-- **Per-reading "probability this gloss is a real root" tables** (positive predictive value, PPV) that mixed different tests on different tiers and used any-dictionary-hit rates rather than declared-sense recovery.
-- **Per-line confidence bands** that multiplied those retracted word-level probabilities across a sentence (including an independence product that is not a valid lower bound). Concrete line examples that quoted percentages for *Tlayeb kifba!*, *Atziri, Atziri, ascenada akal!*, and *Ti ek tala jare'yantul!* belonged to that method.
-- **Earlier, larger hardened counts** (including 17 of 78 and 14 of 61) from the 2026-08/09 rereading of the 2026-07 files.
-
-The live figures in this section are the translation-battery Wilson intervals, the secure-line grades, the leave-one-text-out grades, the chance-check p-values in §17.3, and the hardened-share counts in §17.4 and §17.7.
-
 ### 17.6 How much of Vaal is built from real dictionary roots?
 
-The withdrawn PPV tables turned on **b**, the unknown fraction of Vaal actually built from real palette roots. That fraction cannot be observed directly, and converting it into a gloss-probability is **withdrawn**. The name-roster count below is kept as a descriptive observation of naming behaviour, not as a translation confidence.
+That fraction cannot be observed directly, and converting it into a gloss-probability is not a live result (see §17.10). The name-roster count below is a descriptive observation of naming behaviour, not a translation confidence.
 
-**Proper-noun proxy (palette-scoped).** The named roster in §12 is a closed sample of the developers' naming behaviour. Four of its figures are documented borrowings from *outside* the Mesoamerican palette entirely: Apep (Egyptian), Ralakesh (Sanskrit), Arakaali (Greek/Hindu), and the Omnitect (Latin). These were never attempts at a palette root and are out of scope for this estimate. Among the **33 in-scope names, 19 carry an attested palette root (Nahuatl, Maya, K'iche', or Spanish): ≈ 58%.** Many rest on structural markers hard to produce by chance, the Nahuatl *-tl / -tli / -atl* absolutive endings on *Matatl*, *Cholotl*, *Citaqualotl* and the like, which is why the name roster is a comparatively strong signal.
+**Proper-noun proxy (palette-scoped).** The named roster in §12 is a closed sample of the developers' naming behaviour. Four of its figures are documented borrowings from *outside* the Mesoamerican palette entirely: Apep (Egyptian), Ralakesh (Sanskrit), Arakaali (Greek/Hindu), and the Omnitect (Latin). These were never attempts at a palette root and are out of scope for this estimate. Among the **33 in-scope names, 19 carry an attested palette root (Nahuatl, Maya, K'iche', or Spanish): ≈ 58%.** Many rest on structural markers hard to produce by chance, the Nahuatl *-tl / -tli / -atl* absolutive endings on *Matatl*, *Cholotl*, *Citaqualotl* and the like.
 
-**Bounds on that figure.** Counting only clean, fully-worked parses (setting soft candidates aside) gives a conservative floor of ≈ 15-18%; the 58% is soft-inclusive and so upper-leaning. Folding the four out-of-scope borrowings back into the denominator drags the ratio to 19/37 ≈ 51%, but that penalizes the estimate for deliberate design choices the palette was never meant to catch, so it is not the right denominator here.
+**Bounds on that figure.** Pessimistic: counting only clean, fully-worked parses (setting soft candidates aside) gives a floor of ≈ 15-18%. Average / central: the 58% figure above (soft-inclusive, so upper-leaning). Folding the four out-of-scope borrowings back into the denominator drags the ratio to 19/37 ≈ 51%, but that penalizes the estimate for deliberate design choices the palette was never meant to catch, so it is not the right denominator here. The roster does not reach 75%.
 
-**Why a textbook conversion is not usable here.** In principle the unknown fraction b can be backed out from the corpus's observed pass rate. With this pass's numbers, declared-sense recovery (0.033) sits below D's false-positive rate (0.068), so that conversion is undefined or negative. When the two rates answer different questions, the equation has no valid solution.
-
-**Consequence.** The palette-scoped proxy still puts attested-root names at **about 58%**, above a 50% coin-flip. That is a fact about names, not a probability that a text gloss is right. We still do not stretch to 75%; the roster does not reach that far. The old conversion into a hardened PPV of about 75-81% is withdrawn.
+**Why a textbook conversion is not usable here.** In principle the unknown fraction can be backed out from the corpus's observed pass rate. With this pass's numbers, declared-sense recovery (0.033) sits below D's false-positive rate (0.068), so that conversion is undefined or negative. When the two rates answer different questions, the equation has no valid solution. The 58% name-roster figure is a fact about names, not a probability that a text gloss is right.
 
 ### 17.7 Related tokens are not independent trials
 
-The counts above treat each committed token as an independent trial. That overstates the evidence wherever several tokens descend from one root: *ik'bala*, *ikba'yucane*, *Ik'eche*, and *ik'el* are all built on Yucatec *ik'* "spirit, breath," so they are four surface forms of a single lexical bet, not four independent confirmations. This subsection reruns the tests with morphological relatives collapsed to their shared root, so the result is visible on both bases. The recount below is stated on the **61-row chance-check list** after the 2026-09-16 pass; the enlarged headline base, with the three check-E names, is in "A third base" at the end of this subsection. *pul* now has a decode artifact and lives in the 78-row frame as C*, not in the 61-row list.
+The counts above treat each committed token as an independent trial. That overstates the evidence wherever several tokens descend from one root: *ik'bala*, *ikba'yucane*, *Ik'eche*, and *ik'el* are all built on Yucatec *ik'* "spirit, breath," so they are four surface forms of a single lexical bet, not four independent confirmations. This subsection reruns the tests with morphological relatives collapsed to their shared root. The recount below is stated on the **61-row chance-check list**; the enlarged headline base, with the three check-E names, is in "A third base" at the end of this subsection. *pul* now has a decode artifact and lives in the 78-row frame as C*, not in the 61-row list.
 
-**Levels of dependence.** Related observations inflate the evidence at four nested levels. The recount here corrects the first two; the third is handled separately as syntax (§17.8), and the fourth is flagged rather than counted:
+**Levels of dependence.**
 
 | Level | What repeats | Example | How this document treats it |
 |---|---|---|---|
@@ -1302,81 +1305,82 @@ The counts above treat each committed token as an independent trial. That overst
 
 **Appendix (family audit 2026-09-16).** Shared *pieces* that are not the head of both rows are footnotes, not merges (`analysis/MORPHOLOGICAL_FAMILY_AUDIT.md`). *ts'ook* in *cha'tsoke* and *Tzokan'te*, *ma'* in *ma* and *Ma'oxe*, and the tails *-ba'* / *-ane* are not extra independent bets. *tul* and *pul* stay two roots. *kux* and *k'ux* stay two roots. Forcing *Tzokan'te* into *cha'tsoke* would move 69 heads to 68 (H share 2/68 instead of 2/69); not adopted, because the heads differ. Headline N stays 52 / 55 / 69. *ikba'yucane* keeps leftover *yuc* as residue, still in the *ik'* family.
 
-The 61 tokens thus reduce to **52 distinct roots** (the three check-E names each add a further distinct root, so the enlarged frame has **55**; the 78-row section-9 table, adding *pul* and the 13 former lore-only rows as distinct heads, has **69**; see "A third base" below). None of these families holds an H token in this pass. The only chance-check-list H is *xefe*, which is not in a merge family, so the collapse removes no H (1 stays 1) while dropping nine mostly-failing forms from the denominator. Protocol-clean Gate 1 on this frame is 4 (*k'áak'*, *náach*, *tul*, *xefe*), all distinct heads, so 4 stays 4.
+The 61 tokens thus reduce to **52 distinct roots** (the three check-E names each add a further distinct root, so the enlarged frame has **55**; the 78-row section-9 table, adding *pul* and the 13 former lore-only rows as distinct heads, has **69**). None of these families holds an H token in this pass. The only chance-check-list H is *xefe*, which is not in a merge family, so the collapse removes no H (1 stays 1) while dropping nine mostly-failing forms from the denominator. Protocol-clean Gate 1 on this frame is 4 (*k'áak'*, *náach*, *tul*, *xefe*), all distinct heads, so 4 stays 4.
 
-**Results on both bases.**
+**Results on both bases (live).**
 
 | Metric | Per token (N = 61, A-D) | Per distinct root (N = 52, A-D) |
 |---|---|---|
 | Strict Gate-1 protocol-clean | 4 | 4 |
 | Strict Gate-1 recovery (incl. protocol-flagged) | 4 | 4 |
-| Null-rejection p (unconditional vs 4.6% floor) | withdrawn as headline | withdrawn as headline |
-| Null-rejection p (selection-matched, any-hit) | trial 0.09494; item 0.3069 | unique strings already; same Fisher |
-| Null-rejection p (declared-sense matched) | trial p = 1; item p = 0.9991 | same |
+| Null-rejection p (any-hit) | trial 0.09494; item 0.3069 | unique strings already; same Fisher |
+| Null-rejection p (declared-sense) | trial p = 1; item p = 0.9991 | same |
 | Hardened tier | 1.6% [0.3, 8.7] | 1.9% [0.3, 10.1] |
 | Gate-1 protocol-clean | 6.6% [2.6, 15.7] | 7.7% [3.0, 18.2] |
 | Gate-2 rival-meaning | 65.5% [52.7, 76.4] (38/58) | 61.2% [47.2, 73.6] (30/49) |
 | Tier split H / C* / C | 1 / 24 / 36 | 1 / 23 / 28 |
 
-**Reading.** The dependency correction does not restore a large hardened core. Related tokens are concentrated in failing families, so the per-root H share only moves from 1.6% to 1.9% on the chance-check list (2.6% to 2.9% on the 78-row table, 3.1% to 3.6% on the enlarged frame). The recount is defensive, not promotional. It does not restore a 10^-15 unconditional floor test.
+**Reading.** The dependency correction does not restore a large hardened core. Related tokens are concentrated in failing families, so the per-root H share only moves from 1.6% to 1.9% on the chance-check list (2.6% to 2.9% on the 78-row table, 3.1% to 3.6% on the enlarged frame). The recount is defensive, not promotional.
 
-**Both bases are kept on purpose.** The per-token figures are the honest raw account of how the committed lexicon behaves form by form; the per-root figures are the honest account of how it behaves lemma by lemma. Neither is privileged. The per-token base is the more conservative denominator for coverage claims (it counts every attested form the translations actually use); the per-root base is the correct one for the independence claim (it counts each lexical bet once). Where a single headline number is needed, the per-token figure is quoted first with the per-root figure beside it.
+**Both bases are kept on purpose.** The per-token figures are the honest raw account of how the committed lexicon behaves form by form; the per-root figures are the honest account of how it behaves lemma by lemma. Neither is privileged. The per-token base is the more conservative denominator for coverage (every attested form the translations actually use); the per-root base is the correct one for the independence claim (each lexical bet once). Where a single headline number is needed, the per-token figure is quoted first with the per-root figure beside it.
 
-**Nonsense-corpus dependence.** The 2026-09-16 noise arm contains **500 distinct strings of 500** (no cross-seed nonce repeats). The generator rejects corpus tokens and long substrings of corpus tokens. Ordinary Spanish exact hits on the loan palette are labelled Spanish C, not pure noise, and those strings were excluded from the nonsense arm. Distinct-string check D FPR is 34/500 = 6.8%. See `NULL_MODEL_RESULTS_RERUN.md`.
+**Nonsense-corpus dependence.** The 2026-09-16 noise arm contains **500 distinct strings of 500** (no cross-seed nonce repeats). The generator rejects corpus tokens and long substrings of corpus tokens. Ordinary Spanish exact hits on the loan palette are labelled Spanish C, not pure noise, and those strings were excluded from the nonsense arm. See `NULL_MODEL_RESULTS_RERUN.md`.
 
-**A third base: folding in the post-list names.** Three name tokens (*Quecholli*, *Panquetzaliztli*, *Ixchel*, §9, §12.5-12.6) were re-run as blind plants: check **E** (`BATTERY_E_RERUN.md`, §17.3), shuffled among new unique nonsense strings and post-rescore controls, under the strict-plus-extra-wordlist conditions of D. *Quecholli* 5/5 (H+L), *Ixchel* 5/5 (lexeme string; Cordemex herb gloss ≠ approved theonym, now C+L), *Panquetzaliztli* 0/5 (not in attached dictionaries, C+L). Unconditional binomials vs a 4.6% floor, and sigma labels, are not reused as headlines.
+**A third base: folding in the post-list names.** Three name tokens (*Quecholli*, *Panquetzaliztli*, *Ixchel*, §9, §12.5-12.6) were re-run as blind plants: check **E** (`BATTERY_E_RERUN.md`, §17.3), shuffled among new unique nonsense strings and post-rescore controls, under D conditions. *Quecholli* 5/5 (H+L), *Ixchel* 5/5 (lexeme string; Cordemex herb gloss ≠ approved theonym, now C+L), *Panquetzaliztli* 0/5 (not in attached dictionaries, C+L).
 
 | Metric | Chance-check list (61 tokens / 52 roots, A-D) | Enlarged frame (64 tokens / 55 roots, + check E) | Section 9 agreed (78 tokens / 69 roots) |
 |---|---|---|---|
 | Hardened tier, per token | 1.6% [0.3, 8.7] (1/61) | 3.1% [0.9, 10.7] (2/64) | 2.6% [0.7, 8.9] (2/78) |
 | Hardened tier, per distinct root | 1.9% [0.3, 10.1] (1/52) | 3.6% [1.0, 12.3] (2/55) | 2.9% [0.8, 10.0] (2/69) |
 | Strict Gate-1 protocol-clean, per token | 4 | 5 (*xefe*, *k'áak'*, *náach*, *tul*, *Quecholli*; *Ixchel* is a sense miss; *pul* is id 62) | 6 (adds *pul*) |
-| Null-rejection p, per token | matched any-hit p = 0.09494 / 0.3069; declared-sense p = 1 / 0.9991 | E not mixed into the A-D Fisher | same A-D Fisher |
+| Null-rejection p, per token | any-hit p = 0.09494 / 0.3069; declared-sense p = 1 / 0.9991 | E not mixed into the A-D Fisher | same A-D Fisher |
 | Null-rejection p, per distinct root | A-D strings already unique | same | same |
-| Hardened PPV band | withdrawn; not for interpretation | same | same |
 
-(The enlarged distinct-root count assumes the three names add three new roots; if *quetza* in *Panquetzaliztli* is treated as a root already present in the corpus, the per-root H figure is still 2/54 because *Panquetzaliztli* is not H and *Ixchel* is not H.) Each name is counted as one observation by its head root rather than split into its constituent morphemes (*Panquetzaliztli* as a single *quetza*-headed bet; *Ixchel* as a single *chel*-headed bet). All three columns stay on the page: the 61-row list is the recovery-scored A-D frame; the 64-row enlarged frame includes check E; the 78-row section-9 table is what a reader actually consults (all 78 gated in this pass). *pul* now has an artifact (C*). Re-running when new material arrives remains the versioning trigger (§14).
+(The enlarged distinct-root count assumes the three names add three new roots; if *quetza* in *Panquetzaliztli* is treated as a root already present in the corpus, the per-root H figure is still 2/54 because *Panquetzaliztli* is not H and *Ixchel* is not H.) Each name is counted as one observation by its head root rather than split into its constituent morphemes. All three columns stay on the page: the 61-row list is the recovery-scored A-D frame; the 64-row enlarged frame includes check E; the 78-row section-9 table is what a reader actually consults (all 78 gated in this pass). *pul* now has an artifact (C*). Re-running when new material arrives remains the versioning trigger (§14).
 
 ### 17.8 Confirmation of the syntactic analysis (§3)
 
 **Headline.** Analysts who did not see this project's English recovered word-order regularities on real Vaal lines and not on scrambled lines. The difference is not statistically significant.
 
+This check is a single small-sample test, not a range. Result: **3/3 vs 0/2, Fisher one-sided p = 0.10**, not significant. Possession order is not locked.
+
 The grammar in §3 is the project's distributional reading. The current confirmation is the 2026-09-16 panel: analysts received numbered surface lines and a form-only token list (orthography, no project English glosses, no §3 conclusions). Scoring unit is analyst by corpus. Packets, raw sheets, and scoring: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
 
 Six testable conclusions were scored after the sheets existed: (1) clause type is set by a clause-initial particle; (2) article, possessive, and modifier precede the noun; (3) the possessed precedes the possessor; (4) verb precedes object; (5) equational clauses take no copula; (6) operators are proclitic and derivation is suffixed. (5) and (6) are order-independent and are not linear-syntax evidence.
 
-**Current claim.** Three real-panel analysts (A, B, C) versus two scrambled-panel analysts (D, E; within-line shuffle, seed 1729). An analyst recovered consistent word-order regularities if they reported, at medium or high confidence, a consistent linear order for at least two of questions 1-4. Result: **3/3 vs 0/2, Fisher one-sided p = 0.10**, not significant. N = 5. Small N; do not inflate it by counting correlated rules. Do not quote a rule-level table as the p-value.
+Three real-panel analysts (A, B, C) versus two scrambled-panel analysts (D, E; within-line shuffle, seed 1729). An analyst recovered consistent word-order regularities if they reported, at medium or high confidence, a consistent linear order for at least two of questions 1-4. N = 5. Small N; do not inflate it by counting correlated rules. Do not quote a rule-level table as the p-value.
 
-Qualitative match to the six §3 conclusions is weaker without English than the earlier panel. On the real panel, clause-initial type marking and prenominal *le* were partial for A and B and stronger for C; possessed-before-possessor was confirmed only by C (A and B undetermined); verb-object was partial or medium. Copula absence and affix-edge findings did not survive scramble as a clean positive in this panel.
+Qualitative match to the six §3 conclusions is weaker without English. On the real panel, clause-initial type marking and prenominal *le* were partial for A and B and stronger for C; possessed-before-possessor was confirmed only by C (A and B undetermined); verb-object was partial or medium. Copula absence and affix-edge findings did not survive scramble as a clean positive in this panel.
 
-**Earlier 2026-07 panel (analysts had English).** Analysts received surface lines, English translations, and a token glossary. Analyst-level table from those files: **3/3 vs 0/2, Fisher p = 0.10**. A rule-level 12/12 vs 0/8 (p about 7.9 x 10^-6) is withdrawn as a significance claim (the rules are not independent trials). The same counts and p as the later table do not make that panel blind to English, and p = 0.10 is not significant either time.
-
-**What this does and does not prove.** Shared corpus measures reproducibility of a reading from the data, not designer intent. Possession order is not locked. Model-based per-line percentages stay withdrawn.
+**What this does and does not prove.** Shared corpus measures reproducibility of a reading from the data, not designer intent. Possession order is not locked.
 
 ### 17.9 Spelling correspondences (§2.6)
 
-The stylization rules in §2.6 cannot be tested against sound without audio (see the scope note there), but they can be tested as spelling correspondences. The strict-versus-loose spelling rules that the chance check varies (§17.1, §17.3) *are* the permissiveness of these rules. Hardening them is therefore a matter of reading the existing results at the level of the rules rather than the tokens.
+The stylization rules in §2.6 cannot be tested against sound without audio (see the scope note there), but they can be tested as spelling correspondences. The strict-versus-loose spelling rules that the chance check varies (§17.2, §17.3) *are* the permissiveness of these rules.
 
 **Rules split into two classes.** Strict-safe correspondences change nothing the source did not already license: written *u* realized /o/ (systematic, audio-confirmed), silent initial *g*, *Gua- / Gue-* for /kʷ/, the reverential *-tzin* reducing to *-tzi*, and the underspecified marking of ejectives. Permissive correspondences add or move material the source does not have: the *-tl* to *-to* reduction and reorder, terminal-vowel padding (*el* to *ela*, and the *-e / -a* on closed roots), the non-morphemic codas *-uks / -s*, and the soft tails *-che / -zeh*. The strict bar forbids exactly this second class (no metathesis, no vowel epenthesis, no ad hoc coda changes), which is what makes it strict.
 
-**Result.** After this pass the protocol-clean Gate 1 set is **4 of 61**. Permissive-rule specificity remains the chance check's own measurement: the strict bar manufactures an any-hit match 6.4% of the time on core dictionaries (C) or 6.8% with extra Nahuatl lists (D), while the loose bar does so 12.8% of the time at C (A; found-rate 43.3%). A derivation that leans on a permissive rule is close to noise as a spelling correspondence.
+**Result.** After this pass the protocol-clean Gate 1 set is **4 of 61**. The strict bar manufactures an any-hit match 6.4% of the time on core dictionaries (C) or 6.8% with extra Nahuatl lists (D), while the loose bar does so 12.8% of the time at C (A; found-rate 43.3%). A derivation that leans on a permissive rule is close to noise as a spelling correspondence.
 
-**What this does and does not establish.** It hardens the *orthographic* correspondences: it shows which spelling-to-source mappings are tight and which are permissive, and it puts the permissive ones on the same near-noise footing the lexicon already reports. It does not recover the actual phonemes; that is the audio work the project has chosen not to pursue (§2.6).
+**What this does and does not establish.** It hardens the *orthographic* correspondences: it shows which spelling-to-source mappings are tight and which are permissive. It does not recover the actual phonemes; that is the audio work the project has chosen not to pursue (§2.6).
 
-### 17.10 Sources of uncertainty (what dominates)
+### 17.10 Earlier iterations (historical; not for interpretation)
 
-The confidence intervals above quantify sampling uncertainty, which is not the largest unknown. Ranked by how much each could move the conclusions, the dominant sources are conceptual rather than statistical:
+This subsection is an archive of superseded displays. **Do not quote it as current standing.** Live claims are §17.1-17.9 only.
 
-| Source | What it affects | Direction and size | Where it is handled |
-|---|---|---|---|
-| Unknown fraction of Vaal built from real roots | old PPV tables (withdrawn; not for interpretation) | still unmeasurable; name roster ~58% | descriptive only (§17.6) |
-| Developer stylization | which spelling-to-root maps count | can inflate loose-spelling matches | strict-versus-loose spelling test (§17.3, §17.9) |
-| Unidentified source languages | false negatives and mis-attributions | widens the admissible pool, raises FPR | pre-committed palette; Xinkan and Nawat cross-checks (§13) |
-| Transcription ambiguity | the token forms themselves | small but unquantified | corpus-only forms; audio phonology out of scope (§2.6) |
-| Semantic drift in glossing | whether a real root yields the right sense | elastic (green to evergreen to undying) | rival logging (C\*); "genuine root" kept separate from "correct gloss" |
-| Game localization | the English barks used as ground truth | mild circularity | flagged; syntax derived independently of the glosses (§3, §17.8) |
+**All-noise headlines (withdrawn).** A 2026-07 writeup claimed that Vaal is not random noise at p about 2 x 10^-15 (enlarged-base 3 x 10^-18), including a sigma column and "probable lexicon" / "very unlikely pure noise" wording. That comparison treated any dictionary hit as a pass and used an invalid noise floor. It is not this pass's result. Unconditional binomials versus a 4.6% floor are not reused.
 
-The single largest lever is how much of Vaal the designers built from real roots, which no internal test can measure. Independently of that unknown, the T-M / T-D match+partial rates (about 29% both arms) and the secure-line grades (0/51 secure, ~75% fragile) are the current measured statements about the published English.
+**2026-07 files and the 2026-08/09 rereading.** The original chance-check worksheets remain on disk. A later rereading of those archives corrected how they were counted. Those files were not overwritten. They are not mixed into §17.1-17.9. An any-hit matched range from those older files (p about 0.005 to 0.06) is not this pass's null result.
+
+**Earlier hardened counts (withdrawn as current certification).** Writeups that counted 17 of 78, 14 of 61, 22 of 62, or 23 of 62 as hardened used any-dictionary-hit rules, not declared-sense recovery. Those larger cores are not the live hardened set. The live set is *xefe* and *Quecholli* (2 of 78).
+
+**Per-reading PPV tables (withdrawn).** Older pages converted chance-check rates into a "probability this gloss is a real root" using a guessed fraction of Vaal built from real roots. The tables mixed different tests on different tiers (so committed could score higher than hardened at the same prior) and used any-hit rates rather than declared-sense recovery. They are not a probability that the English gloss is right. They are not reprinted here.
+
+**Per-line confidence bands (withdrawn).** Those PPV values were then multiplied across a sentence into a floor/ceiling band for each line, including an independence product that is not a valid lower bound. Concrete percentages quoted for *Tlayeb kifba!*, *Atziri, Atziri, ascenada akal!*, and *Ti ek tala jare'yantul!* belonged to that method. They are not current results. Do not treat them as per-line confidence.
+
+**2026-07 grammar panel (not the current claim).** Analysts in that panel received surface lines, English translations, and a token glossary. The analyst-level table was also 3/3 vs 0/2, Fisher p = 0.10. A rule-level 12/12 vs 0/8 (p about 7.9 x 10^-6) is withdrawn as a significance claim (the rules are not independent trials). Same counts as the later table do not make that panel blind to English. The live grammar claim is the 2026-09-16 panel in §17.8.
+
+**Where to look if a historical file must be opened.** `NULL_MODEL_RESULTS.md`, `ADVERSARIAL_RESULTS.md`, `SYNTAX_EXPERIMENT_LOG.md`, `AUDIT_REVIEW_2026-08-18.md`, `RESCORE_OUTPUT.md`, `NULL_HONESTY_OUTPUT.md`, and the PPV working in `STATISTICAL_SUMMARY.md` §§3-6 (there labelled withdrawn / not for interpretation).
 
 ## 18. Citations
 
