@@ -1,140 +1,138 @@
 # Statistical summary and confidence interval for the translation
 
-Current status after the full-lexicon hardening pass. Proportions carry Wilson 95% confidence intervals (appropriate for small-sample binomial rates). Underlying data: `token_classification.csv`, `NULL_MODEL_RESULTS.md`, `EXPERIMENT_LOG.md`.
+Current status after the 2026-09 audit remediation (`AUDIT_REVIEW_2026-08-18.md`, `FULL_AUDIT_2026-08-18.md`). Proportions carry Wilson 95% confidence intervals. Underlying data: `token_classification.csv`, `gate1_rescore.csv`, `NULL_HONESTY_OUTPUT.md`, `RESCORE_OUTPUT.md`, `EXPERIMENT_LOG.md`.
 
-**Current headline base (2026-07, after Battery E).** The tables below are the original 62-token run (Batteries A-D), retained as the prior epoch. Three names hardened afterward (*Quecholli*, *Panquetzaliztli*, *Ixchel*) were then blind-certified as plants under the same strict-and-online conditions (Battery E, `BATTERY_E_RESULTS.md`: 15/15 Gate-1 passes, controls calibrated), so the current headline is the enlarged base: **65 tokens, 25 hardened = 38.5% [27.6, 50.6]; 56 distinct roots, 25 hardened = 44.6% [32.4, 57.6]; 26 strict passes vs the 4.6% floor, p about 3 x 10^-18**. Composition caveat (the three are exact attested lexemes, easy plants, not affecting the null rejection) in master §17.5.
+**Headline (post-rescore).** The published all-noise null rejection of about 2 x 10^-15 (and the enlarged-base 3 x 10^-18) is withdrawn. Those binomials treated any decoder `C` as recovery of the project's reading, and they compared a selected real lexicon to an unselected 4.6% noise floor. The honest, selection-matched range from the same files is **p ≈ 0.005 to 0.06 (marginal)**. Cite `AUDIT_REVIEW_2026-08-18.md` O1 and `NULL_HONESTY_OUTPUT.md`.
+
+Agreed lexicon population: **78 section-9 rows**, each with an H/C/S/O status. L is a tag only. Battery-tested Gate 1 is the **61-row** `strict_committed_results_batch*.csv` set. *pul / puul* has no decode artifact; its old Gate-1 pass is dropped.
+
+| Population | N | Hardened (H) | Share | 95% CI |
+|---|---:|---:|---:|---|
+| Section 9 lexicon (agreed) | 78 | 17 | 21.8% | [14.1, 32.2] |
+| Strict-CSV battery (ids 1-61) | 61 | 14 | 23.0% | [14.2, 34.9] |
+| Battery-tested + Battery E names | 64 | 17 | 26.6% | [17.3, 38.5] |
+
+Old headlines (22 H of 62; 25 H of 65; 23/62 and 26/65 strict passes vs a 4.6% floor) do not rebuild from the CSVs and are not repeated as current results.
 
 ## 1. Committed lexicon, current tier distribution
 
-Reported on two bases: per token (every attested surface form the translations use) and per distinct root (morphological relatives collapsed to their shared lemma, §7a). Both are kept; neither supersedes the other.
+Tiers from `token_classification.csv` after Gate 1 was rescored against the predeclared root, language class, and sense, Gate 2 was extended to same-language homophones, and HARDENING_PROTOCOL violations were demoted out of H.
 
-**Per token (N = 62):**
+**Section 9, N = 78 (the table a reader consults):**
+
+| Tier | Count | Notes |
+|---|---:|---|
+| Hardened (H / H+L) | 17 | both gates, protocol-clean |
+| Committed + competitor (C* / C+L*) | 11 | Gate 2 fall (including same-language homophones) |
+| Committed, latitude-dependent or pending (C / C+L) | 49 | includes 13 former L-only rows now C+L, hardening pending |
+| Soft (S+L) | 1 | *Xatlene* (own note: one unresolved vowel step) |
+
+L is never a lone tier. The 13 rows that were L-only are C+L (pending) except *Xatlene* (S+L).
+
+**Battery-tested subset, N = 61:**
 
 | Tier | Count | Proportion | 95% CI |
-|---|---|---|---|
-| Hardened (H) | 22 | 35.5% | [24.7%, 47.9%] |
-| Committed + competitor (C\*) | 7 | 11.3% | [5.6%, 21.5%] |
-| Committed, latitude-dependent (C) | 33 | 53.2% | [41.0%, 65.1%] |
+|---|---:|---:|---|
+| Hardened (H) | 14 | 23.0% | [14.2%, 34.9%] |
+| Committed + competitor (C*) | 11 | 18.0% | [10.4%, 29.5%] |
+| Committed (C / C+L) | 36 | 59.0% | [46.5%, 70.5%] |
 
-**Per distinct root (N = 53):**
+Gate pass rates on the 61-row strict CSV, after recovery scoring (not legacy any-C):
 
-| Tier | Count | Proportion | 95% CI |
-|---|---|---|---|
-| Hardened (H) | 22 | 41.5% | [29.3%, 54.9%] |
-| Committed + competitor (C\*) | 6 | 11.3% | [5.3%, 22.6%] |
-| Committed, latitude-dependent (C) | 25 | 47.2% | [34.6%, 60.2%] |
-
-Gate pass rates on both bases:
-
-| Gate | Per token | Per distinct root |
+| Gate | Count | Rate |
 |---|---|---|
-| Gate 1, strict-latitude reconstruction | 23/62 = 37.1% [26.2%, 49.5%] | 22/53 = 41.5% [29.3%, 54.9%] |
-| Gate 2, adversarial survival | 55/62 = 88.7% [78.5%, 94.4%] | 48/53 = 90.6% [79.7%, 95.9%] |
+| Gate 1, legacy any-C (the F1 hole) | 21/61 | 34.4% [23.7, 47.0] |
+| Gate 1, committed-root/lang/sense recovery | 16/61 | 26.2% [16.8, 38.4] (includes *Eztli Pilli* Battery D override; includes *k'ux* and *ma*, which then fail protocol) |
+| Gate 1, protocol-clean recovery | 14/61 | 23.0% [14.2, 34.9] |
+| Gate 2, different-meaning competitor (any language) | 47 survive / 58 testable | 81.0% (3 names N/A). Was 51/58 effective under the old cross-language-only filter. |
 
-Reading: between a third and two-fifths of the committed vocabulary reconstructs under strict rules, and the great majority (88-91%) has no genuine cross-language competitor. Hardened readings (both gates) are 35.5% of the lexicon by token, 41.5% by distinct root; the per-root figure is higher because the collapsed duplicates are almost all non-hardened relatives (§7a).
+Hardened readings that survive both gates and the protocol, 17 of 78: *ascensionada, che', -en, Eztli Pilli, ich, k'áak', ki', kujkuali, máax, náach, Ti, u, waaj, xefe, Quecholli, Panquetzaliztli, Ixchel*.
 
-## 2. Null-model error rates (pooled, 500 pseudo + 150 real per battery), 95% CI
+Demoted from H (not new etymologies; decoder mismatch or protocol): *akal* (quarrel vs pond), *ek* (wasp vs star/dark), *tul* (K'iche' reed vs Maya wane; also same-language classifier), *uch'* (K'iche' opossum vs drink/crush; dual readings), *xi* (Yucatec go vs claimed Nahuatl do/make), *k'ux* (unexplained *-zeh* residue), *ma* (bundled Maya negation and Nahuatl optative), *pul / puul* (no decode artifact).
 
-| Battery | FPR(C) | TPR(C) |
+## 2. Null-model error rates, and what they may be used for
+
+Pooled Batteries A-D still reproduce as any-C rates (`NULL_MODEL_RESULTS.md`, `NULL_HONESTY_OUTPUT.md`):
+
+| Battery | FPR(C) | TPR(C), any-root |
 |---|---|---|
 | A loose / offline | 6.2% [4.4, 8.7] | 20.7% [15.0, 27.8] |
 | B loose / online | 8.0% [5.9, 10.7] | 17.3% [12.1, 24.2] |
 | C strict / offline | 3.4% [2.1, 5.4] | 12.7% [8.3, 18.9] |
 | D strict / online | 4.6% [3.1, 6.8] | 14.0% [9.3, 20.5] |
 
-(The four batteries form a latitude x online-access 2x2. Adding online Nahuatl under the strict rules, D vs C, lifts FPR and TPR together, 3.4 to 4.6% and 12.7 to 14.0%, so discrimination is unchanged; coverage is not the bottleneck, latitude is. Full 2x2 in `NULL_MODEL_RESULTS.md`.)
+These rates measure whether a surface string receives *any* committed-quality dictionary match. They do **not** measure recovery of a predeclared gloss. `score.py` now prints both the legacy any-C TPR and a committed-recovery TPR when root/lang/gloss columns exist. Battery D online rows often leave those columns empty and are labelled unscorable for recovery.
 
-These are the method's measured error rates: the chance a nonsense string is certified committed-quality (FPR) versus the chance a real token is (TPR). The CIs do not overlap between FPR and TPR in any battery, so the method's discrimination is statistically real, though modest. The same discrimination rejects the "all-noise" hypothesis outright: 23 of the 62 committed tokens reconstruct under strict rules against ~3 expected if each were noise at the 4.6% strict-and-online rate (Battery D, the resources the real decode uses; the offline 3.4% gives an even smaller p) (binomial p ≈ 2 x 10^-15, a ~12.2-sigma departure). Taken over the 53 distinct roots instead of the 62 tokens (correcting for related forms, §7a), it is 22 passes against ~2.4 expected (p ≈ 4 x 10^-16): the rejection is not an artifact of counting shared roots more than once. (These are the original A-D run; on the enlarged headline base with the three Battery-E names it is 26 of 65 tokens, p ≈ 3 x 10^-18, and 25 of 56 roots, p ≈ 5 x 10^-19; see the headline banner above and master §17.7.)
+**Withdrawn headline.** The claim that 23 of 62 (or 26 of 65) strict passes against a 4.6% floor gives p ≈ 2 x 10^-15 (quoted as ~12.2 sigma) is invalid on three independent grounds:
 
-## 3. Confidence in the translation (positive predictive value)
+1. Gate 1 counted any `C`, not the project's root (F1). Rebuildable any-C in the strict CSV is **21/61**, not 23/62. *pul* is missing; *Eztli Pilli* is `soft` in that CSV (the Battery D override is documented in `RESCORE_OUTPUT.md`).
+2. The 4.6% floor is not conditioned on the same loose-commitment filter that created the real lexicon (F2 / O1).
+3. The quoted sigma values were count z-scores, not normal-tail equivalents of the binomial p. The sigma column is removed.
 
-The question "how confident are we the translation is genuine?" is, per reading, the **positive predictive value (PPV)**: given that a token was certified (committed / hardened), the probability it is a genuine root rather than a chance dictionary coincidence.
+**Honest replacement, selection-matched, from `NULL_HONESTY_OUTPUT.md`:**
 
-PPV = (TPR × b) / (TPR × b + FPR × (1 − b)), where **b** is the base rate: the prior probability that any given Vaal token was actually built from a real root (as opposed to invented phonaesthetic filler). **b is the one quantity we cannot measure** (it depends on GGG's undocumented design process), so PPV is reported across a plausible range.
+| Comparison | Real | Pseudo | Fisher one-sided p |
+|---|---|---|---:|
+| Audit's mismatched pairing (published 23/62 vs 8/31) | 23/62 | 8/31 | 0.197 |
+| Same pairing, CSV-verified | 21/61 | 8/31 | 0.275 |
+| Matched A-then-D, trial level | 19/31 | 8/31 | **0.0049** |
+| Matched A-then-C offline, trial level | 17/31 | 8/31 | 0.019 |
+| Matched, de-pseudoreplicated to item level | 6/9 | 8/27 | **0.058** |
 
-**Hardened tier** (strict bar, Battery D rates TPR = 0.140, FPR = 0.046, strict + online, the resources the real decode uses):
+Conditioning on selection collapses the claimed 10^-15 to roughly **p = 0.005 to 0.06**. The signal is marginal, not overwhelming. (`AUDIT_REVIEW` O1.)
 
-| base rate b | PPV (confidence a hardened reading is genuine) |
-|---|---|
-| 20% | 43% |
-| 30% | 57% |
-| 40% | 67% |
-| 50% | 75% |
-| 60% | 82% |
-| 70% | 88% |
-| 75% | 90% |
+## 3. PPV: retained as a method diagnostic, not as translation confidence
 
-**Whole committed lexicon** (loose bar, Battery A rates TPR = 0.207, FPR = 0.062): PPV runs about 59% (b = 30%) to 89% (b = 70%); ≈82% at the data-anchored b ≈ 58% (77% at the 50% neutral prior).
+The PPV formula is algebraically fine and the Frechet upper bound on a line is fine. What fails is the input: TPR/FPR from any-C scoring do not estimate gloss correctness, and the H row was wired to Battery D rates while the C row used Battery A rates (N2: the top tier scored with a weaker likelihood ratio than the tier beneath it). Sentence-level independence products are withdrawn (section 5).
+
+Do not read the table below as "probability the English gloss is right." It is the old matchability diagnostic, kept so the wiring error is visible, and it should not be used as a translation confidence.
+
+| Tier | Neutral prior (b=50%) | basis (legacy any-C rates) |
+|---|---|---|
+| Hardened (H) | 75% | Battery D TPR 0.140 / FPR 0.046 |
+| Committed (C) | 77% | Battery A TPR 0.207 / FPR 0.062 |
+| Soft (S) | 53% | loose found bar |
+
+The C > H inversion at the same prior is a specification error, not a finding about the language.
 
 ## 4. Headline confidence interval
 
-Two defensible statements, one assumption-free and one model-based:
+Assumption-free (measured, post-rescore): **17 of 78 section-9 rows are hardened, 21.8% [14.1, 32.2]**. On the 61-row battery, 14 of 61 = 23.0% [14.2, 34.9]. This is the protocol's certification rate after recovery scoring, not a probability that a gloss is the designers' meaning.
 
-1. **Assumption-free (measured):** the hardened core of the committed lexicon is **35.5%, 95% CI [24.7%, 47.9%]** per token, or **41.5%, 95% CI [29.3%, 54.9%]** counted over the 53 distinct roots (§7a). A third to two-fifths of the vocabulary the translations run on is robust to both the strict-latitude and adversarial tests; the rest is latitude-dependent (plausible, but not distinguishable from chance at the strict bar). Note that this is the protocol's certification rate, not a direct measure of gloss correctness; the correctness estimate is the PPV in §3.
+Model-based per-reading translation PPVs are not reported as current results.
 
-2. **Model-based (per-reading confidence), as a pessimistic-to-optimistic range:** a **hardened reading is genuine with probability from ≈43% (pessimistic, b=20%) to ≈90% (optimistic, b=75%)**, with the data-anchored b≈50-58% giving ≈75-81%; a general committed reading ≈45% to ≈91% (anchored ≈77-82%). The dominant uncertainty is b, not the test; readers may pick their own outlook along the range.
+## 5. Two honest caveats (replaces sentence-level percentages)
 
-## 5. Two honest caveats
+- **Sentence-level probability percentages are withdrawn.** Independence products (for example 0.77^5 ≈ 0.27) are not a floor, and the Kamasan example assigned a C* probability to *yan*, which has no section-9 row and no CSV row. The honest statement is a weakest-link qualitative: a line is no stronger than its least-secure token, and many lines mix H with C, C*, S, or pending rows. Report uncertainty token by token. (`AUDIT_REVIEW` O3 / F7.)
+- **PPV is only as good as the question.** Any-C TPR answers "did some root attach," not "is this the gloss." Until an exact-root validation set exists, do not convert those rates into translation confidence.
 
-- **Sentence-level confidence compounds downward.** Per-token confidence of ~0.77 does not carry to a whole line: a five-token line being entirely genuine is ~0.77^5 ≈ 0.27 under independence. The texts are more fragile than any single token. (And "genuine root" is necessary, not sufficient, for "correct gloss.")
-- **PPV is only as good as the base rate.** If GGG built little of Vaal from real roots (low b), even hardened readings are near coin-flips; if they built much of it (high b), the hardened tier is strong. The honest position is a range, and the hardened tier is where that range is highest.
+## 6. Per-tier notes, without sentence arithmetic
 
-## 6. Per-tier confidence and a worked sentence example
+Worked lines are not given percentages. For orientation only:
 
-Per-reading confidence (PPV) by tier, using each tier's measured TPR/FPR:
+- Tokens that remain H are mostly short function words, transparent loans, or exact attested names (*che'*, *Ti*, *u*, *xefe*, *Eztli Pilli*, Battery E names).
+- *yan* in the Kamasan Smith line is not a lexicon row; it sits inside the *A'te / U'Te / Yatle* source note. It is not a committed token and must not be scored as one.
+- *ek* and *tul* in that line are no longer H.
 
-| Tier | Neutral prior (b=50%) | Range b=30-70% | basis |
-|---|---|---|---|
-| Hardened (H) | 75% | 57-88% | strict bar (TPR 0.140 / FPR 0.046, Battery D strict+online) |
-| Committed, latitude-dependent (C) | 77% | 59-89% | loose committed bar (0.207 / 0.062) |
-| Committed + competitor (C\*) | ~50% for the specific gloss | root genuine ~77%, split by a comparable competitor | as C, discounted by the logged competitor |
-| Soft / candidate (S) | 53% | 33-73% | loose found bar (0.767 / 0.670); near a coin-flip |
+## 7. The base rate b
 
-Worked sentence example, the Kamasan Smith line *Ti ek tala jare'yantul!* "Into the dark you come; and so, your waning!" (6 tokens). At the data-anchored prior (b ≈ 58%), each scenario is a [floor, ceiling] interval: floor = independence product (pessimistic), ceiling = min token PPV = the Fréchet upper bound (optimistic, syntax forces the rest once the weakest is fixed).
+The name-roster proxy (about 58% of in-scope names carrying a palette root) is unchanged as a descriptive count of naming behaviour. It is circular as an input to a PPV that already uses the same method, and it is not used here to produce a translation-confidence interval. The mixture-model formula still overflows because O and TPR are not the same diagnostic.
 
-- all Hardened (0.81): **[28%, 81%]**
-- all Committed (0.82): **[31%, 82%]**
-- all Soft (0.61): **[5%, 61%]**
-- actual parse (Ti H, ek H, tala C*, jare' C, yan C*, tul H): **[7%, 41%]** (ceiling set by the two C* at ~0.41)
+## 7a. Non-independence of related tokens
 
-The product alone is a lower estimate, not the answer (and not an absolute floor: negative correlation could dip below it). Report the interval, not one endpoint.
+The old distinct-root recount (62 tokens to 53 roots, 23 passes to 22) was computed on the withdrawn any-C / 23-of-62 figures. It is not rebuilt as a headline. Related forms still cluster in the failing families (*ik'*, *el*, *muk'*, *aocmo*, *atl*, *k'ex*); collapsing them would not restore a 10^-15 result, because the unconditional floor comparison is the wrong test.
 
-Best/worst real lines (b≈58%): best case *Tlayeb kifba!* (2 committed) = **[68%, 82%]**; most hardened-heavy line *Atziri, Atziri, ascenada akal!* = **[44%, 81%]**; worst case the Kamasan Smith *Ti ek tala jare'yantul!* (6 tokens, two C*) = **[7%, 41%]**. No short line is purely hardened (hardened tokens almost always share a line with a softer one).
+The 500-trial pseudo arm itself is pseudoreplicated: **426 distinct strings of 500**, with 53 strings repeating across seeds (*ko'ja* x5, *noche* / *noch* / *fuks* x4). Some "noise" hits are palette substrings (*eztl* of *Eztli*) or ordinary Spanish (*noche*). Distinct-string Battery D FPR is 21/426 = 4.9%. Binomial intervals that treat n=500 as independent are too narrow. Full-pipeline simulation on unique strings was not re-run; the matched A-then-D comparison is the correction the archived files support. (`NULL_HONESTY_OUTPUT.md`, AUDIT_REVIEW N1.)
 
-Takeaway: sentence-level confidence is far below token-level because independent uncertain calls multiply. The honest unit of confidence in this work is the token, not the line.
+## 8. Syntax (analyst-level)
 
-## 7. The base rate b, estimated from data (not assumed)
+The published 12/12 vs 0/8 Fisher (p ≈ 7.9 x 10^-6) treats four correlated rules per analyst as independent trials. At the experimental unit (analyst by corpus) the table is **3/3 vs 0/2, Fisher p = 0.10**, not significant. Analysts received surface lines, English translations, and a token glossary; they were not blind to the project's readings. Reproducibility of surface order on the supplied alignment is qualitative. The design cannot support a significance claim. (`SYNTAX_EXPERIMENT_LOG.md`, AUDIT_REVIEW F8.)
 
-b (fraction of Vaal built from real palette roots) is the dominant uncertainty in the PPV. Bounding it empirically:
+## 9. Reproduce
 
-- **Proper-noun proxy (palette-scoped).** The §12 roster is a closed, un-cherry-pickable sample. Four figures are documented out-of-palette borrowings (Apep, Ralakesh, Arakaali, Omnitect) and are out of scope. Among the **33 in-scope names, 19 carry an attested palette root: ≈ 58%.** Many rest on chance-resistant structural markers (the Nahuatl -tl/-tli/-atl absolutives). Clean-parse-only floor ≈ 15-18% (58% is soft-inclusive). Folding the 4 borrowings back into the denominator gives 19/37 ≈ 51%, but that penalizes b for design choices outside the palette's scope and is the wrong denominator.
-- **Mixture model b=(O−FPR)/(TPR−FPR): not usable here.** It overflows (b>1) because the null-model TPR (0.140, Battery D, measured on a hard plant subset) understates the committed lexicon's real strict-pass rate (37%); O>TPR has no valid solution.
-- **Consequence:** the palette-scoped proxy puts b ≈ 58% (above the 50% neutral prior), so the data-anchored hardened PPV is ≈75% (b=50%) to ≈81% (b=58%). We do not stretch to b=75%.
-
-## 7a. Non-independence of related tokens (distinct-root recount)
-
-The per-token counts treat each committed token as an independent trial, which overstates the evidence where several tokens share a root (e.g. *ik'bala*, *ikba'yucane*, *Ik'eche*, *ik'el* are all reflexes of Yucatec *ik'* "spirit, breath"). Merging tokens that share the same §9 head root (shared affixes like *-ba'* or *-ane* do not merge distinct heads) collapses 16 of the 62 tokens into 7 families, leaving **53 distinct roots**:
-
-| Root | Tokens merged | Gate 1 |
-|---|---|---|
-| *ik'* "spirit, breath" | ik'bala, ikba'yucane, Ik'eche, ik'el | all fail |
-| *aocmo* "no more" | Aiokmo, 'Ayok | all fail |
-| *ātl* "water" | atla, Atziri | all fail |
-| *el* "burn" | Ela, elba | all fail |
-| *muk'* "strength" | mucane, mujuk' | all fail |
-| *k'ex* "transform" | Kextal, qexcan | all fail |
-| *ti' / te'* relational | te, Ti | both pass |
-
-Only *ti'/te'* held a strict-pass, so collapsing removes one pass (23 to 22) but nine mostly-failing forms from the denominator. Every headline figure holds or improves:
-
-| Metric | Per token (N=62) | Per distinct root (N=53) |
-|---|---|---|
-| Strict Gate-1 passes | 23 (exp 2.9) | 22 (exp 2.4) |
-| Null-rejection p | 2 x 10^-15 | 4 x 10^-16 |
-| Hardened tier | 35.5% [24.7, 47.9] | 41.5% [29.3, 54.9] |
-| Gate-1 strict | 37.1% [26.2, 49.5] | 41.5% [29.3, 54.9] |
-| Gate-2 adversarial | 88.7% [78.5, 94.4] | 90.6% [79.7, 95.9] |
-| Tier split H / C\* / C | 22 / 7 / 33 | 22 / 6 / 25 |
-
-The related tokens cluster in the strict-failing families, so the correction prunes the denominator faster than the signal and the hardened fraction rises to 41.5%. Both bases are retained deliberately: the per-token count is the conservative denominator for coverage claims, the per-root count is the correct one for the independence claim. Full derivation and reasoning in master §17.7.
-
+```
+python3 rescore_gate1.py
+python3 score_adversarial.py
+python3 null_honesty.py
+python3 score.py blind_test_results_tight_s42.csv blind_test_key_s42.csv
+```

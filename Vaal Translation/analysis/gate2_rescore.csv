@@ -1,0 +1,64 @@
+id,token,outcome,committed_class,competitor_root,competitor_lang,competitor_kind,competitor_gloss
+1,Aiokmo,SURVIVE,Nahuan,,,,
+2,akal,SURVIVE,Maya,,,,
+3,anab,SURVIVE,Maya,,,,
+4,ascensionada / ascenada,SURVIVE,Spanish,,,,
+5,A'te / U'Te / Yatle,FALL,Maya,ahtle,Nahuan,cross-language+DIFF-meaning,nothing
+6,atla,SURVIVE,Nahuan,,,,
+7,Atziri,SURVIVE,Nahuan,,,,
+8,'Ayok,SURVIVE,Nahuan,,,,
+9,cha'tsoke,SURVIVE,Maya,,,,
+10,che',SURVIVE,Maya,,,,
+11,ek,SURVIVE,Maya,,,,
+12,Ela,SURVIVE,Maya,,,,
+13,elba,SURVIVE,Maya,,,,
+14,-en,SURVIVE,Maya,,,,
+15,Eztli Pilli,SURVIVE,Nahuan,,,,
+16,Guatelitzi,N/A,name,,,,
+17,'Ibil,FALL,Maya,ib (+-il),Maya,same-language+DIFF-meaning,lima bean (Phaseolus)
+18,ich,SURVIVE,Maya,,,,
+19,i'chian,SURVIVE,Nahuan,,,,
+20,ik'bala,SURVIVE,Maya,,,,
+21,ikba'yucane,SURVIVE,Maya,,,,
+22,Ik'eche,FALL,Maya,ik' (wind) + che' (tree/wood),Maya,same-language+alt-segmentation+DIFF-meaning,wind + tree/wood
+23,ik'el,SURVIVE,Maya,,,,
+24,itsok / itzil,FALL,Maya,itztli,Nahuan,cross-language+DIFF-meaning,obsidian (sacred blade)
+25,jare,SURVIVE,Kiche,,,,
+26,k'áak' (kahk),SURVIVE,Maya,,,,
+27,Kextal,SURVIVE,Maya,,,,
+28,ki' (Kí'),SURVIVE,Maya,,,,
+29,kifba,SURVIVE,Maya,,,,
+30,kilya,SURVIVE,Nahuan,,,,
+31,kujkuali,SURVIVE,Nahuan,,,,
+32,kutsen,FALL,Maya,kotz'i'j,Kiche,cross-language+DIFF-meaning,flower; candle
+33,k'ux (quxzeh),SURVIVE,Maya,,,,
+34,ma,SURVIVE,Maya+Nahuan,,,,
+35,máax,SURVIVE,Maya,,,,
+36,mucane,FALL,Maya,muq/muqik,Kiche,cross-language+DIFF-meaning,to bury; to hide
+36,mucane,FALL,Maya,muk/mukul,Maya,same-language+DIFF-meaning,to bury; hidden/secret
+37,mujuk',SURVIVE,Maya,,,,
+38,náach (niáach),SURVIVE,Maya,,,,
+39,nochira,SURVIVE,Nahuan,,,,
+40,pochiti,FALL,Maya+Nahuan,puchini,Nahuan,same-language+DIFF-meaning,it bursts/frays/ravels
+41,qexcan,SURVIVE,Maya+Nahuan,,,,
+42,sakilja,SURVIVE,Maya,,,,
+43,ta'nuk,FALL,Maya,ta'an/taan,Maya,same-language+DIFF-meaning,lime; ash (cal/ceniza)
+44,tala,FALL,Maya,ta:l,Nahuan,cross-language+DIFF-meaning,earth; land; ground
+45,te,FALL,Maya,te',Maya,same-language+DIFF-meaning,tree; wood
+45,te,FALL,Maya,tetl,Nahuan,cross-language+DIFF-meaning,stone
+46,Teoyuxtlane,SURVIVE,Nahuan,,,,
+47,Ti,SURVIVE,Maya,,,,
+48,til,SURVIVE,Maya,,,,
+49,tlapec / yotlapek,SURVIVE,Nahuan,,,,
+50,tlayeb,SURVIVE,Nahuan,,,,
+51,tul,FALL,Maya,tuul,Maya,same-language+DIFF-meaning,numeral classifier for animate beings
+52,u,SURVIVE,Maya,,,,
+53,uch' / pu uch',SURVIVE,Maya,,,,
+54,u'tra,SURVIVE,Spanish,,,,
+55,Vaal,N/A,name,,,,
+56,waaj (waja),SURVIVE,Maya,,,,
+57,xefe,SURVIVE,Spanish,,,,
+58,xi,SURVIVE,Nahuan,,,,
+59,xu'te,SURVIVE,Maya,,,,
+60,Yutsal / yutsal,SURVIVE,Maya,,,,
+61,Zerphi,N/A,name,,,,

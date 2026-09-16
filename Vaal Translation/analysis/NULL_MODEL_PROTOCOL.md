@@ -43,7 +43,7 @@ Let P = the pseudo items (500 pooled), R = the real items (150 pooled).
 
 Full definitions, equations, and a worked example are in `NULL_MODEL_RESULTS.md`.
 
-**Null-rejection test.** A battery's FPR(C) is the noise floor for a binomial test on the real committed lexicon: if the committed tokens' strict-pass count far exceeds what that floor predicts by chance, the all-noise hypothesis is rejected. The reconstruction quotes this against the strict-and-online floor (Battery D, FPR 0.046, the resources the real decode uses); see master §17.3.
+**Null-rejection test (withdrawn as a headline).** A battery's FPR(C) was used as a fixed noise floor for a binomial on the committed lexicon (published as 23/62 vs 4.6%, p ≈ 2 x 10^-15). That comparison is not valid: the real arm was selected by loose search, Gate 1 counted any `C` rather than the declared reading, and 23/62 does not rebuild from the strict CSV (21/61 any-C). The honest replacement is the selection-matched Fisher range in `NULL_HONESTY_OUTPUT.md` and master §17.3 (p ≈ 0.005 to 0.06, marginal). See `AUDIT_REVIEW_2026-08-18.md`.
 
 ## Interpretation
 
@@ -56,7 +56,7 @@ Record the numbers, the date, and the decoder used in the results log below each
 
 ## Honest caveats
 
-- By design the pseudo strings share Vaal phonotactics with real tokens; a few may echo a real name-fragment shorter than four characters. That is intended (they must "sound Vaal") and does not undermine the test, because none has a designed meaning, so any `C` root found for them is a false positive by construction.
+- By design the pseudo strings share Vaal phonotactics with real tokens; a few may echo a real name-fragment shorter than four characters. That is intended (they must "sound Vaal") and does not undermine the test, because none has a designed meaning, so any `C` root found for them is a false positive by construction. The 500-trial pooled arm contains **426 distinct strings** (53 repeats across seeds); some C labels on "noise" are palette substrings (*eztl*) or ordinary Spanish (*noche*). See `NULL_HONESTY_OUTPUT.md`. Binomial intervals that treat n=500 as independent are too narrow.
 - This measures the *decoder's discipline and the palette's permissiveness*, not whether GGG actually built Vaal from these languages. That provenance question is separate and is discussed in `REVIEW.md`.
 - 30 real plants per pass (150 pooled) is a small positive sample; treat TPR as indicative, not precise. Enlarge both sets if a firmer estimate is wanted.
 
