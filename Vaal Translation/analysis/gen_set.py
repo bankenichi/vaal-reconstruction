@@ -1,51 +1,47 @@
-import random, collections, csv, sys, os
+#!/usr/bin/env python3
+"""Generate one seeded blind worksheet.
+
+Default: historical filenames blind_test_worksheet_s{seed}.csv (2026-07 epoch).
+--rerun: write blind_test_worksheet_rerun_s{seed}.csv using the de-duplicated
+generator (shared seen-set across the five protocol seeds).
+
+If --rerun is used for a single seed before the full five-seed set exists,
+this script generates the whole five-seed rerun set (same as
+generate_pseudo_vaal.py --rerun) so cross-seed uniqueness is preserved.
+"""
+from __future__ import annotations
+
+import argparse
+import os
+import sys
+
 HERE = os.path.dirname(os.path.abspath(__file__))
-SEED = int(sys.argv[1])
-CORPUS = """
-Atziri Otsuks Tzokan'te u'te A'te Yatle ik'el Kuxkal tlayeb kutsen Ela ukto Maax ka ti
-a'tul cheyel mucane quxzeh Axba Kiibsa' ta' en Gyan'uks Donuks puxe daka jare fukuur soxsal
-puyao te'moxti nochbe inib buxa Eche lu Aiokmo akal anab ascensionada atla cha'tsoke chikula'
-ek elba Eztli Pilli Guatelitzi Ibil ich ikba'yucane ik'bala Ik'eche itsok itzil kifba kiimil
-kilya ko'janti kujkuali liimek Ma'oxe mujuk' naach nochira pochiti qexcan sakilja ta'nuk tala
-Teoyuxtlane til Tlaxye' Kextal uch' yuquia yutsal Xatlene Xibaqua Atzoatl Kuetzakala Quemalani
-Xolotl Tizoc Cotan Axilo Mektul Ahuatotli Xomatl tatlat xomaplat xictep cutlotl azcado huatat
-quiquate zahua moti taak'iin kahk tche ka'tse ipkaat koriek xecwa Napuatzi Doryani Zolin Zelina
-Kamasa Kopec Ketzuli Tetzlapokal Arakaali Kishara
-""".split()
-REAL_COMMITTED = ["Atziri","ik'el","mucane","kutsen","tlayeb","Kuxkal","tala","ek","Ela",
-"elba","mujuk'","naach","kifba","itsok","kilya","qexcan","pochiti","sakilja","Kextal","til",
-"Maax","ti","jare","Otsuks","kahk","quxzeh","Guatelitzi","Eztli","ta'nuk","cha'tsoke"]
-words=[w.lower() for w in CORPUS]; big=[w for w in words if len(w)>=4]
-K=2; START,END="\x02","\x03"
-model=collections.defaultdict(collections.Counter)
-for w in words:
-    s=START*K+w+END
-    for i in range(len(s)-K): model[s[i:i+K]][s[i+K]]+=1
-def ok(s):
-    return (4<=len(s)<=10 and s not in words and "''" not in s and not s.startswith("'")
-            and not any(rw in s for rw in big) and any(v in s for v in "aeiou"))
-def gen(rng):
-    for _ in range(800):
-        ctx=START*K; out=[]
-        while len(out)<=11:
-            nxt=model.get(ctx)
-            if not nxt: break
-            ch=rng.choices(list(nxt),weights=list(nxt.values()))[0]
-            if ch==END: break
-            out.append(ch); ctx=(ctx+ch)[-K:]
-        s="".join(out).strip("'")
-        if ok(s): return s
-    return None
-rng=random.Random(SEED); seen=set(); pseudo=[]
-while len(pseudo)<100:
-    s=gen(rng)
-    if s and s not in seen: seen.add(s); pseudo.append(s)
-items=[("pseudo",s) for s in pseudo]+[("real",w) for w in REAL_COMMITTED]
-random.Random(SEED+1).shuffle(items)
-with open(os.path.join(HERE, f"blind_test_worksheet_s{SEED}.csv"),"w",newline="",encoding="utf-8") as f:
-    w=csv.writer(f); w.writerow(["id","string","found(Y/N)","root","lang","gloss","confidence"])
-    for i,(t,s) in enumerate(items,1): w.writerow([i,s,"","","","",""])
-with open(os.path.join(HERE, f"blind_test_key_s{SEED}.csv"),"w",newline="",encoding="utf-8") as f:
-    w=csv.writer(f); w.writerow(["id","type","string"])
-    for i,(t,s) in enumerate(items,1): w.writerow([i,t,s])
-print(f"seed {SEED}: wrote worksheet_s{SEED} and key_s{SEED} ({len(items)} rows)")
+sys.path.insert(0, HERE)
+from generate_pseudo_vaal import (  # noqa: E402
+    SEEDS,
+    generate_archive,
+    generate_rerun,
+    spanish_set,
+)
+
+
+def main(argv=None):
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("seed", type=int)
+    p.add_argument("--rerun", action="store_true",
+                   help="write rerun filenames; do not touch 2026-07 archives")
+    args = p.parse_args(argv)
+    spanish = spanish_set()
+    if args.rerun:
+        if args.seed not in SEEDS:
+            print(f"warning: seed {args.seed} is not one of the protocol seeds {SEEDS}",
+                  file=sys.stderr)
+        generate_rerun(spanish)
+        print(f"seed {args.seed}: rerun worksheets for all protocol seeds (shared uniqueness)")
+        return
+    generate_archive(args.seed, args.seed + 1, spanish, force=False)
+    print(f"seed {args.seed}: archive path (refuses overwrite unless generate_pseudo_vaal.py --force)")
+
+
+if __name__ == "__main__":
+    main()

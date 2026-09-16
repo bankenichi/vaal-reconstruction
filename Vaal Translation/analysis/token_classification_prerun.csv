@@ -1,0 +1,79 @@
+id,token,gate1_strict,gate2_adversarial,tier
+1,Aiokmo,fail,survive,C
+2,akal,fail,survive,C
+3,anab,fail,survive,C
+4,ascensionada / ascenada,pass,survive,H
+5,A'te / U'Te / Yatle,fail,fall,C+L*
+6,atla,fail,survive,C
+7,Atziri,fail,survive,C+L
+8,'Ayok,fail,survive,C
+9,cha'tsoke,fail,survive,C
+10,che',pass,survive,H
+11,ek,fail,survive,C
+12,Ela,fail,survive,C
+13,elba,fail,survive,C
+14,-en,pass,survive,H
+15,Eztli Pilli,pass,survive,H+L
+16,Guatelitzi,fail,n/a,C+L
+17,'Ibil,fail,fall,C+L*
+18,ich,pass,survive,H
+19,i'chian,fail,survive,C
+20,ik'bala,fail,survive,C
+21,ikba'yucane,fail,survive,C
+22,Ik'eche,fail,fall,C*
+23,ik'el,fail,survive,C+L
+24,itsok / itzil,fail,fall,C+L*
+25,jare,fail,survive,C
+26,k'áak' (kahk),pass,survive,H
+27,Kextal,fail,survive,C
+28,ki' (Kí'),pass,survive,H
+29,kifba,fail,survive,C+L
+30,kilya,fail,survive,C+L
+31,kujkuali,pass,survive,H+L
+32,kutsen,fail,fall,C+L*
+33,k'ux (quxzeh),pass;protocol_unexplained_residue,survive,C
+34,ma,pass;protocol_dual_incompatible_bundle,survive,C
+35,máax,pass,survive,H
+36,mucane,fail,fall,C*
+37,mujuk',fail,survive,C
+38,náach (niáach),pass,survive,H
+39,nochira,fail,survive,C
+40,pochiti,fail,fall,C+L*
+41,qexcan,fail,survive,C+L
+42,sakilja,fail,survive,C+L
+43,ta'nuk,fail,fall,C*
+44,tala,fail,fall,C*
+45,te,fail,fall,C*
+46,Teoyuxtlane,fail,survive,C
+47,Ti,pass,survive,H
+48,til,fail,survive,C
+49,tlapec / yotlapek,fail,survive,C+L
+50,tlayeb,fail,survive,C+L
+51,tul,fail,fall,C*
+52,u,pass,survive,H
+53,uch' / pu uch',fail;protocol_dual_incompatible_readings,survive,C
+54,u'tra,fail,survive,C
+55,Vaal,fail,n/a,C+L
+56,waaj (waja),pass,survive,H+L
+57,xefe,pass,survive,H
+58,xi,fail,survive,C
+59,xu'te,fail,survive,C
+60,Yutsal / yutsal,fail,survive,C+L
+61,Zerphi,fail,n/a,C
+62,pul / puul,no_artifact,no_artifact,C
+63,Quecholli,pass,survive,H+L
+64,Panquetzaliztli,pass,survive,H+L
+65,Ixchel,pass,survive,H+L
+66,chikula',pending,pending,C+L
+67,Gyan'uks,pending,pending,C+L
+68,kíimil,pending,pending,C+L
+69,ko'janti,pending,pending,C+L
+70,kux / kuxkal / kuxte',pending,pending,C+L
+71,le / le',pending,pending,C+L
+72,líimek,pending,pending,C+L
+73,Ma'oxe,pending,pending,C+L
+74,Tlaxye',pending,pending,C+L
+75,Tzokan'te / tzok,pending,pending,C+L
+76,Xatlene,pending,pending,S+L
+77,yax / Yaxe,pending,pending,C+L
+78,yuquia,pending,pending,C+L

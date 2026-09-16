@@ -79,7 +79,7 @@ Report Fisher one-sided p at both levels. Do **not** headline an unconditional b
 
 **TODO / pending re-run (A-D):**
 
-- [ ] De-duplicated generator and new worksheets.
+- [x] De-duplicated generator and new worksheets.
 - [ ] Five-seed Batteries A, B, C, D with complete root/lang/gloss columns.
 - [ ] Pooled any-C and recovery TPR/FPR tables, Wilson 95% CIs.
 - [ ] Selection-matched Fisher, trial and item, recovery-scored.
@@ -198,4 +198,4 @@ python3 score_adversarial.py
 python3 null_honesty.py
 ```
 
-(The last three still point at the stopgap archives until the rerun filenames are wired through. **TODO:** teach those scripts a `--rerun` input dir rather than silently mixing epochs.)
+(The last three still point at the stopgap archives unless `--rerun` is passed. `score.py --rerun` and `null_honesty.py --rerun` score the re-run filenames and do not mix epochs.)

@@ -22,3 +22,12 @@ Vaal Translation/sources/dictionaries/
 diccionario-maya-cordemex-maya-espaol-espaol-maya_compress.pdf
 ilide.info-diccionario-maya-pr_fbc33b0c1555a86d06be141047016d90.pdf
 norma_maya.pdf
+
+# Attached dictionary extracts used for decode only (never commit)
+Cordemex_FULL*.txt
+kiche_christenson_FULL*.txt
+nawat_Campbell*.txt
+ilide_SpanMaya*.md
+norma_maya.md
+*.dict_cache
+/tmp/vaal_dict_index.pkl
