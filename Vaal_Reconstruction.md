@@ -20,13 +20,62 @@ The first three texts are **offerings flowing upward to Atziri**: the worshipper
 
 **How the words are graded.** Each lexicon row carries a letter. These letters are test results, not a guarantee that the English gloss is what the developers meant. **H** (hardened) means a blind lookup recovered this row's declared root, language, and sense, and no strong rival meaning was written down. **C** is a committed chosen reading. **C\*** means a rival meaning is logged. **S** is still unresolved. **L** is a lore tag on H, C, or S (a proper name or narrative), never a letter by itself. A 95% CI is a 95% confidence interval: the range that would contain the true share in 95% of repeats of this counting procedure. Where a result is a range, three readings are given **for that same metric**: pessimistic (the lower 95% bound, or a stricter counting rule), average (the point estimate, without restating the interval), optimistic (the upper 95% bound, or a looser counting rule). When two translation arms exist, both are shown at each reading.
 
-**Which words survive the strictest checks.** Question: if a Vaal word is looked up from its spelling alone, does that lookup return this project's declared dictionary root, language, and sense, and is there no strong rival meaning beside it? What was done: all 78 lexicon entries were looked up that way, without using the desired English as a search key, then checked for rival meanings. Why it matters: a pass would mean that reading is hard to get by accident. A fail means the reading remains a chosen hypothesis, not a certified one. Pessimistic: the lower 95% bound is 0.7% (well under 1 in 100). Average: **2 of 78 rows (2.6%)**, *xefe* and *Quecholli*. Optimistic: the upper 95% bound is 8.9% (still under 1 in 10). Counted by distinct root the share is 2 of 69 = 2.9% [0.8, 10.0]. On a smaller 61-row test list: 1 of 61 = 1.6% [0.3, 8.7] / 1 of 52 roots = 1.9% [0.3, 10.1]. Split of the 78 rows: H 2 / C\* 30 / C 45 / S 1. The name *Ixchel* stays committed-plus-lore (C+L): lookup found the dictionary string, but as a medicinal herb, not the approved Godstealer sense. The approved gloss is unchanged. Five further rows were starred as rivals in 2026-09-16 (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*).
+**Which words survive the strictest checks.** Question: if a Vaal word is looked up from its spelling alone, does that lookup return this project's declared dictionary root, language, and sense, and is there no strong rival meaning beside it? What was done: all 78 lexicon entries were looked up that way, without using the desired English as a search key, then checked for rival meanings. Why it matters: a pass would mean that reading is hard to get by accident. A fail means the reading remains a chosen hypothesis, not a certified one.
+
+The two hardened rows are *xefe* and *Quecholli*. Three readings below are the lower 95% bound, the point estimate, and the upper 95% bound of that same hardened share.
+
+| Base | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| 78-row lexicon | 0.7% | 2 of 78 = 2.6% | 8.9% |
+| Same list, by distinct root | 0.8% | 2 of 69 = 2.9% | 10.0% |
+| Smaller 61-row chance-check list | 0.3% | 1 of 61 = 1.6% | 8.7% |
+| Same smaller list, by distinct root | 0.3% | 1 of 52 = 1.9% | 10.1% |
+| Enlarged list with three proper names | 0.9% | 2 of 64 = 3.1% | 10.7% |
+| Same enlarged list, by distinct root | 1.0% | 2 of 55 = 3.6% | 12.3% |
+
+Split of the 78 rows: H 2 / C\* 30 / C 45 / S 1. The name *Ixchel* stays committed-plus-lore (C+L): lookup found the dictionary string, but as a medicinal herb, not the approved Godstealer sense. The approved gloss is unchanged. Five further rows were starred as rivals in 2026-09-16 (*ik'el, 'Ibil, mucane, kifba, Tzokan'te*).
 
 **Can the method tell real Vaal words from fake ones?** Question: does the same lookup certify nonsense strings that only look like Vaal as often as it certifies real corpus words? What was done: real words were mixed with fake Vaal-like strings, labels hidden, and looked up. A dictionary hit on a fake string is a false alarm by construction. Why it matters: if fakes pass as often as real words, a dictionary hit is not evidence. If real words pass more often, there is some signal above chance. This is a yes/no test, not a share with a wide interval. Pessimistic (stricter criterion): when the lookup must recover this project's declared sense, there is no remaining signal (p = 1 by trial, p = 0.9991 by item). Average (any dictionary hit): still not significant at 0.05 (p = 0.09494 by trial, p = 0.3069 by item). Optimistic: even the more generous any-hit reading fails to reject chance at 0.05.
 
 **Can the grammar be seen in the Vaal lines without English?** Question: do the word-order regularities in §3 show up to readers who are not given this project's English, and more often than when the same lines are scrambled? What was done: analysts received numbered Vaal lines and a form-only word list. A control group received the same lines with the words shuffled. Why it matters: a clear, significant gap would support the grammar as something in the Vaal itself. No significant gap means the grammar is still a reading of a small corpus. This check is a single small-sample test, not a range. Result: 3 of 3 analysts recovered word-order regularities on real lines, 0 of 2 on scrambled lines. Fisher p = 0.10, not significant. Possession order is not locked. Particle questions in §3.7 are leaning or still open.
 
-**Does the published English come back from the Vaal?** Question: if someone translates the Vaal lines from dictionaries (with or without this project's method notes), how often do they match the published English? What was done: independent translations of the 51 published lines were scored against that frozen English. Separately, each line was graded by how settled its important words are, and each text was re-read without using that text's own words as support. Why it matters: high agreement would mean the English on the page is reproducible from the Vaal with this kit. Low agreement means those translations are not strongly recovered. A **match** is an independent translation that makes the same claim about the same people or events as the published English (wording may differ). A **partial** is the same claim with different wording, or a small mix-up of who did what. **Match or partial** (also written match+partial) adds those two grades together. A **clash** is a different claim. An **abstain** is no English claim offered. Line grades: **secure** means every important word is hardened; **working** means every important word is hardened or plain committed (no logged rival); **fragile** means a rival or unresolved word sits on the line; **blocked by an opaque word** means a content slot has no lexicon row. When a text is re-read without its own words, **ok** means the held-out English still holds from the other texts; **ok or partial** (also written ok+partial) adds lines whose core is recoverable with a hole. Exact match: pessimistic 7.4% method-notes / 5.8% dictionaries-only (lower 95% bounds); average 10.6% / 8.6%; optimistic 15.0% / 12.7%. Match or partial: pessimistic 24.2% / 23.1%; average 29.4% / 28.2% (about 29%); optimistic 35.3% / 34.1%. Secure: pessimistic and average **0 of 51 = 0.0%**; optimistic 7.0% (upper 95% bound). Working: pessimistic 14.0%; average 12/51 = 23.5%; optimistic 36.8%. Fragile 38/51 = 74.5% [61.1, 84.5]; 1/51 blocked by an opaque word. Re-reading each text without its own words: ok pessimistic 14.0%; average 12/51 = 23.5%; optimistic 36.8%. Ok or partial: pessimistic 51.0%; average 33/51 = 64.7%; optimistic 76.4%. Text 3 is the weakest fold (0/13 ok). Method notes do not raise agreement with the published English (the difference interval includes zero). They do cut clashes and raise abstentions. Supporting counts (full Wilson intervals): method-notes arm, match 27/255 = 10.6% [7.4, 15.0], match or partial 75/255 = 29.4% [24.2, 35.3]; dictionaries-only arm, match 22/255 = 8.6% [5.8, 12.7], match or partial 72/255 = 28.2% [23.1, 34.1]. The honest unit of confidence is the individual token.
+**Does the published English come back from the Vaal?** Question: if someone translates the Vaal lines from dictionaries (with or without this project's method notes), how often do they match the published English? What was done: independent translations of the 51 published lines were scored against that frozen English. Separately, each line was graded by how settled its important words are, and each text was re-read without using that text's own words as support. Why it matters: high agreement would mean the English on the page is reproducible from the Vaal with this kit. Low agreement means those translations are not strongly recovered.
+
+A **match** is an independent translation that makes the same claim about the same people or events as the published English (wording may differ). A **partial** is the same claim with different wording, or a small mix-up of who did what. **Match or partial** (also written match+partial) adds those two grades together. A **clash** is a different claim. An **abstain** is no English claim offered. Line grades: **secure** means every important word is hardened; **working** means every important word is hardened or plain committed (no logged rival); **fragile** means a rival or unresolved word sits on the line; **blocked by an opaque word** means a content slot has no lexicon row. When a text is re-read without its own words, **ok** means the held-out English still holds from the other texts; **ok or partial** (also written ok+partial) adds lines whose core is recoverable with a hole.
+
+Three readings below are the lower 95% bound, the point estimate, and the upper 95% bound of that same rate. Where both translation arms exist, both are shown (method-notes / dictionaries-only). N = 255 line-slots per arm (51 lines, five seeds).
+
+Exact match with the published English:
+
+| Arm | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Method-notes | 7.4% | 27/255 = 10.6% | 15.0% |
+| Dictionaries-only | 5.8% | 22/255 = 8.6% | 12.7% |
+
+Match or partial:
+
+| Arm | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Method-notes | 24.2% | 75/255 = 29.4% | 35.3% |
+| Dictionaries-only | 23.1% | 72/255 = 28.2% | 34.1% |
+
+How settled are the important words (51 published lines):
+
+| Grade | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Secure | 0.0% | 0 of 51 = 0.0% | 7.0% |
+| Working | 14.0% | 12/51 = 23.5% | 36.8% |
+| Fragile | 61.1% | 38/51 = 74.5% | 84.5% |
+| Blocked by an opaque word | 0.3% | 1/51 = 2.0% | 10.3% |
+
+Re-reading each text without its own words (leave-one-text-out):
+
+| Grade | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Ok | 14.0% | 12/51 = 23.5% | 36.8% |
+| Ok or partial | 51.0% | 33/51 = 64.7% | 76.4% |
+
+Text 3 is the weakest fold (0/13 ok). Method notes do not raise agreement with the published English (the difference interval includes zero). They do cut clashes and raise abstentions. The honest unit of confidence is the individual token.
 
 Older withdrawn displays (all-noise 10^-15 headlines, per-line confidence bands, larger hardened counts) are historical only. They are not current results. See §17.10.
 
@@ -1176,13 +1225,54 @@ Live results only in §17.1-17.9. Past-iteration artifacts are in §17.10 and ar
 
 Recap only. Each check is introduced in full in §17.3-17.8. Pessimistic / average / optimistic readings use live interval endpoints or stricter-vs-looser criteria **on the same metric**. When two translation arms exist, both are shown. Average is the point estimate; it does not restate the interval. No invented numbers.
 
-**Hardened share.** Question: does a spelling-only lookup recover this project's declared reading with no strong rival? Pessimistic: 0.7%. Average: **2 of 78 = 2.6%** (*xefe*, *Quecholli*). Optimistic: 8.9%. By distinct root: 2 of 69 = 2.9% [0.8, 10.0]. Smaller list: 1 of 61 = 1.6% [0.3, 8.7] / 1 of 52 roots = 1.9% [0.3, 10.1]. Enlarged list with three proper names: 2 of 64 = 3.1% [0.9, 10.7] / 2 of 55 roots = 3.6% [1.0, 12.3]. Split: H 2 / C\* 30 / C 45 / S 1. *Ixchel* is C+L (herb string recovered, approved Godstealer gloss unchanged).
+**Hardened share.** Question: does a spelling-only lookup recover this project's declared reading with no strong rival? The two hardened rows are *xefe* and *Quecholli*. Same three-reading table as §1.
+
+| Base | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| 78-row lexicon | 0.7% | 2 of 78 = 2.6% | 8.9% |
+| Same list, by distinct root | 0.8% | 2 of 69 = 2.9% | 10.0% |
+| Smaller 61-row chance-check list | 0.3% | 1 of 61 = 1.6% | 8.7% |
+| Same smaller list, by distinct root | 0.3% | 1 of 52 = 1.9% | 10.1% |
+| Enlarged list with three proper names | 0.9% | 2 of 64 = 3.1% | 10.7% |
+| Same enlarged list, by distinct root | 1.0% | 2 of 55 = 3.6% | 12.3% |
+
+Split: H 2 / C\* 30 / C 45 / S 1. *Ixchel* is C+L (herb string recovered, approved Godstealer gloss unchanged).
 
 **Chance check.** Question: does lookup certify fake Vaal-like strings as often as real words? This is a yes/no test, not a share with a wide interval. Pessimistic (declared sense required): p = 1 by trial, p = 0.9991 by item. Average (any dictionary hit): p = 0.09494 by trial, p = 0.3069 by item. Optimistic: even any-hit fails to reject chance at 0.05.
 
 **Grammar.** Question: do word-order regularities show up without this project's English, and more often than on scrambled lines? This is a single small-sample test, not a range. Result: 3 of 3 vs 0 of 2. Fisher p = 0.10, not significant. Possession order is not locked.
 
-**Line-level English.** Question: do independent translations match the published English? Match and match or partial are defined in §1 and again in §17.5. Exact match: pessimistic 7.4% method-notes / 5.8% dictionaries-only; average 10.6% / 8.6%; optimistic 15.0% / 12.7%. Match or partial: pessimistic 24.2% / 23.1%; average 29.4% / 28.2% (about 29%); optimistic 35.3% / 34.1%. Secure: pessimistic and average **0/51 = 0.0%**; optimistic 7.0%. Working: pessimistic 14.0%; average 23.5%; optimistic 36.8%. Re-reading each text without its own words: ok pessimistic 14.0%; average 23.5%; optimistic 36.8%. Ok or partial: pessimistic 51.0%; average 64.7%; optimistic 76.4%. Text 3 is 0/13 ok. Method notes do not raise agreement with the published English.
+**Line-level English.** Question: do independent translations match the published English? Match and match or partial are defined in §1 and again in §17.5. Same three-reading tables as §1. N = 255 line-slots per arm.
+
+Exact match:
+
+| Arm | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Method-notes | 7.4% | 27/255 = 10.6% | 15.0% |
+| Dictionaries-only | 5.8% | 22/255 = 8.6% | 12.7% |
+
+Match or partial:
+
+| Arm | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Method-notes | 24.2% | 75/255 = 29.4% | 35.3% |
+| Dictionaries-only | 23.1% | 72/255 = 28.2% | 34.1% |
+
+How settled (51 published lines):
+
+| Grade | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Secure | 0.0% | 0 of 51 = 0.0% | 7.0% |
+| Working | 14.0% | 12/51 = 23.5% | 36.8% |
+
+Leave-one-text-out:
+
+| Grade | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Ok | 14.0% | 12/51 = 23.5% | 36.8% |
+| Ok or partial | 51.0% | 33/51 = 64.7% | 76.4% |
+
+Text 3 is 0/13 ok. Method notes do not raise agreement with the published English.
 
 These figures are protocol certification, chance-check p-values, and agreement with published English. They do not prove designer intent. Detail: §17.3-17.9. Historical displays: §17.10.
 
@@ -1257,32 +1347,45 @@ Question: if someone translates the Vaal lines from dictionaries (with or withou
 
 **Headline.** Independent translations match or partly match the published English about 29% of the time (both arms). Method notes do not raise that rate. None of the 51 lines is graded fully secure.
 
-Exact match. Pessimistic: method-notes 7.4%; dictionaries-only 5.8%. Average: 10.6%; 8.6%. Optimistic: 15.0%; 12.7%.
+Exact match with the published English (five seeds each, 51 surface lines, N = 255 line-slots per arm):
 
-Match or partial. Pessimistic: 24.2%; 23.1%. Average: 29.4%; 28.2% (about 29%). Optimistic: 35.3%; 34.1%.
+| Arm | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Method-notes (T-M) | 7.4% | 27/255 = 10.6% | 15.0% |
+| Dictionaries-only (T-D) | 5.8% | 22/255 = 8.6% | 12.7% |
 
-Line-level English, method-notes arm (T-M) and dictionaries-only arm (T-D), five seeds each, 51 surface lines, N = 255 line-slots per arm:
+Match or partial:
 
-| Arm | Match vs gold | Match or partial vs gold |
-|---|---|---|
-| T-M (method notes) | 27/255 = 10.6% [7.4, 15.0] | 75/255 = 29.4% [24.2, 35.3] |
-| T-D (dictionaries only) | 22/255 = 8.6% [5.8, 12.7] | 72/255 = 28.2% [23.1, 34.1] |
+| Arm | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Method-notes (T-M) | 24.2% | 75/255 = 29.4% | 35.3% |
+| Dictionaries-only (T-D) | 23.1% | 72/255 = 28.2% | 34.1% |
 
 Bootstrap T-M minus T-D match or partial: +0.012, 95% percentile CI [-0.067, +0.090], includes zero. Method notes do not lift agreement with the published English on this corpus. They do change decoder behavior: T-M clash 139/255 = 54.5% [48.4, 60.5] vs T-D 172/255 = 67.5% [61.5, 72.9]; T-M abstain 41/255 = 16.1% [12.1, 21.1] vs T-D 11/255 = 4.3% [2.4, 7.6]. Those difference intervals exclude zero. Shared dictionaries still pull both arms into the same false friends when they assert (insect *ik'el*, shake *'Ibil*, bury *mucane*; logged in §10.13). Clash/abstain intervals and labeled exploratory tables live in the same results file. Those rates are reproducibility under this dictionary kit, not a probability that a gloss is a genuine root.
 
 **Line grades (how settled are the important words?).** Question: if every load-bearing word on a published English line is tagged by how certified it is, how many lines are carried only by hardened words? What was done: each of the same 51 lines was graded **secure** (every load-bearing word hardened), **working** (hardened or plain committed, no logged rival), **fragile** (any rival or unresolved word), or **blocked by an opaque word** (a content slot with no lexicon row). Why it matters: a secure line would be the strongest editorial claim this kit can make. Zero secure lines means no published English line is carried entirely by hardened vocabulary.
 
-Secure. Pessimistic and average: **0/51 = 0.0%**. Optimistic: 7.0% (upper 95% bound).
+How settled are the important words (51 published lines):
 
-Working. Pessimistic: 14.0%. Average: 12/51 = 23.5%. Optimistic: 36.8%.
+| Grade | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Secure | 0.0% | 0 of 51 = 0.0% | 7.0% |
+| Working | 14.0% | 12/51 = 23.5% | 36.8% |
+| Fragile | 61.1% | 38/51 = 74.5% | 84.5% |
+| Blocked by an opaque word | 0.3% | 1/51 = 2.0% | 10.3% |
 
-Fragile: 38/51 = 74.5% [61.1, 84.5]. Opaque-blocked: 1/51 = 2.0% [0.3, 10.3] (Kamasan *jare'yantul*, because *yan* is not a §9 row). About three quarters are fragile. Working count is unchanged by the Ixchel demotion (the name is not in the 51 lines). The only H token in that corpus is *xefe* (line 35), and that line is still fragile because *te'moxti* is S.
+The opaque-blocked line is Kamasan *jare'yantul*, because *yan* is not a §9 row. About three quarters are fragile. Working count is unchanged by the Ixchel demotion (the name is not in the 51 lines). The only H token in that corpus is *xefe* (line 35), and that line is still fragile because *te'moxti* is S.
 
 **Re-reading each text without its own words.** Question: if a text is held out, and the remaining texts are used as the only support, how well does that held-out text's English still hold? What was done: the same 51 lines, five folds (one per text). Why it matters: a high ok rate would mean the readings transfer across texts. A collapse, especially in one fold, means that text is not supported by the others. **Ok** means the held-out English still holds from the other texts. **Ok or partial** (ok+partial) adds lines whose core is recoverable with a hole.
 
-Ok. Pessimistic: 14.0%. Average: 12/51 = 23.5%. Optimistic: 36.8%. Text 3 is 0/13 ok.
+Re-reading each text without its own words (leave-one-text-out):
 
-Ok or partial. Pessimistic: 51.0%. Average: 33/51 = 64.7%. Optimistic: 76.4%.
+| Grade | Pessimistic | Average | Optimistic |
+|---|---|---|---|
+| Ok | 14.0% | 12/51 = 23.5% | 36.8% |
+| Ok or partial | 51.0% | 33/51 = 64.7% | 76.4% |
+
+Text 3 is 0/13 ok.
 
 Fail 18/51 = 35.3% [23.6, 49.0]. Text 4 ok is vocative-inflated (5/12; 0/7 if *Atziri!* and *U'te mucane* gifts drop). Macro-average ok 18.3%. This is internal transfer, not a new chance check.
 
@@ -1304,7 +1407,16 @@ Question: if several Vaal words share one dictionary root, have we been counting
 
 The counts above treat each committed token as an independent trial. That overstates the evidence wherever several tokens descend from one root: *ik'bala*, *ikba'yucane*, *Ik'eche*, and *ik'el* are all built on Yucatec *ik'* "spirit, breath," so they are four surface forms of a single lexical bet, not four independent confirmations. The recount below is stated on the **61-row chance-check list**; the enlarged headline base, with the three check-E names, is in "A third base" at the end of this subsection. *pul* now has a decode artifact and lives in the 78-row frame as C*, not in the 61-row list.
 
-**Levels of dependence.**
+**Levels of dependence.** The four-row table below is a map of nested kinds of repeat, not a second chance check and not a share of the lexicon. Related observations inflate the evidence in different ways. Lumping them together hides which problem this subsection actually fixes.
+
+Why these four levels exist. Counting *Atziri* twice is not the same problem as counting *ik'bala* and *ik'el* as two dictionary bets, and neither is the same as treating every "article plus noun" line as extra proof of a root, or treating a cluster of water, dark, and blood glosses as independent confirmations of a theme. The rows run from the smallest repeat to the broadest. The recount in this subsection corrects only the first two. Level 3 is handled as syntax (§17.8). Level 4 is flagged rather than counted.
+
+What each level means for a reader, and how to read the last column. That column is the handling rule for the row, not a score and not a new test result. Read across: what repeats, an example, then whether this document counts it, collapses it, sends it to syntax, or only warns.
+
+- **Level 1, token.** The same surface form, reused. Repeated *Atziri* is still one name. The last column splits two jobs: coverage counts each occurrence, because that is how often the translations use it; the independence claim counts the lemma once.
+- **Level 2, root.** Different words built on one dictionary lemma. *ik'bala*, *ik'el*, and *Ik'eche* are one bet on *ik'*, not three. The last column is the collapse used in the dual-base tables below: 52 distinct roots on the 61-row list, nine dependent forms removed. Those are the live counts already on the page, not a new rate.
+- **Level 3, construction.** The same grammatical frame, reused (article before noun). The last column sends this to §17.8. It is not extra lexical evidence.
+- **Level 4, semantic field.** Glosses clustering in one domain (water, dark, blood). The last column is a caveat on thematic over-reading. There is no numeric correction at this level.
 
 | Level | What repeats | Example | How this document treats it |
 |---|---|---|---|
@@ -1312,6 +1424,8 @@ The counts above treat each committed token as an independent trial. That overst
 | 2. Root | different forms of one lemma | *ik'bala*, *ik'el*, *Ik'eche* all from *ik'* | collapsed to 52 distinct roots on the 61-row list (below); removes 9 dependent forms |
 | 3. Construction | the same grammatical frame, reused | prenominal article plus noun | tested as syntax, not counted as lexical evidence (§17.8) |
 | 4. Semantic field | glosses clustering in one domain | water, dark, and blood imagery | not corrected numerically; flagged as a caveat on thematic over-reading |
+
+The table does not change the dual-base hardened shares or the chance-check p-values below. It only says which kind of repeat was corrected, and which was not. It does not invent a dependence percentage, and it is not a probability that a gloss is what the developers meant.
 
 **Grouping rule.** Two committed tokens are merged when they share the same attested head root (the same §9 source lemma), regardless of affixes or compounding partners. Shared *affixes* (the reflexive *-ba'*, the honorific *-ane*) do not merge tokens whose head roots differ. Sixteen of the 61 chance-check tokens collapse into 7 root families:
 
