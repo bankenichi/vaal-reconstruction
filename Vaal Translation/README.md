@@ -1,6 +1,6 @@
 # Vaal Translation
 
-A rigorous reconstruction of the "Vaal language" (Vaalish) from Path of Exile 2, read as a Mesoamerican-sourced constructed language: a Yucatec Maya core with Classical Nahuatl, a thin K'iche' seam, and Spanish loans. It reverse-engineers the in-game Vaal texts into attested dictionary roots, documents every reading with primary-source citations, and stress-tests the whole thing statistically so the claims carry honest confidence intervals rather than assertion.
+A reconstruction of the "Vaal language" (Vaalish) from Path of Exile 2, read as a Mesoamerican-sourced constructed language: a Yucatec Maya core with Classical Nahuatl, a thin K'iche' seam, and Spanish loans. It reverse-engineers the in-game Vaal texts into attested dictionary roots, documents every reading with primary-source citations, and reports the experimental pass with the intervals the tests actually produced.
 
 Two deliverables: the master document `Vaal_Reconstruction.md` (18 sections) and its typeset PDF `build/The_Vaal_Tongue.pdf`. Start with either; a first-time human reader wants the PDF.
 
@@ -8,8 +8,8 @@ Two deliverables: the master document `Vaal_Reconstruction.md` (18 sections) and
 
 Three layers, each tested rather than merely asserted.
 
-- **Lexicon (master §9).** 78 section-9 rows, each with an H/C/S/O status (L is a tag). 2 are hardened after the 2026-09-16 re-run and Ixchel Gate 1 honesty (1 of 61 battery-tested, plus *Quecholli*; dual-base and third-base tables in §17.5-17.7). *Ixchel* is C+L: Battery E recovered Cordemex herb, not the approved theonym. A token earns Hardened only if a strict decode recovers the predeclared root, language class, and sense AND it survives a blind adversarial search that includes same-language homophones. The old 2 x 10^-15 null-rejection headline is withdrawn as a headline. Re-run matched any-C Fisher is p = 0.09494 (trial) / 0.3069 (item); recovery-scored matched p = 1 / 0.9991. Protocol: `analysis/EXPERIMENT_RERUN_PROTOCOL.md`.
-- **Syntax (master §3).** The grammar is derived in isolation from the corpus's own distribution, never importing a source language's grammar, then blind-confirmed by independent analysts and checked against a scrambled-corpus negative control.
+- **Lexicon (master §9).** 78 section-9 rows, each with an H/C/S/O status (L is a tag). 2 are hardened after the 2026-09-16 re-run and Ixchel Gate 1 honesty (1 of 61 battery-tested, plus *Quecholli*; dual-base and third-base tables in §17.5-17.7). *Ixchel* is C+L: Battery E recovered Cordemex herb, not the approved theonym. A token earns Hardened only if a strict decode recovers the predeclared root, language class, and sense AND it survives a blind adversarial search that includes same-language homophones. The old 2 x 10^-15 null-rejection headline is withdrawn as a headline. Re-run matched any-C Fisher is p = 0.09494 (trial) / 0.3069 (item); recovery-scored matched p = 1 / 0.9991. Vs-gold match+partial is about 29% on both T-M and T-D; 0/51 published lines are secure. Protocol: `analysis/EXPERIMENT_RERUN_PROTOCOL.md`.
+- **Syntax (master §3).** The grammar is derived in isolation from the corpus's own distribution, never importing a source language's grammar. Gloss-blind analyst-level confirmation: 3/3 vs 0/2, Fisher p = 0.10, not significant; possession is not locked.
 - **Phonology (master §2.6, §17.9).** The source-to-Vaal spelling correspondences are collected and hardened as orthographic rules. A phonetic phonology from audio is deliberately out of scope (see the §2.6 scope note).
 
 The full statistics live in master §17 and `analysis/STATISTICAL_SUMMARY.md`.
@@ -24,7 +24,7 @@ Vaal Translation/
   PROJECT_MEMORY.md        Running summary of project state across sessions.
   metadata.json            Project metadata.
 
-  analysis/                The method and its evidence (why the readings are trustworthy)
+  analysis/                The method and its evidence
     STATISTICAL_SUMMARY.md          Companion to master §17: tiers, PPV, base rate, distinct-root recount.
     EXPERIMENT_RERUN_PROTOCOL.md    True remediation plan (Batteries A-E). The 2026-09 rescore is a STOPGAP.
     NULL_MODEL_PROTOCOL.md          How the decoder's false-positive rate is measured.
