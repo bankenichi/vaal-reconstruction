@@ -80,8 +80,12 @@ relative to the script location, so the folder can live anywhere.
 - The document follows three hard formatting rules: no em dashes, no middots, no
   emojis. The build adds none of these; keep the source clean.
 - Citations are rendered manually from the numbered list so the printed numbers
-  stay locked to the source values (1 to 53). An HTML ordered list would renumber
+  stay locked to the source values (1 to 59). An HTML ordered list would renumber
   and break every in-text reference, so do not switch to one.
+- Citation category lines in §18 are `###` headings (Primary Vaal text, Yucatec
+  Maya, Classical Nahuatl, and the rest). The builder emits them as visible
+  `.cite-cat` subtitles inside the citations block. It must not append those
+  lines onto the previous numbered entry.
 - Avoid bold spans that wrap italics, that is, a double-asterisk run with a
   single-asterisk italic nested inside. The Markdown parser mis-nests that
   combination and leaks italics across the whole paragraph. Keep emphasis flat: a
