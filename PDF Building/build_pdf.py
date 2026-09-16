@@ -29,19 +29,44 @@ for ln in lines[1:8]:
         break
 body_start = next(i for i, ln in enumerate(lines) if ln.startswith("## 1."))
 cit_h = next(i for i, ln in enumerate(lines) if ln.startswith("## 18. Citations"))
-list_start = next(i for i in range(cit_h, len(lines)) if re.match(r"^\d+\.\s", lines[i]))
-body_md = "\n".join(lines[body_start:list_start])   # everything through the Â§14 heading
 
-# parse the citation list, keeping the literal source numbers (so in-text [N] matches)
-citations, cur_n, cur = [], None, []
-for ln in lines[list_start:]:
-    m = re.match(r"^(\d+)\.\s+(.*)", ln)
-    if m:
-        if cur_n is not None: citations.append((cur_n, " ".join(cur).strip()))
-        cur_n, cur = m.group(1), [m.group(2)]
-    elif ln.strip():
-        cur.append(ln.strip())
-if cur_n is not None: citations.append((cur_n, " ".join(cur).strip()))
+def _is_cite_cat(ln):
+    s = ln.strip()
+    return bool(re.match(r"^#{3,4}\s+\S", s) or re.match(r"^\*\*[^*].*\*\*\s*$", s))
+
+def _is_cite_num(ln):
+    return bool(re.match(r"^\d+\.\s", ln))
+
+stream_start = next(
+    i for i in range(cit_h + 1, len(lines))
+    if _is_cite_cat(lines[i]) or _is_cite_num(lines[i])
+)
+body_md = "\n".join(lines[body_start:stream_start])
+
+# parse citations and category subtitles; keep literal source numbers
+blocks, cur_n, cur = [], None, []
+
+def _flush_cite():
+    global cur_n, cur
+    if cur_n is not None:
+        blocks.append(("cite", cur_n, " ".join(cur).strip()))
+        cur_n, cur = None, []
+
+for ln in lines[stream_start:]:
+    if _is_cite_cat(ln):
+        _flush_cite()
+        title = re.sub(r"^#{3,4}\s+", "", ln.strip())
+        title = title.strip("*").strip()
+        blocks.append(("cat", title))
+    else:
+        m = re.match(r"^(\d+)\.\s+(.*)", ln)
+        if m:
+            _flush_cite()
+            cur_n, cur = m.group(1), [m.group(2)]
+        elif ln.strip():
+            if cur_n is not None:
+                cur.append(ln.strip())
+_flush_cite()
 
 # --- markdown -> html, capture section ids for the TOC ---
 md = markdown.Markdown(extensions=["tables", "sane_lists", "toc"],
@@ -59,10 +84,17 @@ mdi = markdown.Markdown(extensions=[])
 def inline_md(t):
     mdi.reset()
     return re.sub(r"^<p>|</p>$", "", mdi.convert(t))
-cit_html = "".join(
-    f'<div class="cite"><span class="cn">{n}.</span>'
-    f'<span class="ct">{inline_md(t)}</span></div>' for n, t in citations)
-body_html += '<div class="citations">' + cit_html + '</div>'
+cit_parts = []
+for b in blocks:
+    if b[0] == "cat":
+        cit_parts.append(f'<h3 class="cite-cat">{inline_md(b[1])}</h3>')
+    else:
+        n, t = b[1], b[2]
+        cit_parts.append(
+            f'<div class="cite"><span class="cn">{n}.</span>'
+            f'<span class="ct">{inline_md(t)}</span></div>'
+        )
+body_html += '<div class="citations">' + "".join(cit_parts) + '</div>'
 
 toc_html = "\n".join(
     f'<div class="toc-row toc-l{lv}"><a href="#{i}"><span class="toc-name">{n}</span><span class="toc-page" data-target="{i}">?</span></a></div>'
@@ -248,6 +280,9 @@ td em { color:#10463c; font-style:italic; }
 td strong { color:#5a1714; }
 
 .citations { margin-top:3mm; text-align:left; }
+.cite-cat { font-family:"Cinzel"; font-weight:normal; color:#7e221d; font-size:11.5pt;
+            letter-spacing:0.5px; margin:6mm 0 2.2mm 0; break-after:avoid;
+            text-align:left; background:none; border-bottom:none; padding:0; }
 .cite { display:flex; gap:7pt; font-size:9pt; line-height:1.36; margin:0 0 1.8mm 0; }
 .cite .cn { color:#7e221d; font-family:"Cinzel"; min-width:20pt; text-align:right; flex:0 0 auto; }
 .cite .ct { flex:1 1 auto; word-break:break-word; overflow-wrap:anywhere; }
