@@ -141,6 +141,10 @@ Headlines are Wilson 95% CIs, not Fisher / 10^-15 tests (`TRANSLATION_BATTERY_RE
 - T-M minus T-D match +0.020 [-0.031, +0.071]; match+partial +0.012 [-0.067, +0.090] (bootstrap 10,000 line-slots)
 - Pairwise no-gold compatibility: T-M 247/510 = 48.4% [44.1, 52.8]; T-D 237/510 = 46.5% [42.2, 50.8]
 
+Secondary (hypothesis-aligned, not the match headline): clash T-M 139/255 = 54.5% [48.4, 60.5] vs T-D 172/255 = 67.5% [61.5, 72.9]; abstain 41/255 = 16.1% [12.1, 21.1] vs 11/255 = 4.3% [2.4, 7.6]. Bootstrap TM-TD clash -0.129 [-0.212, -0.043]; abstain +0.118 [+0.067, +0.169]. Methodology changes withholding vs asserting, not vs-gold match+partial.
+
+Exploratory tables (per-text, vocative sensitivity, clash hotspots, Fleiss kappa, token confusion): `explore_translation_battery.py`, `translation_battery_explore.csv`, written in `TRANSLATION_BATTERY_RESULTS.md`. Labeled exploratory.
+
 Methodology did not raise vs-gold match+partial on this corpus. T-M abstains more; T-D clashes more (Spanish-gloss drift on line 9: cacao-tree vs life). PPV / sentence bands stay withdrawn as model-based translation confidence; these CIs are vs-gold / inter-translator agreement under this kit.
 
 ## Task status
@@ -158,4 +162,4 @@ Re-run Batteries A-E, Gate 1, Gate 2, the gloss-blind syntax panel, and translat
 - Per-token hardening test: `HARDENING_PROTOCOL.md`.
 - Protocol: `EXPERIMENT_RERUN_PROTOCOL.md`.
 - Gloss-blind syntax packets: `python3 syntax_rerun_build_packets.py`. Log: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
-- Translation batteries T-M / T-D: `python3 translation_battery_extract_gold.py` then `python3 score_translation_battery.py`. Protocol: `TRANSLATION_BATTERY_PROTOCOL.md`. Results: `TRANSLATION_BATTERY_RESULTS.md`.
+- Translation batteries T-M / T-D: `python3 translation_battery_extract_gold.py` then `python3 score_translation_battery.py` then `python3 explore_translation_battery.py`. Protocol: `TRANSLATION_BATTERY_PROTOCOL.md`. Results: `TRANSLATION_BATTERY_RESULTS.md`.

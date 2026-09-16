@@ -66,6 +66,90 @@ Particles excluded: a'te, u'te, le, le', ti, ti', ka, ta', u, ma, ma', na', en. 
 
 The token-level Wilson intervals do not overlap. Form-first / palette search raises agreement of **offered** glosses with the gold line's content words, even when the composed English sentence still clashes. This is not PPV. Notes-parsing is coarser than the line rubric.
 
+## Secondary (hypothesis-aligned, not the translation-confidence headline)
+
+The protocol's non-binding hypothesis said T-D may clash more or drift to Spanish glosses, and that T-M should abstain when opaque. Those contrasts are measured here. They are **not** vs-gold match rates.
+
+| Battery | Clash | Abstain |
+|---|---|---|
+| T-M | 139/255 = **54.5% [48.4, 60.5]** | 41/255 = **16.1% [12.1, 21.1]** |
+| T-D | 172/255 = **67.5% [61.5, 72.9]** | 11/255 = **4.3% [2.4, 7.6]** |
+
+Bootstrap T-M minus T-D (10,000 line-slots):
+
+| Rate | Point | 95% percentile CI |
+|---|---:|---|
+| Clash | -0.129 | **[-0.212, -0.043]** |
+| Abstain | +0.118 | **[+0.067, +0.169]** |
+
+Neither interval includes zero. Methodology **does** change decoder behavior: T-M withholds more, T-D asserts a wrong English line more often. That behavioral split does not show up as a detectable lift in match or match+partial (section 3). Shared dictionaries still pull both batteries into the same false friends when they do assert.
+
+## Exploratory (labeled; not headlines)
+
+Computed from the same scored sheets (`explore_translation_battery.py`, `translation_battery_explore.csv`). Small-N CIs are wide on purpose. No Fisher / 10^-15 test. No PPV.
+
+### Per-text match+partial
+
+Line counts: T1 8, T2 16, T3 13, T4 12, T5 2. Slot totals are those counts times 5.
+
+| Text | T-M match+partial | T-D match+partial | Bootstrap TM-TD mp |
+|---|---|---|---|
+| T1 chant | 10/40 = 25.0% [14.2, 40.2] | 12/40 = 30.0% [18.1, 45.4] | -0.05 [-0.25, +0.15] |
+| T2 litany | 13/80 = 16.2% [9.7, 25.8] | 12/80 = 15.0% [8.8, 24.4] | +0.01 [-0.10, +0.13] |
+| T3 commander | 12/65 = 18.5% [10.9, 29.6] | 10/65 = 15.4% [8.6, 26.1] | +0.03 [-0.09, +0.15] |
+| T4 drill | 35/60 = 58.3% [45.7, 69.9] | 35/60 = 58.3% [45.7, 69.9] | +0.00 [-0.17, +0.17] |
+| T5 Kamasan | 5/10 = 50.0% [23.7, 76.3] | 3/10 = 30.0% [10.8, 60.3] | +0.20 [-0.20, +0.60] |
+
+T4 looks easier only because three vocative *Atziri!* lines contribute 15/15 matches in each battery. T3 has **zero** matches in both batteries. Per-text difference CIs all include zero. Heterogeneity is real (T3 vs T4), but it is not a methodology-by-text interaction that this N can pin down.
+
+### Vocative-name sensitivity
+
+Drop lines 39, 41, 47 (*Atziri!* only). Remaining N = 240.
+
+| Battery | Match | Match+partial |
+|---|---|---|
+| T-M | 12/240 = 5.0% [2.9, 8.5] | 60/240 = 25.0% [19.9, 30.8] |
+| T-D | 7/240 = 2.9% [1.4, 5.9] | 57/240 = 23.8% [18.8, 29.5] |
+
+TM-TD match+partial remains +0.013 [-0.067, +0.088]. The vocatives inflate the headline match rate by about six points in both batteries equally. They do not create a fake methodology effect.
+
+### Clash hotspots
+
+Sixteen lines are 5/5 clash in **both** batteries (16/51 = 31.4% of the corpus). Shared misses, not methodology: lines 3, 6, 10, 11, 15, 16, 18, 21, 24, 27, 36, 37, 38, 43, 45, 49. Recurring false friends include *ik'el* as breath/bug/virus rather than spirit, *kutsen* as turkey/brush rather than offering, *'Ibil* as shake rather than flesh, and *mucane* as buried rather than mighty.
+
+Largest T-M vs T-D split on match+partial: **line 9** (*Life and death!*): T-M 5/5 match, T-D 5/5 clash (cacao-tree + death). Next: line 32 (4/5 vs 2/5 partial on white-water / draught), line 51 (3/5 vs 1/5 dark+cast). Largest T-D advantage: line 20 (*the good place*), 0/5 vs 3/5, where T-M mostly abstained on *yutsal* and T-D used the Cordemex *yutsal* "all-good" hit.
+
+### Translator slots
+
+Match+partial per 51-line sheet: T-M 25.5% to 33.3%; T-D 23.5% to 37.3%. Slot spread is larger than the pooled TM-TD gap. A single noisy translator is enough to move the pooled point by a few points. The headline CIs already swallow that.
+
+### Declared confidence vs vs-gold bin
+
+| Battery | Declared | n | Match vs gold |
+|---|---|---:|---|
+| T-M | high | 19 | 17/19 = 89.5% [68.6, 97.1] |
+| T-M | medium | 60 | 8/60 = 13.3% [6.9, 24.2] |
+| T-M | low | 135 | 2/135 = 1.5% [0.4, 5.2] |
+| T-D | high | 15 | 15/15 = 100% [79.6, 100] |
+| T-D | medium | 60 | 2/60 = 3.3% [0.9, 11.4] |
+| T-D | low | 169 | 5/169 = 3.0% [1.3, 6.7] |
+
+High-confidence claims are almost all the vocative *Atziri!* lines plus T-M *life/death* and a few *first sign / living* hits. T-M's two high-confidence clashes are seed-42 lines 15-16 (*shake* / *bug* for flesh / spirit). Medium and low are not calibrated to vs-gold match. Abstain maps to the abstain bin by construction.
+
+### Inter-rater on vs-gold bins (exploratory)
+
+Fleiss kappa across five translators on the four vs-gold bins: T-M **0.61**, T-D **0.61**. Pairwise same-bin: T-M 384/510 = 75.3% [71.4, 78.8]; T-D 412/510 = 80.8% [77.1, 84.0]. This is agreement on **which bin they land in**, including shared clash. It is higher than gold-free Jaccard compatibility (section 2) because "everyone clashed" counts as same-bin. Substantial kappa here means the kit reproduces the same errors, not that the English is right.
+
+### Token-level confusion (offered glosses)
+
+Highest clash counts among scored note-glosses:
+
+- *ik'el*: T-M 24/25 clash, T-D 21/25 clash (spirit vs breath/bug/virus).
+- *kutsen*: 15/15 clash in both (offering vs turkey/brush).
+- *'ibil*: T-M 8/10, T-D 10/10 clash (flesh vs shake).
+- *mucane*: more abstain under T-M (10/20 clash + 10 abstain) vs T-D 16/21 clash (mighty vs buried).
+- *tlayeb*: T-M mostly abstain (16/22); T-D mostly clash (19/25 ladder). Anti-forcing shows up as silence rather than a correct "dark" gloss.
+
 ## Rubric (vs gold)
 
 - **match:** same main predication and referents. Wording may differ. *Alive, death!* counts as match to *Life and death!*
@@ -95,7 +179,8 @@ Default is clash. Name-only overlap is match only when gold itself is the vocati
 - Packets: `translation_battery_TM_packet/`, `translation_battery_TD_packet/`
 - Sheets: `translation_battery_TM_s{seed}.csv` / `.md` and `TD` (seeds 1729, 9001, 271828, 42, 55555)
 - Gold: `translation_battery_gold.csv`
-- Scores: `translation_battery_line_scores.csv`, `translation_battery_token_scores.csv`, `translation_battery_pairwise.csv`, `translation_battery_score_summary.csv`
+- Scores: `translation_battery_line_scores.csv`, `translation_battery_token_scores.csv`, `translation_battery_pairwise.csv`, `translation_battery_score_summary.csv`, `translation_battery_explore.csv`
 - Scorer: `score_translation_battery.py`
+- Exploratory: `explore_translation_battery.py`
 
-Reproduce: `python3 translation_battery_extract_gold.py && python3 score_translation_battery.py`
+Reproduce: `python3 translation_battery_extract_gold.py && python3 score_translation_battery.py && python3 explore_translation_battery.py`

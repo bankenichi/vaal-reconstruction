@@ -99,6 +99,8 @@ Wilson interval on a binomial proportion. No Fisher / 10^-15 headlines. Do not i
 3. **Methodology effect:** difference (T-M minus T-D) in match rate and in match+partial rate. Interval: nonparametric bootstrap of line-slots, 10,000 resamples, 95% percentile CI. Documented in the results. Plain English: does methodology change agreement with the project translation, and by how much?
 4. Optional secondary: the same CIs at load-bearing-token level.
 
+Further summaries the sheets support (per-text rates, clash hotspots, abstain CIs, token confusion, slot spread, declared-confidence calibration, Fleiss kappa on vs-gold bins) may be reported if they are **labeled exploratory** and do not replace the headline Wilson tables. Still no Fisher / 10^-15 headlines. Do not invent PPV from recovery TPR.
+
 Small print: shared dictionaries imply shared bias. CIs measure reproducibility under this kit, not designer intent.
 
 ## 10. Hypothesis (non-binding)
@@ -112,6 +114,7 @@ python3 syntax_rerun_build_packets.py
 python3 translation_battery_extract_gold.py
 python3 translation_battery_lookup_dump.py
 python3 score_translation_battery.py
+python3 explore_translation_battery.py
 ```
 
 Gold extraction and scoring run only after the ten sheets exist. Do not hand gold or scores to a translator mid-draft.
