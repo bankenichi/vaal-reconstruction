@@ -1395,3 +1395,4 @@ The single largest lever is the base rate b. The statistics constrain the test's
 58. Vaal Temple bosses *K'aj Y'ara'az*, *K'aj Q'ura*, *K'aj A'alai* (PoE1, introduced 1.1.0, 2014; variants of the Atziri trio). Path of Exile Wiki, *Vaal Temple*, https://www.poewiki.net/wiki/Vaal_Temple#Boss . Checked form-first against Cordemex[7] and Christenson[47]; see §12.8.
 
 59. The *-aqua* tail of *Xibaqua* (§12.1). Classical Nahuatl *aquia* "to insert, submerge, drive in, transplant" (Molina, *Vocabulario* 1571, pt. 2 f. 7v), Wired Humanities Nahuatl Dictionary, https://nahuatl.wired-humanities.org/content/aquia . Latin *aqua* "water" and its regular development to Spanish *agua* (Latin *qu* to Spanish *gu*): Wiktionary, *aqua*, https://en.wiktionary.org/wiki/aqua , and *agua*, https://en.wiktionary.org/wiki/agua . The Vaal tail keeps /k/ (*aqua*), not /g/ (*agua*), so the water reading, if a loan, is the Latin form, not the Spanish.
+
