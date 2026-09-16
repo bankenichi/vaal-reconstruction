@@ -1,0 +1,56 @@
+# Syntax corpus, word order shuffled within each line.
+# Procedure: random.Random(1729); split on whitespace; shuffle; rejoin.
+# Same line numbers as the real packet. Vocabulary preserved.
+# Built by syntax_rerun_build_packets.py.
+
+1	mucane Atziri, ek te Atziri, Vaal!
+2	Yutsal! Teoyuxtlane Teoyuxtlane ascensionada!
+3	Atziri, Zerphi! kilya ma Atziri,
+4	anab xi Ti nochira! ik'bala! kujkuali itsok Kextal
+5	Atziri, Vaal! Atziri, ikba'yucane
+6	ik'el A'te kutsen! 'Ibil kifba! tlayeb A'te tlayeb
+7	Atziri, akal! ascenada Atziri,
+8	jare Aiokmo til xu'te! elba! Aiokmo tul
+9	Kuxte' kíimil'!
+10	Tlaxye' le Vaal!
+11	Ma'oxe ik'el!
+12	Atziri le'itzil!
+13	Xatlene kujkuali!
+14	Gyan'uks ko'janti!
+15	'Ibil! A'te
+16	ik'el! A'te
+17	Yaxe chikula'!
+18	Tzokan'te ik'el!
+19	líimek! A'te
+20	yutsal! Yatle
+21	kutsen! Tlayeb
+22	Tlayeb kifba!
+23	U'Te kuxkal!
+24	A'te yuquia!
+25	nochbe! lu Eche
+26	inib! Kí'
+27	en, ta' 'Ayok i'chian. u niáach mucane, mujuk' le
+28	u'tra waja yatle buxa! A'te
+29	fukuur! A'te
+30	Xi puxe... daka
+31	sakilja. 'Ayok Atziri kifba kilya
+32	atla Ik'eche sakilja donuks.
+33	Donuks... ko'soxsal.
+34	Donuks... ko'mujuk!
+35	xefe yotlapek te'moxti itsok Xi a'te cha'tsoke, u'te Vaal qexcan... le le
+36	puyao. Na'
+37	u'te pu uch' puyao, tlapec Ich itsok ta'nuk! a'te
+38	u'te ik'el... Otsuks! Tzokan'te
+39	Atziri!
+40	Kuxkal tlayeb A'te a'tul? ukto! tlayeb kutsen. ti ka Ela Máax
+41	Atziri!
+42	Máax a'tul? ti ka Otsuks!
+43	mucane! U'te
+44	cheyel? Máax ka ti
+45	mucane! U'te
+46	mucane? tlayeb Máax
+47	Atziri!
+48	quxzeh! Otsuks,
+49	Axba!? en! Kíibsa' ta'
+50	tala ek Ti jare'yantul!
+51	ek'le Ti' upulché!

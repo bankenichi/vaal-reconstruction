@@ -149,16 +149,16 @@ Write `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Keep the 2026-07 log as history.
 
 **TODO / pending re-run (syntax):**
 
-- [ ] Gloss-blind real panel (target: at least 3 analysts). See `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
-- [ ] Gloss-blind scrambled panel (target: at least 2 analysts, preferably matched N).
-- [ ] Analyst-level 2x2 and Fisher p.
-- [ ] Sentence-level probability bands remain **withdrawn as translation confidence** until recovery-scored token PPVs exist; even then, report Frechet bounds correctly (lower = max(0, sum p_i - n + 1), upper = min p_i). Do not call an independence product a floor.
+- [x] Gloss-blind real panel (target: at least 3 analysts). See `SYNTAX_EXPERIMENT_LOG_RERUN.md` (A, B, C).
+- [x] Gloss-blind scrambled panel (target: at least 2 analysts, preferably matched N). D, E; seed 1729.
+- [x] Analyst-level 2x2 and Fisher p. 3/3 vs 0/2, p = 0.10. Small N. Do not publish a rule-level table as the p-value.
+- [x] Sentence-level probability bands remain **withdrawn as translation confidence** until recovery-scored token PPVs exist; even then, report Frechet bounds correctly (lower = max(0, sum p_i - n + 1), upper = min p_i). Do not call an independence product a floor.
 
 ## Distinct-root recount (both bases, every epoch)
 
 Apply the §17.7 grouping rule (same §9 head root merges; shared affixes do not). Report every coverage and gate table **per token and per distinct root**. Neither base supersedes the other.
 
-**TODO / pending re-run:** rebuild the dual-base tables from the new CSVs. Done for Gates 1/2 and the hardened share (see master §17.7 and `STATISTICAL_SUMMARY.md` §1 / §7a, re-run epoch). Syntax dual-base is not applicable; syntax p remains pending.
+**TODO / pending re-run:** rebuild the dual-base tables from the new CSVs. Done for Gates 1/2 and the hardened share (see master §17.7 and `STATISTICAL_SUMMARY.md` §1 / §7a, re-run epoch). Syntax dual-base is not applicable; syntax p is the gloss-blind analyst-level 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`).
 
 ## Success criteria (what would replace the stopgap)
 
@@ -172,7 +172,7 @@ A re-run **may replace stopgap headlines** when:
 4. Syntax p, if quoted, is analyst-level and gloss-blind.
 5. Model-based PPV / sentence bands, if quoted as translation confidence, use recovery TPR/FPR and a non-circular b, or they stay labelled withdrawn.
 
-As of the 2026-09-16 re-run, (1)-(3) are on disk (`NULL_MODEL_RESULTS_RERUN.md`, `gate1_rescore_rerun.csv`, `gate2_rescore_rerun.csv`, `token_classification.csv`). Criterion (4) is still open: syntax p, if quoted, must wait for the gloss-blind panel (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Criterion (5) remains withdrawn. Headlines for the lexicon and the null now come from the re-run files. The 2026-07/09 archive numbers stay labelled stopgap / historical.
+As of the 2026-09-16 re-run, (1)-(4) are on disk (`NULL_MODEL_RESULTS_RERUN.md`, `gate1_rescore_rerun.csv`, `gate2_rescore_rerun.csv`, `token_classification.csv`, `SYNTAX_EXPERIMENT_LOG_RERUN.md`). Criterion (4) is the gloss-blind analyst-level table 3/3 vs 0/2, Fisher p = 0.10 (not significant; small N). Criterion (5) remains withdrawn. Headlines for the lexicon, the null, and syntax now come from the re-run files. The 2026-07/09 archive numbers stay labelled stopgap / historical.
 
 ## Artifacts checklist (write these, do not overwrite archives)
 
