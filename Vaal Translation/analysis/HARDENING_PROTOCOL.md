@@ -18,11 +18,15 @@ The null-model batteries showed two things. Under loose latitude the decoder roo
 
 ### Gate 1, strict-latitude reconstruction
 The token's root must reconstruct the surface form under the strict ruleset in `TIGHTENED_LATITUDE.md`: doubled vowels = length only; apostrophe = glottal (consistent); loan-phoneme diagnostic only; and the root plus a genuinely attested affix of the SAME language must account for every segment with no unexplained residue. Forbidden: cross-grafts, free vowel raising/lowering, metathesis, ad hoc coda simplification, consonant substitution outside the loan diagnostic.
-PASS = an attested root reconstructs the surface legally under these rules.
+PASS = an attested root reconstructs the surface legally under these rules, AND the recorded decode matches the predeclared committed root, language class, and sense (`score.py`, `match_committed.py`). A `C` label on a different lemma is not a pass (AUDIT_REVIEW F1).
+
+**Residual limit.** Some Battery D online rows have empty root/lang/gloss columns; those trials are labelled unscorable for recovery rather than guessed. The 61-row `strict_committed_results_batch*.csv` files do carry the columns and are the Gate-1 source for the original battery.
 
 ### Gate 2, adversarial survival
-A decoder blind to the current reading, given only the surface form, must NOT find an equal-or-stronger attested root in a DIFFERENT source language carrying a DIFFERENT meaning. (A same-meaning cognate in a sister language is corroboration, not a competitor.)
-PASS = no genuine cross-language competitor.
+A decoder blind to the current reading, given only the surface form, must NOT find an equal-or-stronger attested root carrying a DIFFERENT meaning. Same-language homophones and alternate segmentations count as competitors. (A same-meaning cognate in a sister language, or a same-language restatement of the committed lemma, is corroboration, not a competitor.) Language-class inequality is not required. See `score_adversarial.py`.
+PASS = no genuine different-meaning competitor in the recorded adversarial CSV.
+
+**Residual limit (AUDIT_REVIEW N3).** The archived `adversarial_results_batch*.csv` files store one best root and one alt-language root. A homophone a decoder never wrote down (for example the Gate-1 wasp reading of *ek*) cannot be scored from those files without inventing a row. Gate 1 already fails that token on sense mismatch. New adversarial runs would be needed to close the remaining gap.
 
 ## Outcome
 

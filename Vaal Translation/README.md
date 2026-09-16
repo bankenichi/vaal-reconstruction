@@ -8,7 +8,7 @@ Two deliverables: the master document `Vaal_Reconstruction.md` (18 sections) and
 
 Three layers, each tested rather than merely asserted.
 
-- **Lexicon (master §9).** 65 committed tokens (the original 62 plus three names blind-certified by Battery E, §17.7), each tiered Hardened / Committed / Committed-with-competitor / Soft / Lore. A token earns Hardened only by reconstructing under a strict phonological latitude AND surviving a blind adversarial search for a better root in a different source language. A null model (phonotactically Vaal-like nonsense) sets the false-positive floor, and the confidence that a reading is genuine is reported as a range keyed to an estimated base rate, not a single number.
+- **Lexicon (master §9).** 78 section-9 rows, each with an H/C/S/O status (L is a tag). 17 are hardened after recovery scoring (14 of 61 battery-tested, plus three Battery E names). A token earns Hardened only if a strict decode recovers the predeclared root, language class, and sense AND it survives a blind adversarial search that includes same-language homophones. The old 2 x 10^-15 null-rejection headline is withdrawn; the selection-matched range is p ≈ 0.005 to 0.06 (marginal).
 - **Syntax (master §3).** The grammar is derived in isolation from the corpus's own distribution, never importing a source language's grammar, then blind-confirmed by independent analysts and checked against a scrambled-corpus negative control.
 - **Phonology (master §2.6, §17.9).** The source-to-Vaal spelling correspondences are collected and hardened as orthographic rules. A phonetic phonology from audio is deliberately out of scope (see the §2.6 scope note).
 
@@ -35,8 +35,9 @@ Vaal Translation/
     SYNTAX_CONFIRMATION_PROTOCOL.md How the §3 grammar is blind-confirmed and null-controlled.
     SYNTAX_EXPERIMENT_LOG.md        Run record for the syntax confirmation and the negative control.
     REVIEW.md                       The adversarial critique that prompted the statistical work.
-    token_classification.csv        Per-token tier and gate outcomes (65 tokens: the original 62 plus the three Battery-E names).
-    *.py                            Reproducible tooling (generate pseudo-Vaal, score runs).
+    token_classification.csv        Per-token tier and gate outcomes (78 section-9 rows).
+    gate1_rescore.csv, RESCORE_OUTPUT.md, NULL_HONESTY_OUTPUT.md  2026-09 recovery scoring proof.
+    *.py                            Reproducible tooling (generate pseudo-Vaal, score runs, rescore gates).
     blind_test_*, adversarial_*, strict_committed_*  Raw experiment worksheets and outputs.
 
   build/                   Turns the master into the typeset PDF

@@ -33,7 +33,7 @@ Analyst C observed that *tlayeb* "dark" may be a fronted locative ("in the dark"
 
 ## Against chance
 
-Null: each analyst picks a word-order value at random. Unanimity of 3 analysts on one binary parameter = (1/2)^3 = 0.125; all six parameters unanimous = ~3.8 x 10^-6 (binary) or ~2.6 x 10^-9 (three-way). Observed agreement is far beyond coincidence.
+Null: each analyst picks a word-order value at random. Unanimity of 3 analysts on one binary parameter = (1/2)^3 = 0.125 if the *specific* predicted value is required, or 0.25 if agreement on either value counts. All six parameters unanimous is then about 3.8 x 10^-6 or 2.4 x 10^-4. Both figures are academic next to non-independence: analysts shared one corpus and the project's English glossary, so they were not coin flips. Do not quote these as a significance test. See the analyst-level Fisher in the negative-control section.
 
 ## Honest limit
 
@@ -45,7 +45,9 @@ To test specificity (not just reproducibility), 2 further blind analysts were gi
 
 Result: the four word-order conclusions collapsed. Both analysts reported "undetermined / no consistent order" for (1) clause-initial type marking, (2) noun-phrase order, (3) possessed-before-possessor, and (4) verb-object, each of which the real corpus had returned at 3/3. The two order-independent conclusions held in both conditions: (5) no copula and (6) front-operator / back-suffix morphology, which is correct, since scrambling word order cannot affect a missing copula or within-word morpheme edges.
 
-Dissociation: counting recovery of a consistent order rule, real = 12/12 (3 analysts x 4 rules), scrambled = 0/8 (2 analysts x 4 rules), Fisher exact p about 7.9 x 10^-6. This establishes that the §3 word-order rules are specific to the real corpus and not an artifact of analyst expectation. It also correctly demotes the copula and morpheme-edge findings, which are true but not evidence of linear syntax (they would survive in a bag of words).
+Dissociation (rule-level, **pseudoreplicated**): counting recovery of a consistent order rule, real = 12/12 (3 analysts x 4 rules), scrambled = 0/8 (2 analysts x 4 rules), Fisher exact p about 7.9 x 10^-6. That table treats four correlated conclusions per analyst as independent trials.
+
+**Analyst-level (the experimental unit):** 3/3 real analysts recovered word-order regularities vs 0/2 scrambled analysts. Fisher one-sided p = 0.10, not significant (`null_honesty.py`). Analysts were given surface lines, English translations, and a token glossary; they were not blind to the project's readings. The negative control still shows, qualitatively, that agents can see the order regularities the supplied alignment presents. It does not support a significance claim or validate designer intent. (`AUDIT_REVIEW` F8.)
 
 Note on inter-rater kappa: on the SYN-1 panel all ratings were "confirm" (one category), so Fleiss kappa is 0/0 (undefined). The negative control is the specificity test in its place.
 

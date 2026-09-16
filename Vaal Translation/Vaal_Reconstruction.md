@@ -12,7 +12,7 @@ The first three are **offerings flowing upward to Atziri**, the worshippers give
 
 **Corpus basis.** Everything here rests on the Vaal material available in *Path of Exile 2* as of patch 0.5.0 and the *Path of Exile 1* Vaal content (the Temple of Atzoatl and related lore, datamined through patch 3.27). The readings, rules, and confidence figures describe that corpus only; text or audio added by later patches has not been incorporated, and the reconstruction is versioned so it can be re-tested against them as they arrive (§14).
 
-**Statistical standing (full detail in §17).** The reconstruction has been stress-tested against a null model of phonotactically Vaal-like nonsense, and two results frame everything that follows. First, Vaal is **not** a random jumble of Maya- and Nahuatl-sounding syllables: 26 of the 65 committed tokens (the enlarged base, §17.7; 23 of 62 in the original run) reconstruct under strict rules where pure noise would yield about 3 (binomial p ≈ 3 x 10^-18, using the strict-and-online noise floor from Battery D, the resources the real decode uses), and the effect holds when morphologically related tokens are collapsed to distinct roots (§17.7), so the random-match null, that every committed reading is a chance dictionary hit, is strongly disfavored under the tested model. Second, it is not wholly solid either: the robustly verified (hardened) core is **38.5% of the committed tokens (95% CI 27.6-50.6%)**, rising to **44.6% (CI 32.4-57.6%)** over the 56 distinct roots (§17.7); and per reading the confidence that a committed gloss is a genuine root rather than a chance dictionary hit spans, depending on how much of the language one assumes was built from real roots, **from about 45% (pessimistic) to 90% (optimistic)**, with the empirical base rate near 58% (from the name roster, §17.6) placing hardened readings around 75-81%. These headline figures are the enlarged 65-token base: three names added after the original run (*Quecholli*, *Panquetzaliztli*, *Ixchel*) were themselves blind-certified as plants (Battery E, §17.7), so the enlarged base is null-tested in its own right, and the original 62-token run (35.5% / 41.5%) is retained beside it as the prior epoch (§17.7). In short, part of the corpus shows structure the tested random model does not produce, while much of it stays statistically indistinguishable from that model; the honest unit of confidence is the individual token, and whole sentences are correspondingly less certain (§17.5).
+**Statistical standing (full detail in §17).** The reconstruction has been stress-tested against a null model of phonotactically Vaal-like nonsense. The published all-noise rejection of about 2 x 10^-15 (and the enlarged-base 3 x 10^-18), including the sigma column, is **withdrawn**. Those binomials counted any decoder `C` as recovery of the project's reading and compared a selected lexicon to an unselected 4.6% floor; 23 of 62 does not rebuild from the CSVs (21 any-C of 61). After recovery scoring, **17 of 78 section-9 rows are hardened (21.8%, 95% CI 14.1-32.2%)**. Conditioning on selection, the like-for-like tests in the same files give **p ≈ 0.005 to 0.06 (marginal)**. Cite `AUDIT_REVIEW_2026-08-18.md`. Sentence-level probability percentages are withdrawn. The honest unit of confidence is the individual token. L is a tag on H/C/S, never a lone tier.
 
 **What this reconstruction is, and is not.** This is a fan reconstruction, rigorous in method but still speculative, not an authoritative or official account of the Vaal language. The statistics establish one thing only: that the corpus is very unlikely to be pure noise, that it carries structure the tested random model does not produce. They do not establish that the developers intended any particular meaning, that a given gloss is the correct translation, or that the recovered grammar reflects a designed system rather than a pattern the method imposed. No living speakers exist and no design documents are public, so idiom, connotation, wordplay, and intended register are largely unrecoverable and are likely to remain so. Every reading here is offered as the best-supported hypothesis under a stated method, and confidence is given as a range rather than a single number precisely because certainty is not available. The committed lexicon is probable; the sentences are less certain than their words; the whole is a serious but provisional effort, not a settled decipherment.
 
@@ -56,7 +56,7 @@ The diagnostic key in §2.4 rests on the actual phoneme inventories of the three
 | Nasal | m | n | | | | | |
 | Sonorant | | l | j *(y)* | | | w | |
 
-Vowels: four qualities /i e a o/, each short or long. There is **no phonemic /u/** (the *o* vowel spans [o]–[u]) and **no tone**. The saltillo /ʔ ~ h/ is one plain glottal phoneme, postvocalic only, not part of any ejective series. /kʷ/ and /t͡ɬ/ are the strongest Nahuatl tells.
+Vowels: four qualities /i e a o/, each short or long. There is **no phonemic /u/** (the *o* vowel spans [o]-[u]) and **no tone**. The saltillo /ʔ ~ h/ is one plain glottal phoneme, postvocalic only, not part of any ejective series. /kʷ/ and /t͡ɬ/ are the strongest Nahuatl tells.
 
 **Yucatec Maya.** The core layer: a full glottalized series and an implosive, plus tone, but no uvulars and no native /r/.
 
@@ -263,13 +263,13 @@ The caveat stands: this is a post-hoc match on a small corpus, and typological c
 - **Lines 3 & 5** both render *undying* (*kilya*, then *ikba'yucane*). The repetition is deliberate: an immortality motif, fitting a queen who sought eternal life.
 - **Dramatic irony runs throughout.** "Eternal waters" (*akal*) is the still pond of the nightmare realm she ends up trapped in. "No more burning… no going out" is sung on the very night the Cataclysm burns Utzaal to nothing. "Undying as Zerphi," though Zerphi did, in the end, die; he is undying only in legend.
 - **"Utzaal" kept here (*Yutsal*).** *Yutsal* is the Yucatec common noun *y-* (3rd-person possessive) + *uts* "good" + *-al*, "its goodness, the good place" (attested in Cordemex as *yutsal*, "todo es bueno")[51]. Capitalized in the chant, it is the proper-name use, the city *Utzaal* (itself *utz* "good" + *-aal*), so the translation keeps *Utzaal*. Contrast the lowercase *yutsal* in §5, which is translated as the common noun.
-- **Source-validated against the game files.** The chant exists verbatim in the datamined `NPCTextAudio` table as `VaalSermon_01`–`08`, in order, with zero drift. The internal name *VaalSermon* confirms the register, and the data fixes the canonical spelling *A'te 'Ibil* (an earlier draft wrote *Íbil*).
+- **Source-validated against the game files.** The chant exists verbatim in the datamined `NPCTextAudio` table as `VaalSermon_01`-`08`, in order, with zero drift. The internal name *VaalSermon* confirms the register, and the data fixes the canonical spelling *A'te 'Ibil* (an earlier draft wrote *Íbil*).
 
 ---
 
 ## 5. Text 2: The Cuachic Vault Litany[2,3]
 
-*Call by Blood Priestess Zelina; response by Blood Priest Zolin. The sealed-away Vaal survivors offering THEMSELVES up to Atziri, the same upward direction as the chant above, preserved as liturgy from the height of her power. In the game files each boss carries eight chant lines tagged ChantA–ChantH; the two columns below are those two pools, aligned by their shared A–H index.*
+*Call by Blood Priestess Zelina; response by Blood Priest Zolin. The sealed-away Vaal survivors offering THEMSELVES up to Atziri, the same upward direction as the chant above, preserved as liturgy from the height of her power. In the game files each boss carries eight chant lines tagged ChantA-ChantH; the two columns below are those two pools, aligned by their shared A-H index.*
 
 ### The litany
 
@@ -297,7 +297,7 @@ The caveat stands: this is a post-hoc match on a small corpus, and typological c
 - **Pair 2** is the multitude and the one: *Ma'oxe ik'el* "the countless spirits" (numberless faithful offered up) answered by *Atziri le'itzil* "Atziri, the essence": the queen who is the essence they all feed.
 - **Pair 3** *Gyan'uks ko'janti* "your new children, come, devour" is metaphorical: the latter-day vault Vaal as Atziri's "new children," offered for her to consume. Not literal children.
 - **Pair 6** *A'te líimek* / *Yatle yutsal* sets the buried dead against what still stands: those in the earth, and the good place still rising. Here *yutsal* is **lowercase**, so the translation uses the common noun, Yucatec *y-uts-al* "the good place, its goodness" (root *uts* "good," §9)[51], rather than the proper name. The good place that stands is almost certainly **Utzaal**, the capitalized *Yutsal* of the chant (§4) being that same *uts* root lexicalized as the city's name, but the lowercase form keeps the reading descriptive: "there stands the good place."
-- **Source-validated against the game files.** All sixteen lines match poe2db's extracted audio subtitles exactly, with zero transcription drift. Zelina's call pool is tagged *BloodPriestess_ChantA–H* (*Kuxte' kíimil'* … *U'Te kuxkal*); Zolin's response pool *BloodPriest_ChantA–H* (*Tlaxye' le Vaal* … *A'te yuquia*). This independently confirms the *Ma'oxe* reading: it appears verbatim as *Ma'oxe ik'el*. Both bosses sit at *Metadata/Monsters/VaalMonsters/Living/BloodPriests/*: "Living" Vaal, i.e. present-day descendants, which fits their being recruited as hideout vendors once subdued.
+- **Source-validated against the game files.** All sixteen lines match poe2db's extracted audio subtitles exactly, with zero transcription drift. Zelina's call pool is tagged *BloodPriestess_ChantA-H* (*Kuxte' kíimil'* … *U'Te kuxkal*); Zolin's response pool *BloodPriest_ChantA-H* (*Tlaxye' le Vaal* … *A'te yuquia*). This independently confirms the *Ma'oxe* reading: it appears verbatim as *Ma'oxe ik'el*. Both bosses sit at *Metadata/Monsters/VaalMonsters/Living/BloodPriests/*: "Living" Vaal, i.e. present-day descendants, which fits their being recruited as hideout vendors once subdued.
 
 ---
 
@@ -307,7 +307,7 @@ The caveat stands: this is a post-hoc match on a small corpus, and typological c
 
 **These are separate barks, not one speech.** The lines below are independent voice-line phrases the Commander fires at different points in the fight: in the chat feed they appear interleaved with one another and with English barks ("Flaming Glory!", "No further!"), not as a continuous oration. Each is rendered on its own; the token readings stand, but there is no connective narrative tying them into a single address.
 
-**Orthography note.** Two spelling conventions are clear from the in-game audio: **j = /h/** (so *ja* = *ha'* "water"; *mujuk'* = /muhuk'/) and **x = /ʃ/** ("sh"). This also explains *xefe*: it is the **archaic Spanish spelling of *jefe*** (old Spanish *x* = /ʃ/). The "alien" letters stay source-clues: **/g/** → Nahuatl (*yancuic*), **/r/** → K'iche' (Highland Maya), and **/f/** & **/d/** → Spanish (both are loan-only across Maya, Nahuatl, and K'iche'); see *fukuur* and *daka* in §10.4. Two further pronunciations are now confirmed from the Text 2 audio, and both match the inventories of the source languages (§2.3). The **/g/ in *Gyan'uks* is silent**: the onset is heard as /j/, the *ya-* of Nahuatl *yancuic* "new." That fits Nahuatl exactly, since its inventory has /j/ but no voiced stops and so cannot carry a true /g/, the written *g* being an empty orthographic flag rather than a sound. And the ***u* in *U'Te* and *yuquia* is pronounced /o/**: for Nahuatl *yuquia* ← *yocoya* this is the expected reflex, since Nahuatl has no /u/ and its *o* spans [o]–[u] (§2.3); for the Maya presentative *U'Te* the /o/ is the vowel itself, Yucatec having both /o/ and /u/, so here the romanized *u* simply stands for an actual /o/.
+**Orthography note.** Two spelling conventions are clear from the in-game audio: **j = /h/** (so *ja* = *ha'* "water"; *mujuk'* = /muhuk'/) and **x = /ʃ/** ("sh"). This also explains *xefe*: it is the **archaic Spanish spelling of *jefe*** (old Spanish *x* = /ʃ/). The "alien" letters stay source-clues: **/g/** → Nahuatl (*yancuic*), **/r/** → K'iche' (Highland Maya), and **/f/** & **/d/** → Spanish (both are loan-only across Maya, Nahuatl, and K'iche'); see *fukuur* and *daka* in §10.4. Two further pronunciations are now confirmed from the Text 2 audio, and both match the inventories of the source languages (§2.3). The **/g/ in *Gyan'uks* is silent**: the onset is heard as /j/, the *ya-* of Nahuatl *yancuic* "new." That fits Nahuatl exactly, since its inventory has /j/ but no voiced stops and so cannot carry a true /g/, the written *g* being an empty orthographic flag rather than a sound. And the ***u* in *U'Te* and *yuquia* is pronounced /o/**: for Nahuatl *yuquia* ← *yocoya* this is the expected reflex, since Nahuatl has no /u/ and its *o* spans [o]-[u] (§2.3); for the Maya presentative *U'Te* the /o/ is the vowel itself, Yucatec having both /o/ and /u/, so here the romanized *u* simply stands for an actual /o/.
 
 ### The barks (independent voice-lines)
 
@@ -440,14 +440,15 @@ The caveat stands: this is a post-hoc match on a small corpus, and typological c
 
 ## 9. Combined lexicon
 
-**Confidence key (revised after the statistical hardening pass, §17).** The tier now reflects how a token behaves under adversarial and strict-latitude testing (the *lexicon hardening protocol*, `HARDENING_PROTOCOL.md`), not merely whether a root exists:
+**Confidence key (revised after the 2026-09 recovery rescore, §17).** The tier reflects whether a recorded decode recovers *this row's* predeclared root, language class, and sense, then survives Gate 2. L is a tag, never a lone tier. Population: **78 rows**, matching `token_classification.csv`.
 
-- **H** hardened (top tier): the root reconstructs the surface under the *strict* latitude (no cross-grafts, no free vowel shifts, no metathesis, no ad hoc coda drops) AND survives a blind adversarial pass (no equal-or-stronger competitor in a different language). These are the readings that clear the noise floor established in §17.
-- **C** committed but latitude-dependent: an attested root with sound phonology under the standard (looser) latitude, but it either fails the strict test or has not yet been run through both gates ("hardening pending"). Real, but standing on permissive rules.
-- **L** lore-anchored (fits the narrative); an orthogonal tag combined as **H+L**, **C+L**.
-- A star (*) on a C entry flags a logged cross-language competitor from the adversarial pass (see the Notes column and §10).
+- **H** hardened (top tier): Gate 1 recovery pass (strict latitude, matching the declared reading, no unexplained residue) AND Gate 2 survival (no strong different-meaning competitor, including same-language homophones). Protocol in `HARDENING_PROTOCOL.md`.
+- **C** committed but latitude-dependent or not yet both-gated: an attested root under the looser latitude, or a former L-only row now tagged C+L with gates pending.
+- **S** soft / unresolved step. One section-9 row (*Xatlene*) is S+L; other softs live in §10.
+- **L** lore-anchored, orthogonal: **H+L**, **C+L**, **S+L**, **C+L\***.
+- A star (*) flags a logged different-meaning competitor (Gate 2), not merely a cross-language one.
 
-Tokens with a plausible-to-verified root but one unresolved derivational step are held in §10.4 as **soft candidates** (S), which the testing showed are statistically close to noise and are therefore not evidence on their own. Standalone confirmed Vaal names (*pochiti*, *Eztli Pilli*, *Guatelitzi*) share this lexicon. Superscripts in the **Source** column link to §18; the hardening methodology and results are in §17.
+Current hardened set (17 of 78): *ascensionada, che', -en, Eztli Pilli, ich, k'áak', ki', kujkuali, máax, náach, Ti, u, waaj, xefe, Quecholli, Panquetzaliztli, Ixchel*. Superscripts in the **Source** column link to §18; counts and the withdrawn 10^-15 headline are in §17.
 
 The five confidence stages, and how a token moves between them, are shown below; promotion is always earned by passing a test, never granted by default.
 
@@ -462,30 +463,30 @@ flowchart LR
 | Token | Layer | Source | Gloss | Conf. | Notes |
 |---|---|---|---|---|---|
 | Aiokmo | Nahuatl | Nah. *aocmo*[10] | no more, no longer | C | Text 1 form; cf. Text 3 *'Ayok*. |
-| akal | Maya | Maya *akal* "pond"[7] | still / eternal waters | H | Shadow sense: the nightmare realm. |
+| akal | Maya | Maya *akal* "pond"[7] | still / eternal waters | C | Demoted from H (2026-09): the strict decoder accepted Yucatec *akal* "to quarrel/scold," not pond. Gate 1 recovery fail. Shadow sense: the nightmare realm. |
 | anab | Maya | Classic Maya *anaab*[7] | court-servant, attendant | C | Attested courtier title; replaced an earlier Taíno guess. |
 | ascensionada / ascenada | Spanish | Rom. *ascensión* + *-ada*[21] | ascended, risen | H | First-identified Romance loan (others: *xefe*, *u'tra*, *échelo*, *fukuur*). |
 | A'te / U'Te / Yatle | Maya | Maya *at / yan* presentative[7] | behold / here is / there stands | C+L* | Latitude-dependent; adversarial competitor: Nah. *ahtle* "nothing" (form-close, opposite sense; context favors the presentative). The offering gesture. The *u* of *U'Te* is pronounced /o/ (Text 2 audio). |
-| atla | Nahuatl | Nah. *atl* "water" (+ *-tlan* "in/at")[10] | the water / upon the water | C | |
+| atla | Nahuatl | Nah. *atl* "water" (+ *-tlan* "in/at")[10] | the water / upon the water | C |  |
 | Atziri | Nahuatl | Nah. *ātl* "water" + rev. *-tzin*[10,13] | the queen (name) | C+L | Water / reflection / vanity motif. |
 | 'Ayok | Nahuatl | Nah. *aocmo / ayoc*[10] | no more, no longer | C | Same root as *Aiokmo*. |
-| cha'tsoke | Maya | Maya *ka'a* "again" + *ts'ook* "end"[7] | the ending once more | C | |
+| cha'tsoke | Maya | Maya *ka'a* "again" + *ts'ook* "end"[7] | the ending once more | C |  |
 | che' | Maya | Maya *che'* "tree, wood"[7][36] | tree, wood | H | In *kahk-tche* (Text 5, Mektul) = *k'áak' che'* "fire-wood, firebrand." |
-| chikula' | Maya | Maya *chíikul*[7] | sign, omen | L | |
-| ek | Maya | Maya *ek'*[7] | star; also black / dark | H | Hardened (§17): reconstructs under strict latitude (*ek'*, glottal-optional) and survives the adversarial pass. The Kamasan Smith (Text 5) takes the "dark" sense (*Ti ek'* "into the dark"); Text 1's hail of Atziri takes "star." |
+| chikula' | Maya | Maya *chíikul*[7] | sign, omen | C+L | Former L-only row; L is a tag. Hardening pending (not in the 61-row strict CSV). |
+| ek | Maya | Maya *ek'*[7] | star; also black / dark | C | Demoted from H (2026-09): the strict decoder accepted Yucatec *ek* "a large wasp," not star/dark. Gate 1 recovery fail. Same-language homophone. The Kamasan Smith (Text 5) still takes the "dark" sense as the project's reading; it is no longer certified H. |
 | Ela | Maya | Maya *el / elel* "to burn"[7][36] | burns, it burns | C | Text 4 catechism; same root as *elba*; regular *el → ela* stylization. |
-| elba | Maya | Maya *el* + *ba'* "self"[7] | burn out, extinguish | C | |
+| elba | Maya | Maya *el* + *ba'* "self"[7] | burn out, extinguish | C |  |
 | -en | Maya | Maya *-en / teen*[7] | me, I | H | In *ta' en* (Text 3, speech 1). |
 | Eztli Pilli | Nahuatl | Nah. *eztli* "blood" + *pilli* "noble, prince"[10] | "the Blood Prince" (a forbidden Vaal tome) | H+L | Hardened (§17): *eztli* reconstructs strictly (5/5 blind strict decodes) and survives the adversarial pass. Standalone tome name[6]; full roots, no stylization; attested collocation (*cualli eztli* "good blood"). See §10.6. |
 | Guatelitzi | onomastic | (name)[38] | the Architect of Flesh (a Vaal architect of the Temple of Atzoatl) | C+L | Standalone name, from Zelina's *"Tome of Guatelitzi"*; the Vaal flesh-and-immortality architect whose rooms culminate in the *Sanctum of Immortality* (*"Flesh rending for life unending"*). Nahuatl-flavoured; *-tzi* from reverential *-tzin*. See §10.8. |
-| Gyan'uks | Nahuatl | Nah. *yancuic* "new"[10] | the new ones → "(your) new children" | L | The written *g* is silent (Text 2 audio): the onset is /j/, the *ya-* of *yancuic*, which fits Nahuatl (it has /j/, no /g/). See the orthography note in §5. |
-| 'Ibil | Maya | Maya *il* "see" + *-bil*[7] | the seen → the flesh (laid bare) | C+L | Canonical game form *'Ibil* (per *VaalSermon_06*); an earlier draft wrote *Íbil*. |
+| Gyan'uks | Nahuatl | Nah. *yancuic* "new"[10] | the new ones → "(your) new children" | C+L | The written *g* is silent (Text 2 audio): the onset is /j/, the *ya-* of *yancuic*, which fits Nahuatl (it has /j/, no /g/). See the orthography note in §5. |
+| 'Ibil | Maya | Maya *il* "see" + *-bil*[7] | the seen → the flesh (laid bare) | C+L* | Canonical game form *'Ibil* (per *VaalSermon_06*); an earlier draft wrote *Íbil*. Gate 2 fall (2026-09): adversary's Yucatec *ib* "lima bean" is a same-language different meaning. |
 | ich | Maya | Maya *ich(il)*[7] | in, within | H | "within the altar." |
 | i'chian | Nahuatl | Nah. *ichan* "his/her home" (*chantli* "home" + *i-*)[10,22] | the dwelling, her house | C | *niáach ichan* "far within her house", literally Atziri's royal temple at Lira Vaal, where the Commander stands. The root *chantli* survives in modern Mexican/Central-American Spanish *chante* "house, home" (see §13). |
-| ik'bala | Maya | Maya *ik'* + *ba'*[7] | spirit-self, soul | C | |
-| ikba'yucane | Maya | Maya *ik'* + *ba'* + *-ane* hon.[7] | the deathless-spirited ones | C | |
-| Ik'eche | Maya | Maya *ik'* "spirit/breath" + *-ech* "you" + *-e* voc.[7] | "O spirit / thou art breath" | C | |
-| ik'el | Maya | Maya *ik'* + *-el*[7] | the spirit, the unseen | C+L | |
+| ik'bala | Maya | Maya *ik'* + *ba'*[7] | spirit-self, soul | C |  |
+| ikba'yucane | Maya | Maya *ik'* + *ba'* + *-ane* hon.[7] | the deathless-spirited ones | C |  |
+| Ik'eche | Maya | Maya *ik'* "spirit/breath" + *-ech* "you" + *-e* voc.[7] | "O spirit / thou art breath" | C\* | Gate 2 fall (2026-09): adversary segmented *ik'* + *che'* "tree/wood," an alternate segmentation with a different meaning. |
+| ik'el | Maya | Maya *ik'* + *-el*[7] | the spirit, the unseen | C+L |  |
 | itsok / itzil | Maya | Maya *iitz* "sap, essence"[7] | blood, essence | C+L* | Latitude-dependent; **strong adversarial competitor: Nah. *itztli* "obsidian, sacrificial blade"** (thematically apt in a sacrifice corpus, clean form). Logged as a live co-reading in §10.12. *le'itzil* = "the essence." |
 | Ixchel | onomastic | Yucatec *Ix-* (fem./agentive) + *Chel* "rainbow" (the goddess Ix Chel)[7][56] | the Godstealer (a Vaal citizen; later the Trialmaster) | H+L | Attested Maya theonym reused for a Vaal figure; a Yucatec (not Nahuatl) name. See §12.6. Hardened per HARDENING_PROTOCOL.md (Gate 1 pass: *Ix-* + *Chel* reconstructs strictly, no residue; Gate 2 pass: no cross-language competitor). |
 | jare | K'iche' | K'iche' *are'* "he, she, it; it is, that is" (focus) / *ri* "the"[47] | connective: "thus, and so" | C | The /r/ marks Highland Maya; grammatical glue, not a content word. Now confirmed in a dedicated K'iche' dictionary[47] (Christenson lists *are'* as the focus pronoun and *ri* as the article), upgrading the earlier phonology-only note[17]. The apostrophe form *jare'* is attested in-game (Text 5). See §10.2. |
@@ -493,53 +494,52 @@ flowchart LR
 | Kextal | Maya | Maya *k'ex* "substitution → transform"[7] | transformation, ritual renewal | C | Rendered "transform us." |
 | ki' (Kí') | Maya | Maya *ki'*[7] | good, delicious, sweet | H | A blood-drinker's relish: "Sweet!" |
 | kifba | Maya | Maya *k'i'ik'* "blood" + *ba'*[7] | the heart, lifeblood | C+L | Distinct from *itsok*'s *iitz*. |
-| kíimil | Maya | Maya *kíimil*[7] | death, the dead | L | |
+| kíimil | Maya | Maya *kíimil*[7] | death, the dead | C+L | Former L-only row; L is a tag. Hardening pending (not in the 61-row strict CSV). |
 | kilya | Nahuatl | Nah. *quil-* "green, verdant" + inchoative *-ya* "to come to be"[49]; in Text 1 fronted by optative *mā* (see *ma*) | evergreen, everlasting (contextual "undying") | C+L | Re-analysis. The earlier *ma'* "not" + *kíim* "death" parse fails: the surface holds no *kíim* (*kíim* ≠ *kil*) and it double-counted the separate word *ma*. Here *quil + -ya* segments exactly, both pieces attested (*quiltic* "green"[49]; the inchoative *-ya* of *hueyiya* "to grow"[46]), so the root and phonology are committed (C) and the step from "green / evergreen" to "undying" is the lore-anchored gloss (L). *mā kilya Zerphi* = "may you be evergreen, like Zerphi." Cf. *celiya* "to sprout, turn green again, revive"[49], the right sense but a /s/-onset near-miss. |
-| ko'janti | Maya | Maya *ko'* "come" + *han-* "eat" + *-ti*[7] | come, devour | L | Addressed to Atziri. The *-ti* here is best read as the Yucatec relational *ti'* (contrast the Nah. inchoative *-ti* in *pochiti*, §10.5). |
-| kujkuali | Nahuatl | Nah. *cualli*[10] | good, worthy | H+L | |
+| ko'janti | Maya | Maya *ko'* "come" + *han-* "eat" + *-ti*[7] | come, devour | C+L | Addressed to Atziri. The *-ti* here is best read as the Yucatec relational *ti'* (contrast the Nah. inchoative *-ti* in *pochiti*, §10.5). |
+| kujkuali | Nahuatl | Nah. *cualli*[10] | good, worthy | H+L |  |
 | kutsen | Maya | Maya *kutz* "sacrificial bird"[7] | the offering | C+L* | Latitude-dependent; adversarial competitor: K'iche' *kotz'i'j* "flower, candle" (also an offered thing). |
-| kux / kuxkal / kuxte' | Maya | Maya *kuxtal*[7] | life, the living | L |  |
-| k'ux (quxzeh) | Maya | Maya *k'ux* "to bite, gnaw; rancor"[7][36] | bite!, be fierce | H | Ejective /k'/ (corpus *q*), distinct from *kux* "life"; in *quxzeh* (Text 4) the *-zeh* coda is a non-morphemic tail (cf. *Otsuks -s*). See §10.11. |
-| le / le' | Maya | Yucatec article *le…o'*[7] | the | L | |
-| líimek | Maya | Maya *lu'um* "earth"[7] | those in the earth, the dead | L | Replaced an earlier Tagalog guess. |
-| ma | Maya + Nahuatl | Nah. *mā* / Maya *ma'*[7,10] | optative "may"; negation "not" | H | |
+| kux / kuxkal / kuxte' | Maya | Maya *kuxtal*[7] | life, the living | C+L | Former L-only row; L is a tag. Hardening pending (not in the 61-row strict CSV). |
+| k'ux (quxzeh) | Maya | Maya *k'ux* "to bite, gnaw; rancor"[7][36] | bite!, be fierce | C | Demoted from H (2026-09): decoder matched *k'ux* "bite," but Gate 1 forbids unexplained residue and the entry's own note calls *-zeh* a non-morphemic tail. See §10.11. |
+| le / le' | Maya | Yucatec article *le…o'*[7] | the | C+L | Former L-only row; L is a tag. Hardening pending (not in the 61-row strict CSV). |
+| líimek | Maya | Maya *lu'um* "earth"[7] | those in the earth, the dead | C+L | Replaced an earlier Tagalog guess. |
+| ma | Maya + Nahuatl | Nah. *mā* / Maya *ma'*[7,10] | optative "may"; negation "not" | C | Demoted from H (2026-09): one row bundles two incompatible hardened readings (Maya negation and Nahuatl optative). Decoder recovered the negation. Not re-etymologized. |
 | máax | Maya | Yucatec *máax* "who?"[7] | who (interrogative) | H | Hardened (§17): reconstructs strictly (5/5 blind) and survives the adversarial pass. New in Text 4 (§7); ruled out a "crush" reading in §10.4. |
-| Ma'oxe | Maya | Maya *ma'* "without" + *xok* "count"[7] | the countless / numberless spirits | L | "Without-count" → innumerable; Atziri's faithful. See §10.1. |
+| Ma'oxe | Maya | Maya *ma'* "without" + *xok* "count"[7] | the countless / numberless spirits | C+L | "Without-count" → innumerable; Atziri's faithful. See §10.1. |
 | mucane | Maya | Maya *muk'* "strength" + *-ane*[7] | the mighty, the enduring | C\* | Latitude-dependent; adversarial competitor: K'iche' *muq* "to bury, hide" (partly already noted as the shadow sense *muk* "bury"). |
 | mujuk' | Maya | Maya *muk'* "strength, force"[7] | strength, might | C | Confirmed by *"u mujuk' le mucane"* = "the might of the mighty." |
 | náach (niáach) | Maya | Maya *náach*[7] | far, distant | H | Hardened (§17): reconstructs strictly (5/5 blind) and survives the adversarial pass. |
-| nochira | Nahuatl | Nah. *nochi / mochi*[10] | all, everything | C | |
+| nochira | Nahuatl | Nah. *nochi / mochi*[10] | all, everything | C |  |
 | Panquetzaliztli | Nahuatl | Nah. *pan(tli)* "banner" + *quetza* "raise" + *-liztli*[10][55] | "the raising of banners" (15th veintena; a Vaal mace) | H+L | Attested Aztec war-festival (Huitzilopochtli); fully Nahuatl, no stylization. See §12.5. Hardened per HARDENING_PROTOCOL.md (Gate 1 pass: exact attested compound, no residue; Gate 2 pass). |
 | pochiti | Maya + Nahuatl | Maya *poch* "hungry, gluttonous"[8] + Nah. inchoative *-ti*[14] | the Hungering One (Atziri's name for the Beast) | C+L* | Latitude-dependent (cross-graft); adversarial competitor: Nawat *puchini* "it bursts/frays"; lore still favors *poch*. Standalone word[6]; *ch* = /tʃ/; a *pōchōtl* "ceiba" co-reading is logged in §10.5. |
-| pul / puul | Maya | Maya *pul / puul* "to throw, cast, hurl"[36] | throw, cast, cast down | H | Hardened (§17): Gate 1 pass (Yucatec *pul/puul* reconstructs strictly, no residue), Gate 2 survives (K'iche' *pul-* "overflow" is a same-family echo, not a genuine competitor). Wordlist *puul* = *arrojar, echar, lanzar, tirar*; *pul kaabal* "cast down." In *upulché* (Text 5, Zantico) = *u-pul-ché* "cast down" (the *-ché* tail soft, §10.7). |
+| pul / puul | Maya | Maya *pul / puul* "to throw, cast, hurl"[36] | throw, cast, cast down | C | Demoted from H (2026-09): no row in `strict_committed_results_batch*.csv` or the adversarial CSVs. The published Gate-1 pass does not rebuild; pass dropped. Wordlist *puul* = *arrojar, echar, lanzar, tirar*; still an attested committed reading, gates undocumented. In *upulché* (Text 5) the *-ché* tail is soft, §10.7. |
 | qexcan | Maya + Nahuatl | Maya *k'ex* "transform" + *-can* (Nah. locative "place of")[7,10] | place of transformation | C+L | The temple as crucible. A Maya root + Nahuatl suffix cross-graft. |
 | Quecholli | Nahuatl | Nah. *quecholli* (roseate spoonbill; the 14th veintena)[10][54] | precious-feather bird / the weapon-month (a Vaal mace) | H+L | Attested Aztec month of weapon-making (Mixcoatl); fully Nahuatl. See §12.5. Hardened per HARDENING_PROTOCOL.md (Gate 1 pass: exact attested lexeme, no residue; Gate 2 pass). |
 | sakilja | Maya | Maya *sak* "white, pure" + *ha'* "water"[7] | the sacred white draught | C+L | Cf. ceremonial *sak ha'*; blood-metaphor *sak juy ch'ich'* "white stirred blood." |
-| ta'nuk | Maya | Maya *nuk / nojoch* "big, great"[7] | the great one | C | *nuk* committed; *ta'-* element soft. |
+| ta'nuk | Maya | Maya *nuk / nojoch* "big, great"[7] | the great one | C\* | *nuk* committed; *ta'-* element soft. Gate 2 fall (2026-09): adversary's *ta'an* "lime, ash" is a same-language different meaning. |
 | tala | Maya | Maya *taal* "to come"[7][36] | come, comes | C\* | Latitude-dependent; adversarial competitor: Nawat/Nah. *ta:l* "earth, land" (form-identical, different sense; context favors "come"). Free form of the verb (cf. bound *a'tul*, §10.9). Text 5. |
 | te | Maya | Maya *ti' / te'*[7] | of / to (relational) | C\* | Latitude-dependent; adversarial competitor: Nah. *tetl* "stone" (content word vs the relational; syntax favors the relational). |
-| Teoyuxtlane | Nahuatl | Nah. *teōtl* "god" + *Yux* (Yutsal) + *-tlān* "place" + voc. *-e*[10,13] | place of divine Utzaal | C | |
+| Teoyuxtlane | Nahuatl | Nah. *teōtl* "god" + *Yux* (Yutsal) + *-tlān* "place" + voc. *-e*[10,13] | place of divine Utzaal | C |  |
 | Ti | Maya | Maya *ti'*[7] | to / for you (dative) | H | Fixes Atziri as recipient. |
 | til | Maya | Maya *til*[7] | to burn, kindle | C | Death-as-fire. |
 | tlapec / yotlapek | Nahuatl | Nah. *tlapechtli* "platform, scaffold, altar-bed"[10] | the (sacrificial) altar-platform | C+L | *yo-* prefix unexplained (poss. Nah. *yōl-* "heart"?). |
-| Tlaxye' | Nahuatl | Nah. *tlāl- / tlācah*[10] | land, people | L | Replaced an earlier Quechua guess. |
-| tlayeb | Nahuatl | Nah. *tla-* + *tlayohua* "night"[10] | the (sacred) dark | C+L | |
-| tul | Maya | Maya *tul* "decline"[7] | wane, dwindle | H | Decay-as-fire. |
-| Tzokan'te / tzok | Maya | Maya *ts'ook*[7] | end, the last | L | |
+| Tlaxye' | Nahuatl | Nah. *tlāl- / tlācah*[10] | land, people | C+L | Replaced an earlier Quechua guess. |
+| tlayeb | Nahuatl | Nah. *tla-* + *tlayohua* "night"[10] | the (sacred) dark | C+L |  |
+| tul | Maya | Maya *tul* "decline"[7] | wane, dwindle | C\* | Demoted from H (2026-09): strict decoder accepted K'iche' *tul* "reed, bullrush"; adversarial CSV has Yucatec *tuul* animate classifier (same-language, different meaning). Decay-as-fire is the project's reading, not a recovered decode. |
+| Tzokan'te / tzok | Maya | Maya *ts'ook*[7] | end, the last | C+L | Former L-only row; L is a tag. Hardening pending (not in the 61-row strict CSV). |
 | u | Maya | Maya *u-* (Set A 3rd person)[7] | his, her, its; the | H | *u mujuk'* "his/the might." |
-| uch' / pu uch' | Maya | Maya *uk'* "to drink", **or** *puuch'* "to crush"[7] | drink / crush | H | Ambiguous: *uk'* fits the draught theme; *puuch'* fits his "Crush!" barks. |
+| uch' / pu uch' | Maya | Maya *uk'* "to drink", **or** *puuch'* "to crush"[7] | drink / crush | C | Demoted from H (2026-09): dual incompatible readings cannot be H, and the strict decoder accepted K'iche' *uch'* "opossum." Ambiguous: *uk'* fits the draught theme; *puuch'* fits his "Crush!" barks. |
 | u'tra | Spanish | Rom. Spanish *otra*[21] | another | C | One word (not *u* + *tra*); the /r/ flags the Romance loan. |
-| Vaal | onomastic | (name)[5] | the people, the empire | C+L | |
+| Vaal | onomastic | (name)[5] | the people, the empire | C+L |  |
 | waaj (waja) | Maya | Maya *waaj*[7] | bread; **altar-offering** | H+L | Food offered on Janal Pixán altars, i.e. an offering. |
-| Xatlene | Nahuatl | Nah. *xōtla* "to kindle, blaze, glow"[10] | kindle! / the kindler | L | Text 2; *x* = /ʃ/, *-ne* epithet-former (cf. *mucane*, *yuquia*); root verified, one soft step (the *o→a* vowel). |
+| Xatlene | Nahuatl | Nah. *xōtla* "to kindle, blaze, glow"[10] | kindle! / the kindler | S+L | Text 2; *x* = /ʃ/, *-ne* epithet-former (cf. *mucane*, *yuquia*); root verified, one soft step (the *o→a* vowel). Former L-only; S because of that unresolved step. Hardening pending. |
 | xefe | Spanish | Rom. Spanish *jefe* (archaic *xefe*)[21] | chief, commander | H | Romance loan; the in-game title is *Royal Commander*. |
-| xi | Nahuatl | Nah. *xi-*[10] | imperative "do! / make!" | H | |
-| xu'te | Maya | Maya *xul* "end" + *te'*[7] | the end | C | |
-| yax / Yaxe | Maya | Maya *yax*[7] | first, new, green | L | |
-| yuquia | Nahuatl | Nah. *yocoya* "create, devise"[10] | the made, the wrought | L | Cf. *Moyocoyatzin* "self-creator." Replaced an earlier Quechua guess. The *u* is pronounced /o/ (Text 2 audio), the expected Nahuatl reflex (no /u/; §2.3). |
+| xi | Nahuatl | Nah. *xi-*[10] | imperative "do! / make!" | C | Demoted from H (2026-09): strict decoder accepted Yucatec *xi'* "go," not Nahuatl *xi-*. The published "do/make" free-verb gloss is independently doubtful (Classical Nahuatl *xi-* is an optative/imperative prefix). Not re-etymologized here. |
+| xu'te | Maya | Maya *xul* "end" + *te'*[7] | the end | C |  |
+| yax / Yaxe | Maya | Maya *yax*[7] | first, new, green | C+L | Former L-only row; L is a tag. Hardening pending (not in the 61-row strict CSV). |
+| yuquia | Nahuatl | Nah. *yocoya* "create, devise"[10] | the made, the wrought | C+L | Cf. *Moyocoyatzin* "self-creator." Replaced an earlier Quechua guess. The *u* is pronounced /o/ (Text 2 audio), the expected Nahuatl reflex (no /u/; §2.3). |
 | Yutsal / yutsal | Maya | Yucatec *y-* (3 poss) + *uts* "good" + *-al*; attested as *yutsal* "(its) goodness, all-good" (Cordemex)[51] | the good (place); Utzaal | C+L | Root *uts* "good" attested (Cordemex *uts* "cosa buena"; modern *uts* "bien," *utsil* "goodness")[51]. Lowercase *yutsal* is the common noun "the good, the good place" (translated as such in §5); capitalized *Yutsal* is the same root as the proper name of the city **Utzaal** (Doryani's seat, not the capital; kept in the §4 translation), so *Utzaal* = *utz* "good" + *-aal* "the good place." The *y-* (Set A, pre-vocalic) is Yucatec-specific, K'iche' would use *r-*, though *utz* "good" is also basic K'iche'. Clipped to *Yux* in *Teoyuxtlane*. |
-| Zerphi | onomastic | (name)[5] | unaging Vaal noble | C | |
-
+| Zerphi | onomastic | (name)[5] | unaging Vaal noble | C |  |
 ---
 
 ## 10. Appendix: recorded alternates & open questions
@@ -550,20 +550,20 @@ Every candidate considered, kept for future reference.
 
 | Parse | Meaning | Status |
 |---|---|---|
-| **ma' + xok** "count" | **the countless / numberless spirits** | ★ chosen, cleanest phonetics (the *x* lands exactly) and best theme |
+| **ma' + xok** "count" | **the countless / numberless spirits** | chosen, cleanest phonetics (the *x* lands exactly) and best theme |
 | ma' + óol "spirit, will" | the spent / will-less spirit | alt, strongest single root (*óol* is everyday Yucatec), but needs an *l→x* drift |
-| ma' + óoxol "heat" (?) | the cold spirit | ⚠ root *óoxol* unverified |
-| máax + *-e'* | (would read "whose spirit?") | ✗ *máax* = "who?", not "crush" |
-| ma'ax / *mix* "none" | "not even a spirit" | ⚠ the real "none" is *mix*; conflated |
+| ma' + óoxol "heat" (?) | the cold spirit | caution: root *óoxol* unverified |
+| máax + *-e'* | (would read "whose spirit?") | rejected: *máax* = "who?", not "crush" |
+| ma'ax / *mix* "none" | "not even a spirit" | caution: the real "none" is *mix*; conflated |
 
 ### 10.2 jare: anomalous /r/ marks a non-Yucatec/Nahuatl source
 
 | Parse | Meaning | Status |
 |---|---|---|
-| **K'iche' focus/demonstrative particle** (*are' / ri* family) | connective: "thus, and so" | ★ chosen, explains the /r/ (K'iche' keeps it), fits the connective slot, no semantic stretch. The exact form *jare'* now appears in-game (Text 5, the Kamasan Smith), confirming the apostrophe form; the category, a K'iche' connective, remains the answer. |
+| **K'iche' focus/demonstrative particle** (*are' / ri* family) | connective: "thus, and so" | chosen, explains the /r/ (K'iche' keeps it), fits the connective slot, no semantic stretch. The exact form *jare'* now appears in-game (Text 5, the Kamasan Smith), confirming the apostrophe form; the category, a K'iche' connective, remains the answer. |
 | K'iche' *jarem / jarik* | decay, wearing-out | alt, phonologically fine, root unverified |
 | Yucatec *jáal* + *l→r* | to the edge / limit | alt, real word, but the *l→r* swap is a stretch and leaves the /r/ unexplained |
-| Nahuatl *xalli* (*x→j, l→r*) | dust, ash | ⚠ low, requires two corruptions |
+| Nahuatl *xalli* (*x→j, l→r*) | dust, ash | caution: low, requires two corruptions |
 
 **Xinkan / Aztecan check.** The /r/ is not Aztecan: Nahuatl and Nawat have no native /r/, and Nahuatl's demonstratives (*in / inin / inon*) carry none.[27] Xinka *does* have a tap /r/, but its attested demonstrative is the third-person *nah*, no *are'*-type form is on record.[26] So K'iche' *are' / ri* remains the one attested fit, and the /r/ still marks the Highland-Maya seam.
 
@@ -603,11 +603,11 @@ A lore check found no Vaal name matching *Donuks* or *puyao* (checked against Ka
 
 ### 10.5 pochiti: Atziri's name for the Beast
 
-*Not from Texts 1–3: a standalone Vaal word Atziri speaks in her PoE2 encounter.[6] She has no other Vaal lines there; this is her one word for the Beast, the primordial entity she communed with, triggering the Cataclysm. Two attested roots fit, and the lore supports both at once.*
+*Not from Texts 1-3: a standalone Vaal word Atziri speaks in her PoE2 encounter.[6] She has no other Vaal lines there; this is her one word for the Beast, the primordial entity she communed with, triggering the Cataclysm. Two attested roots fit, and the lore supports both at once.*
 
 | Parse | Reading | Status |
 |---|---|---|
-| **Maya *poch* "gluttonous, hungry, craving"** + Nah. inchoative *-ti* (ligature *-i-*)[8,14] | **"the Hungering One / the Devourer"** | ★ lead, root verified to RAE level (*poch* 'goloso, hambriento'; Yucatec *poch* "antojo, deseo"); phonology exact (*ch* = /tʃ/); fits the Beast that Atziri sustains with sacrifice |
+| **Maya *poch* "gluttonous, hungry, craving"** + Nah. inchoative *-ti* (ligature *-i-*)[8,14] | **"the Hungering One / the Devourer"** | lead, root verified to RAE level (*poch* 'goloso, hambriento'; Yucatec *poch* "antojo, deseo"); phonology exact (*ch* = /tʃ/); fits the Beast that Atziri sustains with sacrifice |
 | Nah. *pōchōtl* "ceiba / silk-cotton tree"[11,12] (UNAM GDN: "métaphor., protecteur"; the *āhuēhuētl + pōchōtl* shade = a ruler's authority; the Maya *axis mundi* world-tree linking Xibalba, earth, sky) | "the sheltering tree / Great Protector" | ○ co-reading, root verified, but it **needs an unattested *-ōtl → -iti* step** where *poch + -ti* segments cleanly; the lack of in-game support for a protector/"Mother" Beast (see note) is a secondary strike. Weaker than the *poch* reading on form first, and on lore second |
 
 **Correction.** An earlier version read these two roots as a deliberate duality, devourer *and* nurturing "Mother", on the claim that an Aggorat cult venerated the Beast as "Mother." That claim is unsupported: Aggorat is simply a Vaal city of altars and zealots, with nothing tying the Beast to a "Mother" cult, and the "mother / brood / family" theme in present-day Act 3 belongs to a separate boss, the Queen of Filth, whose fight spawns "Younglings" and who calls the monsters her children, not to the Beast. So *poch* "the Hungering One" is the reading that wins on form, it segments as *poch* + *-ti* with no unattested step, and the lore (the devourer Atziri feeds) corroborates it; *pōchōtl* "ceiba / protector-tree" survives only as a phonological alternative that needs the unattested *-ōtl → -iti* drift and, separately, lacks thematic support. Because in-game lore can be revised in a later patch while a morphological fit cannot, the form argument is treated as the load-bearing one and the lore as corroboration.
@@ -620,7 +620,7 @@ A lore check found no Vaal name matching *Donuks* or *puyao* (checked against Ka
 
 ### 10.6 Eztli Pilli: a Vaal tome of forbidden blood-knowledge
 
-*Like *pochiti*, a standalone Vaal name, not from Texts 1–3: the title of an in-game tome of forbidden, volatile knowledge, deemed too dangerous to use.[6] Pure Classical Nahuatl, and unusually un-stylised, two full roots with their absolutives intact.*
+*Like *pochiti*, a standalone Vaal name, not from Texts 1-3: the title of an in-game tome of forbidden, volatile knowledge, deemed too dangerous to use.[6] Pure Classical Nahuatl, and unusually un-stylised, two full roots with their absolutives intact.*
 
 - **eztli** "blood"[10], well attested (Sahagún, *Florentine Codex*). The *z* is Nahuatl /s/, not the alien /z/, so it stays inside the palette.
 - **pilli** "noble, lord; prince; child"[10], as in *Xōchipilli* "flower prince," *Piltzintecuhtli* "young prince."
@@ -659,12 +659,12 @@ That yielded *Guatelitzi* ≈ Nahuatl *cuauh-* "tree" + reverential *-tzin* → 
 
 | Token | Parse | Reading | Confidence |
 |---|---|---|---|
-| Máax | Yucatec *máax* "who?"[7] | who | ★ attested (now in §9) |
+| Máax | Yucatec *máax* "who?"[7] | who | attested (now in §9) |
 | ka | Yucatec dependent / subjunctive *ka(j)*[7] | "that / when (you)…" | ○ real particle; function here soft |
-| ti | Maya *ti'* "to / at"[7] | to | ★ committed (§9) |
-| U'te | Maya presentative *(u) yan / at*[7] | "behold / here stand" | ★ committed (§9, *A'te / U'Te / Yatle*) |
-| mucane | Maya *muk'* "strength" + *-ane*[7] | "the mighty" | ★ committed (§9) |
-| en | Maya *-en* "me / I"[7] | me | ★ committed (§9) |
+| ti | Maya *ti'* "to / at"[7] | to | committed (§9) |
+| U'te | Maya presentative *(u) yan / at*[7] | "behold / here stand" | committed (§9, *A'te / U'Te / Yatle*) |
+| mucane | Maya *muk'* "strength" + *-ane*[7] | "the mighty" | committed (§9) |
+| en | Maya *-en* "me / I"[7] | me | committed (§9) |
 | a'tul | **Set A 2nd-person *a-* "you / your"** (confirmed, *tuyo* "your" = *a*[36]) + *taal* "to come"[7][36]; soft point is the *taal → -tul* raising (aa→u). Alt: animate classifier *-túul* "one [being]" | "(that) you come" | ○ soft, the prefix is attested; the *taal→tul* drift is the open step |
 | cheyel | **Nah. *chiya / chīa* "to watch, wait, lie in wait"[33] + Maya status *-el*** (*chīya* → *chey-*); the Yucatec watch/sentinel field was searched and set aside **on phonology**, *ch'úuk* "lie in wait, ambush," *cha'an* "behold, watch," *pa'at* "wait," *kanan* "guard"[36] (all apt in sense, none a path to *cheyel*); also set aside: *chéel* "rainbow," *che'eh* "laughter," *che'*+*-el* (a noun), *ch'i'ibal* "lineage" | "to keep watch / stand sentinel" | ○ soft-leading, attested sentinel verb, on-theme; the native field offering no closer form is what justifies the Nahuatl graft |
 | Axba | Yuc. *ba'ax* "what" (confirmed[36]) by **metathesis *ba'ax → axba***, an exclamation "What!?", parallel to *buxa* from the same root (§10.4); *aax* "wart" and *ba'ate'el* "fight" are false friends | "What!?" | ○ soft, root attested; the metathesis is the open step |
@@ -894,9 +894,9 @@ flowchart TD
 
 ## 14. Status
 
-**All five texts are documented, and the reconstruction now rests on a measured statistical footing (§17).** Texts 1 and 2 are closed and source-validated against the game files; Texts 3, 4, and 5 are documented, with their unresolved tokens tracked in §10 rather than forced into the committed lexicon. The committed lexicon (§9) carries 65 tokens run through the two-gate hardening protocol (the original 62 plus three names later blind-certified by Battery E, §17.7), and the full morpheme index (§15) inventories roughly 147 elements across the whole reconstruction. Text 3, **Quemalani, the Elite Commander** (§6), contributes a five-line corpus with committed content tokens (folded into §9) and several flagged soft tokens (§10.4). Text 4, the **Drill Sergeant and Vaal Regiment** drill (§7), adds a fixed call-and-response built on committed roots (*Otsuks! ... U'te mucane!*), with its soft tokens (*a'tul*, *cheyel*, *Axba*, *quxzeh*, *Kíibsa'*) tracked in §10.9 and none promoted to §9.
+**All five texts are documented, and the reconstruction now rests on a measured statistical footing (§17).** Texts 1 and 2 are closed and source-validated against the game files; Texts 3, 4, and 5 are documented, with their unresolved tokens tracked in §10 rather than forced into the committed lexicon. The combined lexicon (§9) has **78 rows**, each with an H/C/S/O status (L is a tag). 17 are hardened after recovery scoring. The full morpheme index (§15) inventories roughly 147 elements. Text 3, **Quemalani, the Elite Commander** (§6), contributes a five-line corpus with committed content tokens (folded into §9) and several flagged soft tokens (§10.4). Text 4, the **Drill Sergeant and Vaal Regiment** drill (§7), adds a fixed call-and-response built on committed roots (*Otsuks! ... U'te mucane!*), with its soft tokens (*a'tul*, *cheyel*, *Axba*, *quxzeh*, *Kíibsa'*) tracked in §10.9 and none promoted to §9.
 
-**Statistical standing (full detail in §17).** The committed readings are distinguishable from chance: on the headline base of 65 committed tokens, 26 reconstruct under strict rules where noise would yield about 3 (binomial p ≈ 3 x 10^-18), holding when related tokens are collapsed to 56 distinct roots (25 of 56, p ≈ 5 x 10^-19, §17.7), so the all-coincidence explanation is strongly disfavored under the tested model. The robustly verified (hardened) core is 25 tokens: 38.5% of the committed lexicon by token, 44.6% by distinct root (the original 62-token run gave 22 tokens, 35.5% and 41.5%, retained as the prior epoch, §17.7). Per reading, a hardened gloss is genuine with probability around 75 to 81% at the data-anchored base rate, and correspondingly lower across a whole line. Every committed token now carries a tier from the confidence taxonomy (**H** hardened, **C** committed but latitude-dependent, **C\*** committed with a logged competitor, **S** soft, **L** lore-anchored), and every new token is assigned one by the protocol in `HARDENING_PROTOCOL.md`.
+**Statistical standing (full detail in §17).** The 2 x 10^-15 / 3 x 10^-18 headlines are withdrawn (`AUDIT_REVIEW_2026-08-18.md`). Rebuildable any-C in the strict CSV is 21/61, not 23/62; *pul* has no artifact. After scoring for the declared root/lang/sense, **17 of 78 rows are hardened (21.8% [14.1, 32.2])**. Selection-matched tests give **p ≈ 0.005 to 0.06 (marginal)**. Sentence-level percentages and the sigma column are withdrawn. Tiers: **H** hardened, **C** committed, **C\*** competitor, **S** soft, **L** a tag only. Protocol: `HARDENING_PROTOCOL.md`. Proof: `analysis/RESCORE_OUTPUT.md`, `analysis/NULL_HONESTY_OUTPUT.md`.
 
 **Texts 1 and 2 are source-validated against the game files.** Text 1 is the datamined `VaalSermon_01` to `08`; Text 2's sixteen lines match both Cuachic Vault bosses' chant pools exactly, with zero drift, and the speaker roles are fixed: **Zelina** (Priestess) sings the call, **Zolin** (Priest) the response. *Ma'oxe* is confirmed verbatim.
 
@@ -904,9 +904,9 @@ flowchart TD
 
 **The Xinkan and Nahuan cross-check is complete (§13).** Run against attested Xinka and Pipil/Nawat vocabulary, the committed lexicon turned up no cleaner fit, so no committed reading was revised; the living Nawat branch corroborates a Nahuatl stratum this far south without displacing a reading.
 
-**Open items are narrow, and now include the logged adversarial competitors.** Still open: the exact K'iche' lemma behind *jare'* (its apostrophe form now attested in Text 5); the unadopted *Ma'oxe* alternates; *fukuur*'s phonetic fit (*fulgor* adopted but soft); *ta'* (*ti'* vs *taak*); and *ukto* in the Text 4 catechism, whose leading reading is now Nahuatl *ocotl* "pine torch" but stays soft (§10.7). Seven committed tokens carry a logged cross-language competitor (**C\***, §10.12), the strongest being *itsok* vs Nahuatl *itztli* "obsidian"; these are live co-readings, not settled glosses. *Guatelitzi* has left the open list (an attested in-game name, *Guatelitzi, Architect of Flesh* of the Temple of Atzoatl, now in §9, §10.8), and two former holdouts have rule-abiding leading candidates in §10.4: *buxa* ← *ba'ax* "what / what-thing" (keeps *x* = /ʃ/ intact) and *Eche lu* ← Spanish *échelo* "pour/cast it out" (supplies the *ch* /tʃ/ that *he'ela'* could not).
+**Open items are narrow, and now include the logged adversarial competitors.** Still open: the exact K'iche' lemma behind *jare'* (its apostrophe form now attested in Text 5); the unadopted *Ma'oxe* alternates; *fukuur*'s phonetic fit (*fulgor* adopted but soft); *ta'* (*ti'* vs *taak*); and *ukto* in the Text 4 catechism, whose leading reading is now Nahuatl *ocotl* "pine torch" but stays soft (§10.7). Eleven tokens carry a logged different-meaning competitor (**C\***, including same-language homophones); the strongest original cross-language case remains *itsok* vs Nahuatl *itztli* "obsidian". These are live co-readings, not settled glosses. *Guatelitzi* has left the open list (an attested in-game name, *Guatelitzi, Architect of Flesh* of the Temple of Atzoatl, now in §9, §10.8), and two former holdouts have rule-abiding leading candidates in §10.4: *buxa* ← *ba'ax* "what / what-thing" (keeps *x* = /ʃ/ intact) and *Eche lu* ← Spanish *échelo* "pour/cast it out" (supplies the *ch* /tʃ/ that *he'ela'* could not).
 
-**Project status: substantially complete, pending new material.** With all five known texts documented, the lexicon hardened and tiered (65 committed tokens, after Battery E blind-certified three later onomastic names, *Quecholli*, *Panquetzaliztli*, *Ixchel*, §17.7), the syntax derived and blind-confirmed, and the null-model batteries closed out (the full latitude-by-access 2x2 as Batteries A-D, extended by Battery E, §17), the reconstruction has reached the limit of what the current corpus can support. The open items listed above are narrow, and most cannot be settled without evidence this corpus does not contain. The natural next input is simply more Vaal text: further datamined lines, newly voiced barks, or fresh in-game captures. New material would help in three ways, in rough order of value: it would enlarge the sample and tighten the confidence intervals of §17, which are wide chiefly because the corpus is small; it would supply the minimal pairs needed to close specific open tokens (a second environment for *jare'*, *ta'*, or *ukto*, say); and it would test the §3 grammar against clauses it has not yet seen. Until then, the document is best read as stable rather than in progress. The method, the tooling (`HARDENING_PROTOCOL.md` and the null-model battery), and the confidence taxonomy are all in place, so any new token or line can be folded in and scored the same way without reopening the framework.
+**Project status: substantially complete, pending new material, with the 2026-09 statistical remediation applied.** With all five known texts documented, the lexicon retiered (78 section-9 rows, 17 hardened after recovery scoring), the syntax derived and checked, and the null-model batteries closed as a historical record, the reconstruction has reached the limit of what the current corpus can support. The 10^-15 headline is withdrawn; remaining analytical debt is listed in `PROJECT_MEMORY.md`. The natural next input is more Vaal text. New material would enlarge the sample, supply minimal pairs for open tokens, and test the §3 grammar against unseen clauses. Until then, the document is best read as stable on the texts and revised on the inferential layer. The tooling (`HARDENING_PROTOCOL.md`, `score.py`, `score_adversarial.py`, `rescore_gate1.py`) is in place so new tokens can be scored without reopening the F1/N3 holes.
 
 **Corpus versioning (for future patches).** Each revision of this document is tied to the game patches it covers (currently *Path of Exile 2* 0.5.0 and *Path of Exile 1* through 3.27, §1). When a patch adds Vaal text, audio, or lore, the procedure is fixed: snapshot the current version first, so the pre-patch logic is preserved; fold the new material into the corpus and re-run the tests (the null-model battery, the strict-latitude and adversarial gates, the blind syntax pass); and let the results stand wherever they fall, rewriting rules or the lexicon wholesale if the enlarged corpus demands it, on the same verifiable-data-first basis as the current work. A reading a new patch overturns is not deleted but moved to the §10 appendix with the patch that overturned it, so the record shows why each change was made. The hardened core (§17) is the most stable and should be the last to move; the soft and open parses (the starred tokens, §10) are where new data will land first.
 
@@ -916,38 +916,38 @@ flowchart TD
 
 This index inverts the **entire** reconstruction, not the committed lexicon alone: every root and affix we have analysed anywhere in the document, with its source layer, gloss, a status mark, and the tokens it appears in. It is both a lookup and a consistency check, the *Appears in* column shows each element doing the same job across different words and figures.
 
-**Status** records the confidence tier of the token(s) each element heads, on the §2b hardening taxonomy rather than the former committed/soft/candidate scale. The tiers, written out in full here for readability (§9 uses the same tiers in their short H / C / C\* form): **Hardened**; **Committed** (latitude-dependent); **Committed (Competitor)**, committed but with a logged cross-language competitor; **Soft** candidate (§10); and **Lore**, an attested root whose support is a proper name or narrative rather than a hardened derivation (this tier absorbs the former "candidate" name-roots). The orthogonal lore tag that §9 marks as +L on some committed tokens is folded into the confidence tier here to keep the column to a single axis; see §9 for a committed token's full mark. Where an element heads several committed tokens at different tiers, all are listed, most-settled first (for example the relational *te' / ti'* is Hardened / Committed / Committed (Competitor) / Lore). A Hardened or Committed root and a Lore root are not equal evidence, and the column keeps them apart. Entries are grouped by source layer, then alphabetical. Rejected alternates (logged in §10 and §12) and unanalysable proper names (*Vaal*, *Zerphi*, and the opaque architects) carry no isolable morpheme and so are not listed; names sourced from outside the Mesoamerican palette are noted separately at the foot of the section.
+**Status** records the confidence tier of the token(s) each element heads, on the §2b hardening taxonomy rather than the former committed/soft/candidate scale. The tiers, written out in full here for readability (§9 uses the same tiers in their short H / C / C\* form): **Hardened**; **Committed** (latitude-dependent); **Committed (Competitor)**, committed but with a logged different-meaning competitor (including same-language homophones); **Soft** candidate (§10); and **Lore**, an attested root whose support is a proper name or narrative rather than a section-9 derivation. L in §9 is a tag on H/C/S, never a lone tier; this index still uses Lore for name-only roots that are not section-9 rows. Where an element heads several committed tokens at different tiers, all are listed, most-settled first (for example the relational *te' / ti'* is Hardened / Committed / Committed (Competitor) / Lore). A Hardened or Committed root and a Lore root are not equal evidence, and the column keeps them apart. Entries are grouped by source layer, then alphabetical. Rejected alternates (logged in §10 and §12) and unanalysable proper names (*Vaal*, *Zerphi*, and the opaque architects) carry no isolable morpheme and so are not listed; names sourced from outside the Mesoamerican palette are noted separately at the foot of the section.
 
-Totals: 147 elements. By the best tier each element reaches: 32 Hardened, 38 Committed, 6 Committed (Competitor), 22 Soft, 49 Lore (equivalently, 76 head a committed token, 22 a soft one, and 49 rest on a name or lore anchor). The six added with the Battery-E names (*quechōl-*, *pan(tli)*, *quetza*, *-liztli*, *ix-*, *chel*) all head hardened onomastic names (§12.5-12.6).
+Totals: 147 elements. By the best tier each element reaches: 22 Hardened, 53 Committed, 12 Committed (Competitor), 23 Soft, 37 Lore (equivalently, 87 head a committed token, 23 a soft one, and 37 rest on a name or lore anchor). Recounted after the 2026-09 rescore. The six Battery-E morphemes (*quechōl-*, *pan(tli)*, *quetza*, *-liztli*, *ix-*, *chel*) still head hardened onomastic names (§12.5-12.6).
 
 **Maya (Yucatec and Classic Maya)**
 
 | Element | Source | Gloss | Status | Appears in |
 |---|---|---|---|---|
 | *a-* | Maya | you, your (Set A 2nd person) | Soft | a'tul |
-| *akal* | Maya | pond; still water | Hardened | akal |
+| *akal* | Maya | pond; still water | Committed | akal |
 | *anaab* | Classic Maya | court-servant, attendant | Committed | anab |
 | *-ane* | Maya | honorific; agentive plural | Committed / Committed (Competitor) | ikba'yucane, mucane |
 | *at / yan* | Maya | presentative: behold, here is | Committed (Competitor) | A'te / U'Te / Yatle |
 | *ba'* | Maya | self, reflexive | Committed | elba, ik'bala, ikba'yucane, kifba, nochbe |
 | *ba'ax* | Maya | what (interrogative) | Soft | buxa, Axba |
-| *-bil* | Maya | passive, participle | Committed | 'Ibil |
+| *-bil* | Maya | passive, participle | Committed (Competitor) | 'Ibil |
 | *che'* | Maya | tree, wood | Hardened | che', kahk-tche |
 | *chel* | Yucatec | rainbow (the goddess *Ix Chel*) | Hardened | Ixchel |
-| *chíikul* | Maya | sign, omen | Lore | chikula' |
+| *chíikul* | Maya | sign, omen | Committed | chikula' |
 | *-e* (voc.) | Maya / Nah. | vocative | Committed | Ik'eche, Teoyuxtlane |
 | *-ech* | Maya | you (2nd person) | Committed | Ik'eche |
-| *ek'* | Maya | star; black, dark | Hardened | ek |
+| *ek'* | Maya | star; black, dark | Committed | ek |
 | *el / elel* | Maya | to burn | Committed | Ela, elba |
 | *-el* | Maya | abstractive, intransitive | Committed | ik'el, cheyel |
 | *-en / teen* | Maya | me, I (1st person) | Hardened | -en |
 | *ha'* | Maya | water | Committed | sakilja |
 | *haay* | Yucatec | to raze, level | Lore | Hayoxi |
-| *han-* | Maya | to eat | Lore | ko'janti |
+| *han-* | Maya | to eat | Committed | ko'janti |
 | *ich / ichil* | Maya | in, within; eye, face | Hardened | ich |
 | *iitz* | Maya | sap, essence; resin | Committed (Competitor) | itsok / itzil |
 | *ik'* | Maya | wind, breath, spirit; dark | Committed | ik'bala, ikba'yucane, Ik'eche, ik'el, ka'tse-ik |
-| *il* | Maya | to see | Committed | 'Ibil, inib |
+| *il* | Maya | to see | Committed (Competitor) | 'Ibil, inib |
 | *in* | Maya | my, I | Soft | inib |
 | *ix-* | Yucatec | feminine / agentive prefix | Hardened | Ixchel |
 | *ka(j)* | Yucatec | dependent, subjunctive: that, when | Soft | ka |
@@ -958,25 +958,25 @@ Totals: 147 elements. By the best tier each element reaches: 32 Hardened, 38 Com
 | *k'ex* | Maya | substitution, exchange; transform | Committed | Kextal, qexcan |
 | *k'i'ik'* | Maya | blood | Committed | kifba |
 | *ki'* | Maya | good, delicious, sweet | Hardened | ki' |
-| *kíim / kíimil* | Maya | death, to die | Lore | kíimil, Kíibsa' |
-| *ko'* | Maya | come (hortative) | Lore | ko'janti |
+| *kíim / kíimil* | Maya | death, to die | Committed | kíimil, Kíibsa' |
+| *ko'* | Maya | come (hortative) | Committed | ko'janti |
 | *k'u* | Maya | god, sacred | Lore | Yugul |
 | *kutz* | Maya | turkey, sacrificial bird | Committed (Competitor) | kutsen |
-| *kuxtal / kux* | Maya | life, to live | Lore | kux / kuxkal / kuxte' |
-| *k'ux* | Maya | to bite, gnaw; rancor | Hardened | k'ux (quxzeh) |
-| *le...o'* | Yucatec | the (article) | Lore | le / le' |
-| *lu'um* | Maya | earth, ground | Lore | líimek |
-| *ma'* | Maya | not, without (negation) | Hardened / Lore | ma, Ma'oxe |
+| *kuxtal / kux* | Maya | life, to live | Committed | kux / kuxkal / kuxte' |
+| *k'ux* | Maya | to bite, gnaw; rancor | Committed | k'ux (quxzeh) |
+| *le...o'* | Yucatec | the (article) | Committed | le / le' |
+| *lu'um* | Maya | earth, ground | Committed | líimek |
+| *ma'* | Maya | not, without (negation) | Committed / Lore | ma, Ma'oxe |
 | *máax* | Yucatec | who? (interrogative) | Hardened | máax |
 | *mux* | Maya | to grind, crush | Lore | te'moxti |
 | *muk'* | Maya | strength, force | Committed / Committed (Competitor) | mucane, mujuk' |
 | *náach* | Maya | far, distant | Hardened | náach |
-| *nuk / nojoch* | Maya | big, great | Committed | ta'nuk |
+| *nuk / nojoch* | Maya | big, great | Committed (Competitor) | ta'nuk |
 | *óol* | Yucatec | spirit, will | Lore | Ma'oxe (alt) |
 | *poch* | Maya | hungry, gluttonous, craving | Committed (Competitor) | pochiti |
 | *pox* | Highland Maya | posh, ceremonial corn/cane liquor | Soft | puxe |
-| *pul / puul* | Maya | to throw, cast, hurl | Hardened | upulché |
-| *puuch'* | Maya | to crush | Hardened | uch' / pu uch' |
+| *pul / puul* | Maya | to throw, cast, hurl | Committed | upulché |
+| *puuch'* | Maya | to crush | Committed | uch' / pu uch' |
 | *sak* | Maya | white, pure | Committed | sakilja |
 | *taak / taak'* | Maya | to want | Soft | ta' |
 | *taal* | Maya | to come | Committed (Competitor) | tala, a'tul |
@@ -985,15 +985,15 @@ Totals: 147 elements. By the best tier each element reaches: 32 Hardened, 38 Com
 | *to'on* | Maya | we, us | Soft | Donuks |
 | *ts'ook* | Maya | end, to finish | Committed / Lore | cha'tsoke, Tzokan'te / tzok |
 | *tsuk* | Yucatec | group, cluster, company | Soft | Otsuks |
-| *tul* | Maya | to decline, wane | Hardened | tul |
+| *tul* | Maya | to decline, wane | Committed (Competitor) | tul |
 | *u-* | Maya | Set A 3rd person: his, her, its | Hardened | u |
-| *uk'* | Maya | to drink | Hardened | uch' / pu uch', Donuks |
+| *uk'* | Maya | to drink | Committed | uch' / pu uch', Donuks |
 | *uts* | Yucatec | good | Committed | Yutsal / yutsal, Teoyuxtlane |
 | *waaj* | Maya | bread; altar-offering | Hardened | waaj, xecwa |
 | *xiib* | Yucatec | male, man | Lore | Xibaqua |
 | *xok* | Maya | to count, read | Lore | Ma'oxe |
 | *xul* | Maya | end, limit | Committed | xu'te |
-| *yax* | Maya | first, new, green | Lore | yax / Yaxe |
+| *yax* | Maya | first, new, green | Committed | yax / Yaxe |
 | *yuk* | Yucatec | to shake, set trembling | Lore | Yugul |
 | *-s* | Maya | causative | Soft | Kíibsa' |
 | *-a'* | Maya | deictic, terminal | Soft | Kíibsa' |
@@ -1032,7 +1032,7 @@ Totals: 147 elements. By the best tier each element reaches: 32 Hardened, 38 Com
 | *eztli* | Nah. | blood | Hardened | Eztli Pilli |
 | *i-* | Nah. | his, her (3rd-person possessive) | Committed | i'chian |
 | *-liztli* | Nah. | action/result nominalizer | Hardened | Panquetzaliztli |
-| *mā* | Nah. | optative: may, let | Hardened / Committed | ma, kilya |
+| *mā* | Nah. | optative: may, let | Committed | ma, kilya |
 | *māitl / -mac* | Nah. | hand; loc. "in the hands of" | Lore | Yaomac |
 | *mahui* | Nah. | to fear | Lore | Mahuxotl |
 | *matlatl* | Nah. | net, snare | Lore | Matatl |
@@ -1054,7 +1054,7 @@ Totals: 147 elements. By the best tier each element reaches: 32 Hardened, 38 Com
 | *tepetl* | Nah. | hill, mountain | Lore | xictep |
 | *-ti* | Nah. | inchoative (to become) | Committed (Competitor) | pochiti |
 | *tla-* | Nah. | nonspecific object prefix | Committed | tlayeb |
-| *tlācah / tlāl-* | Nah. | people; land, earth | Lore | Tlaxye' |
+| *tlācah / tlāl-* | Nah. | people; land, earth | Committed | Tlaxye' |
 | *tlahtoa* | Nah. | to speak | Lore | tatlat (alt) |
 | *-tlān* | Nah. | place of (locative) | Committed | atla, Teoyuxtlane |
 | *tlapechtli* | Nah. | platform, scaffold, altar-bed | Committed | tlapec / yotlapek |
@@ -1065,14 +1065,14 @@ Totals: 147 elements. By the best tier each element reaches: 32 Hardened, 38 Com
 | *-tzin* | Nah. | reverential | Committed | Atziri, Guatelitzi |
 | *tzoatl* | Nah. | dirty water, slops | Soft | Atzoatl |
 | *-tl / -tli / -atl / -otli* | Nah. | absolutive (noun) suffix | Lore | Cholotl, Matatl, Quipolatl, Citaqualotl, Juatalotli |
-| *xi-* | Nah. | imperative: do!, make! | Hardened | xi, xictep |
+| *xi-* | Nah. | imperative: do!, make! | Committed | xi, xictep |
 | *Xīpe* | Nah. | the Flayed One (deity) | Lore | Xipocado |
-| *xōtla* | Nah. | to kindle, blaze, glow | Lore | Xatlene |
+| *xōtla* | Nah. | to kindle, blaze, glow | Soft | Xatlene |
 | *xoxoc-* | Nah. | raw, fresh, green | Soft | soxsal |
 | *-ya* | Nah. | inchoative: to come to be | Committed | kilya |
-| *yancuic* | Nah. | new | Lore | Gyan'uks |
+| *yancuic* | Nah. | new | Committed | Gyan'uks |
 | *yāō(tl)* | Nah. | war, enemy | Lore | Yaomac |
-| *yocoya* | Nah. | to create, devise | Lore | yuquia |
+| *yocoya* | Nah. | to create, devise | Committed | yuquia |
 
 **Spanish / Romance**
 
@@ -1109,9 +1109,9 @@ To test whether the committed readings are distinguishable from chance, three bl
 ### 17.1 Methodology
 
 - **Null model.** Each run mixes 100 phonotactically Vaal-like nonsense strings (generated from a model trained only on Vaal surface forms; fixed seed; reproducible) with 30 real committed tokens, shuffles them with labels hidden, and has a fresh decoder blind to the key root every item at the project's standard. Any root found for a nonsense string is a false positive by construction.
-- **Five batteries**, 5 seeds each (1729, 9001, 271828, 42, 55555): **A** loose latitude / offline dictionaries; **B** loose / online Classical Nahuatl; **C** strict / offline; **D** strict / online (A-D each 500 pseudo + 150 real pooled, forming the latitude x dictionary-access 2x2, §17.3); **E** strict / online certification of the three post-battery names as blind plants (§17.7). A-D are the original epoch; E extends it to the enlarged headline base.
-- **Adversarial pass.** Each committed token, surface form only, is handed to a blind adversary that hunts the best root in a *different* source language. The token falls if a strong different-language, different-meaning competitor exists.
-- **Hardening.** A committed token earns the top tier (**H**) only if it reconstructs under the strict latitude AND survives the adversarial pass (`HARDENING_PROTOCOL.md`).
+- **Five batteries**, 5 seeds each (1729, 9001, 271828, 42, 55555): **A** loose latitude / offline dictionaries; **B** loose / online Classical Nahuatl; **C** strict / offline; **D** strict / online (A-D each 500 pseudo + 150 real pooled, forming the latitude x dictionary-access 2x2, §17.3); **E** strict / online certification of three post-battery names as blind plants. A-D are the original epoch.
+- **Adversarial pass.** Each committed token, surface form only, is handed to a blind adversary. A token falls if a strong **different-meaning** competitor exists, including same-language homophones and alternate segmentations (`score_adversarial.py`). Same-meaning cognates are corroboration.
+- **Hardening.** A token earns **H** only if Gate 1 recovers the *predeclared* root, language class, and sense under the strict latitude AND Gate 2 finds no different-meaning competitor (`HARDENING_PROTOCOL.md`). An any-`C` label on a different lemma is not a pass.
 
 ### 17.2 Metrics
 
@@ -1135,63 +1135,43 @@ For the pseudo population P and real population R, each item labeled `C` (commit
 
 The four batteries form a latitude x dictionary-access 2x2 (loose/strict against offline/online). Battery D (strict + online) was run last, with fresh blind agents grepping the offline dictionaries plus consulting the Wired Humanities Nahuatl Dictionary and the Gran Diccionario Nahuatl online (`NULL_MODEL_RESULTS.md`, `blind_test_results_tight_online_s{seed}.csv`).
 
-Findings: (1) the **soft tier is near-noise**, under loose latitude a root is found for about 67% of nonsense versus 77% of real tokens, a ten-point gap, so a soft reading is close to what decoding noise yields and is treated as a candidate, not evidence. (2) The **committed tier clears the noise floor by about 3x**, stably across seeds. (3) Adding online Nahuatl access did **not** widen the gap on either latitude: under loose rules (B vs A) it slightly narrowed it, and under strict rules (D vs C) it lifted FPR and TPR together (0.034 to 0.046 and 0.127 to 0.140), leaving discrimination flat (+0.094), so the completed 2x2 confirms dictionary coverage is not the bottleneck, latitude is. (4) Tightening latitude (C) collapsed noise-matching (FPR at the loose bar 0.670 to 0.064) but also the committed lexicon's own reconstructability (0.767 to 0.180), showing most committed readings depend on the permissive latitude. (5) The hypothesis that Vaal is **entirely random noise is strongly disfavored under the tested model**: 23 of the 62 committed tokens reconstruct under strict rules, against ~3 expected if each were noise passing at the **4.6% strict-and-online false-positive rate (Battery D, the resources the real decode uses; the offline 3.4% would give an even smaller p)** (binomial p ≈ 2 x 10^-15, a ~12.2-sigma departure). Because some committed tokens share a root and so are not independent trials, the same test taken over the 53 distinct roots (§17.7) gives 22 strict passes against ~2.4 expected (p ≈ 4 x 10^-16): the rejection is not an artifact of counting related forms more than once. (These are the original A-D figures; folding in the three Battery-E names gives the headline base of 26 of 65 tokens, p ≈ 3 x 10^-18, and 25 of 56 distinct roots, p ≈ 5 x 10^-19; see the Battery E note below and §17.7.)
+Findings: (1) the **soft tier is near-noise**, under loose latitude a root is found for about 67% of nonsense versus 77% of real tokens, a ten-point gap, so a soft reading is close to what decoding noise yields and is treated as a candidate, not evidence. (2) The **committed tier clears the any-C noise floor by about 3x**, stably across seeds; that gap measures matchability of surfaces, not gloss recovery. (3) Adding online Nahuatl access did **not** widen the gap on either latitude: under loose rules (B vs A) it slightly narrowed it, and under strict rules (D vs C) it lifted FPR and TPR together (0.034 to 0.046 and 0.127 to 0.140), leaving discrimination flat (+0.094), so the completed 2x2 confirms dictionary coverage is not the bottleneck, latitude is. (4) Tightening latitude (C) collapsed noise-matching (FPR at the loose bar 0.670 to 0.064) but also the committed lexicon's own reconstructability (0.767 to 0.180), showing most committed readings depend on the permissive latitude. (5) The published claim that Vaal is **entirely random noise is rejected at p ≈ 2 x 10^-15 (quoted as ~12.2 sigma)** is **withdrawn**. That binomial used any-C scoring (F1), an unselected 4.6% floor against a selected lexicon (F2), and a 23/62 count that does not rebuild (the strict CSV is 21/61 any-C; *pul* has no artifact). The sigma labels were count z-scores, not normal-tail equivalents, and are removed. **Honest replacement** (`AUDIT_REVIEW_2026-08-18.md` O1; `NULL_HONESTY_OUTPUT.md`): selection-matched Fisher p from the same files is **about 0.005 (A-then-D trial level, 19/31 vs 8/31) to 0.06 (item level, 6/9 vs 8/27)**, with the mismatched published pairing at 0.20. The signal is **marginal**, not overwhelming. The 500-trial pseudo arm has only 426 distinct strings; some C labels on "noise" are palette substrings (*eztl*) or Spanish (*noche*).
 
-**Battery E (target certification, not a floor re-measurement).** After the 2x2, three names hardened post-battery (*Quecholli*, *Panquetzaliztli*, *Ixchel*) were run as blind plants under the strict-and-online conditions of Battery D, across the same five seeds, shuffled among pseudo distractors and real controls (`BATTERY_E_RESULTS.md`). All three passed strict Gate-1 in every pass (15/15) and the real controls calibrated to their known tiers, certifying the three as null-tested and lifting the headline base to 65 tokens / 26 strict passes (§17.7). Battery E did not re-measure the noise floor; the 4.6% Battery D floor still governs the null-rejection test.
+**Battery E (target certification, not a floor re-measurement).** After the 2x2, three names (*Quecholli*, *Panquetzaliztli*, *Ixchel*) were run as blind plants under Battery D conditions (`BATTERY_E_RESULTS.md`). All three passed 15/15 as exact attested lexemes and remain H+L. They do not restore an unconditional 10^-15 rejection. The 4.6% Battery D floor is not used as a headline null.
 
 ### 17.4 Adversarial survival and the hardened tier
 
-The adversarial pass found no genuine cross-language competitor for about 88% of committed tokens (52 of 59 testable, counting *pul*); seven have one (logged in §10.12), the strongest being *itsok* vs Nahuatl *itztli* "obsidian." Combining the strict-latitude decode with adversarial survival, of the 62 committed tokens in the original A-D run **22 are Hardened (H)**, 7 are committed with a logged competitor (C\*), and 33 are committed but latitude-dependent (C); the three Battery-E names (§17.7) add three more H, giving **25 H of 65** in the enlarged headline base. The hardened core, the readings that clear the noise floor by a real margin, is: *akal, ascensionada, che', ek, -en, Eztli (Pilli), ich, k'áak', ki', kujkuali, k'ux, ma, máax, náach, pul, Ti, tul, u, uch', waaj, xefe, xi*. (Several are short function words or clean loans that reconstruct trivially; H marks robustness to testing, not depth of analysis.) Collapsing morphologically related tokens to distinct roots (§17.7) leaves the split at 22 H / 6 C\* / 25 C of 53 (25 H of 56 with the three Battery-E names), because the merged duplicates are almost all non-hardened relatives.
+Gate 2, rescored so same-language homophones count: **47 survive / 58 testable = 81%** (`gate2_rescore.csv`). Eleven falls, seven of them same-language. Residual limit: only competitors written in the archived adversarial CSVs can be scored.
 
-Going forward, every token is assigned a tier via the two-gate test in `HARDENING_PROTOCOL.md`, and no token may carry `H` without both gates recorded. (The hardening battery first covered 61 committed tokens; a 62nd, *pul* "to throw, cast," was restored from the pre-import chat copy and then run through both gates, passing as Hardened, so the committed lexicon is 62 tokens with 22 hardened. Battery E (§17.7) later blind-certified three more Hardened names, *Quecholli*, *Panquetzaliztli*, *Ixchel*, giving the enlarged headline base of 65 tokens with 25 hardened; 62 / 22 is the prior epoch.)
+Combining recovery-scored Gate 1 with that Gate 2 and the hardening protocol, **17 of 78 section-9 rows are H** (14 of 61 battery-tested, plus three Battery E names). Eleven are C*. *pul* has no decode artifact; its pass is dropped. The hardened set is: *ascensionada, che', -en, Eztli Pilli, ich, k'áak', ki', kujkuali, máax, náach, Ti, u, waaj, xefe, Quecholli, Panquetzaliztli, Ixchel*. Demoted from the old H list: *akal, ek, tul, uch', xi* (wrong lemma or language), *k'ux* (residue), *ma* (bundled readings), *pul* (no artifact).
+
+Going forward, no token may carry `H` without both gates recorded under recovery scoring. Proof: `analysis/RESCORE_OUTPUT.md`.
 
 ### 17.5 Confidence interval for the translation
 
 Full working, with Wilson 95% intervals and the base-rate sensitivity table, is in `STATISTICAL_SUMMARY.md`.
 
-**Measured coverage (assumption-free).** The hardened core of the committed lexicon is **38.5%, 95% CI [27.6%, 50.6%]** (25 of 65 committed tokens, the enlarged base after Battery E, §17.7); counted over the 56 distinct roots it is **44.6%, 95% CI [32.4%, 57.6%]** (25 of 56). The original 62-token run gives **35.5% [24.7, 47.9]** and **41.5% [29.3, 54.9]** (22 of 62 / 53) and is retained as the prior epoch. Composition note: the three Battery-E names are exact attested lexemes and so are easy plants; they lift the coverage figure slightly and are not representative of the harder text tokens, though they do not affect the null rejection, which is set by the noise floor, not by plant difficulty. Either way, between a third and two-fifths of the vocabulary the translations rest on is robust to both the strict-latitude and adversarial tests; the remainder is latitude-dependent, plausible but not distinguishable from chance at the strict bar. One caution on reading these figures: they are the *protocol's certification rate* (how often a reading survives hardening), not a direct measure of translation correctness. The correctness estimate is the per-reading positive predictive value below, which folds in the base rate b.
+**Measured coverage (assumption-free).** After recovery scoring, the hardened core is **17 of 78 section-9 rows = 21.8%, 95% CI [14.1%, 32.2%]**. On the 61-row battery it is 14/61 = 23.0% [14.2, 34.9]. The old 25/65 = 38.5% and 22/62 = 35.5% figures used any-C Gate 1 and are withdrawn as headlines. The three Battery-E names are exact attested lexemes (easy plants) and remain H+L; they are 3 of the 17, not an add-on to an invalid 22. These percentages are the protocol's certification rate, not translation correctness.
 
-**Per-reading confidence by tier.** Treating the tests as a diagnostic, the probability that a reading is a genuine root rather than a chance dictionary hit is the positive predictive value, PPV = (TPR*b)/(TPR*b + FPR*(1-b)), where **b** is the base rate (fraction of Vaal built from real palette roots). Because b is uncertain, each tier is given as a range from pessimistic (low b) to optimistic (high b) so a reader can take their own outlook; the **data-anchored b ≈ 58%** (the §12 name roster, §17.6), a little above the 50% neutral prior. The anchored column below spans b = 50-58%. The hardened row uses the strict-and-online null rates (Battery D, TPR 0.140 / FPR 0.046, §17.3, the resources the real decode uses); the other rows use their looser bars.
+**Per-reading PPV.** The table that converted Battery TPR/FPR into "probability the gloss is genuine" answers the wrong question (any-root matchability) and is mis-wired (H used Battery D rates, C used Battery A, so C scored higher than H at the same prior). It is not reprinted here as a confidence interval. See `STATISTICAL_SUMMARY.md` §3 for the retained diagnostic warning.
 
-| Tier | Pessimistic (b=20%) | Data-anchored (b≈50-58%) | Optimistic (b=75%) |
-|---|---|---|---|
-| Hardened (H) | 43% | 75-81% | 90% |
-| Committed, latitude-dependent (C) | 45% | 77-82% | 91% |
-| Committed + competitor (C\*) | ~23% | ~39-41% | ~46% |
-| Soft / candidate (S) | 22% | 53-61% | 77% |
-
-C\* values are the confidence in the *specific* gloss (the root is genuine at the C level, but a comparable cross-language competitor roughly halves which reading is right). Soft readings straddle a coin-flip across the whole range and are not evidence on their own.
-
-**Sentence-level confidence (floor and ceiling).** Per-token confidence combines across a line into an *interval*, not a point. The **floor** is the independence case (tokens uncorrelated), the product of the per-token values; the **ceiling** is the Fréchet upper bound, P(line) <= min_i P(token_i), reached when syntax forces the remaining words once the least-certain one is fixed. Real language is positively correlated, so the true value lies between. Both vantage points below use the data-anchored prior (b ≈ 58%, §17.6).
-
-**The average line.** Across the connected corpus (Texts 1-4 and the Kamasan Smith: 51 lines, 186 tokens) a line runs **3.65 tokens** on average. A line of that length is:
-
-- all Hardened: **[46%, 81%]**
-- all Committed: **[49%, 82%]**
-- all Soft: **[17%, 61%]**
-
-The texts run mostly on committed and hardened vocabulary, so a typical line sits in the **[~49%, ~81%]** band, an even chance or better of being wholly correct at the pessimistic end, better than four-in-five at the optimistic end.
-
-**Two concrete lines, best and worst.** No short line in the corpus is built purely of hardened tokens (a hardened word almost always shares its line with a softer one), so the strongest real cases are committed-grade. The **best case** is *Tlayeb kifba!* "In the dark, the heart!", two committed tokens, at **[68%, 82%]**, the highest-confidence line in the corpus; the most hardened-heavy complete line, *Atziri, Atziri, ascenada akal!* "risen into the eternal waters" (two hardened content words, *ascenada* and *akal*, plus the queen's committed name), reaches **[44%, 81%]**, its hardened tokens lifting the ceiling while the four-token length holds the floor near even. The **worst case** is the Kamasan Smith's *Ti ek tala jare'yantul!* (six tokens, two of them competitor-flagged C\*): **[7%, 41%]**, dragged down by length and by the two C\* tokens whose ~0.41 confidence caps the ceiling. Most lines fall between these, in the average band above.
-
-The product alone is a lower estimate, not the answer (and not even an absolute floor: negative correlation could dip below it). The pattern holds, longer lines are less certain than short ones and than any single token, so the honest unit of confidence remains the individual token.
-
+**Sentence-level percentages: withdrawn.** Independence products are not a Frechet floor. The Kamasan example scored *yan* as C*, but *yan* has no section-9 row and no CSV row. Replace those percentages with a weakest-link statement: a line is no stronger than its least-secure token. *akal* in *ascenada akal* is no longer H. The honest unit of confidence remains the individual token.
 
 ### 17.6 The base rate b, estimated from data
 
-The PPVs above turn on **b**, the fraction of Vaal actually built from real palette roots, which cannot be observed directly. Rather than assume a value, we bound it empirically.
+The old PPVs turned on **b**, the fraction of Vaal actually built from real palette roots. That conversion is no longer used as translation confidence. The name-roster count below is kept as a descriptive observation of naming behaviour, not as an input to a gloss-probability table.
 
 **Proper-noun proxy (palette-scoped).** The named roster in §12 is a closed, un-cherry-pickable sample of the developers' naming behaviour. Four of its figures are documented borrowings from *outside* the Mesoamerican palette entirely, Apep (Egyptian), Ralakesh (Sanskrit), Arakaali (Greek/Hindu), and the Omnitect (Latin); these were never attempts at a palette root and are out of scope for this estimate. Among the **33 in-scope names, 19 carry an attested palette root (Nahuatl, Maya, K'iche', or Spanish): ≈ 58%.** Many rest on structural markers hard to produce by chance, the Nahuatl *-tl / -tli / -atl* absolutive endings on *Matatl*, *Cholotl*, *Citaqualotl* and the like, which is why the name roster is a comparatively strong signal.
 
 **Bounds on that figure.** Counting only clean, fully-worked parses (setting soft candidates aside) gives a conservative floor of ≈ 15-18%; the 58% is soft-inclusive and so upper-leaning. Folding the four out-of-scope borrowings back into the denominator drags the ratio to 19/37 ≈ 51%, but that penalizes b for deliberate design choices the palette was never meant to catch, so it understates palette usage and is not the right denominator here.
 
-**Mixture model, and why it is not usable here.** In principle b = (O − FPR) / (TPR − FPR) from the corpus's observed pass rate O. With our numbers this overflows (b > 1), because the null-model TPR (0.140, Battery D) was measured on a deliberately hard subset of plant tokens and understates the real committed lexicon's strict-pass rate (37%); when O exceeds TPR the equation has no valid solution. So the mixture model cannot be applied to the data we have, and any value forced out of it (for instance by mixing a strict-tier O with loose-tier rates) is an artifact, not a derivation.
+**Mixture model, and why it is not usable here.** In principle b = (O - FPR) / (TPR - FPR) from the corpus's observed pass rate O. With our numbers this overflows (b > 1), because the null-model TPR (0.140, Battery D, any-C) was measured on a deliberately hard subset of plant tokens and is not the same diagnostic as the lexicon's recovery-clean Gate 1 rate (14/61). When O and TPR answer different questions the equation has no valid solution. So the mixture model cannot be applied to the data we have, and any value forced out of it (for instance by mixing a strict-tier O with loose-tier rates) is an artifact, not a derivation.
 
-**Consequence.** The palette-scoped proxy puts **b ≈ 58%**, above the 50% neutral prior, so the data-anchored confidence sits in the upper-middle of the reported range: a hardened reading is genuine with probability **≈ 75% (b = 50%) to ≈ 81% (b = 58%)**. We still do not stretch to b = 75%; the roster does not reach that far. The full PPV-versus-b table is kept in `STATISTICAL_SUMMARY.md` for readers who prefer a different prior.
+**Consequence.** The palette-scoped proxy still puts attested-root names at **b ≈ 58%**. That figure is not converted here into a 75-81% gloss probability. The mixture model still overflows because TPR and the lexicon pass rate are not the same diagnostic.
 
 ### 17.7 Non-independence of related tokens (distinct-root recount)
 
-The counts above treat each committed token as an independent trial. That overstates the evidence wherever several tokens descend from one root: *ik'bala*, *ikba'yucane*, *Ik'eche*, and *ik'el* are all built on Yucatec *ik'* "spirit, breath," so they are four surface forms of a single lexical bet, not four independent confirmations. Counting them singly inflates both the sample size and the strict-pass tally. This subsection reruns the tests with morphological relatives collapsed to their shared root, so the result is visible on both bases. (The recount below is stated on the original 62-token A-D run; the enlarged headline base, with the three Battery-E names, is in "A third base" at the end of this subsection.)
+The counts above treat each committed token as an independent trial. That overstates the evidence wherever several tokens descend from one root: *ik'bala*, *ikba'yucane*, *Ik'eche*, and *ik'el* are all built on Yucatec *ik'* "spirit, breath," so they are four surface forms of a single lexical bet, not four independent confirmations. Counting them singly inflates both the sample size and the strict-pass tally. The table below is the **prior-epoch** recount on the withdrawn any-C / 23-of-62 figures; it is retained so the old arithmetic can be inspected, not as a current headline. (Battery-E names are 3 of the current 17 H rows; they do not restore an unconditional floor test.)
 
 **Levels of dependence.** Related observations inflate the evidence at four nested levels. The recount here corrects the first two (which a raw token count conflates); the third is handled separately as syntax (§17.8), and the fourth is flagged rather than counted:
 
@@ -1214,35 +1194,11 @@ The counts above treat each committed token as an independent trial. That overst
 | *k'ex* "transform" | Kextal, qexcan | all fail |
 | *ti' / te'* relational | te, Ti | both pass |
 
-The 62 tokens thus reduce to **53 distinct roots** (the three Battery-E names each add a further distinct root, so the enlarged headline base has **56**; see "A third base" below). Only one family (*ti'/te'*) contained a strict-pass, so the collapse removes exactly one strict-pass (23 to 22) while dropping nine mostly-failing forms from the denominator.
+The 62-token recount above is the **prior epoch**, computed on the withdrawn any-C / 23-of-62 figures. Related forms still cluster in failing families. Collapsing them does not restore a 10^-15 result, because the unconditional floor comparison is the wrong test.
 
-**Results on both bases.**
+**Pseudo-corpus dependence (N1).** The 500-trial noise arm contains **426 distinct strings** (53 repeats across seeds). Some C labels on pseudo items are palette substrings (*eztl* of *Eztli*) or ordinary Spanish (*noche*). Distinct-string Battery D FPR is 21/426 = 4.9%. See `NULL_HONESTY_OUTPUT.md`.
 
-| Metric | Per token (N = 62, A-D) | Per distinct root (N = 53, A-D) |
-|---|---|---|
-| Strict Gate-1 passes | 23 (expected 2.9) | 22 (expected 2.4) |
-| Null-rejection p | 2 x 10^-15 | 4 x 10^-16 |
-| Hardened tier | 35.5% [24.7, 47.9] | 41.5% [29.3, 54.9] |
-| Gate-1 strict | 37.1% [26.2, 49.5] | 41.5% [29.3, 54.9] |
-| Gate-2 adversarial | 88.7% [78.5, 94.4] | 90.6% [79.7, 95.9] |
-| Tier split H / C\* / C | 22 / 7 / 33 | 22 / 6 / 25 |
-
-**Reading.** The dependency correction does not weaken the case; it slightly strengthens it. The related tokens are concentrated in the strict-failing families (*ik'-*, *el-*, *muk'-*, *aocmo-*, *ātl-*, *k'ex-*), so removing the duplicates prunes the denominator faster than the signal: 22 of the 23 strict passes survive as distinct roots, now over a count of 53 rather than 62. The hardened fraction therefore rises from 35.5% to 41.5% on the original run (38.5% to 44.6% on the enlarged headline base, "A third base" below), and the null model stays rejected at the same overwhelming level (p on the order of 10^-15 to 10^-16, and 10^-18 to 10^-19 on the enlarged base). The recount is defensive, not promotional: non-independence of related forms is a standard objection, and here it overturns none of the conclusions.
-
-**Both bases are kept on purpose.** The per-token figures are not superseded. They are the honest raw account of how the committed lexicon behaves form by form; the per-root figures are the honest account of how it behaves lemma by lemma. Neither is privileged. The per-token base is the more conservative denominator for the *coverage* claims (it counts every attested form the translations actually use), the per-root base is the correct one for the *independence* claim (it counts each lexical bet once). Where a single headline number is needed, the per-token figure is quoted first with the per-root figure beside it.
-
-**A third base: folding in the post-battery hardened names.** Three onomastic tokens (*Quecholli*, *Panquetzaliztli*, *Ixchel*, §9, §12.5-12.6) were hardened after the original four-battery run. Rather than fold them in post-hoc, they were then put through the same machinery as blind plants: **Battery E** (`BATTERY_E_RESULTS.md`, §17.3) ran all three, shuffled among pseudo distractors and real controls, past five fresh blind decoders under the strict-and-online conditions of Battery D. They passed 15/15 (each 5/5), the controls calibrated to their known tiers, and no cross-language competitor surfaced. The three are therefore null-tested by the same procedure as the original lexicon, so the enlarged base below now carries the headline, with the original 62-token run (Batteries A-D) retained as the prior epoch.
-
-| Metric | Prior epoch (62 tokens / 53 roots, A-D) | Headline base (65 tokens / 56 roots, + Battery E) |
-|---|---|---|
-| Hardened tier, per token | 35.5% [24.7, 47.9] | 38.5% [27.6, 50.6] |
-| Hardened tier, per distinct root | 41.5% [29.3, 54.9] | 44.6% [32.4, 57.6] |
-| Strict Gate-1 passes, per token | 23 (expected 2.9) | 26 (expected 3.0) |
-| Null-rejection p, per token | 2 x 10^-15 (~12.2 sigma) | 3 x 10^-18 (~13.6 sigma) |
-| Null-rejection p, per distinct root | 4 x 10^-16 (~12.8 sigma) | 5 x 10^-19 (~14.3 sigma) |
-| Hardened PPV band (data-anchored) | 75-81% | 75-81% |
-
-(The enlarged distinct-root count assumes the three names add three new roots; if *quetza* in *Panquetzaliztli* is treated as a root already present in the corpus, the per-root figure is 25/55 = 45.5%.) Each name is counted as one observation by its head root rather than split into its constituent morphemes (*Panquetzaliztli* as a single *quetza*-headed bet, not *pan* + *quetza* + *-liztli*; *Ixchel* as a single *chel*-headed bet, not *ix-* + *chel*); the morphemes themselves are catalogued in §15, but splitting one naming decision into several strict-passes would manufacture the independence this recount exists to remove, and decomposition would if anything shrink the count, since *quetza* is the root already behind *Ketzuli* and *Kuetzakala* (§12.3). The enlarged base moves every figure slightly in the favourable direction and rejects the noise null even more decisively, yet changes no conclusion; the per-reading PPV band does not move at all, since three confirmed-real names cannot shift the base-rate estimate (§17.6) by more than a point. Both columns stay on the page: the enlarged base is the current headline (null-tested via Battery E), and the original 62-token run is retained beside it as the prior epoch, since it is the larger, harder-plant sample the four-battery program was built on. Re-running the full battery when new material arrives remains the versioning trigger (§14).
+**A third base, retracted as headline.** Battery E still certifies *Quecholli*, *Panquetzaliztli*, and *Ixchel* as exact lexemes (15/15). They are 3 of the current 17 H rows. The old table that moved 23/62 p ≈ 2 x 10^-15 (~12.2 count-z "sigma") to 26/65 p ≈ 3 x 10^-18 is withdrawn with the sigma column.
 
 ### 17.8 Confirmation of the syntactic analysis (§3)
 
@@ -1252,11 +1208,11 @@ Six testable conclusions were scored: (1) clause type is set by a clause-initial
 
 **Result.** All three analysts confirmed all six conclusions: 18 of 18 confirmations, a 100% agreement rate (Wilson 95% CI [82.4%, 100%]); per conclusion 3 of 3 (Wilson 95% CI [43.8%, 100%]). The confidence gradings the analysts assigned tracked ours: all three rated verb-before-object as the single medium-confidence claim, since it rests on one clean transitive clause (*Xi daka puxe*), and all three independently reproduced the open-questions list (the particles *ka* and *ti*, the *le le* doubling, the segmentation of *jare'yantul*). One analyst added a refinement now recorded in §3.4 and §3.7: *tlayeb* "dark" may be a fronted locative in some lines rather than a pure attributive. Counting that as a partial rather than a full confirmation lowers the rate only to 17 of 18, 94.4% (Wilson 95% CI [74.2%, 99.0%]). A formal inter-rater kappa is not reported: with unanimous confirmation on a single category it reduces to 0/0 and is undefined, so the negative control below is the substantive specificity check in its place.
 
-**Against chance.** Under a null in which each analyst picks a word-order value at random, three analysts agreeing on one binary parameter has probability (1/2)^3 = 0.125, and all six parameters reaching unanimous agreement has probability about 3.8 x 10^-6 (about 2.6 x 10^-9 if the parameters are treated as three-way rather than binary). The reproducibility is far beyond coincidence.
+**Against chance.** Coin-flip calculations ((1/2)^3 = 0.125, or 0.25 if either value counts) treat analysts as independent randomizers. They were not: they received the project's English translations and glossary. Do not quote those products as a significance test.
 
-**Negative control (specificity).** Confirmation shows the grammar is reproducible; a control shows it is specific to the real corpus. Two further blind analysts were given a scrambled corpus, the same lines and glossary with the words randomly reordered within each line (seed 1729), which destroys word order while leaving vocabulary and morpheme shapes intact, and were asked the same questions. The four word-order conclusions collapsed: both analysts reported "undetermined / no consistent order" for clause-initial type marking, noun-phrase order, possessed-before-possessor, and verb-object, each of which the real corpus had yielded 3 of 3. Counting whether an analyst recovers a consistent order rule, the real corpus gives 12 of 12 (3 analysts by 4 rules) and the scrambled corpus 0 of 8 (2 analysts by 4 rules), a clean dissociation (Fisher exact p about 7.9 x 10^-6). The two order-independent conclusions, the absence of a copula and the front-operator / back-suffix morphology, held in both conditions, which is the correct result: neither depends on word order, so neither is evidence of linear syntax, and the control properly declines to credit them as such. Vaal's word-order regularities are therefore real signal, not an artifact of analyst expectation, while the copula and morpheme-edge observations are true but weaker, since they would survive even in a bag of words. Full run in `SYNTAX_EXPERIMENT_LOG.md`.
+**Negative control (specificity).** Two further analysts saw a scrambled corpus (seed 1729). The four word-order conclusions collapsed. **Rule-level table (pseudoreplicated):** 12/12 vs 0/8, Fisher p about 7.9 x 10^-6. **Analyst-level table (the experimental unit):** 3/3 vs 0/2, Fisher p = 0.10, not significant. The control shows, qualitatively, that agents can see order regularities on the supplied alignment. It does not support a significance claim. Copula and morpheme-edge findings held under scrambling and are not evidence of linear syntax. Full run: `SYNTAX_EXPERIMENT_LOG.md`.
 
-**The honest caveat.** The analysts shared one corpus and one glossary, so this measures that the §3 grammar is reproducibly derivable from the data, not that the grammar was independently the designers' intent. It is the syntactic analogue of the base-rate limit on the lexicon (§17.7): the test shows the reading is not idiosyncratic to one analyst, which is what a small closed corpus can support, and no more. Two structural points strengthen it within that limit: the conclusions are about surface position and so are largely independent of whether individual glosses are correct, and the corpus, though small (about two dozen clauses), is closed and exhaustively examined.
+**The honest caveat.** Analysts were not blind to the project's readings. This measures that the §3 grammar is reproducibly derivable from the supplied data, not designer intent.
 
 ### 17.9 Orthographic hardening of the correspondence rules (§2.6)
 
@@ -1264,7 +1220,7 @@ The stylization rules in §2.6 cannot be tested against sound without audio (see
 
 **Rules split into two classes by latitude.** Strict-safe correspondences change nothing the source did not already license: written *u* realized /o/ (systematic, audio-confirmed), silent initial *g*, *Gua- / Gue-* for /kʷ/, the reverential *-tzin* reducing to *-tzi*, and the underspecified marking of ejectives. Permissive (loose-only) correspondences add or move material the source does not have: the *-tl* to *-to* reduction and reorder, terminal-vowel padding (*el* to *ela*, and the *-e / -a* on closed roots), the non-morphemic codas *-uks / -s*, and the soft tails *-che / -zeh*. The strict latitude forbids exactly this second class (no metathesis, no vowel epenthesis, no ad hoc coda changes), which is what makes it strict.
 
-**Result.** Of the 62 committed tokens in the original run, **23 (37.1%, Wilson 95% CI [26.2%, 49.5%]) derive from their source using only strict-safe correspondences**; the other 39 (62.9%) need at least one permissive rule (on the enlarged headline base it is 26 of 65, since the three Battery-E names are un-stylised exact lexemes). These are the same tokens that pass Gate 1 in §17.4, now read as a statement about phonology: a little over a third of the lexicon's spellings map to their roots without any lossy stylization. The specificity of the two classes is the null model's own measurement: applied to nonsense strings, the strict bar manufactures a committed-quality match 3.4% of the time offline (Battery C), or 4.6% with online access (Battery D, the resources the real decode uses), while the loose bar does so 67% of the time (Battery A found-rate). So a derivation that leans on a permissive rule is, as a spelling correspondence, close to a coin-flip, and a derivation that does not is specific. The phonologically hardened set and the lexically hardened set are the same set.
+**Result.** The old equation "23/62 Gate 1 = strict-safe spellings" used the withdrawn any-C pass set. After recovery scoring the protocol-clean Gate 1 set is **14 of 61**. Permissive-rule specificity remains the null model's own measurement: the strict bar manufactures an any-C match 3.4% of the time offline (Battery C) or 4.6% online (Battery D), while the loose bar does so 67% of the time (Battery A found-rate). A derivation that leans on a permissive rule is close to a coin-flip as a spelling correspondence.
 
 **What this does and does not establish.** It hardens the *orthographic* correspondences: it shows which spelling-to-source mappings are tight and which are permissive, and it puts the permissive ones on the same near-noise footing the lexicon already reports. It does not recover the actual phonemes; that is the audio work the project has chosen not to pursue (§2.6). The reproducible tooling is the null-model battery (`NULL_MODEL_PROTOCOL.md`, `TIGHTENED_LATITUDE.md`); no new experiment is introduced here, only the reading of the existing one at the rule level.
 
@@ -1274,7 +1230,7 @@ The confidence intervals above quantify sampling uncertainty, which is not the l
 
 | Source | What it affects | Direction and size | Where it is handled |
 |---|---|---|---|
-| Base rate b (fraction of Vaal built from real roots) | every PPV in §17.5 | dominant; unmeasurable, proxied near 58% from the name roster | reported as a range, not a point (§17.6) |
+| Base rate b (fraction of Vaal built from real roots) | old PPV tables (withdrawn as translation confidence) | still unmeasurable; name roster ~58% | descriptive only (§17.6) |
 | Developer stylization | which spelling-to-root maps count | can inflate loose-latitude matches | strict-versus-loose latitude test (§17.3, §17.9) |
 | Unidentified source languages | false negatives and mis-attributions | widens the admissible pool, raises FPR | pre-committed palette; Xinkan and Nawat cross-checks (§13) |
 | Transcription ambiguity | the token forms themselves | small but unquantified | corpus-only forms; audio phonology out of scope (§2.6) |
@@ -1285,7 +1241,7 @@ The single largest lever is the base rate b. The statistics constrain the test's
 
 ## 18. Citations
 
-*Numbered to match the bracketed markers in §§2–12 and the **Source** column of §9. APA 7th style; every entry carries a working URL (FAMSI and Wired Humanities are word-searchable, so any root can be confirmed by lookup). Print works are marked. Candidate parses raised in collaboration (including external-model suggestions) were adopted only after verification against these sources.*
+*Numbered to match the bracketed markers in §§2-12 and the **Source** column of §9. APA 7th style; every entry carries a working URL (FAMSI and Wired Humanities are word-searchable, so any root can be confirmed by lookup). Print works are marked. Candidate parses raised in collaboration (including external-model suggestions) were adopted only after verification against these sources.*
 
 **Primary Vaal text & game data**
 
@@ -1294,11 +1250,11 @@ The single largest lever is the base rate b. The statistics constrain the test's
 3. poe2db. (n.d.). *Zelina, Blood Priestess* [Vaal "Text Audio"]. Retrieved June 16, 2026, from https://poe2db.tw/us/Zelina%2C_Blood_Priestess#ZelinaBloodPriestessTextAudio
 4. LocalIdentity. (2025). *poe2-data* [Data set: NPCTextAudio.json, English & French]. GitHub. https://github.com/LocalIdentity/poe2-data
 5. Path of Exile 2 Wiki (Fextralife). (n.d.). *Fate of the Vaal*; *Recruit the Vaal*; *The Cuachic Vault*; *Atziri's Temple*. Retrieved June 16, 2026, from https://pathofexile2.wiki.fextralife.com/Fate+of+the+Vaal, https://pathofexile2.wiki.fextralife.com/Recruit+the+Vaal, https://pathofexile2.wiki.fextralife.com/The+Cuachic+Vault, https://pathofexile2.wiki.fextralife.com/Atziri's+Temple . Path of Exile Wiki. (n.d.). *Atziri, Queen of the Vaal*; *The Temple of Atzoatl*; *The Vaal*. https://www.poewiki.net/wiki/Atziri,_Queen_of_the_Vaal, https://www.poewiki.net/wiki/The_Temple_of_Atzoatl, https://www.poewiki.net/wiki/The_Vaal
-6. Grinding Gear Games. (2024–2026). *Path of Exile 2* [Video game; in-game dialogue and item text]., *pochiti* (poe2db: *Atziri, the Red Queen*, https://poe2db.tw/us/Atziri%2C_the_Red_Queen); the *Eztli Pilli* tome; the Blood Priests' English barks; the *Quemalani* chat-feed lines.
+6. Grinding Gear Games. (2024-2026). *Path of Exile 2* [Video game; in-game dialogue and item text]., *pochiti* (poe2db: *Atziri, the Red Queen*, https://poe2db.tw/us/Atziri%2C_the_Red_Queen); the *Eztli Pilli* tome; the Blood Priests' English barks; the *Quemalani* chat-feed lines.
 
 **Yucatec Maya**
 
-7. Bolles, D. (2001). *Combined dictionary–concordance of the Yucatecan Mayan language*. Foundation for the Advancement of Mesoamerican Studies. http://www.famsi.org/reports/96072/index.html, searchable online. Print companion: Barrera Vásquez, A., Bastarrachea Manzano, J. R., & Brito Sansores, W. (1980). *Diccionario maya Cordemex: Maya-español, español-maya*. Ediciones Cordemex. [Yucatec roots: *ik', ba', iitz, kuxtal, kíimil, il, uk', kutz, sak, ha', muk', náach, ich, lu'um, tul, el, ts'ook, k'ex, xul, yax, akal, anaab, k'i'ik', ki', pox*; the *-x* interrogatives.]
+7. Bolles, D. (2001). *Combined dictionary-concordance of the Yucatecan Mayan language*. Foundation for the Advancement of Mesoamerican Studies. http://www.famsi.org/reports/96072/index.html, searchable online. Print companion: Barrera Vásquez, A., Bastarrachea Manzano, J. R., & Brito Sansores, W. (1980). *Diccionario maya Cordemex: Maya-español, español-maya*. Ediciones Cordemex. [Yucatec roots: *ik', ba', iitz, kuxtal, kíimil, il, uk', kutz, sak, ha', muk', náach, ich, lu'um, tul, el, ts'ook, k'ex, xul, yax, akal, anaab, k'i'ik', ki', pox*; the *-x* interrogatives.]
 8. Real Academia Española. (n.d.). *Poch*. In *Diccionario de la lengua española*. Retrieved June 16, 2026, from https://dle.rae.es/poch
 9. Encyclopædia Britannica. (n.d.). *Yucatec language*. Retrieved June 16, 2026, from https://www.britannica.com/topic/Yucatec-language
 
@@ -1332,9 +1288,9 @@ The single largest lever is the base rate b. The statistics constrain the test's
 
 24. Encyclopædia Britannica. (n.d.). *Xinca language*. https://britannica.com/topic/Xinca-language ; Wikipedia. (n.d.). *Xincan languages*. https://en.wikipedia.org/wiki/Xincan_languages, the non-Mayan Xinkan family of southeastern Guatemala (Mayan-loan contact; some varieties carry voiced *b, d*).
 25. *Guatemala* (toponymy). New World Encyclopedia. (n.d.). *Guatemala*. https://www.newworldencyclopedia.org/entry/Guatemala ; Wikipedia. (n.d.). *K'iche' people*. https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_people, Nahuatl *Cuauhtēmallān* "place of many trees" (*cuahui(tl)* "tree" + *tema* "to fill" + *-tlan* "place"), the calque of K'iche' *k'iche'* "many trees"; the *cuauh-* "tree" root behind *Guate-* (cf. *Cuauhtémoc* → *Guatemoc*).
-26. Xinka lexicon. Native Languages of the Americas. (n.d.). *Xinca words* (Chiquimulilla Xinka). http://www.native-languages.org/xinca_words.htm ; Rogers, C., & Sachse, F. (2025). Xinkan and Lencan. In S. Wichmann (Ed.), *The Languages and Linguistics of Mexico and Northern Central America: A Comprehensive Guide* (pp. 775–814). De Gruyter Mouton. https://doi.org/10.1515/9783110421705-017 (drawing on Sachse 2010, ~1300-item Xinka vocabulary), basic Xinka forms used for the cross-check (§10.8, §13).
-27. Aztecan lexical & grammatical data (cross-check; §10.2, §10.4, §10.9, §13). Mexica.Net. (n.d.). *Nahuatl–English online dictionary*. https://www.mexica.net/dictionary/, *maca* "to give"; the demonstratives *inin* "this," *inon* "that." Wired Humanities Projects. (n.d.). *namaca* (*na-* + *maca*). https://nahuatl.wired-humanities.org/content/namaca . The absence of a native /r/ in Nahuatl, and so across the Nahuan branch, incl. Nawat, per [15].
-28. Yucatec Maya verbal morphology (for the §10.9 root-search). Blair, R. W., & Vermont-Salas, R. (1965–1967). *Spoken (Yucatec) Maya*. University of Chicago [Chicago "Digital Maya"]. https://lucy.lib.uchicago.edu/, *kuxtal* as a stative / positional verb. The Yucatec causative *-s* and verbal-adjective *-kun(s)* (e.g. *séebkuns* "make quick"): parryc.com, *Yucatec Maya* grammar (citing Gorostieta). https://parryc.com/language/yucatec-maya . That *d, f, g, j, r, v* are non-native to Yucatec: https://www.mustgo.com/worldlanguages/yucatec/ . Standard reference work: Bricker, V. R., Po'ot Yah, E., & Dzul de Po'ot, O. (1998). *A Dictionary of the Maya Language as Spoken in Hocabá, Yucatán*. University of Utah Press.
+26. Xinka lexicon. Native Languages of the Americas. (n.d.). *Xinca words* (Chiquimulilla Xinka). http://www.native-languages.org/xinca_words.htm ; Rogers, C., & Sachse, F. (2025). Xinkan and Lencan. In S. Wichmann (Ed.), *The Languages and Linguistics of Mexico and Northern Central America: A Comprehensive Guide* (pp. 775-814). De Gruyter Mouton. https://doi.org/10.1515/9783110421705-017 (drawing on Sachse 2010, ~1300-item Xinka vocabulary), basic Xinka forms used for the cross-check (§10.8, §13).
+27. Aztecan lexical & grammatical data (cross-check; §10.2, §10.4, §10.9, §13). Mexica.Net. (n.d.). *Nahuatl-English online dictionary*. https://www.mexica.net/dictionary/, *maca* "to give"; the demonstratives *inin* "this," *inon* "that." Wired Humanities Projects. (n.d.). *namaca* (*na-* + *maca*). https://nahuatl.wired-humanities.org/content/namaca . The absence of a native /r/ in Nahuatl, and so across the Nahuan branch, incl. Nawat, per [15].
+28. Yucatec Maya verbal morphology (for the §10.9 root-search). Blair, R. W., & Vermont-Salas, R. (1965-1967). *Spoken (Yucatec) Maya*. University of Chicago [Chicago "Digital Maya"]. https://lucy.lib.uchicago.edu/, *kuxtal* as a stative / positional verb. The Yucatec causative *-s* and verbal-adjective *-kun(s)* (e.g. *séebkuns* "make quick"): parryc.com, *Yucatec Maya* grammar (citing Gorostieta). https://parryc.com/language/yucatec-maya . That *d, f, g, j, r, v* are non-native to Yucatec: https://www.mustgo.com/worldlanguages/yucatec/ . Standard reference work: Bricker, V. R., Po'ot Yah, E., & Dzul de Po'ot, O. (1998). *A Dictionary of the Maya Language as Spoken in Hocabá, Yucatán*. University of Utah Press.
 29. Mesoamerican military lexicon (for the §10.9 *Otsuks* semantic search). Nahuatl *yāōquīzqui* "soldier": Wired Humanities Projects, citing Molina (1571). https://nahuatl.wired-humanities.org/content/yaoquizqui . Nahuatl *tiacāuh* "valiant man / warrior": Wired Humanities, citing Sahagún, *Florentine Codex*, Bk 10. https://nahuatl.wired-humanities.org/content/tiacauh . The *Otōntin* (Otomi) and *Cuāchicqueh* ("Shorn Ones") warrior societies: Wikipedia, *Aztec warfare*. https://en.wikipedia.org/wiki/Aztec_warfare . K'iche' *achi* "man," *ajlab'al* "warrior" (*lab'al* "war"): Kaufman, T. (2003), *A Preliminary Mayan Etymological Dictionary* (FAMSI). Yucatec *holkan* "soldier," *ba'ate'el* "warrior/fight": Barrera Vásquez, A. (1980), *Diccionario Maya Cordemex*.
 30. Yucatec Maya (Belize) heritage word-list, native-speaker community attestation, used as living corroboration (not a primary dictionary). Institute of Archaeology (NICH), Belize. (n.d.). *A list of 100 Yucatec Maya words and their English translation* [Facebook post; compiled by Andy Chuc of To'one Masehualo'on, San Pablo, Orange Walk]. https://www.facebook.com/IABelizeNICH/posts/a-list-of-100-yucatec-maya-words-and-their-english-translation/10159657738759966/, records *poch* "anxious, eager" (*poch de comer* "craving to eat"), *he'la'* "here it is / tenga," and *ta'* "excrement."
 31. Yucatec *tsuk* "group, cluster, bunch" (root for *Otsuks*, §10.9). Barrera Vásquez, A. (1980). *Diccionario Maya Cordemex*, s.v. *tzuc / tsuk* ("buche o panza de los animales; cresta o mechón; grupo de árboles pequeños, montecillo") **and s.v. *much'***, where *tsuk* is listed as a synonym glossed *"montón de granos o cosas menudas,"* used as a **numeral classifier** in the frame *hun tsuk* "one cluster/heap," *ka' tsuk* "two," with *tsuk-en-tsuk* "in clusters." **Now verified directly in the Cordemex text** (the *Diccionario Maya Cordemex* citation-preview, consulted in full from the local HTML copy added to the project, preview at https://dokumen.pub/diccionario-maya-cordemex-maya-espaol-espaol-maya.html ; complete PDF at https://filosofiamaya.com/wp-content/uploads/2024/04/03_yuc_diccionario-maya-cordemex.pdf [32]), superseding the earlier dependence on a secondary Cordemex-phonetic transcription (*Apellidos mayas y sus significados*, México Desconocido, https://www.mexicodesconocido.com.mx/apellidos-mayas-significados-nombres-maya.html), which is retained only as corroboration. The classifier sense is decisive: a form that literally counts *groups* is the most natural source for a unit-call.

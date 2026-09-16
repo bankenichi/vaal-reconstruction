@@ -1,6 +1,18 @@
 # Adversarial survival of the committed lexicon
 
-## Method
+## 2026-09 addendum (Gate 2 hole N3)
+
+The original method (below) counted a competitor only when the adversary's language class differed from the committed class. `score_adversarial.py` now counts a **strong different-meaning** competitor regardless of language, including same-language homophones and plus-join alternate segmentations. Same-meaning cognates remain corroboration.
+
+Re-score of the archived CSVs (`gate2_rescore.csv`): **47 survive / 58 testable = 81%**, 11 falls, of which 7 involve a same-language competitor. New falls relative to the old effective-7 list: *'Ibil* (lima bean), *Ik'eche* (ik' + che' tree), *ta'nuk* (lime/ash), *tul* (animate classifier). Residual limit: competitors a decoder never wrote down are not invented. *ek* wasp is a Gate-1 failure, not a Gate-2 CSV row.
+
+*pul* has no adversarial row; its old "survives" claim is dropped with its Gate-1 pass.
+
+The historical write-up from the original cross-language-only pass is kept below.
+
+---
+
+## Method (original, cross-language filter)
 
 The 61 committed tokens (labels C / C+L, extracted from master section 9; the lexicon later reached 62 with the addition of *pul*) were handed, surface form only, to four fresh "adversary" agents blind to every existing reading. Each agent independently found, form-first, the best-attested root for a token and the best-attested root from a *different* source language. A committed token FALLS if the adversary produced a **strong** attested root in a language different from the one the project committed to (evidence the reading is one-of-several, not uniquely forced). It SURVIVES otherwise. Three pure in-game names (Vaal, Zerphi, Guatelitzi) are N/A.
 
