@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Operating instructions for any AI agent working in this repository. Read this file in full before touching any document. If a request conflicts with the rules here, stop and ask the user (Kenichi) rather than proceeding.
+Operating instructions for any AI agent working in this repository. Read this file in full before touching any document. If a request conflicts with the rules here, stop and ask the user (Kenichi) rather than proceeding. Agreed Vaal scopes (presentation, PDF rebuild, documentation, stats display that does not change meanings) may proceed without pausing; stop for genuine meaning or direction conflicts. See the 2026-09-16 presentation section below.
 
 ## 1. What this project is
 
@@ -32,10 +32,10 @@ Every token is resolved by searching candidate languages in this fixed priority:
 
 ## 4. Working conventions
 
-- **Present-first, approve-then-edit.** Show every analytical proposal to Kenichi for approval before committing it to the master document. Do not edit committed entries unilaterally.
+- **Present-first, approve-then-edit, with scoped autonomy.** Show every *meaning* proposal (a new etymology, a gloss rewrite, a sense change, a promotion or a silent winner) to Kenichi for approval before committing it to the master document. Do not edit committed entries unilaterally. Agreed Vaal scopes that do not change published translations, glosses, or approved senses may proceed without pausing. Stop for genuine meaning or direction conflicts. See the 2026-09-16 presentation section.
 - **File delivery every turn.** After any change, the updated master document is delivered as a file.
 - **DATA-INTEGRITY PROTOCOL (mandatory, non-negotiable). Data loss is unacceptable. Follow this exact order on every turn that changes the master.**
-  1. **Designate ONE canonical master:** `Vaal Translation/Vaal_Reconstruction.md`. The one genuinely separate on-disk copy is the parent-folder `Vaal Reconstruction/Vaal_Reconstruction.md`; keep it in sync with a direct write, never a bash copy. The `Vaal Reconstruction/Vaal Translation/` path is the SAME physical folder as the canonical (item 8), not a separate copy. The PDF is a generated downstream artifact. None of these is ever edited directly.
+  1. **Designate ONE canonical master:** `Vaal Translation/Vaal_Reconstruction.md`. In this public GitHub repo the genuinely separate on-disk copy is the repo-root parent `Vaal_Reconstruction.md` (older Cowork notes call this `Vaal Reconstruction/Vaal_Reconstruction.md`; same role). Keep it in sync with a direct write, never a bash copy. The PDF is a generated downstream artifact. Neither the parent copy nor the PDF is ever edited directly. The `Vaal Translation Mirror/` tree is gitignored and is not required to exist in a fresh clone.
   2. **Verify the canonical is COMPLETE before it is used as a copy source.** Run the completeness checklist: (a) sections §1 through §18 all present; (b) citation list is contiguous with no gaps and reaches the expected maximum (currently 59); (c) the file ends cleanly on the last citation, not mid-word or mid-sentence; (d) line count is within expectation (currently ~1460) and not suddenly smaller; (e) 0 em dashes, 0 emoji. If ANY check fails, STOP and repair before copying. A truncated or shrunken master must never be propagated.
   3. **Propagate one-way only, canonical -> downstream.** Never copy a downstream file back over the canonical. Never overwrite a known-good copy with an unverified one.
   4. **Verify every destination after writing** by reading it back (copy the written file to local storage and compare md5 and citation count against the canonical). Only report success when all copies match.
@@ -148,4 +148,122 @@ Campbell, *The Pipil Language of El Salvador* (Nawat), is in `sources/dictionari
 
 When you close an open item or promote a token, update section 14 (Status) of the master and this section together.
 
+## 10. Reader-facing presentation and PDF (2026-09-16)
+
+Prior hard rules in §2-§9 still hold: palette search order, H gates under recovery scoring, data-integrity, no em dashes / middots / emoji, patch versioning, form-first search, competing readings logged. This section records presentation and shipping practice from the 2026-09-16 reader-facing pass. It does not relax meaning lock or the hardening protocol. Live standing after the blockers is the §9 current-state block above (H 2/78, *Ixchel* C+L, 10^-15 withdrawn, syntax p = 0.10 n.s.). Citation list maximum is **59** (the *Xibaqua* *-aqua* note). Older notes that still say 53 citations or a ~1200-line master are historical; the completeness checklist in §4 already expects 59 and ~1460 lines.
+
+### Meaning lock
+
+Never change published translations, glosses, or approved senses. The 51 gold English strings (`analysis/translation_battery_gold.csv` `gold_en`) and the §9 gloss column are frozen unless Kenichi explicitly orders a meaning change.
+
+**Ixchel rule.** If Gate 1 recovers the dictionary string with a different sense than the approved reading (Cordemex medicinal herb versus the approved theonym / Godstealer), **demote the tier** (H+L to C+L) and record the miss. Do **not** rewrite the gloss. *Ixchel* stays "the Godstealer (a Vaal citizen; later the Trialmaster)". The same pattern applies to any other row: a scoring miss changes the letter, not the English.
+
+Do not silently pick a tournament winner that replaces a committed gloss. Log losers in §10. Stars (C*) flag a logged competitor; they are not a rewrite.
+
+### Casual-reader front matter
+
+Write Overview, Status, and live §17 for a smart first-time reader (PoE fans and linguists), not for the lab that ran the tests.
+
+- Use plain headlines. Lead with what the check found, in ordinary words.
+- Define every technical term on first use (H, C, C*, S, L, 95% CI, match, partial, and the rest below).
+- Introduce each experiment **before** its numbers, in this order: **Question / What was done / Why it matters**. Then the result. Do not dump a rate onto a reader who has not been told what was asked.
+- Do not use unexplained stopgap / lab jargon in reader-facing prose (do not say "STOPGAP", "T-M / T-D" without spelling out method-notes / dictionaries-only, "Battery E" without saying the three proper names, "LOTO" without saying leave-one-text-out). Analysis logs may keep those codes.
+- Weak and null results stay weak and null. Do not inflate.
+
+### Three readings for ranges
+
+Where a result is a range, label **three readings of that same metric**:
+
+| Label | Meaning |
+|---|---|
+| Pessimistic | lower 95% bound, or a stricter counting rule |
+| Average | point estimate, without restating the interval |
+| Optimistic | upper 95% bound, or a looser counting rule |
+
+Show **both arms** when both exist (method-notes / dictionaries-only). Do not invent numbers outside the live experimental record. Do not bury the confidence interval inside Average and then partially restate only one arm's Optimistic (the Overview bug that treated ~9-11% exact-match points as the pessimistic of match-or-partial, then quoted only the method-notes 35.3% upper). Chance tests and the grammar panel are yes/no or single small-sample tests: say so, rather than faking three shares.
+
+Live examples that must stay coherent across Overview, §14, §17.1, and §17.5:
+
+- Hardened share, 78-row lexicon: pessimistic 0.7%; average 2 of 78 = 2.6% (*xefe*, *Quecholli*); optimistic 8.9%.
+- Match or partial, both arms: pessimistic 24.2% / 23.1%; average 29.4% / 28.2% (about 29%); optimistic 35.3% / 34.1%.
+- Secure: pessimistic and average 0 of 51 = 0.0%; optimistic 7.0%. Working: 14.0% / 23.5% / 36.8% (not "~37%").
+- Grammar: 3/3 vs 0/2, Fisher p = 0.10, not significant. Not a range. Possession is not locked.
+
+### Historical versus live
+
+Retracted displays live only in a labeled historical subsection (master **§17.10** style: "Earlier iterations (historical; not for interpretation)"). They are never current canon. That includes the withdrawn all-noise **10^-15** headlines, sigma columns, per-line confidence bands, PPV-as-translation-confidence tables, and larger hardened counts (22/62, 17/78 stopgap). Overview may point at §17.10. It must not reprint those figures as if they were live.
+
+Do not mix epochs. Re-run files (`NULL_MODEL_RESULTS_RERUN.md`, `SYNTAX_EXPERIMENT_LOG_RERUN.md`, the 2026-09-16 CSVs) are current. Older 2026-07 files stay on disk as history.
+
+### Tables over dense statistical prose
+
+Prefer markdown tables over dense inline statistics for Overview and other reader-facing statistical blocks. Overview already table-ifies hardened share (six bases), exact match, match or partial, line grades, and leave-one-text-out. Keep that shape. Term definitions stay in prose beside the tables, not only inside cells.
+
+### Table headings need a prose walkthrough
+
+A heading plus a table is not enough when the table is a map of ideas rather than a scoreboard. Walk through the rows in prose immediately before (and, if needed, after) the table. The model is **§17.7 Levels of dependence**: why the four nested levels exist, what each means for a reader, and how to read the last column as a handling rule rather than a score. Do not leave that table as table-alone. Apply the same treatment when rewriting similar conceptual tables.
+
+### Define scoring vocabulary on first use
+
+On first use in Overview, and again where line-level English is scored (§17.5), define in ordinary words:
+
+- **match**: independent translation that makes the same claim about the same people or events as the published English (wording may differ).
+- **partial**: the same claim with different wording, or a small mix-up of who did what.
+- **match or partial** (also written match+partial): those two grades added together.
+- **clash**: a different claim.
+- **abstain**: no English claim offered.
+- **secure**: every important (load-bearing) word on the line is hardened.
+- **working**: every important word is hardened or plain committed (no logged rival).
+- **fragile**: a rival or unresolved word sits on the line.
+- **ok**: in leave-one-text-out, the held-out English still holds from the other texts.
+- **ok or partial** (also written ok+partial): adds lines whose core is recoverable with a hole.
+
+Do not assume the reader already knows these from an analysis log.
+
+### No reviewer filenames in the master body
+
+Do not put sol56, other AI reviewer names, or agent filenames in `Vaal_Reconstruction.md`. Analysis logs and dated writeups may keep historical model refs (`analysis/CONSISTENCY_CORRECTIONS_2026-09-16.md` is the renamed home for that pass). Root README and reader-facing files follow the same ban.
+
+### PDF build and citation categories
+
+The PDF is a primary deliverable. After any master or builder change that should ship:
+
+1. Rebuild with the two-pass WeasyPrint TOC in `build_pdf.py`. Pass 1 records `page.anchors` page numbers; pass 2 substitutes those integers into `.toc-page` spans. Do **not** rely on CSS `target-counter` (it often prints 0 for TOC entries on this stack).
+2. §18 citation **category** lines are real `###` headings so they do not glue into the previous numbered entry. The eight category strings that must extract as standalone lines (not appended onto citation text) are:
+   - Primary Vaal text & game data
+   - Yucatec Maya
+   - Classical Nahuatl
+   - K'iche' / wider Mayan family
+   - Spanish / Romance
+   - Datamining tool
+   - Candidate source pools (exploratory; §13)
+   - Maya-language dictionary repository (source-of-sources; §10.9, §13)
+3. Rebuild **all three PDF paths** from the same master: repo-root `The_Vaal_Tongue.pdf`, `Vaal Translation/build/The_Vaal_Tongue.pdf`, and `PDF Building/The_Vaal_Tongue.pdf`. Builder scripts exist in both `Vaal Translation/build/` and `PDF Building/`; keep them in agreement. Recipe: `Vaal Translation/build/BUILD.md`.
+4. Verify TOC page numbers are real (not zeros) and that all eight category strings extract.
+
+Citations stay manually numbered 1 to 59. Do not switch §18 to an HTML ordered list (it would renumber and break in-text references).
+
+### Full master-to-PDF content verify
+
+Before calling a PDF done, verify that the PDF contains the master: all 18 section headings, the §9 lexicon, headline statistics, and citations through 59. Checker noise is not missing content. Known extract artifacts that do **not** fail the verify:
+
+- table row order in the text layer
+- hyphenation across line breaks
+- mermaid / SVG artwork (cover emblem, greca, glyph block) that does not appear as searchable text
+
+A real fail is missing a heading, a lexicon row, a live headline number, or a citation, or a category title glued onto the previous entry.
+
+### §10.12-14 style
+
+When those appendix subsections are rewritten, give them the same casual-reader treatment as Overview and live §17: plain headline first; Question / What was done / Why it matters; terms defined on first use; no lab-diary battery codes without expansion. Do not change the logged rivals, tournament winners, stars, or distinct-root N (52 / 55 / 69) while doing so.
+
+### Canonical path and copies
+
+Canonical master: **`Vaal Translation/Vaal_Reconstruction.md`**. Parent copy (`Vaal_Reconstruction.md` at repo root) must be byte-identical. PDF is generated from the canonical, never edited by hand. Prefer not to open a presentation-only PR that rewrites master translations. Root `README.md` is visitor orientation; `Vaal Translation/README.md` is maintenance; this file is agent rules.
+
+### Autonomy (reconciles present-first)
+
+Kenichi has ordered agreed Vaal scopes executed without a further approval wait: presentation, PDF rebuild, documentation, and stats display that does not change meanings. Proceed on those. Stop and ask for genuine meaning conflicts (a new etymology, a gloss rewrite, a sense change, promoting a token, picking a silent winner) or for a change of direction (new experiment, new corpus, dropping a hard rule). Conflicts with the rules in this file still stop the work.
+
 ## Imported Claude Cowork project instructions
+
