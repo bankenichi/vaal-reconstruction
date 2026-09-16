@@ -1,0 +1,131 @@
+id,string,found(Y/N),root,lang,gloss,confidence
+1,Guatelitzi,N,,,,none
+2,itzoli,Y,its,Yucatec Maya,"resin/milk/tear/sap (its), + tail",soft
+3,a'tsuks,Y,ts'uk,Yucatec Maya,"small portion/heap of paste or grains (ts'uk)",soft
+4,qextal,Y,kex,Yucatec Maya,"exchange/although (kex)",soft
+5,quxzeh,Y,kux,Yucatec Maya,"alive/living (kux) + keh deer",soft
+6,kutsen,Y,kuts,Yucatec Maya,"turkey (kuts)",soft
+7,mucada,N,,,,none
+8,xatlen,Y,xat,Yucatec Maya,"split/divide (xat)",soft
+9,Atziri,N,,,,none
+10,atzi,Y,ats'/atsah,Yucatec Maya,"pay/gratify (atsah); or ats' bran",soft
+11,kifba,Y,kib,Yucatec Maya,"wax/candle (kib); f=loan tail",soft
+12,cheyeb,Y,cheeb,Yucatec Maya,"strong/firm (cheeb)",soft
+13,ek,Y,ek',Yucatec Maya,"star; black (ek')",C
+14,Kextal,Y,kex,Yucatec Maya,"exchange/although (kex)",soft
+15,salapuat,N,,,,none
+16,arakani,Y,raqan,K'iche' Maya,"leg/foot/height (raqan)",soft
+17,cha'tsoke,Y,tsok/ts'ok,Yucatec Maya,"pull out/finish (tsok/ts'ok)",soft
+18,buxtla,Y,bux,Yucatec Maya,"gourd for tobacco (bux)",soft
+19,fuks,Y,puk,Yucatec Maya,"puksik'al heart-root puk; f=Spanish tail",soft
+20,xolo,Y,xolotl,Classical Nahuatl,"page/servant; monstrous twin (xolotl)",soft
+21,gyane,Y,yan,Yucatec Maya,"to be/have/exist (yan); g=loan tail",soft
+22,zoke,Y,sok'/tsok,Yucatec Maya,"itch/mange (sok'); or tsok pull",soft
+23,cutsak'el,Y,kuts,Yucatec Maya,"turkey (kuts) + -sak'/-el",soft
+24,ipkaachbe,Y,kaach,Yucatec Maya,"break/snap (kaach) + be road",soft
+25,Otsuks,Y,ots,Yucatec Maya,"shrink/contract (ots); or ts'uk",soft
+26,mucanti,Y,muk-a'n,Yucatec Maya,"buried/covered (muka'n)",C
+27,ti,Y,ti',Yucatec Maya,"to/at/in; prepositional-relational (ti')",C
+28,yane,Y,yan,Yucatec Maya,"to be/have/exist (yan)",C
+29,kilya,Y,kil,Yucatec Maya,"shake/rattle (kil)",soft
+30,elatotlene,N,,,,none
+31,pokali,Y,pok,Yucatec Maya,"wash; cook pots (pok)",soft
+32,ta'oxsala,Y,ox,Yucatec Maya,"three (ox) + sa' atole",soft
+33,kishare,Y,k'ix,Yucatec Maya,"thorn (k'ix)",soft
+34,ictep,Y,ik,Yucatec Maya,"chile (ik) + tep",soft
+35,donuk,N,,,,none
+36,ikbaquia,Y,bak,Yucatec Maya,"bone (bak); ik+bak",soft
+37,Ela,Y,el,Yucatec Maya,"burn (el); or eel",soft
+38,mucane,Y,muk-a'n,Yucatec Maya,"buried/covered (muka'n)",soft
+39,ik'ec,Y,ik',Yucatec Maya,"wind/breath/spirit (ik')",C
+40,nochitzira,Y,nochi,Classical Nahuatl,"all; also nochtli prickly-pear (noch)",soft
+41,itzi,Y,its,Yucatec Maya,"resin/sap/milk/tear (its)",C
+42,kutsok,Y,kuts,Yucatec Maya,"turkey (kuts) + tsok",soft
+43,xomaliti,N,,,,none
+44,tate,Y,tata,Nawat/Pipil,"father (tata)",C
+45,tatlen,Y,tahtli,Classical Nahuatl,"father (tahtli/tata)",soft
+46,malat,Y,mal,Yucatec Maya,"blunt/harden; soften (mal)",soft
+47,kual,Y,kualli,Classical Nahuatl,"good (kualli)",C
+48,mujuk',Y,muuk,Yucatec Maya,"strength/power (muuk')",soft
+49,pokan'uks,Y,pok-a'n,Yucatec Maya,"washed (poka'n)",soft
+50,ukutla,Y,uk',Yucatec Maya,"drink (uk'); uk'ul",soft
+51,doriekto,N,,,,none
+52,itzlat,Y,its,Yucatec Maya,"resin/sap (its) + lat",soft
+53,huatl,Y,-atl,Classical Nahuatl,"water (atl); absolutive -tl",soft
+54,chikuxec,Y,chik,Yucatec Maya,"stir/agitate (chik); or kux alive",soft
+55,nochitse,Y,nochi,Classical Nahuatl,"all (nochi); noch cactus",soft
+56,ik'iin,Y,k'iin,Yucatec Maya,"sun/day/midday (k'iin); ik'+k'iin",C
+57,puya,Y,puy,Yucatec Maya,"crumble/grind underfoot (puy)",soft
+58,Maax,Y,maax,Yucatec Maya,"spider monkey; simian (maax)",C
+59,tlayeb,Y,tlayohua,Classical Nahuatl,"it gets dark/night (tla-)",soft
+60,yucadona,Y,yuk,Yucatec Maya,"mountain goat/brocket (yuk)",soft
+61,ukuur,N,,,,none
+62,nocheyeb,Y,noch,Classical Nahuatl,"noch cactus/all + cheeb",soft
+63,til,Y,til,Yucatec Maya,"property/one's own (til/tilil)",soft
+64,maaka,Y,maak,Yucatec Maya,"cover/lid; close (mak)",soft
+65,ate'mo,Y,temo,Classical Nahuatl,"descend (temo/temu)",soft
+66,puatzoc,Y,tsok/ts'ok,Yucatec Maya,"finish/pull out (tsok) + puat",soft
+67,sa'oxe,Y,sa',Yucatec Maya,"atole (sa') + ox three",soft
+68,ucan'uks,Y,uk',Yucatec Maya,"drink (uk'); uk-an",soft
+69,kiina,Y,k'iin,Yucatec Maya,"sun/day (k'iin)",C
+70,jani,Y,janipa,K'iche' Maya,"how much/many (janipa)",soft
+71,iche,Y,ich,Yucatec Maya,"face/eye; inside (ich)",C
+72,pilja,Y,pil,Yucatec Maya,"hang/dangle (pil)",soft
+73,jara,N,,,,none
+74,ik'el,Y,ik',Yucatec Maya,"wind/breath/spirit (ik') + -el",C
+75,tatl,Y,tahtli,Classical Nahuatl,"father (tahtli)",soft
+76,xomala,N,,,,none
+77,naal,Y,naal,Yucatec Maya,"maternal surname (naal); or nal shield",soft
+78,guat,N,,,,none
+79,zahk,Y,sahk,Yucatec Maya,"white cave-earth (sahkab); sak white",soft
+80,xech,Y,xech,Yucatec Maya,"patent/manifest/visible (xech)",soft
+81,eztl,Y,es-/eztli,Nawat/Pipil,"blood (es-yu / eztli)",C
+82,pilo,Y,pil,Yucatec Maya,"hang/dangle (pil)",soft
+83,pokal,Y,pok,Yucatec Maya,"wash; cook pots (pok)",soft
+84,a'tse,Y,atsah,Yucatec Maya,"pay (atsah); or ats' bran",soft
+85,itsok,Y,its,Yucatec Maya,"resin/sap (its) + tsok",soft
+86,uktul,Y,uk',Yucatec Maya,"drink (uk') + tul",soft
+87,qextlatl,Y,kex,Yucatec Maya,"exchange (kex) + Nahuatl -tlatl",soft
+88,xoli,Y,xol,Yucatec Maya,"staff/cane/walking stick (xol)",soft
+89,jare,N,,,,none
+90,azcan'tsa,N,,,,none
+91,tizolo,Y,tsol,Yucatec Maya,"arrange in a row/order (tsol)",soft
+92,ikujukuur,N,,,,none
+93,ko'ja,Y,koj,Yucatec Maya,"tooth; lion (koh)",soft
+94,cheye,Y,cheeb,Yucatec Maya,"strong/firm (cheeb)",soft
+95,tzil,Y,tsil,Yucatec Maya,"tear/rip; also terror (tsil)",soft
+96,naach,Y,nach,Yucatec Maya,"far/distant (nach)",C
+97,puat,N,,,,none
+98,noche,Y,nochi,Classical Nahuatl,"all (nochi); noch cactus",soft
+99,tatan,Y,tata,Nawat/Pipil,"father (tata) reduplicated",soft
+100,kori,N,,,,none
+101,elba,Y,el,Yucatec Maya,"burn (el) + ba",soft
+102,itzla,Y,its,Yucatec Maya,"resin/sap (its) + la",soft
+103,u'tsokanti,Y,tsok/ts'ok,Yucatec Maya,"finish (ts'ok) + -anti",soft
+104,kahk,Y,k'aak',Yucatec Maya,"fire (k'aak')",C
+105,itzolotl,Y,tsol,Yucatec Maya,"arrange in row (tsol); its+tsol; Nah -tl",soft
+106,Eztli,Y,eztli,Classical Nahuatl,"blood (eztli / es-)",C
+107,tali,Y,tal,Yucatec Maya,"come (tal)",soft
+108,kuetzla,Y,ketsal,Yucatec Maya,"quetzal (ketsal, from Nahuatl quetzal)",soft
+109,sakilja,Y,sak,Yucatec Maya,"white (sak) + -il",soft
+110,kutsuks,Y,kuts,Yucatec Maya,"turkey (kuts) + suks",soft
+111,ikba,Y,ik,Yucatec Maya,"chile/wind (ik) + ba",soft
+112,pochiti,Y,poch,Yucatec Maya,"poch (root, pochil); Nahuatl -ti",soft
+113,xomal,N,,,,none
+114,qexcan,Y,kan,Yucatec Maya,"snake/serpent (kan); kex+kan",soft
+115,buxe,Y,bux,Yucatec Maya,"gourd for tobacco (bux)",soft
+116,xicheyeb,Y,cheeb,Yucatec Maya,"strong/firm (cheeb) + xi-",soft
+117,noch,Y,noch,Classical Nahuatl,"nochtli cactus-fruit; nochi all",soft
+118,kamal,Y,kam,Yucatec Maya,"receive/learn (kam)",soft
+119,kaateli,Y,kaat,Yucatec Maya,"basin/tub (kat)",soft
+120,kextl,Y,kex,Yucatec Maya,"exchange (kex) + Nahuatl -tl",soft
+121,ta'nuk,Y,tan,Yucatec Maya,"front/east (tan); or nuk big",soft
+122,Kuxkal,Y,kux,Yucatec Maya,"alive/living (kux) + kal",soft
+123,uche,Y,uch,Yucatec Maya,"long ago/anciently (uch)",soft
+124,quxato,Y,kux,Yucatec Maya,"alive/living (kux)",soft
+125,chitzokala,Y,tsok/ts'ok,Yucatec Maya,"finish/pull (tsok)",soft
+126,tan'tul,Y,tan,Yucatec Maya,"front/east (tan) + tul",soft
+127,te'mo,Y,temo,Classical Nahuatl,"descend (temo/temu)",soft
+128,kaach,Y,kaach,Yucatec Maya,"break/snap (kaach)",C
+129,tala,Y,tal,Yucatec Maya,"come (tal)",soft
+130,yuche,N,,,,none

@@ -1,0 +1,16 @@
+id,token,best_root,best_lang,best_gloss,best_strength,alt_root_difflang,alt_lang,alt_gloss,alt_strength
+31,kujkuali,kuali/kualli (reduplicated),Classical Nahuatl,good; well,strong,ye:k,Nawat/Pipil,good,weak
+32,kutsen,kotz'i'j,K'iche' Maya,flower; candle,strong,kuts,Yucatec Maya,turkey hen (pava),weak
+33,k'ux (quxzeh),k'ux,Yucatec Maya,to bite/gnaw/chew; ache (k'ux ol = heartache),strong,muq'/muk',K'iche' Maya,to grind crunchy with teeth,weak
+34,ma,ma',Yucatec Maya,no; not (negation particle),strong,ma,Classical Nahuatl,optative/hortative particle (let/may),strong
+35,máax,maax/max,Yucatec Maya,who? (interrogative),strong,none,none,none,none
+36,mucane,muq/muqik,K'iche' Maya,to bury; to hide,strong,muk/mukul,Yucatec Maya,to bury; hidden/secret,strong
+37,mujuk',muk',Yucatec Maya,strength; force; effort,weak,none,none,none,none
+38,náach (niáach),nach/naach,Yucatec Maya,far; distant (lejos),strong,none,none,none,none
+39,nochira,nochi,Classical Nahuatl,all; everything; whole,strong,nuchi/muchi,Nawat/Pipil,all,weak
+40,pochiti,puchini,Nawat/Pipil,it bursts/frays/ravels,strong,poctli/popoca,Classical Nahuatl,smoke; it smokes,weak
+41,qexcan,k'ex,K'iche' Maya,to change; exchange; substitute,strong,kex,Yucatec Maya,exchange; although,weak
+42,sakilja,saqil,K'iche' Maya,whiteness; light (+ ja' water),strong,sak,Yucatec Maya,white,strong
+43,ta'nuk,ta'an/taan,Yucatec Maya,lime; ash (cal/ceniza),strong,-tan,Nawat/Pipil,tooth; edge; blade,weak
+44,tala,ta:l,Nawat/Pipil,earth; land; ground,strong,tal/taal,Yucatec Maya,to come,strong
+45,te,te',Yucatec Maya,tree; wood,strong,tetl,Classical Nahuatl,stone,strong

@@ -1,0 +1,62 @@
+id,token,current_source,gloss,current_conf
+1,Aiokmo,Nah. aocmo[10],"no more, no longer",C
+2,akal,"Maya akal ""pond""[7]",still / eternal waters,C
+3,anab,Classic Maya anaab[7],"court-servant, attendant",C
+4,ascensionada / ascenada,Rom. ascensión + -ada[21],"ascended, risen",C
+5,A'te / U'Te / Yatle,Maya at / yan presentative[7],behold / here is / there stands,C+L
+6,atla,"Nah. atl ""water"" (+ -tlan ""in/at"")[10]",the water / upon the water,C
+7,Atziri,"Nah. ātl ""water"" + rev. -tzin[10,13]",the queen (name),C+L
+8,'Ayok,Nah. aocmo / ayoc[10],"no more, no longer",C
+9,cha'tsoke,"Maya ka'a ""again"" + ts'ook ""end""[7]",the ending once more,C
+10,che',"Maya che' ""tree, wood""[7][36]","tree, wood",C
+11,ek,Maya ek'[7],star; also black / dark,C
+12,Ela,"Maya el / elel ""to burn""[7][36]","burns, it burns",C
+13,elba,"Maya el + ba' ""self""[7]","burn out, extinguish",C
+14,-en,Maya -en / teen[7],"me, I",C
+15,Eztli Pilli,"Nah. eztli ""blood"" + pilli ""noble, prince""[10]","""the Blood Prince"" (a forbidden Vaal tome)",C+L
+16,Guatelitzi,(name)[38],the Architect of Flesh (a Vaal architect of the Temple of Atzoatl),C+L
+17,'Ibil,"Maya il ""see"" + -bil[7]",the seen → the flesh (laid bare),C+L
+18,ich,Maya ich(il)[7],"in, within",C
+19,i'chian,"Nah. ichan ""his/her home"" (chantli ""home"" + i-)[10,22]","the dwelling, her house",C
+20,ik'bala,Maya ik' + ba'[7],"spirit-self, soul",C
+21,ikba'yucane,Maya ik' + ba' + -ane hon.[7],the deathless-spirited ones,C
+22,Ik'eche,"Maya ik' ""spirit/breath"" + -ech ""you"" + -e voc.[7]","""O spirit / thou art breath""",C
+23,ik'el,Maya ik' + -el[7],"the spirit, the unseen",C+L
+24,itsok / itzil,"Maya iitz ""sap, essence""[7]","blood, essence",C+L
+25,jare,"K'iche' are' ""he, she, it; it is, that is"" (focus) / ri ""the""[47]","connective: ""thus, and so""",C
+26,k'áak' (kahk),"Maya k'áak' ""fire""[7][36]",fire,C
+27,Kextal,"Maya k'ex ""substitution → transform""[7]","transformation, ritual renewal",C
+28,ki' (Kí'),Maya ki'[7],"good, delicious, sweet",C
+29,kifba,"Maya k'i'ik' ""blood"" + ba'[7]","the heart, lifeblood",C+L
+30,kilya,"Nah. quil- ""green, verdant"" + inchoative -ya ""to come to be""[49]; in Text 1 fronted by optative mā (see ma)","evergreen, everlasting (contextual ""undying"")",C+L
+31,kujkuali,Nah. cualli[10],"good, worthy",C+L
+32,kutsen,"Maya kutz ""sacrificial bird""[7]",the offering,C+L
+33,k'ux (quxzeh),"Maya k'ux ""to bite, gnaw; rancor""[7][36]","bite!, be fierce",C
+34,ma,"Nah. mā / Maya ma'[7,10]","optative ""may""; negation ""not""",C
+35,máax,"Yucatec máax ""who?""[7]",who (interrogative),C
+36,mucane,"Maya muk' ""strength"" + -ane[7]","the mighty, the enduring",C
+37,mujuk',"Maya muk' ""strength, force""[7]","strength, might",C
+38,náach (niáach),Maya náach[7],"far, distant",C
+39,nochira,Nah. nochi / mochi[10],"all, everything",C
+40,pochiti,"Maya poch ""hungry, gluttonous""[8] + Nah. inchoative -ti[14]",the Hungering One (Atziri's name for the Beast),C+L
+41,qexcan,"Maya k'ex ""transform"" + -can (Nah. locative ""place of"")[7,10]",place of transformation,C+L
+42,sakilja,"Maya sak ""white, pure"" + ha' ""water""[7]",the sacred white draught,C+L
+43,ta'nuk,"Maya nuk / nojoch ""big, great""[7]",the great one,C
+44,tala,"Maya taal ""to come""[7][36]","come, comes",C
+45,te,Maya ti' / te'[7],of / to (relational),C
+46,Teoyuxtlane,"Nah. teōtl ""god"" + Yux (Yutsal) + -tlān ""place"" + voc. -e[10,13]",place of divine Utzaal,C
+47,Ti,Maya ti'[7],to / for you (dative),C
+48,til,Maya til[7],"to burn, kindle",C
+49,tlapec / yotlapek,"Nah. tlapechtli ""platform, scaffold, altar-bed""[10]",the (sacrificial) altar-platform,C+L
+50,tlayeb,"Nah. tla- + tlayohua ""night""[10]",the (sacred) dark,C+L
+51,tul,"Maya tul ""decline""[7]","wane, dwindle",C
+52,u,Maya u- (Set A 3rd person)[7],"his, her, its; the",C
+53,uch' / pu uch',"Maya uk' ""to drink"", or puuch' ""to crush""[7]",drink / crush,C
+54,u'tra,Rom. Spanish otra[21],another,C
+55,Vaal,(name)[5],"the people, the empire",C+L
+56,waaj (waja),Maya waaj[7],bread; altar-offering,C+L
+57,xefe,Rom. Spanish jefe (archaic xefe)[21],"chief, commander",C
+58,xi,Nah. xi-[10],"imperative ""do! / make!""",C
+59,xu'te,"Maya xul ""end"" + te'[7]",the end,C
+60,Yutsal / yutsal,"Yucatec y- (3 poss) + uts ""good"" + -al; attested as yutsal ""(its) goodness, all-good"" (Cordemex)[51]",the good (place); Utzaal,C+L
+61,Zerphi,(name)[5],unaging Vaal noble,C

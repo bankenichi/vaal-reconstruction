@@ -1,0 +1,66 @@
+id,token,gate1_strict,gate2_adversarial,tier
+1,Aiokmo,fail,survive,C
+2,akal,pass,survive,H
+3,anab,fail,survive,C
+4,ascensionada / ascenada,pass,survive,H
+5,A'te / U'Te / Yatle,fail,fall,C*
+6,atla,fail,survive,C
+7,Atziri,fail,survive,C
+8,'Ayok,fail,survive,C
+9,cha'tsoke,fail,survive,C
+10,che',pass,survive,H
+11,ek,pass,survive,H
+12,Ela,soft,survive,C
+13,elba,fail,survive,C
+14,-en,pass,survive,H
+15,Eztli Pilli,pass,survive,H
+16,Guatelitzi,fail,survive,C
+17,'Ibil,soft,survive,C
+18,ich,pass,survive,H
+19,i'chian,fail,survive,C
+20,ik'bala,fail,survive,C
+21,ikba'yucane,fail,survive,C
+22,Ik'eche,fail,survive,C
+23,ik'el,fail,survive,C
+24,itsok / itzil,fail,fall,C*
+25,jare,fail,survive,C
+26,k'áak' (kahk),pass,survive,H
+27,Kextal,fail,survive,C
+28,ki' (Kí'),pass,survive,H
+29,kifba,fail,survive,C
+30,kilya,fail,survive,C
+31,kujkuali,pass,survive,H
+32,kutsen,soft,fall,C*
+33,k'ux (quxzeh),pass,survive,H
+34,ma,pass,survive,H
+35,máax,pass,survive,H
+36,mucane,soft,fall,C*
+37,mujuk',fail,survive,C
+38,náach (niáach),pass,survive,H
+39,nochira,fail,survive,C
+40,pochiti,fail,fall,C*
+41,qexcan,soft,survive,C
+42,sakilja,soft,survive,C
+43,ta'nuk,fail,survive,C
+44,tala,soft,fall,C*
+45,te,pass,fall,C*
+46,Teoyuxtlane,fail,survive,C
+47,Ti,pass,survive,H
+48,til,fail,survive,C
+49,tlapec / yotlapek,soft,survive,C
+50,tlayeb,fail,survive,C
+51,tul,pass,survive,H
+52,u,pass,survive,H
+53,uch' / pu uch',pass,survive,H
+54,u'tra,fail,survive,C
+55,Vaal,fail,survive,C
+56,waaj (waja),pass,survive,H
+57,xefe,pass,survive,H
+58,xi,pass,survive,H
+59,xu'te,fail,survive,C
+60,Yutsal / yutsal,soft,survive,C
+61,Zerphi,fail,survive,C
+62,pul / puul,pass,survive,H
+63,Quecholli,pass,survive,H
+64,Panquetzaliztli,pass,survive,H
+65,Ixchel,pass,survive,H

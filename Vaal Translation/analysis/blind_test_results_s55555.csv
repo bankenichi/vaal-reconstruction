@@ -1,0 +1,131 @@
+id,string,found(Y/N),root,lang,gloss,confidence
+1,tzakaal,Y,TS'AK,Yucatec Maya,medicine/cure,C
+2,pochbe,Y,poch(otl)+be,Nahuatl+Maya,incense/smoke + road (path of smoke),soft
+3,motsa,N,,,,none
+4,mektoti,Y,MEK'(TAH),Yucatec Maya,to embrace/hold,soft
+5,ketzolo,Y,KETSAL,Yucatec Maya,quetzal,soft
+6,aioka,N,,,,none
+7,tzul,Y,TS'UL,Yucatec Maya,foreigner/Spaniard/dog,C
+8,litziri,N,,,,none
+9,ahuat,Y,ahuatl,Nahuatl,thorn/oak,soft
+10,guatzi,N,,,,none
+11,mujuk',N,,,,none
+12,elba,Y,EL(EL),Yucatec Maya,to burn,soft
+13,telina,Y,TEEL,Yucatec Maya,leg/shin,soft
+14,a'tsene,N,,,,none
+15,ik'ecwa,Y,IK',Yucatec Maya,wind/breath/air,soft
+16,mapla,N,,,,none
+17,quatle,Y,cua(itl),Nahuatl,head,soft
+18,quia,N,,,,none
+19,chara,N,,,,none
+20,kuema,N,,,,none
+21,a'tsokmotl,N,,,,none
+22,echitil,N,,,,none
+23,jare,N,,,,none
+24,Guatelitzi,N,,,,none
+25,mapokaal,N,,,,none
+26,cotlota,N,,,,none
+27,zakaaka,Y,SAK,Yucatec Maya,white/dawn,soft
+28,soxtani,N,,,,none
+29,ikuli,N,,,,none
+30,kujukua,N,,,,none
+31,quxzeh,Y,K'UX,Yucatec Maya,to gnaw/eat/hurt,soft
+32,Ela,Y,EL(EL),Yucatec Maya,to burn,C
+33,fukul,N,,,,none
+34,teoyuquat,Y,teo(tl),Nahuatl,god/divine,soft
+35,chbe,Y,BE,Yucatec Maya,road/path,soft
+36,puyana,Y,PUY,Yucatec Maya,to crush/grind,soft
+37,atzul,Y,TS'UL,Yucatec Maya,foreigner/dog (a-prefix),soft
+38,Eztli,Y,eztli,Nahuatl,blood,C
+39,guat,N,,,,none
+40,kuxkane,Y,KUX(TAL),Yucatec Maya,life/to live,soft
+41,kahk,Y,k'aak',Yucatec Maya,fire,C
+42,elayelatl,Y,EL(EL),Yucatec Maya,to burn,soft
+43,puxtli,Y,PUXTAL,Yucatec Maya,to bend/crumble,soft
+44,ek,Y,EK',Yucatec Maya,star,C
+45,tala,Y,TAL,Yucatec Maya,to come/arrive,soft
+46,itsok,N,,,,none
+47,tzolitziri,Y,TS'OL,Yucatec Maya,to explain/order,soft
+48,mapokal,N,,,,none
+49,akiimek,Y,MEK'(TAH),Yucatec Maya,to embrace,soft
+50,kaaka,Y,k'aak',Yucatec Maya,fire,soft
+51,yane,Y,YAN,Yucatec Maya,to be/exist/have,soft
+52,ecwa,N,,,,none
+53,gyane,Y,YAN,Yucatec Maya,to be/exist/have,soft
+54,puxtle,Y,PUXTAL,Yucatec Maya,to bend/crumble,soft
+55,jara,N,,,,none
+56,atzahk,Y,TS'AK,Yucatec Maya,medicine/cure,soft
+57,mucane,Y,KUX(TAL)/KAN,Yucatec Maya,to live / to learn,soft
+58,azcada,N,,,,none
+59,much,Y,mochi,Nahuatl,all,C
+60,atzoatzil,Y,atzoatl,Nahuatl,dirty water,soft
+61,xomal,N,,,,none
+62,kilya,Y,KIL,Yucatec Maya,to shake/overflow,soft
+63,yutse,Y,UTS,Yucatec Maya,good,soft
+64,buxka,N,,,,none
+65,puxti,Y,PUXTAL,Yucatec Maya,to bend/crumble,soft
+66,ahua,Y,ahuatl,Nahuatl,thorn/oak,soft
+67,ko'ja,Y,KOH,Yucatec Maya,lion/puma,soft
+68,Otsuks,N,,,,none
+69,moxsa'oxe,N,,,,none
+70,noch,Y,noch(tli),Nahuatl,prickly-pear fruit/tuna,soft
+71,naaxibalin,Y,NAACH,Yucatec Maya,far/distant,soft
+72,taax,Y,TAX,Yucatec Maya,flat/horizontal,C
+73,kifba,N,,,,none
+74,kutsoke,Y,KUTS,Yucatec Maya,turkey,soft
+75,xichik,Y,XICH',Yucatec Maya,sinew/tendon,soft
+76,zeli,N,,,,none
+77,aiona,N,,,,none
+78,ikbaquxa,N,,,,none
+79,mapoche,N,,,,none
+80,pochiti,Y,poch(tli),Nahuatl,incense/smoke,soft
+81,cha'tsoke,N,,,,none
+82,gyao,N,,,,none
+83,mujkula,Y,KUL(TAL),Yucatec Maya,to sit/dwell,soft
+84,azcaniba,N,,,,none
+85,pilyane,Y,pil(li)+YAN,Nahuatl+Maya,child + to be,soft
+86,ka'tsoxta,N,,,,none
+87,kujkuxe,Y,KUX(TAL),Yucatec Maya,life/to live,soft
+88,puxa,Y,PUXTAL,Yucatec Maya,to bend/crumble,soft
+89,ikuxa,Y,KUX(TAL),Yucatec Maya,life/to live,soft
+90,ti,Y,TI',Yucatec Maya,to/at (preposition),C
+91,xillinab,Y,NAB,Yucatec Maya,palm/handspan,soft
+92,tato,Y,tah(tli)/tata,Nahuatl,father,soft
+93,koryao,N,,,,none
+94,ikba,N,,,,none
+95,kiimek,Y,MEK'(TAH),Yucatec Maya,to embrace,soft
+96,tatl,Y,ta(htli),Nahuatl,father,soft
+97,eztla,Y,eztli,Nahuatl,blood,soft
+98,azcan,N,,,,none
+99,buxe,N,,,,none
+100,qexcan,Y,K'EX,Yucatec Maya,to exchange/trade,soft
+101,xechitzul,Y,XECH,Yucatec Maya,visible/manifest,soft
+102,xoli,Y,XOL,Yucatec Maya,staff/cane,soft
+103,cotaala,N,,,,none
+104,Maax,Y,MAAX,Yucatec Maya,spider monkey / who,soft
+105,Kuxkal,Y,KUX(TAL),Yucatec Maya,life/to live,soft
+106,kuatzi,N,,,,none
+107,tlax,Y,tlax(calli)/tlal,Nahuatl,tortilla/land,soft
+108,aiokal,N,,,,none
+109,tetzi,Y,tetl,Nahuatl,stone,soft
+110,tizoli,Y,TS'OL,Yucatec Maya,to explain/order,soft
+111,kuur,N,,,,none
+112,Kextal,Y,K'EX,Yucatec Maya,to exchange/trade,soft
+113,ik'el,Y,IK',Yucatec Maya,wind/breath/air,soft
+114,zahk,Y,TS'AK,Yucatec Maya,medicine/cure,soft
+115,kutsen,Y,KUTS,Yucatec Maya,turkey,soft
+116,u'tsokexti,N,,,,none
+117,sakilja,Y,SAK(IL),Yucatec Maya,whiteness/dawn,soft
+118,tlayeb,Y,tla-,Nahuatl,thing/land (tla- prefix),soft
+119,tizoat,Y,TS'OL,Yucatec Maya,to explain/order,soft
+120,donuktul,N,,,,none
+121,an'uks,N,,,,none
+122,Atziri,N,,,,none
+123,kujuks,N,,,,none
+124,ta'nuk,Y,NUK,Yucatec Maya,big/to answer,soft
+125,ikbaqual,N,,,,none
+126,doryao,N,,,,none
+127,naach,Y,NAACH,Yucatec Maya,far/distant,C
+128,til,Y,TIL,Yucatec Maya,to turn face-up/kindle,soft
+129,atli,Y,a(tl),Nahuatl,water,soft
+130,pokmo,Y,POK,Yucatec Maya,to wash/roast,soft

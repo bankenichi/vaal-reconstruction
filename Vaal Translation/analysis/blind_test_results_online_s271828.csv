@@ -1,0 +1,131 @@
+id,string,found(Y/N),root,lang,gloss,confidence
+1,Guatelitzi,Y,itztli,Classical Nahuatl,"guat- (unclear tail) + itztli 'obsidian'; -itzi = itz(tli)",soft
+2,itzoli,Y,itztli,Classical Nahuatl,"itz- 'obsidian' + tail; itzo ~ itz(tli)",soft
+3,a'tsuks,N,,,,N
+4,qextal,Y,k'eex,Yucatec Maya,"k'eex 'to exchange/change' (q- for k'); -tal Maya intransitivizer",soft
+5,quxzeh,Y,kux,Yucatec Maya,"kux- 'alive/life' (kuxtal); qux ~ kux",soft
+6,kutsen,Y,kuuts,Yucatec Maya,"kuuts 'wild turkey' + tail",soft
+7,mucada,Y,muuk,Yucatec Maya,"muuk 'to bury' (muk-) + tail",soft
+8,xatlen,N,,,,N
+9,Atziri,N,,,,N
+10,atzi,N,,,,N
+11,kifba,N,,,,N
+12,cheyeb,Y,che',Yucatec Maya,"che' 'tree/wood' + -yeb tail",soft
+13,ek,Y,eek',Yucatec Maya,"eek' 'star' (also ek' 'black')",C
+14,Kextal,Y,k'eex,Yucatec Maya,"k'eex 'to exchange/change' + -tal intransitivizer",soft
+15,salapuat,N,,,,N
+16,arakani,Y,awaj,K'iche' Maya,"awaj 'beast/animal' (arak- ~ awaj) + tail",soft
+17,cha'tsoke,N,,,,N
+18,buxtla,N,,,,N
+19,fuks,N,,,,N
+20,xolo,Y,xolotl,Classical Nahuatl,"xolo(tl) 'page/young servant; dog'",C
+21,gyane,N,,,,N
+22,zoke,N,,,,N
+23,cutsak'el,Y,kuuts,Yucatec Maya,"kuuts 'turkey' (kuts-) + Maya tail; soft",soft
+24,ipkaachbe,Y,kaah,Yucatec Maya,"-kaach- ~ kaah 'town'; segmentation ip-kaach-be, weak",soft
+25,Otsuks,N,,,,N
+26,mucanti,Y,muuk,Yucatec Maya,"muuk 'to bury' (muk-/muc-) + -an-ti tail",soft
+27,ti,Y,ti',Yucatec Maya,"ti' 'to/at/in' (preposition)",C
+28,yane,N,,,,N
+29,kilya,Y,kil,Yucatec Maya,"kil 'to tremble/shake' (kilba) + tail",soft
+30,elatotlene,Y,elel,Yucatec Maya,"el- 'to burn' (elel) + Nahuatl-ish tail; graft, weak",soft
+31,pokali,Y,pook,Yucatec Maya,"pook 'to roast/toast' + -al tail",soft
+32,ta'oxsala,N,,,,N
+33,kishare,N,,,,N
+34,ictep,N,,,,N
+35,donuk,N,,,,N
+36,ikbaquia,N,,,,N
+37,Ela,Y,elel,Yucatec Maya,"el- 'to burn' (elel)",soft
+38,mucane,Y,muuk,Yucatec Maya,"muuk 'to bury' (muc-/muk-) + tail",soft
+39,ik'ec,Y,eek',Yucatec Maya,"ik'/ek' 'black/star' (ik'ek ~ ek')",soft
+40,nochitzira,Y,nochtli,Classical Nahuatl,"noch- 'prickly pear/tuna' (nochtli) + tail",soft
+41,itzi,Y,itztli,Classical Nahuatl,"itz- 'obsidian' (itztli)",soft
+42,kutsok,Y,kuuts,Yucatec Maya,"kuuts 'turkey' (kuts-) + tail",soft
+43,xomaliti,Y,comalli,Classical Nahuatl,"xomal- ~ comalli/kumal 'griddle/comal' + tail",soft
+44,tate,Y,tata,Classical Nahuatl,"tata 'father'",C
+45,tatlen,Y,tata,Classical Nahuatl,"tat- 'father' (tata/tahtli) + tail; soft",soft
+46,malat,N,,,,N
+47,kual,Y,cualli,Classical Nahuatl,"kual ~ cualli 'good'",C
+48,mujuk',N,,,,N
+49,pokan'uks,Y,pook,Yucatec Maya,"pook 'roast/toast' (pok-) + tail",soft
+50,ukutla,Y,ocotl,Classical Nahuatl,"uku- 'pine/ocote' (ocotl / Nawat uku-t)",soft
+51,doriekto,N,,,,N
+52,itzlat,Y,itztli,Classical Nahuatl,"itz- 'obsidian' (itztli) + -lat tail",soft
+53,huatl,N,,,,N
+54,chikuxec,Y,kux,Yucatec Maya,"-kux- 'alive' (kuxtal); chi-kux-ec, weak",soft
+55,nochitse,Y,nochtli,Classical Nahuatl,"noch- 'prickly pear' (nochtli) + tail",soft
+56,ik'iin,Y,k'iin,Yucatec Maya,"k'iin 'sun/day' (ik'iin ~ i-k'iin)",soft
+57,puya,N,,,,N
+58,Maax,Y,ma'ax,Yucatec Maya,"ma'ax 'monkey'; also maax 'who?'",C
+59,tlayeb,Y,tlayoa,Classical Nahuatl,"tlay- 'be night' (tlayoa) + tail; soft",soft
+60,yucadona,N,,,,N
+61,ukuur,Y,ocotl,Classical Nahuatl,"uku- 'pine/ocote' (ocotl/uku-t) + tail",soft
+62,nocheyeb,Y,nochtli,Classical Nahuatl,"noch- 'prickly pear' (nochtli) + -eyeb tail",soft
+63,til,Y,til,Yucatec Maya,"til (in ba til 'granizo'; til attested element)",soft
+64,maaka,Y,maka',Yucatec Maya,"maka' 'to close/shut' (maka'an); also maka 'to choose'",C
+65,ate'mo,Y,temo,Nawat,"a(tl) 'water' + temo 'to descend' (Nawat temu); graft",soft
+66,puatzoc,N,,,,N
+67,sa'oxe,N,,,,N
+68,ucan'uks,N,,,,N
+69,kiina,Y,k'iin,Yucatec Maya,"k'iin 'sun/day' (kiin-)",C
+70,jani,Y,hanal,Yucatec Maya,"han- 'to eat' (hanal); j- for h-",soft
+71,iche,Y,ich,Yucatec Maya,"ich 'eye/face'",soft
+72,pilja,N,,,,N
+73,jara,N,,,,N
+74,ik'el,Y,eek',Yucatec Maya,"ik'/ek' 'black/star' (ik'-el)",soft
+75,tatl,Y,tata,Classical Nahuatl,"tat- 'father' (tata/tahtli); or Nahuatl -tl absolutive tail",soft
+76,xomala,Y,comalli,Classical Nahuatl,"xomal ~ comalli/kumal 'griddle/comal'",soft
+77,naal,Y,naal,Yucatec Maya,"naal 'corncob; maternal surname'",C
+78,guat,N,,,,N
+79,zahk,Y,sahkil,Yucatec Maya,"sahk- 'fear' (sahkil); zahk ~ sahk",soft
+80,xech,Y,xech,Yucatec Maya,"xech 'visible/manifest/patent'",C
+81,eztl,Y,eztli,Classical Nahuatl,"ez- 'blood' (eztli / Nawat es-ti) + -tl absolutive",C
+82,pilo,N,,,,N
+83,pokal,Y,pook,Yucatec Maya,"pook 'to roast/toast' (pok-) + -al",soft
+84,a'tse,N,,,,N
+85,itsok,Y,itztli,Classical Nahuatl,"itz- 'obsidian' (itztli); its- ~ itz",soft
+86,uktul,Y,ocotl,Classical Nahuatl,"uku- 'pine/ocote' (uku-t/ocotl) + tail; or Maya tul classifier",soft
+87,qextlatl,Y,k'eex,Yucatec Maya,"k'eex 'exchange' (qex-) + Nahuatl -tlatl tail; graft",soft
+88,xoli,Y,xolotl,Classical Nahuatl,"xolo(tl) 'page/servant; dog' (xol-)",soft
+89,jare,N,,,,N
+90,azcan'tsa,N,,,,N
+91,tizolo,N,,,,N
+92,ikujukuur,Y,ocotl,Classical Nahuatl,"-ukuur ~ uku- 'pine/ocote'; segmentation weak",soft
+93,ko'ja,N,,,,N
+94,cheye,Y,che',Yucatec Maya,"che' 'tree/wood' (che-ye)",soft
+95,tzil,N,,,,N
+96,naach,Y,naach,Yucatec Maya,"naach 'far/distant'",C
+97,puat,N,,,,N
+98,noche,Y,nochtli,Classical Nahuatl,"noch- 'prickly pear/tuna' (nochtli)",soft
+99,tatan,Y,tata,Classical Nahuatl,"tata 'father' reduplicated/extended (tatan)",soft
+100,kori,N,,,,N
+101,elba,Y,elel,Yucatec Maya,"el- 'to burn' (elel/kilba-type -ba); el-ba",soft
+102,itzla,Y,itztli,Classical Nahuatl,"itz- 'obsidian' (itztli) + -la",soft
+103,u'tsokanti,N,,,,N
+104,kahk,Y,k'áak',Yucatec Maya,"k'áak' 'fire' (kahk ~ k'a'k')",C
+105,itzolotl,Y,itztli,Classical Nahuatl,"itz- 'obsidian' (itztli) + -olotl Nahuatl tail",soft
+106,Eztli,Y,eztli,Classical Nahuatl,"eztli 'blood'",C
+107,tali,N,,,,N
+108,kuetzla,N,,,,N
+109,sakilja,Y,sak,Yucatec Maya,"sak 'white' (sak-il) + tail",soft
+110,kutsuks,Y,kuuts,Yucatec Maya,"kuuts 'turkey' (kuts-)",soft
+111,ikba,N,,,,N
+112,pochiti,Y,pook,Yucatec Maya,"pooch/pok 'roast' weak; or CN pochtli; uncertain",soft
+113,xomal,Y,comalli,Classical Nahuatl,"xomal ~ comalli/kumal 'griddle/comal'",soft
+114,qexcan,Y,k'eex,Yucatec Maya,"k'eex 'to exchange' (qex-) + tail",soft
+115,buxe,N,,,,N
+116,xicheyeb,Y,che',Yucatec Maya,"-cheyeb ~ che' 'tree/wood'; xi-che-yeb, weak",soft
+117,noch,Y,nochtli,Classical Nahuatl,"noch 'prickly pear/tuna' (nochtli)",C
+118,kamal,Y,kamal,Yucatec Maya,"kamal 'to be confounded; perniquebrado' (kamal ok)",soft
+119,kaateli,N,,,,N
+120,kextl,Y,k'eex,Yucatec Maya,"k'eex 'to exchange' (kex-) + -tl tail; graft",soft
+121,ta'nuk,N,,,,N
+122,Kuxkal,Y,kuxtal,Yucatec Maya,"kux- 'life/alive' (kuxtal); kuxkal ~ kuxtal",soft
+123,uche,N,,,,N
+124,quxato,Y,kux,Yucatec Maya,"kux- 'alive/life' (kuxtal); qux ~ kux + tail",soft
+125,chitzokala,N,,,,N
+126,tan'tul,Y,tul,Yucatec Maya,"tan 'front/before' + tul animate numeral classifier",soft
+127,te'mo,Y,temo,Nawat,"temo 'to descend' (Nawat temu; CN temo)",C
+128,kaach,Y,kaah,Yucatec Maya,"kaah 'town/settlement'; kaach ~ kaah",soft
+129,tala,N,,,,N
+130,yuche,N,,,,N

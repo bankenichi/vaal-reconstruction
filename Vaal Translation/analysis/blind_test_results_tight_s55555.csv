@@ -1,0 +1,131 @@
+id,string,found(Y/N),root,lang,gloss,confidence
+1,tzakaal,Y,ts'ak,Maya,"medicine/to cure; ts'aak (long vowel) attested, -al nominal",soft
+2,pochbe,N,,,"poch (glutton) + be (road) would be cross-compound with residue; no single clean root",none
+3,motsa,Y,mots,Maya,"root/small roots (mots); -a residue unexplained",soft
+4,mektoti,N,,,"mek' (embrace) leaves -toti residue unaccounted",none
+5,ketzolo,N,,,"no clean root; ts'ol (to flay) needs metathesis/residue",none
+6,aioka,N,,,"no attested root fits form",none
+7,tzul,Y,ts'ul,Maya,"foreigner/dog/lord (ts'ul)",C
+8,litziri,N,,,"/r/ non-final; no attested root, not clean loan",none
+9,ahuat,N,,,"no clean root (ahua- Nawat verb leaves -t residue)",none
+10,guatzi,N,,,"/g/ Spanish-loan diagnostic; no attested source root",none
+11,mujuk',N,,,"muk' (strength) would need vowel/consonant residue (mujuk')",none
+12,elba,N,,,"el (to burn) + -ba leaves residue; no clean single root",none
+13,telina,N,,,"teel (leg/shin) leaves -ina residue",none
+14,a'tsene,N,,,"no attested root; ts'en not a clean fit with a'- + -e",none
+15,ik'ecwa,N,,,"ik' (wind/breath) leaves -ecwa residue",none
+16,mapla,N,,,"map (large animal) + -la residue; no clean fit",none
+17,quatle,N,,,"no clean root; -tle not a legal Nahuatl reduction here",none
+18,quia,N,,,"no attested root fits",none
+19,chara,N,,,"/r/; no attested Spanish or K'iche' root fits",none
+20,kuema,N,,,"no attested root fits form",none
+21,a'tsokmotl,N,,,"no clean root; -motl not attested affix on any fit",none
+22,echitil,N,,,"no attested root fits",none
+23,jare,N,,,"/j+r/; no attested root fits",none
+24,Guatelitzi,N,,,"/g/ loan diagnostic; no attested source root",none
+25,mapokaal,N,,,"no clean root; map+pokaal residue",none
+26,cotlota,N,,,"kot (dry-stone wall) leaves -lota residue",none
+27,zakaaka,N,,,"sak (white) + kaak leaves residue; not a clean single root",none
+28,soxtani,N,,,"no attested root fits",none
+29,ikuli,N,,,"no attested root fits",none
+30,kujukua,N,,,"no attested root fits form",none
+31,quxzeh,N,,,"k'ux (to eat/pain) leaves -zeh residue",none
+32,Ela,Y,el,Maya,"to burn (el/elel); -a residue minor",soft
+33,fukul,N,,,"/f/ Spanish-loan diagnostic; no attested source root",none
+34,teoyuquat,N,,,"teo (god) leaves -yuquat residue; no clean fit",none
+35,chbe,N,,,"be (road) with ch- leaves unexplained onset cluster",none
+36,puyana,Y,puy,Maya,"to grind/mash (puy); -ana residual",soft
+37,atzul,N,,,"a- + ts'ul cross/residue; not clean single root",none
+38,Eztli,Y,es,Nahuatl,"blood (es-ti, absolutive -tli)",C
+39,guat,N,,,"/g/ loan diagnostic; no attested source root",none
+40,kuxkane,N,,,"kux (alive) leaves -kane residue",none
+41,kahk,N,,,"Maya fire is k'aak' (glottalized); kahk plain k = consonant substitution",none
+42,elayelatl,N,,,"no clean root; -atl absolutive but stem elayel- not attested",none
+43,puxtli,N,,,"smoke is poctli (/o/); pux- needs forbidden o~u raising",none
+44,ek,N,,,"star/black is ek' (glottalized); plain ek = consonant substitution",none
+45,tala,Y,tal,Maya,"to come/arrive (tal); -a residual",soft
+46,itsok,N,,,"no attested root fits form",none
+47,tzolitziri,N,,,"/r/ + no attested clean root",none
+48,mapokal,N,,,"no clean root; map+pokal residue",none
+49,akiimek,N,,,"no attested root fits",none
+50,kaaka,N,,,"Maya fire k'aak' is glottalized; kaaka plain = consonant subst + residue",none
+51,yane,N,,,"no clean single root; -ane residue",none
+52,ecwa,N,,,"no attested root fits",none
+53,gyane,N,,,"/g/ loan diagnostic; no attested source root",none
+54,puxtle,N,,,"poctli smoke needs o~u raising; forbidden",none
+55,jara,N,,,"/r/; no attested Spanish/K'iche' root fits",none
+56,atzahk,N,,,"no clean root; sak/zahk fit needs residue",none
+57,mucane,N,,,"no attested root fits",none
+58,azcada,N,,,"/d/ Spanish-loan diagnostic; no attested source root",none
+59,much,Y,much,Maya,"frog/toad (much)",C
+60,atzoatzil,Y,atzoatl,Nahuatl,"dirty water (atzoatl); -il residue minor",soft
+61,xomal,N,,,"no attested root fits form",none
+62,kilya,N,,,"no clean single root; -ya residue",none
+63,yutse,N,,,"yut (bezoar stone) leaves -se residue",none
+64,buxka,N,,,"no attested root; pux/poc needs raising",none
+65,puxti,N,,,"poctli smoke needs forbidden o~u raising",none
+66,ahua,N,,,"ahua- (Nawat scold) leaves no absolutive; not clean noun",none
+67,ko'ja,N,,,"koh (puma/tooth) glottal mismatch + -ja residue",none
+68,Otsuks,N,,,"no attested root fits form",none
+69,moxsa'oxe,N,,,"no attested root fits",none
+70,noch,Y,noch,Maya,"misshapen gourd/elbow-bone (noch); exact root no residue",C
+71,naaxibalin,N,,,"no clean single root; xib fit leaves residue",none
+72,taax,Y,taax,Maya,"flat/level (taax)",C
+73,kifba,N,,,"/f/ loan diagnostic; no attested source root",none
+74,kutsoke,N,,,"no attested root fits",none
+75,xichik,N,,,"xich' (sinew/sniff) glottal + -ik residue mismatch",none
+76,zeli,N,,,"no clean root; sel fit leaves residue",none
+77,aiona,N,,,"no attested root fits",none
+78,ikbaquxa,N,,,"no attested root fits form",none
+79,mapoche,N,,,"no clean root; map+poche residue",none
+80,pochiti,N,,,"poch (glutton) leaves -iti residue",none
+81,cha'tsoke,N,,,"no attested root fits",none
+82,gyao,N,,,"/g/ loan diagnostic; no attested source root",none
+83,mujkula,N,,,"no attested root fits form",none
+84,azcaniba,N,,,"no clean single root; residue",none
+85,pilyane,N,,,"no attested root fits form",none
+86,ka'tsoxta,N,,,"no attested root fits",none
+87,kujkuxe,N,,,"no attested root fits form",none
+88,puxa,N,,,"poc smoke needs o~u raising; no clean pux root",none
+89,ikuxa,N,,,"no attested root fits (ik'+kux would be cross/residue)",none
+90,ti,N,,,"too short; no attested content root",none
+91,xillinab,N,,,"xil (small) leaves -linab residue",none
+92,tato,N,,,"tahtli/tata (father) leaves -to residue; not clean absolutive",none
+93,koryao,N,,,"/r/; no attested root fits",none
+94,ikba,N,,,"no clean root; ik'+ba residue",none
+95,kiimek,N,,,"no attested root fits",none
+96,tatl,Y,tahtli,Nahuatl,"father (tahtli/tatl absolutive)",soft
+97,eztla,Y,es,Nahuatl,"blood (es-, absolutive); -a residual",soft
+98,azcan,N,,,"no attested clean root fits",none
+99,buxe,N,,,"no attested root; pux/poc raising",none
+100,qexcan,N,,,"kex (although/exchange) leaves -can residue",none
+101,xechitzul,N,,,"no attested root fits form",none
+102,xoli,N,,,"no attested root fits",none
+103,cotaala,N,,,"kot (stone wall) leaves -aala residue",none
+104,Maax,Y,maax,Maya,"spider monkey (maax)",C
+105,Kuxkal,N,,,"kux (alive) + kal (neck) cross-compound residue; no single root",none
+106,kuatzi,N,,,"no attested root fits form",none
+107,tlax,N,,,"tlaxcalli (tortilla) needs forbidden coda drop; tlax not attested alone",none
+108,aiokal,N,,,"no attested root fits",none
+109,tetzi,N,,,"tet (chosen) / tets' (lisp) leaves -zi/i residue",none
+110,tizoli,N,,,"no attested root fits form",none
+111,kuur,N,,,"/r/; no attested Spanish/K'iche' root fits",none
+112,Kextal,N,,,"kex (although) leaves -tal residue; no clean fit",none
+113,ik'el,Y,ik',Maya,"wind/breath/spirit (ik'); -el nominal",soft
+114,zahk,N,,,"sak (white) needs consonant subst (s/z, k/hk); not clean",none
+115,kutsen,N,,,"no attested root fits",none
+116,u'tsokexti,N,,,"no attested root fits form",none
+117,sakilja,N,,,"saq (white) + residue -ilja; /j/; not clean single root",none
+118,tlayeb,N,,,"tlayohua (get dark) leaves no clean stem; -yeb residue",none
+119,tizoat,N,,,"no attested root fits form",none
+120,donuktul,N,,,"/d/ loan diagnostic; no attested source root",none
+121,an'uks,N,,,"no attested root fits",none
+122,Atziri,N,,,"/r/; no attested clean root fits",none
+123,kujuks,N,,,"no attested root fits form",none
+124,ta'nuk,N,,,"no attested root fits",none
+125,ikbaqual,N,,,"no attested root fits form",none
+126,doryao,N,,,"/d/+/r/ loan diagnostic; no attested source root",none
+127,naach,Y,nach,Maya,"far/distant (nach); doubled aa = length only",C
+128,til,N,,,"no attested clean content root fits",none
+129,atli,Y,atl,Nahuatl,"water (atl/a-tl absolutive)",C
+130,pokmo,N,,,"poc- (smoke) leaves -mo residue; no clean single root",none

@@ -1,0 +1,16 @@
+id,token,best_root,best_lang,best_gloss,best_strength,alt_root_difflang,alt_lang,alt_gloss,alt_strength
+1,Aiokmo,ayocmo,Classical Nahuatl,"no longer (adverb)",strong,ak'al,Yucatec Maya,"lagoon/pond; fresh (water)",weak
+2,akal,ak'al,Yucatec Maya,"lagoon, pond; fresh (green/wet)",strong,wakal,K'iche' Maya,"water stand",weak
+3,anab,anabej,K'iche' Maya,"to hurry someone/something (n-root anab-)",weak,anal,Yucatec Maya,"skylight, window (tragaluz)",weak
+4,ascensionada / ascenada,ascension/ascender,Spanish,"ascension; to ascend, rise",strong,na'akal,Yucatec Maya,"to ascend, rise up",weak
+5,A'te / U'Te / Yatle,ahtle,Classical Nahuatl,"nothing",strong,a:t,Nawat/Pipil,"water (y-a:t 'its water')",weak
+6,atla,atl,Classical Nahuatl,"water",strong,a:t,Nawat/Pipil,"water",strong
+7,Atziri,atzin-,Classical Nahuatl,"water [reverential]; beverage (of atl)",weak,none,none,none,none
+8,'Ayok,ayoc,Classical Nahuatl,"no longer (bare form of ayocmo)",strong,ak'al,Yucatec Maya,"fresh (water)",weak
+9,cha'tsoke,tzok',K'iche' Maya,"to sculpt, carve (stone)",weak,cha',Yucatec Maya,"grinding stone / again (ka'/cha')",weak
+10,che',che',Yucatec Maya,"tree, wood; stick",strong,none,none,none,none
+11,ek,ek',Yucatec Maya,"star; Venus; also 'black'",strong,none,none,none,none
+12,Ela,el / elel,Yucatec Maya,"to burn, blaze (arder)",strong,none,none,none,none
+13,elba,helba,Yucatec Maya,"to change, shift (clothes/house); h- droppable",weak,el/elel,Yucatec Maya,"to burn",weak
+14,-en,-en,Yucatec Maya,"pronominal/harmonic suffix (bound morpheme)",weak,none,none,none,none
+15,Eztli Pilli,eztli,Classical Nahuatl,"blood",strong,pilli,Classical Nahuatl,"noble; child (2nd element)",strong

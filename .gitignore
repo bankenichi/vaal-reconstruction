@@ -1,0 +1,24 @@
+# Local / scratch
+$Temp/
+tmp/
+*.tmp
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Mirror stays on disk for AGENTS edit protocol; git is the versioned backup
+Vaal Translation Mirror/
+
+# Name-clash leftovers from sync tools
+*Name clash*
+
+# All dictionary sources (copyrighted / huge binaries and extracts)
+Vaal Translation/sources/dictionaries/
+**/sources/dictionaries/
+
+# Root-level dictionary dumps
+03_yuc_diccionario-maya-cordemex.pdf
+diccionario-maya-cordemex-maya-espaol-espaol-maya_compress.pdf
+ilide.info-diccionario-maya-pr_fbc33b0c1555a86d06be141047016d90.pdf
+norma_maya.pdf
