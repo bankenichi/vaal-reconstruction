@@ -15,26 +15,26 @@ id,token,gate1_strict,gate2_adversarial,tier
 14,-en,fail,fall,C*
 15,Eztli Pilli,fail,survive,C+L
 16,Guatelitzi,fail,n/a,C+L
-17,'Ibil,fail,survive,C+L
+17,'Ibil,fail,fall,C+L*
 18,ich,fail,fall,C*
 19,i'chian,fail,survive,C
 20,ik'bala,fail,survive,C
 21,ikba'yucane,fail,survive,C
 22,Ik'eche,fail,survive,C
-23,ik'el,fail,survive,C+L
+23,ik'el,fail,fall,C+L*
 24,itsok / itzil,fail,survive,C+L
 25,jare,fail,survive,C
 26,k'áak' (kahk),pass,fall,C*
 27,Kextal,fail,survive,C
 28,ki' (Kí'),fail,fall,C*
-29,kifba,fail,survive,C+L
+29,kifba,fail,fall,C+L*
 30,kilya,fail,survive,C+L
 31,kujkuali,fail,survive,C+L
 32,kutsen,fail,fall,C+L*
 33,k'ux (quxzeh),fail;protocol_unexplained_residue,fall,C*
 34,ma,fail;protocol_dual_incompatible_bundle,fall,C*
 35,máax,fail,fall,C*
-36,mucane,fail,survive,C
+36,mucane,fail,fall,C*
 37,mujuk',fail,survive,C
 38,náach (niáach),pass,fall,C*
 39,nochira,fail,fall,C*
@@ -73,7 +73,7 @@ id,token,gate1_strict,gate2_adversarial,tier
 72,líimek,fail,survive,C+L
 73,Ma'oxe,fail,survive,C+L
 74,Tlaxye',fail,survive,C+L
-75,Tzokan'te / tzok,fail,survive,C+L
+75,Tzokan'te / tzok,fail,fall,C+L*
 76,Xatlene,fail,survive,S+L
 77,yax / Yaxe,fail,survive,C+L
 78,yuquia,fail,survive,C+L

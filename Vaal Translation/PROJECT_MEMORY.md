@@ -24,7 +24,8 @@ Data loss is unacceptable. Designate the one canonical master, verify it is COMP
 - Scorers: `score.py` now reports legacy any-C TPR and committed-root/lang/sense recovery. `score_adversarial.py` counts same-language homophones and alternate segmentations as competitors. Proof: `RESCORE_OUTPUT.md`, `NULL_HONESTY_OUTPUT.md`.
 - Null model: the 2 x 10^-15 (and 10^-18 / 10^-19) all-noise headlines are withdrawn as headlines, as is the sigma column (those labels were count z-scores). Stopgap selection-matched range: **p about 0.005 to 0.06 (marginal)**. Recovery-scored de-duplicated p: pending re-run. Pseudo corpus: 426 distinct of 500; some noise hits are palette substrings. Cite `AUDIT_REVIEW_2026-08-18.md`.
 - PPV and sentence-level percentages: structure restored in §17.5 and `STATISTICAL_SUMMARY.md` §§3-6; labelled **withdrawn as translation confidence / stopgap pending re-run**. Independence products are not a Frechet floor. *yan* is not a lexicon row.
-- Syntax: report analyst-level Fisher **3/3 vs 0/2, p = 0.10**, not the rule-level 12/12 vs 0/8 as a significance claim. Analysts were not blind to project glosses. Gloss-blind analyst-level re-run: pending (`EXPERIMENT_RERUN_PROTOCOL.md`).
+- Syntax: report analyst-level Fisher **3/3 vs 0/2, p = 0.10**, not the rule-level 12/12 vs 0/8 as a significance claim. Analysts were not blind to project glosses. Gloss-blind re-run (2026-09-16): 3/3 vs 0/2, p = 0.10, not significant (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Possession undetermined for two of three real analysts; do not overclaim.
+- Tournaments / particles (2026-09-16): `RIVAL_READING_TOURNAMENTS.md`, `PARTICLE_PROBES_3_7.md`. Five new C* stars; H stays 3 of 78. §3.7 items leaning or still open.
 - Texts 1 and 2 closed and source-validated; Texts 3, 4, 5 documented with soft tokens in the §10 appendix.
 
 ## Remaining open analytical debt
@@ -32,14 +33,14 @@ Data loss is unacceptable. Designate the one canonical master, verify it is COMP
 - Full re-run of Batteries A-E under `EXPERIMENT_RERUN_PROTOCOL.md` (the true remediation). Do not fake those results.
 - Full-pipeline null (commit then strict-gate on each unique pseudo string) not re-run; matched A-then-D is the archived-file stopgap.
 - Battery D online rows often lack root/lang/gloss; recovery TPR there is partly unscorable.
-- Gate 2 can only score competitors the adversary wrote down. Homophones absent from those CSVs are not invented (Gate 1 already fails *ek* wasp).
-- Syntax panel not re-run blinded to project English.
+- Gate 2 can only score competitors the adversary wrote down. Homophones absent from those CSVs are not invented in the CSV (Gate 1 already fails *ek* wasp). The 2026-09-16 tournaments logged five additional homophones in `token_classification.csv` and §10.13 without rewriting `gate2_rescore_rerun.csv`.
+- Gloss-blind syntax panel is on disk (3/3 vs 0/2, p = 0.10). Possession remains fragile.
 - Several section-9 C+L rows (the former L-only 13) have gates pending.
 - *xi* section-9 gloss (Nahuatl "do/make") is independently doubtful as a free verb; it is demoted from H on scoring, not re-etymologized.
 
 ## Open items (tracked, not forced)
 
-The o-...-s wrapping around tsuk in Otsuks; the exact K'iche' lemma behind jare'; fukuur's phonetic fit; ta' (ti' vs taak); ukto (leading reading Nahuatl ocotl "pine torch," soft); and from the syntax pass the particles ka and ti, and the le le doubling.
+The o-...-s wrapping around tsuk in Otsuks; the exact K'iche' lemma behind jare'; fukuur's phonetic fit; ta' (leaning relational ti', not closed); ukto (leading reading Nahuatl ocotl "pine torch," soft); and from the syntax pass the particles ka and ti (leaning verbal-question linker), the le le doubling (still open), and tlayeb category (still open).
 
 ## Out of scope
 
@@ -47,4 +48,4 @@ A phonetic (audio-based) phonology. Anyone with the specialist skills is welcome
 
 ## Key principles
 
-Anti-forcing (opaque stays opaque); form-first, never gloss-led (applies to roots and to syntax); competing readings logged; semantic field constrains the search; romanization artifacts are distinguished from morphology; living-Maya and Nawat sources corroborate; variant NPC names are a game mechanic, not lore drift; the PDF and parent copy are kept current under the data-integrity protocol. Kenichi ordered the 2026-09 remediation executed without a further approval wait, then ordered dual-base structure restored and the stopgap/re-run distinction made explicit, again without a further wait.
+Anti-forcing (opaque stays opaque); form-first, never gloss-led (applies to roots and to syntax); competing readings logged; semantic field constrains the search; romanization artifacts are distinguished from morphology; living-Maya and Nawat sources corroborate; variant NPC names are a game mechanic, not lore drift; the PDF and parent copy are kept current under the data-integrity protocol. Kenichi ordered the 2026-09 remediation executed without a further approval wait, then ordered dual-base structure restored and the stopgap/re-run distinction made explicit, again without a further wait. Tournaments and particle probes (plan items 1 then 2) were ordered the same way: execute, log losers in §10, do not rebuild the PDF, do not commit dictionaries.

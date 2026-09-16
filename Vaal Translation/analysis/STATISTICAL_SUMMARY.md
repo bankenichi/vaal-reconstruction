@@ -27,26 +27,26 @@ Reported on two bases: per token (every attested surface form the translations u
 | Tier | Count | Proportion | 95% CI |
 |---|---:|---:|---|
 | Hardened (H / H+L) | 1 | 1.6% | [0.3%, 8.7%] |
-| Committed + competitor (C*) | 20 | 32.8% | [22.3%, 45.3%] |
-| Committed, latitude-dependent (C / C+L) | 40 | 65.6% | [53.0%, 76.3%] |
+| Committed + competitor (C*) | 24 | 39.3% | [28.1%, 51.9%] |
+| Committed, latitude-dependent (C / C+L) | 36 | 59.0% | [46.5%, 70.5%] |
 
 **Per distinct root (N = 52, same 61 tokens, §7a grouping):**
 
 | Tier | Count | Proportion | 95% CI |
 |---|---:|---:|---|
 | Hardened (H / H+L) | 1 | 1.9% | [0.3%, 10.1%] |
-| Committed + competitor (C*) | 19 | 36.5% | [24.8%, 50.1%] |
-| Committed, latitude-dependent (C / C+L) | 32 | 61.5% | [48.0%, 73.5%] |
+| Committed + competitor (C*) | 23 | 44.2% | [31.6%, 57.7%] |
+| Committed, latitude-dependent (C / C+L) | 28 | 53.8% | [40.5%, 66.7%] |
 
-The per-root H count stays 1 because *xefe* is not in a merge family. *te* (C*) and *Ti* (C*) collapse into one C* family, so C* drops by one.
+The per-root H count stays 1 because *xefe* is not in a merge family. *te* (C*) and *Ti* (C*) collapse into one C* family, so C* drops by one. After the 2026-09-16 tournaments, four of the five new stars sit in the 61-row frame (*ik'el, 'Ibil, mucane, kifba*); *Tzokan'te* is outside it (id 75).
 
 **Section 9, N = 78 (the table a reader consults):**
 
 | Tier | Count | Notes |
 |---|---:|---|
 | Hardened (H / H+L) | 3 | both gates, protocol-clean (*xefe*; *Quecholli* H+L; *Ixchel* H+L) |
-| Committed + competitor (C* / C+L*) | 25 | Gate 2 fall (including same-language homophones) |
-| Committed, latitude-dependent (C / C+L) | 49 | includes former L-only rows now gated; *pul* C* with a decode artifact |
+| Committed + competitor (C* / C+L*) | 30 | Gate 2 fall plus 2026-09-16 tournaments (five new stars: *ik'el, 'Ibil, mucane, kifba, Tzokan'te*) |
+| Committed, latitude-dependent (C / C+L) | 44 | includes former L-only rows now gated; *pul* C* with a decode artifact |
 | Soft (S+L) | 1 | *Xatlene* (own note: one unresolved vowel step) |
 
 L is never a lone tier. Per distinct root on this frame: **3 H of 69 = 4.3% [1.5, 12.0]** (same grouping; *pul* and the 13 former L-only rows each add a distinct root; the three Battery E names each add a distinct root).
@@ -112,7 +112,7 @@ Conditioning on selection, this epoch does not reject the null at conventional 0
 
 **Withdrawn as translation confidence / pending a non-circular b.** The PPV formula is algebraically fine. Inputs from this re-run would use recovery TPR = 0.033 and Battery D FPR = 0.068, which makes even an optimistic b produce a weak diagnostic. The tables below keep the **archived any-C** wiring so the old method stays inspectable. Do not read them as "probability the English gloss is right."
 
-**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file.
+**Separate quantity: inter-translator / vs-gold agreement.** Blind line translations of the 51-line closed corpus (Texts 1-4 plus Kamasan Smith) under methodology-on (T-M) versus dictionaries-only (T-D) are scored in `TRANSLATION_BATTERY_RESULTS.md`. Those Wilson CIs are not PPV and are not the withdrawn sentence bands. T-M match 27/255 = 10.6% [7.4, 15.0]; T-D 22/255 = 8.6% [5.8, 12.7]. Match+partial 75/255 = 29.4% [24.2, 35.3] versus 72/255 = 28.2% [23.1, 34.1]. T-M minus T-D match+partial bootstrap CI includes zero. Methodology is not moving the needle on vs-gold line agreement. Clash/abstain CIs and labeled exploratory tables (per-text, hotspots, kappa) are in the same results file. Post-hoc rival-reading tournaments on the 16 dual 5/5-clash lines: `RIVAL_READING_TOURNAMENTS.md` (five new C* stars; H unchanged). Particle probes: `PARTICLE_PROBES_3_7.md`.
 
 The question the formula answers, per reading, is the **positive predictive value (PPV)**: given that a token was certified (committed / hardened), the probability it is a genuine root rather than a chance dictionary coincidence.
 
@@ -202,7 +202,7 @@ Only *xefe* is protocol-clean H in the 61-row frame, and it is not in these fami
 | Hardened tier | 1.6% [0.3, 8.7] | 1.9% [0.3, 10.1] |
 | Gate-1 protocol-clean | 6.6% [2.6, 15.7] | 7.7% [3.0, 18.2] |
 | Gate-2 adversarial | 65.5% [52.7, 76.4] (38/58) | 61.2% [47.2, 73.6] (30/49) |
-| Tier split H / C* / C | 1 / 20 / 40 | 1 / 19 / 32 |
+| Tier split H / C* / C | 1 / 24 / 36 | 1 / 23 / 28 |
 
 **Reading.** The dependency correction does not restore a large hardened core. Related tokens are concentrated in failing families, so the per-root H share rises only from 1.6% to 1.9%. The recount is defensive, not promotional. It does not restore a 10^-15 unconditional floor test.
 
@@ -212,7 +212,7 @@ The 500-trial pseudo arm in this epoch is de-duplicated: **500 distinct strings 
 
 ## 8. Syntax (analyst-level)
 
-**Current (gloss-blind, 2026-09-16).** Three real-panel analysts vs two scrambled-panel analysts (seed 1729). Packets: surface lines only plus a form-only token list (no English glosses). Recovery rule: consistent linear order at medium or high confidence on at least two of the four word-order questions. Table: **3/3 vs 0/2, Fisher one-sided p = 0.10**, not significant. N = 5; small N. Do not publish a rule-level table as the p-value. Qualitative match to the six §3 conclusions is weaker than SYN-1 (possession undetermined for two of three real analysts). Copula and affix-edge findings are order-independent, not linear-syntax evidence. Full run: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
+**Current (gloss-blind, 2026-09-16).** Three real-panel analysts vs two scrambled-panel analysts (seed 1729). Packets: surface lines only plus a form-only token list (no English glosses). Recovery rule: consistent linear order at medium or high confidence on at least two of the four word-order questions. Table: **3/3 vs 0/2, Fisher one-sided p = 0.10**, not significant. N = 5; small N. Do not publish a rule-level table as the p-value. Qualitative match to the six §3 conclusions is weaker than SYN-1 (possession undetermined for two of three real analysts). Copula and affix-edge findings are order-independent, not linear-syntax evidence. Full run: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Particle/order probes on the six §3.7 items: `PARTICLE_PROBES_3_7.md` (leaning or still open; possession not upgraded).
 
 **Historical 2026-07 (not gloss-blind).** The published 12/12 vs 0/8 Fisher (p about 7.9 x 10^-6) treats four correlated rules per analyst as independent trials. At the experimental unit the table is **3/3 vs 0/2, Fisher p = 0.10**, not significant. Analysts received surface lines, English translations, and a token glossary. (`SYNTAX_EXPERIMENT_LOG.md`, AUDIT_REVIEW F8.) Same counts as the gloss-blind table do not make that panel gloss-blind.
 
