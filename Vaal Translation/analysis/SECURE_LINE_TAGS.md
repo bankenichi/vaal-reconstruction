@@ -23,7 +23,7 @@ A line of committed tokens is not a secure translation. This table asks how many
 
 L is orthogonal. A star is a competitor. Soft §10 tokens that are not §9 rows are S. *yan* is O (not a lexicon row).
 
-The only H token in the 51-line corpus is *xefe* (line 35). *Quecholli* and *Ixchel* do not occur in these lines.
+The only H token in the 51-line corpus is *xefe* (line 35). *Quecholli* (still H+L) and *Ixchel* (now C+L after the Gate 1 sense miss) do not occur in these lines. Working count is unchanged by the Ixchel demotion.
 
 ## 3. Headlines (Wilson 95%)
 

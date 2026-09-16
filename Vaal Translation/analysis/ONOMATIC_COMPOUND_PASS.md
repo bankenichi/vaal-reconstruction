@@ -29,12 +29,12 @@ For a veintena name, theonym, or title:
 
 The name remains a real Classical Nahuatl veintena (*raising of banners*, Huitzilopochtli's festival). That lore note is unchanged. It is not a protocol-clean H.
 
-## 3. Quecholli and Ixchel (no change)
+## 3. Quecholli (H+L) and Ixchel (demoted to C+L)
 
 | Name | Whole-form hit | Tier | Note |
 |---|---|---|---|
 | *Quecholli* | yes: Campbell CN *quecholli* "pajaro de brillante plumaje" | H+L | Battery E 5/5. Gate 2 survive. Stays H+L |
-| *Ixchel* | yes: Cordemex *ixchel* | H+L | Battery E 5/5 on the lexeme string. This extract also has deity lines (*nombre o titulo otorgado a ix chel, deidad maya*) beside the medicinal-herb string used as the first hit in the re-run. Gate 1 still counts the predeclared form. No new theonym is invented. Stays H+L |
+| *Ixchel* | yes: Cordemex *ixchel* | C+L | Battery E 5/5 on the lexeme string, but the first Cordemex hit is the medicinal-herb gloss, not the approved theonym / Godstealer sense. Gate 1 recovery miss against the frozen target. Gloss text unchanged. Demoted from H+L to C+L. |
 
 *chel* alone is noisy (Cordemex "arco del cielo" is present, plus unrelated *chal* / asar hits). The whole name is the recovery, not a fresh *Ix-* + *chel* assembly.
 
@@ -55,4 +55,4 @@ Title phrases in the 51-line corpus (*xefe yotlapek le le Vaal*, *Eztli Pilli* a
 
 ## 5. Outcome
 
-*Panquetzaliztli* stays **C+L** with an explicit missing-compound reason under the attached kit. *Quecholli* and *Ixchel* stay **H+L**. No token is promoted. Master §12.5 and the §9 *Panquetzaliztli* note point here.
+*Panquetzaliztli* stays **C+L** with an explicit missing-compound reason under the attached kit. *Quecholli* stays **H+L**. *Ixchel* is **C+L** (Gate 1 sense miss: Cordemex herb vs approved theonym). No token is promoted. Approved Ixchel gloss unchanged. Master §12.5-12.6 and the §9 notes point here.

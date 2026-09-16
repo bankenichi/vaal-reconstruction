@@ -63,7 +63,7 @@ id,token,gate1_strict,gate2_adversarial,tier
 62,pul / puul,pass,fall,C*
 63,Quecholli,pass,survive,H+L
 64,Panquetzaliztli,fail,survive,C+L
-65,Ixchel,pass,survive,H+L
+65,Ixchel,fail,survive,C+L
 66,chikula',fail,fall,C+L*
 67,Gyan'uks,fail,survive,C+L
 68,kíimil,fail,fall,C+L*
