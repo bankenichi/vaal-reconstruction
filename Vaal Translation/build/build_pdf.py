@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 import os, re, markdown, pathlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 from weasyprint import HTML, CSS
@@ -28,9 +28,9 @@ for ln in lines[1:8]:
         tagline = ln.strip().strip("*").strip()
         break
 body_start = next(i for i, ln in enumerate(lines) if ln.startswith("## 1."))
-cit_h = next(i for i, ln in enumerate(lines) if ln.startswith("## 14."))
+cit_h = next(i for i, ln in enumerate(lines) if ln.startswith("## 18. Citations"))
 list_start = next(i for i in range(cit_h, len(lines)) if re.match(r"^\d+\.\s", lines[i]))
-body_md = "\n".join(lines[body_start:list_start])   # everything through the §14 heading
+body_md = "\n".join(lines[body_start:list_start])   # everything through the Â§14 heading
 
 # parse the citation list, keeping the literal source numbers (so in-text [N] matches)
 citations, cur_n, cur = [], None, []
@@ -283,8 +283,8 @@ DOC = (DOC.replace("%(EMBLEM)s", EMBLEM).replace("%(MAIN)s", main_title.upper())
           .replace("%(TOC)s", toc_html).replace("%(BODY)s", body_html))
 
 # tag the citations <h2> with an id so the css selector can match (toc ext already ids it)
-DOC = DOC.replace('id="14-citations"', 'id="citations"')
-DOC = DOC.replace('href="#14-citations"', 'href="#citations"')
+DOC = DOC.replace('id="18-citations"', 'id="citations"')
+DOC = DOC.replace('href="#18-citations"', 'href="#citations"')
 
 pathlib.Path(os.path.join(HERE,"_doc.html")).write_text(DOC, encoding="utf-8")
 fc = FontConfiguration()

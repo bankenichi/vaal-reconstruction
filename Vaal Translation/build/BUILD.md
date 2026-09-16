@@ -1,4 +1,4 @@
-# The Vaal Tongue, PDF build assets
+﻿# The Vaal Tongue, PDF build assets
 
 This folder holds everything needed to regenerate `The_Vaal_Tongue.pdf` from the
 master Markdown document. The build is self-contained: with these files in place,
@@ -80,3 +80,15 @@ relative to the script location, so the folder can live anywhere.
   single-asterisk italic nested inside. The Markdown parser mis-nests that
   combination and leaks italics across the whole paragraph. Keep emphasis flat: a
   phrase is either bold or italic, not bold with italics inside it.
+## Windows note (Layla)
+
+WeasyPrint needs the GTK3 runtime DLLs on PATH. Install
+[GTK for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer)
+(default location C:\Program Files\GTK3-Runtime Win64), then either add its in
+folder to the user PATH or prepend it for the build session:
+
+    $env:PATH = "C:\Program Files\GTK3-Runtime Win64\bin;$env:PATH"
+    python build_pdf.py
+
+The build script expects citations under ## 18. Citations.
+
