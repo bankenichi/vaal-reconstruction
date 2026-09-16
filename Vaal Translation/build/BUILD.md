@@ -13,6 +13,12 @@ one command produces the styled PDF.
 - `fonts/`, the two typefaces used by the theme.
 - `assets/`, standalone copies of the three SVG visuals, for inspection or editing.
 
+
+## TOC page numbers
+
+WeasyPrint's CSS `target-counter` often prints 0 for TOC entries on this stack.
+`build_pdf.py` uses a two-pass render: pass 1 records `page.anchors` page numbers;
+pass 2 substitutes those integers into `.toc-page` spans, then writes the PDF.
 ## Dependencies
 
 Python 3 with four packages:

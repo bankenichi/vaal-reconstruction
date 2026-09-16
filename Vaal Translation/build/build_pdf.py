@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import os, re, markdown, pathlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 from weasyprint import HTML, CSS
@@ -65,7 +65,7 @@ cit_html = "".join(
 body_html += '<div class="citations">' + cit_html + '</div>'
 
 toc_html = "\n".join(
-    f'<div class="toc-row toc-l{lv}"><a href="#{i}"><span class="toc-name">{n}</span></a></div>'
+    f'<div class="toc-row toc-l{lv}"><a href="#{i}"><span class="toc-name">{n}</span><span class="toc-page" data-target="{i}">?</span></a></div>'
     for i, n, lv in toc_items
 )
 
@@ -191,14 +191,13 @@ body { margin:0; font-family:"Cardo","DejaVu Serif",serif; font-size:10.4pt; lin
              margin:0 auto 9mm auto; width:60mm; }
 .toc-row { margin:0; padding:3.4pt 0; border-bottom:0.5px dotted #c9b27a; }
 .toc-row a { color:#211d18; text-decoration:none; display:flex; justify-content:space-between;
-             font-size:11pt; }
-.toc-row a::after { content: target-counter(attr(href), page); font-family:"Cinzel";
-                    color:#7e221d; font-size:9.5pt; }
+             align-items:baseline; gap:8pt; font-size:11pt; }
 .toc-name { font-variant:small-caps; letter-spacing:0.4px; }
+.toc-page { font-family:"Cinzel"; color:#7e221d; font-size:9.5pt; flex:0 0 auto; }
 .toc-l3 { padding:2pt 0 2pt 9mm; border-bottom:none; }
 .toc-l3 a { color:#6b6353; font-size:9pt; }
 .toc-l3 .toc-name { font-variant:normal; letter-spacing:0.2px; }
-.toc-l3 a::after { font-size:8.5pt; color:#9a8552; }
+.toc-l3 .toc-page { font-size:8.5pt; color:#9a8552; }
 
 /* ---------- BODY ---------- */
 h2 { font-family:"Cinzel"; font-weight:bold; color:#0f5a4e; font-size:15.5pt;
@@ -285,9 +284,27 @@ DOC = (DOC.replace("%(EMBLEM)s", EMBLEM).replace("%(MAIN)s", main_title.upper())
 # tag the citations <h2> with an id so the css selector can match (toc ext already ids it)
 DOC = DOC.replace('id="18-citations"', 'id="citations"')
 DOC = DOC.replace('href="#18-citations"', 'href="#citations"')
+DOC = DOC.replace('data-target="18-citations"', 'data-target="citations"')
+toc_items = [("citations" if i == "18-citations" else i, n, lv) for i, n, lv in toc_items]
 
 pathlib.Path(os.path.join(HERE,"_doc.html")).write_text(DOC, encoding="utf-8")
 fc = FontConfiguration()
-HTML(string=DOC, base_url=HERE).write_pdf(
-    OUT, stylesheets=[CSS(string=CSS_TEXT, font_config=fc)], font_config=fc)
-print("wrote", OUT)
+styles = [CSS(string=CSS_TEXT, font_config=fc)]
+# Pass 1: learn which PDF page each heading id lands on.
+document = HTML(string=DOC, base_url=HERE).render(stylesheets=styles, font_config=fc)
+anchor_page = {}
+for page_i, page in enumerate(document.pages, start=1):
+    for name in page.anchors:
+        anchor_page.setdefault(name, page_i)
+missing = [i for i, n, lv in toc_items if i not in anchor_page]
+if missing:
+    raise SystemExit("TOC anchors missing from render: " + ", ".join(missing[:12]))
+DOC2 = re.sub(
+    r'<span class="toc-page" data-target="([^"]+)">\?</span>',
+    lambda m: '<span class="toc-page" data-target="%s">%d</span>' % (m.group(1), anchor_page[m.group(1)]),
+    DOC,
+)
+pathlib.Path(os.path.join(HERE,"_doc.html")).write_text(DOC2, encoding="utf-8")
+HTML(string=DOC2, base_url=HERE).write_pdf(
+    OUT, stylesheets=styles, font_config=fc)
+print("wrote", OUT, "pages", len(document.pages), "toc_anchors", len(anchor_page))

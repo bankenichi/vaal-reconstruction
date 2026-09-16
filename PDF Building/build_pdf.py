@@ -1,14 +1,22 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import os, re, markdown, pathlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 from weasyprint import HTML, CSS
 from weasyprint.text.fonts import FontConfiguration
 
-SRC   = os.path.join(HERE, "Vaal_Reconstruction.md")
+SRC   = os.path.join(HERE, "..", "Vaal_Reconstruction.md")
 OUT   = os.path.join(HERE, "The_Vaal_Tongue.pdf")
 FONTS = os.path.join(HERE, "fonts")
 
 raw = pathlib.Path(SRC).read_text(encoding="utf-8")
+
+# --- prerender mermaid blocks to inline SVG (dependency-free, see render_mermaid.py) ---
+import sys as _sys
+_sys.path.insert(0, HERE)
+import render_mermaid
+def _inline_mermaid(m):
+    return "\n\n<div class=\"figure\">" + render_mermaid.mermaid_to_svg(m.group(1)) + "</div>\n\n"
+raw = re.sub(r"```mermaid[ \t]*\n(.*?)\n```", _inline_mermaid, raw, flags=re.DOTALL)
 
 # --- split title / tagline / body ---
 lines = raw.splitlines()
@@ -39,7 +47,13 @@ if cur_n is not None: citations.append((cur_n, " ".join(cur).strip()))
 md = markdown.Markdown(extensions=["tables", "sane_lists", "toc"],
                        extension_configs={"toc": {"permalink": False}})
 body_html = md.convert(body_md)
-toc_items = [(t["id"], t["name"]) for t in md.toc_tokens]  # level-2 sections
+def _flatten_toc(tokens):
+    out = []
+    for t in tokens:
+        out.append((t["id"], t["name"], t["level"]))
+        out += _flatten_toc(t.get("children", []))
+    return out
+toc_items = [(i, n, lv) for i, n, lv in _flatten_toc(md.toc_tokens) if lv <= 3]  # sections + subsections
 
 mdi = markdown.Markdown(extensions=[])
 def inline_md(t):
@@ -51,8 +65,8 @@ cit_html = "".join(
 body_html += '<div class="citations">' + cit_html + '</div>'
 
 toc_html = "\n".join(
-    f'<div class="toc-row"><a href="#{i}"><span class="toc-name">{n}</span></a></div>'
-    for i, n in toc_items
+    f'<div class="toc-row toc-l{lv}"><a href="#{i}"><span class="toc-name">{n}</span><span class="toc-page" data-target="{i}">?</span></a></div>'
+    for i, n, lv in toc_items
 )
 
 # --- original Mesoamerican-style cover emblem (all geometry is original) ---
@@ -177,10 +191,13 @@ body { margin:0; font-family:"Cardo","DejaVu Serif",serif; font-size:10.4pt; lin
              margin:0 auto 9mm auto; width:60mm; }
 .toc-row { margin:0; padding:3.4pt 0; border-bottom:0.5px dotted #c9b27a; }
 .toc-row a { color:#211d18; text-decoration:none; display:flex; justify-content:space-between;
-             font-size:11pt; }
-.toc-row a::after { content: target-counter(attr(href), page); font-family:"Cinzel";
-                    color:#7e221d; font-size:9.5pt; }
+             align-items:baseline; gap:8pt; font-size:11pt; }
 .toc-name { font-variant:small-caps; letter-spacing:0.4px; }
+.toc-page { font-family:"Cinzel"; color:#7e221d; font-size:9.5pt; flex:0 0 auto; }
+.toc-l3 { padding:2pt 0 2pt 9mm; border-bottom:none; }
+.toc-l3 a { color:#6b6353; font-size:9pt; }
+.toc-l3 .toc-name { font-variant:normal; letter-spacing:0.2px; }
+.toc-l3 .toc-page { font-size:8.5pt; color:#9a8552; }
 
 /* ---------- BODY ---------- */
 h2 { font-family:"Cinzel"; font-weight:bold; color:#0f5a4e; font-size:15.5pt;
@@ -212,6 +229,9 @@ li { margin:0 0 1.2mm 0; }
 
 /* citations: tighter, wrap long urls */
 h2#citations ~ ol li, .citations li { font-size:9pt; line-height:1.34; word-break:break-word; }
+
+.figure { text-align:center; margin:5mm 0 4mm 0; break-inside:avoid; }
+.figure svg { max-width:100%; height:auto; display:block; margin:0 auto; }
 
 /* ---------- TABLES ---------- */
 table { width:100%; border-collapse:collapse; margin:3mm 0 4mm 0; font-size:8.6pt;
@@ -264,9 +284,27 @@ DOC = (DOC.replace("%(EMBLEM)s", EMBLEM).replace("%(MAIN)s", main_title.upper())
 # tag the citations <h2> with an id so the css selector can match (toc ext already ids it)
 DOC = DOC.replace('id="18-citations"', 'id="citations"')
 DOC = DOC.replace('href="#18-citations"', 'href="#citations"')
+DOC = DOC.replace('data-target="18-citations"', 'data-target="citations"')
+toc_items = [("citations" if i == "18-citations" else i, n, lv) for i, n, lv in toc_items]
 
-pathlib.Path("/home/claude/_doc.html").write_text(DOC, encoding="utf-8")
+pathlib.Path(os.path.join(HERE,"_doc.html")).write_text(DOC, encoding="utf-8")
 fc = FontConfiguration()
-HTML(string=DOC, base_url=HERE).write_pdf(
-    OUT, stylesheets=[CSS(string=CSS_TEXT, font_config=fc)], font_config=fc)
-print("wrote", OUT)
+styles = [CSS(string=CSS_TEXT, font_config=fc)]
+# Pass 1: learn which PDF page each heading id lands on.
+document = HTML(string=DOC, base_url=HERE).render(stylesheets=styles, font_config=fc)
+anchor_page = {}
+for page_i, page in enumerate(document.pages, start=1):
+    for name in page.anchors:
+        anchor_page.setdefault(name, page_i)
+missing = [i for i, n, lv in toc_items if i not in anchor_page]
+if missing:
+    raise SystemExit("TOC anchors missing from render: " + ", ".join(missing[:12]))
+DOC2 = re.sub(
+    r'<span class="toc-page" data-target="([^"]+)">\?</span>',
+    lambda m: '<span class="toc-page" data-target="%s">%d</span>' % (m.group(1), anchor_page[m.group(1)]),
+    DOC,
+)
+pathlib.Path(os.path.join(HERE,"_doc.html")).write_text(DOC2, encoding="utf-8")
+HTML(string=DOC2, base_url=HERE).write_pdf(
+    OUT, stylesheets=styles, font_config=fc)
+print("wrote", OUT, "pages", len(document.pages), "toc_anchors", len(anchor_page))

@@ -1,4 +1,4 @@
-# The Vaal Tongue, PDF build assets
+﻿# The Vaal Tongue, PDF build assets
 
 This folder holds everything needed to regenerate `The_Vaal_Tongue.pdf` from the
 master Markdown document. The build is self-contained: with these files in place,
@@ -9,10 +9,16 @@ one command produces the styled PDF.
 - `build_pdf.py`, the build script. It converts the Markdown to HTML, applies the
   full theme, and renders the PDF with WeasyPrint. The CSS theme and the three
   original SVG visuals are embedded inside this file as strings.
-- `Vaal_Reconstruction.md`, the master source document. This is the input.
+- `Vaal_Reconstruction.md`, the master source document, is the build input. It lives in the project root and is NOT shipped inside `Vaal_PDF_build_assets.zip` (so the bundle never carries a stale copy of the master); place the current master beside `build_pdf.py` before building.
 - `fonts/`, the two typefaces used by the theme.
 - `assets/`, standalone copies of the three SVG visuals, for inspection or editing.
 
+
+## TOC page numbers
+
+WeasyPrint's CSS `target-counter` often prints 0 for TOC entries on this stack.
+`build_pdf.py` uses a two-pass render: pass 1 records `page.anchors` page numbers;
+pass 2 substitutes those integers into `.toc-page` spans, then writes the PDF.
 ## Dependencies
 
 Python 3 with four packages:
@@ -74,9 +80,21 @@ relative to the script location, so the folder can live anywhere.
 - The document follows three hard formatting rules: no em dashes, no middots, no
   emojis. The build adds none of these; keep the source clean.
 - Citations are rendered manually from the numbered list so the printed numbers
-  stay locked to the source values (1 to 48). An HTML ordered list would renumber
+  stay locked to the source values (1 to 53). An HTML ordered list would renumber
   and break every in-text reference, so do not switch to one.
 - Avoid bold spans that wrap italics, that is, a double-asterisk run with a
   single-asterisk italic nested inside. The Markdown parser mis-nests that
   combination and leaks italics across the whole paragraph. Keep emphasis flat: a
   phrase is either bold or italic, not bold with italics inside it.
+## Windows note (Layla)
+
+WeasyPrint needs the GTK3 runtime DLLs on PATH. Install
+[GTK for Windows Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer)
+(default location C:\Program Files\GTK3-Runtime Win64), then either add its in
+folder to the user PATH or prepend it for the build session:
+
+    $env:PATH = "C:\Program Files\GTK3-Runtime Win64\bin;$env:PATH"
+    python build_pdf.py
+
+The build script expects citations under ## 18. Citations.
+
