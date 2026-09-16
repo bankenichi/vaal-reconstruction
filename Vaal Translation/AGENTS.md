@@ -148,7 +148,17 @@ Campbell, *The Pipil Language of El Salvador* (Nawat), is in `sources/dictionari
 
 When you close an open item or promote a token, update section 14 (Status) of the master and this section together.
 
-## 10. Reader-facing presentation and PDF (2026-09-16)
+## 10. Publishing workflow (Layla / main)
+
+Agreed presentation, documentation, PDF rebuilds, and other non-meaning edits publish **directly to main from Layla** (C:\Users\kenic\Documents\Vaal Reconstruction). Do not open long-lived cursor/* feature branches or cloud-agent PR stacks for routine Vaal Eng work unless Kenichi asks for a review branch.
+
+- Work on local main, keep it fast-forwarded with origin/main, commit, and git push origin main.
+- After a cloud agent is used anyway, merge promptly, delete the remote branch, and resume direct-to-main.
+- Do not force-push main. Do not rewrite published translations or glosses under this workflow shortcut.
+- Data-integrity protocol in section 4 still applies before and after every master edit.
+
+## 11. Reader-facing presentation and PDF (2026-09-16)
+
 
 Prior hard rules in §2-§9 still hold: palette search order, H gates under recovery scoring, data-integrity, no em dashes / middots / emoji, patch versioning, form-first search, competing readings logged. This section records presentation and shipping practice from the 2026-09-16 reader-facing pass. It does not relax meaning lock or the hardening protocol. Live standing after the blockers is the §9 current-state block above (H 2/78, *Ixchel* C+L, 10^-15 withdrawn, syntax p = 0.10 n.s.). Citation list maximum is **59** (the *Xibaqua* *-aqua* note). Older notes that still say 53 citations or a ~1200-line master are historical; the completeness checklist in §4 already expects 59 and ~1460 lines.
 
