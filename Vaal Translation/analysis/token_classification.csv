@@ -1,79 +1,79 @@
 id,token,gate1_strict,gate2_adversarial,tier
 1,Aiokmo,fail,survive,C
-2,akal,fail,survive,C
+2,akal,fail,fall,C*
 3,anab,fail,survive,C
-4,ascensionada / ascenada,pass,survive,H
-5,A'te / U'Te / Yatle,fail,fall,C+L*
+4,ascensionada / ascenada,fail,survive,C
+5,A'te / U'Te / Yatle,fail,survive,C+L
 6,atla,fail,survive,C
 7,Atziri,fail,survive,C+L
 8,'Ayok,fail,survive,C
 9,cha'tsoke,fail,survive,C
-10,che',pass,survive,H
-11,ek,fail,survive,C
+10,che',fail,fall,C*
+11,ek,fail,fall,C*
 12,Ela,fail,survive,C
 13,elba,fail,survive,C
-14,-en,pass,survive,H
-15,Eztli Pilli,pass,survive,H+L
+14,-en,fail,fall,C*
+15,Eztli Pilli,fail,survive,C+L
 16,Guatelitzi,fail,n/a,C+L
-17,'Ibil,fail,fall,C+L*
-18,ich,pass,survive,H
+17,'Ibil,fail,survive,C+L
+18,ich,fail,fall,C*
 19,i'chian,fail,survive,C
 20,ik'bala,fail,survive,C
 21,ikba'yucane,fail,survive,C
-22,Ik'eche,fail,fall,C*
+22,Ik'eche,fail,survive,C
 23,ik'el,fail,survive,C+L
-24,itsok / itzil,fail,fall,C+L*
+24,itsok / itzil,fail,survive,C+L
 25,jare,fail,survive,C
-26,k'áak' (kahk),pass,survive,H
+26,k'áak' (kahk),pass,fall,C*
 27,Kextal,fail,survive,C
-28,ki' (Kí'),pass,survive,H
+28,ki' (Kí'),fail,fall,C*
 29,kifba,fail,survive,C+L
 30,kilya,fail,survive,C+L
-31,kujkuali,pass,survive,H+L
+31,kujkuali,fail,survive,C+L
 32,kutsen,fail,fall,C+L*
-33,k'ux (quxzeh),pass;protocol_unexplained_residue,survive,C
-34,ma,pass;protocol_dual_incompatible_bundle,survive,C
-35,máax,pass,survive,H
-36,mucane,fail,fall,C*
+33,k'ux (quxzeh),fail;protocol_unexplained_residue,fall,C*
+34,ma,fail;protocol_dual_incompatible_bundle,fall,C*
+35,máax,fail,fall,C*
+36,mucane,fail,survive,C
 37,mujuk',fail,survive,C
-38,náach (niáach),pass,survive,H
-39,nochira,fail,survive,C
+38,náach (niáach),pass,fall,C*
+39,nochira,fail,fall,C*
 40,pochiti,fail,fall,C+L*
 41,qexcan,fail,survive,C+L
 42,sakilja,fail,survive,C+L
-43,ta'nuk,fail,fall,C*
-44,tala,fail,fall,C*
+43,ta'nuk,fail,survive,C
+44,tala,fail,survive,C
 45,te,fail,fall,C*
 46,Teoyuxtlane,fail,survive,C
-47,Ti,pass,survive,H
-48,til,fail,survive,C
+47,Ti,fail,fall,C*
+48,til,fail,fall,C*
 49,tlapec / yotlapek,fail,survive,C+L
 50,tlayeb,fail,survive,C+L
-51,tul,fail,fall,C*
-52,u,pass,survive,H
-53,uch' / pu uch',fail;protocol_dual_incompatible_readings,survive,C
+51,tul,pass,fall,C*
+52,u,fail,survive,C
+53,uch' / pu uch',fail;protocol_dual_incompatible_readings,fall,C*
 54,u'tra,fail,survive,C
 55,Vaal,fail,n/a,C+L
-56,waaj (waja),pass,survive,H+L
+56,waaj (waja),fail,fall,C+L*
 57,xefe,pass,survive,H
 58,xi,fail,survive,C
 59,xu'te,fail,survive,C
 60,Yutsal / yutsal,fail,survive,C+L
 61,Zerphi,fail,n/a,C
-62,pul / puul,no_artifact,no_artifact,C
+62,pul / puul,pass,fall,C*
 63,Quecholli,pass,survive,H+L
-64,Panquetzaliztli,pass,survive,H+L
+64,Panquetzaliztli,fail,survive,C+L
 65,Ixchel,pass,survive,H+L
-66,chikula',pending,pending,C+L
-67,Gyan'uks,pending,pending,C+L
-68,kíimil,pending,pending,C+L
-69,ko'janti,pending,pending,C+L
-70,kux / kuxkal / kuxte',pending,pending,C+L
-71,le / le',pending,pending,C+L
-72,líimek,pending,pending,C+L
-73,Ma'oxe,pending,pending,C+L
-74,Tlaxye',pending,pending,C+L
-75,Tzokan'te / tzok,pending,pending,C+L
-76,Xatlene,pending,pending,S+L
-77,yax / Yaxe,pending,pending,C+L
-78,yuquia,pending,pending,C+L
+66,chikula',fail,fall,C+L*
+67,Gyan'uks,fail,survive,C+L
+68,kíimil,fail,fall,C+L*
+69,ko'janti,fail,survive,C+L
+70,kux / kuxkal / kuxte',fail,fall,C+L*
+71,le / le',fail,fall,C+L*
+72,líimek,fail,survive,C+L
+73,Ma'oxe,fail,survive,C+L
+74,Tlaxye',fail,survive,C+L
+75,Tzokan'te / tzok,fail,survive,C+L
+76,Xatlene,fail,survive,S+L
+77,yax / Yaxe,fail,survive,C+L
+78,yuquia,fail,survive,C+L

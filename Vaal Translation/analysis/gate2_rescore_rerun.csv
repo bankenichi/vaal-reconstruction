@@ -1,0 +1,79 @@
+id,token,outcome,committed_class,competitor_root,competitor_lang,competitor_kind,competitor_gloss
+1,Aiokmo,SURVIVE,Nah. aocmo[10],,,,
+2,akal,FALL,"Maya akal ""pond""[7]",AKAL,Yucatec Maya,DIFF-meaning,acercarse; takal u ka'ah u mank'inal
+3,anab,SURVIVE,Classic Maya anaab[7],,,,
+4,ascensionada / ascenada,SURVIVE,Rom. ascensión + -ada[21],,,,
+5,A'te / U'Te / Yatle,SURVIVE,Maya at / yan presentative[7],,,,
+6,atla,SURVIVE,"Nah. atl ""water"" (+ -tlan ""in/at"")[10]",,,,
+7,Atziri,SURVIVE,"Nah. ātl ""water"" + rev. -tzin[10,13]",,,,
+8,'Ayok,SURVIVE,Nah. aocmo / ayoc[10],,,,
+9,cha'tsoke,SURVIVE,"Maya ka'a ""again"" + ts'ook ""end""[7]",,,,
+10,che',FALL,"Maya che' ""tree, wood""[7][36]",CHE',Yucatec Maya,DIFF-meaning,"salvia 3: salvia, yerba conocida"
+11,ek,FALL,Maya ek'[7],ek,K'iche',DIFF-meaning,to go (Totonicapán)
+12,Ela,SURVIVE,"Maya el / elel ""to burn""[7][36]",,,,
+13,elba,SURVIVE,"Maya el + ba' ""self""[7]",,,,
+14,-en,FALL,Maya -en / teen[7],EN,Yucatec Maya,DIFF-meaning,pronombre de la primera persona 8: soy 0 estoy;
+15,Eztli Pilli,SURVIVE,"Nah. eztli ""blood"" + pilli ""noble, prince""[10]",,,,
+16,Guatelitzi,N/A,(name)[38],,,,
+17,'Ibil,SURVIVE,"Maya il ""see"" + -bil[7]",,,,
+18,ich,FALL,Maya ich(il)[7],ICH,Yucatec Maya,DIFF-meaning,.el de rostro tostado y el
+19,i'chian,SURVIVE,"Nah. ichan ""his/her home"" (chantli ""home"" + i-)[10,22]",,,,
+20,ik'bala,SURVIVE,Maya ik' + ba'[7],,,,
+21,ikba'yucane,SURVIVE,Maya ik' + ba' + -ane hon.[7],,,,
+22,Ik'eche,SURVIVE,"Maya ik' ""spirit/breath"" + -ech ""you"" + -e voc.[7]",,,,
+23,ik'el,SURVIVE,Maya ik' + -el[7],,,,
+24,itsok / itzil,SURVIVE,"Maya iitz ""sap, essence""[7]",,,,
+25,jare,SURVIVE,"K'iche' are' ""he, she, it; it is, that is"" (focus) / ri ""the""[47]",,,,
+26,k'áak' (kahk),FALL,"Maya k'áak' ""fire""[7][36]",k'aak',Yucatec Maya,DIFF-meaning,Ver Visiones
+27,Kextal,SURVIVE,"Maya k'ex ""substitution → transform""[7]",,,,
+28,ki' (Kí'),FALL,Maya ki'[7],KI,Yucatec Maya,DIFF-meaning,"chok'chok'ki: cosa apretada, atestada y embutida"
+29,kifba,SURVIVE,"Maya k'i'ik' ""blood"" + ba'[7]",,,,
+30,kilya,SURVIVE,"Nah. quil- ""green, verdant"" + inchoative -ya ""to come to be""[49]; in Text 1 fronted by optative mā (see ma)",,,,
+31,kujkuali,SURVIVE,Nah. cualli[10],,,,
+32,kutsen,FALL,"Maya kutz ""sacrificial bird""[7]",KUTS,Yucatec Maya,DIFF-meaning,"pavo de esta tierra 3: pavo real, macho 0 hembra 4, '6: pava 5,12: pavo 5: pava 0 pav6n 7, 13tpv:"
+33,k'ux (quxzeh),FALL,"Maya k'ux ""to bite, gnaw; rancor""[7][36]",K'UX,Yucatec Maya,DIFF-meaning,"dolor 1, 8: k'ux nak': dolor de tripas 0 ele"
+34,ma,FALL,"Nah. mā / Maya ma'[7,10]",MA,Yucatec Maya,DIFF-meaning,pospuesta al cuerpo de los verb os y algunos nombres denota tener hecha su operaci6n; wohelma: sabido
+35,máax,FALL,"Yucatec máax ""who?""[7]",MAX,Yucatec Maya,DIFF-meaning,repartir una india entre much as su algod6n en
+36,mucane,SURVIVE,"Maya muk' ""strength"" + -ane[7]",,,,
+37,mujuk',SURVIVE,"Maya muk' ""strength, force""[7]",,,,
+38,náach (niáach),FALL,Maya náach[7],NACH,Yucatec Maya,DIFF-meaning,"ele fuera [ser] [forastero, foraneo, extranjero]"
+39,nochira,FALL,Nah. nochi / mochi[10],NOCH,Yucatec Maya,DIFF-meaning,jicara que no esta bien redonda 9: jicara mal
+40,pochiti,FALL,"Maya poch ""hungry, gluttonous""[8] + Nah. inchoative -ti[14]",POCH,Yucatec Maya,DIFF-meaning,"goloso que tiene gran hambre 2, 5: goloso"
+41,qexcan,SURVIVE,"Maya k'ex ""transform"" + -can (Nah. locative ""place of"")[7,10]",,,,
+42,sakilja,SURVIVE,"Maya sak ""white, pure"" + ha' ""water""[7]",,,,
+43,ta'nuk,SURVIVE,"Maya nuk / nojoch ""big, great""[7]",,,,
+44,tala,SURVIVE,"Maya taal ""to come""[7][36]",,,,
+45,te,FALL,Maya ti' / te'[7],TE,Yucatec Maya,DIFF-meaning,"cuenta para cacaos, huevos y calabazas 7,8:"
+46,Teoyuxtlane,SURVIVE,"Nah. teōtl ""god"" + Yux (Yutsal) + -tlān ""place"" + voc. -e[10,13]",,,,
+47,Ti,FALL,Maya ti'[7],ti,Nawat,DIFF-meaning,21-t ik negro; black
+48,til,FALL,Maya til[7],til,Nawat,DIFF-meaning,"tile, tizne, carbón; soot"
+49,tlapec / yotlapek,SURVIVE,"Nah. tlapechtli ""platform, scaffold, altar-bed""[10]",,,,
+50,tlayeb,SURVIVE,"Nah. tla- + tlayohua ""night""[10]",,,,
+51,tul,FALL,"Maya tul ""decline""[7]",TUL,Yucatec Maya,DIFF-meaning,en composici6n significa tcner abunclancia 3:
+52,u,SURVIVE,Maya u- (Set A 3rd person)[7],,,,
+53,uch' / pu uch',FALL,"Maya uk' ""to drink"", or puuch' ""to crush""[7]",UCH',Yucatec Maya,DIFF-meaning,deformado; aplastado
+54,u'tra,SURVIVE,Rom. Spanish otra[21],,,,
+55,Vaal,N/A,(name)[5],,,,
+56,waaj (waja),FALL,Maya waaj[7],WAH,Yucatec Maya,DIFF-meaning,bizcochado as! 4. op'kinah wah 3: V. ka' tsuhtah wah
+57,xefe,SURVIVE,Rom. Spanish jefe (archaic xefe)[21],,,,
+58,xi,SURVIVE,Nah. xi-[10],,,,
+59,xu'te,SURVIVE,"Maya xul ""end"" + te'[7]",,,,
+60,Yutsal / yutsal,SURVIVE,"Yucatec y- (3 poss) + uts ""good"" + -al; attested as yutsal ""(its) goodness, all-good"" (Cordemex)[51]",,,,
+61,Zerphi,N/A,(name)[5],,,,
+62,pul / puul,FALL,"Maya pul / puul ""to throw, cast, hurl""[36]",PUL,Yucatec Maya,DIFF-meaning,idem 5: eehar asi [tender]; chelpultah [pp de
+63,Quecholli,SURVIVE,Nahuatl,,,,
+64,Panquetzaliztli,SURVIVE,Nahuatl,,,,
+65,Ixchel,SURVIVE,Yucatec Maya,,,,
+66,chikula',FALL,Maya,CHIK,Yucatec Maya,DIFF-meaning,"cosa manca, tulIida 0 lisiada 0 encogida 10."
+67,Gyan'uks,SURVIVE,Nahuatl,,,,
+68,kíimil,FALL,Maya,KIMIL,Yucatec Maya,DIFF-meaning,crecer la enfermedacl
+69,ko'janti,SURVIVE,Maya,,,,
+70,kux / kuxkal / kuxte',FALL,Maya,KUX,Yucatec Maya,DIFF-meaning,"seria bueno, y si :8: <!y? <!pues?, es interrogante;"
+71,le / le',FALL,Maya,LE,Yucatec Maya,DIFF-meaning,pron ese; el; pron peTS ello; Ie pek'o': ese
+72,líimek,SURVIVE,Maya,,,,
+73,Ma'oxe,SURVIVE,Maya,,,,
+74,Tlaxye',SURVIVE,Nahuatl,,,,
+75,Tzokan'te / tzok,SURVIVE,Maya,,,,
+76,Xatlene,SURVIVE,Nahuatl,,,,
+77,yax / Yaxe,SURVIVE,Maya,,,,
+78,yuquia,SURVIVE,Nahuatl,,,,

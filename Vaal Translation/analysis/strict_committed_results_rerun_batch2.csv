@@ -1,0 +1,21 @@
+id,token,found,root,lang,gloss,confidence,residue,notes
+21,ikba'yucane,N,,,,none,,no attested form hit
+22,Ik'eche,N,,,,none,,no attested form hit
+23,ik'el,Y,ik’el,Yucatec Maya,bicho,C,,exact folded match (length/glottal only); source=ilide Spanish-Maya; kind=exact
+24,itsok / itzil,N,,,,none,,no attested form hit
+25,jare,N,,,,none,,no attested form hit
+26,k'áak' (kahk),Y,K'AK',Yucatec Maya,fuelle 7: fuelle para soplar fuego :8: fue-,C,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+27,Kextal,N,,,,none,,no attested form hit
+28,ki' (Kí'),Y,KI,Yucatec Maya,embeodar 0 hartar de vina 45. atsah ti' mab,C,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+29,kifba,N,,,,none,,no attested form hit
+30,kilya,N,,,,none,,no attested form hit
+31,kujkuali,N,,,,none,,no attested form hit
+32,kutsen,Y,KUTS,Yucatec Maya,"acepiIIar 4, 8: Iimpiar con pafio a",C,,"root plus attested same-language affix, no residue; source=Cordemex; kind=affix"
+33,k'ux (quxzeh),Y,K'UX,Yucatec Maya,el que aborrece 0 tiene odio 0 rencor a otro;,C,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+34,ma,Y,MA,Yucatec Maya,man dar con brio 0 con rigor,C,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+35,máax,Y,MAAX,Yucatec Maya,el que se abroquela bien,C,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+36,mucane,N,,,,none,,no attested form hit
+37,mujuk',N,,,,none,,no attested form hit
+38,náach (niáach),Y,NAACH,Yucatec Maya,venir de lejos 0 de lugar distante 3.,C,,exact folded match (length/glottal only); source=Cordemex; kind=exact
+39,nochira,Y,nochi,Nahuatl,all,soft,ra,attested root with unexplained residue under strict rules; source=Nahuatl 1100 wordlist; kind=prefix
+40,pochiti,Y,POCH,Yucatec Maya,desear mucho 0 con ansia,soft,iti,attested root with unexplained residue under strict rules; source=Cordemex; kind=prefix

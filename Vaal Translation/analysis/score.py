@@ -14,6 +14,8 @@ positive. Committed-match applies only to the real arm.
 Usage:
   python3 score.py <results.csv> <key.csv>
   python3 score.py <results.csv> <key.csv> --committed committed_readings.csv
+  python3 score.py --rerun
+      score every re-run battery file (does not touch 2026-07 archives)
 """
 from __future__ import annotations
 
@@ -29,6 +31,15 @@ try:
 except ImportError:
     sys.path.insert(0, HERE)
     from match_committed import judge_decode, lang_classes, extract_quoted_root
+
+
+SEEDS = [1729, 9001, 271828, 42, 55555]
+RERUN_BATTERIES = [
+    ("A loose/offline", "blind_test_results_rerun_s{seed}.csv"),
+    ("B loose/online", "blind_test_results_rerun_online_s{seed}.csv"),
+    ("C strict/offline", "blind_test_results_rerun_tight_s{seed}.csv"),
+    ("D strict/online", "blind_test_results_rerun_tight_online_s{seed}.csv"),
+]
 
 
 def load_committed(path: str) -> dict:
@@ -52,26 +63,15 @@ def load_committed(path: str) -> dict:
     return table
 
 
-def main(argv=None):
-    p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("res_path")
-    p.add_argument("key_path")
-    p.add_argument("--committed", default=os.path.join(HERE, "committed_readings.csv"),
-                   help="committed-readings table (default: analysis/committed_readings.csv)")
-    args = p.parse_args(argv)
-
+def score_one(res_path, key_path, committed) -> dict:
     res = {}
-    with open(args.res_path, encoding="utf-8") as f:
+    with open(res_path, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             res[r["id"]] = r
     key = {}
-    with open(args.key_path, encoding="utf-8") as f:
+    with open(key_path, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             key[r["id"]] = r
-
-    committed = {}
-    if args.committed and os.path.exists(args.committed):
-        committed = load_committed(args.committed)
 
     P = dict(C=0, soft=0, none=0, Y=0, n=0)
     R = dict(C=0, soft=0, none=0, Y=0, n=0)
@@ -107,6 +107,7 @@ def main(argv=None):
     fpr_soft = (P["C"] + P["soft"]) / P["n"] if P["n"] else 0
     tpr_c = R["C"] / R["n"] if R["n"] else 0
     tpr_found = R["Y"] / R["n"] if R["n"] else 0
+    print(f"{os.path.basename(res_path)}")
     print(f"PSEUDO n={P['n']}: C={P['C']} soft={P['soft']} none={P['none']} | REAL n={R['n']}: C={R['C']} soft={R['soft']} none={R['none']}")
     print(f"FPR(C)={fpr_c:.2f}  FPR(C+soft)={fpr_soft:.2f}  TPR(C,any-root)={tpr_c:.2f}  TPR(found)={tpr_found:.2f}  Discrimination(C,any-root)={tpr_c-fpr_c:+.2f}")
     print("NOTE: TPR(C,any-root) is the legacy F1 scorer (any C counts, even a different lemma).")
@@ -116,6 +117,42 @@ def main(argv=None):
         print("Unscorable = C/soft/none rows with no committed table hit, or C with empty root/lang/gloss.")
     elif not committed:
         print("No committed-readings table loaded; recovery TPR not computed.")
+    return {"P": P, "R": R, "Rmatch": Rmatch, "fpr_c": fpr_c, "tpr_c": tpr_c}
+
+
+def main(argv=None):
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("res_path", nargs="?")
+    p.add_argument("key_path", nargs="?")
+    p.add_argument("--committed", default=os.path.join(HERE, "committed_readings.csv"),
+                   help="committed-readings table (default: analysis/committed_readings.csv)")
+    p.add_argument("--rerun", action="store_true",
+                   help="score re-run battery files; leave 2026-07 archives untouched")
+    args = p.parse_args(argv)
+
+    committed = {}
+    if args.committed and os.path.exists(args.committed):
+        committed = load_committed(args.committed)
+
+    if args.rerun and not args.res_path:
+        missing = []
+        for label, pat in RERUN_BATTERIES:
+            print(f"\n=== {label} ===")
+            for seed in SEEDS:
+                res = os.path.join(HERE, pat.format(seed=seed))
+                key = os.path.join(HERE, f"blind_test_key_rerun_s{seed}.csv")
+                if not os.path.isfile(res):
+                    missing.append(res)
+                    print(f"pending: {os.path.basename(res)}")
+                    continue
+                score_one(res, key, committed)
+        if missing:
+            print(f"\n{len(missing)} re-run result files not yet written.")
+        return
+
+    if not args.res_path or not args.key_path:
+        p.error("res_path and key_path required unless --rerun")
+    score_one(args.res_path, args.key_path, committed)
 
 
 if __name__ == "__main__":

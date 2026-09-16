@@ -79,11 +79,11 @@ Report Fisher one-sided p at both levels. Do **not** headline an unconditional b
 
 **TODO / pending re-run (A-D):**
 
-- [ ] De-duplicated generator and new worksheets.
-- [ ] Five-seed Batteries A, B, C, D with complete root/lang/gloss columns.
-- [ ] Pooled any-C and recovery TPR/FPR tables, Wilson 95% CIs.
-- [ ] Selection-matched Fisher, trial and item, recovery-scored.
-- [ ] Write `NULL_MODEL_RESULTS_RERUN.md` and append a dated block to `EXPERIMENT_LOG.md`.
+- [x] De-duplicated generator and new worksheets.
+- [x] Five-seed Batteries A, B, C, D with complete root/lang/gloss columns.
+- [x] Pooled any-C and recovery TPR/FPR tables, Wilson 95% CIs.
+- [x] Selection-matched Fisher, trial and item, recovery-scored.
+- [x] Write `NULL_MODEL_RESULTS_RERUN.md` and append a dated block to `EXPERIMENT_LOG.md`.
 
 ## Battery E (enlarged / onomastic base)
 
@@ -97,9 +97,9 @@ Same role as `BATTERY_E_RESULTS.md`: certify post-A-D names (*Quecholli*, *Panqu
 
 **TODO / pending re-run (E):**
 
-- [ ] New distractors from the de-duplicated generator (do not reuse the 10/60 accidental-lexeme set as a floor).
-- [ ] 5/5 (or recorded misses) per target under recovery scoring.
-- [ ] Controls whose current tiers are post-rescore (do not treat *ek* as an H control; it is C after the stopgap).
+- [x] New distractors from the de-duplicated generator (do not reuse the 10/60 accidental-lexeme set as a floor).
+- [x] 5/5 (or recorded misses) per target under recovery scoring.
+- [x] Controls whose current tiers are post-rescore (do not treat *ek* as an H control; it is C after the stopgap).
 
 ## Gate 1 on the committed lexicon (strict decode)
 
@@ -114,9 +114,9 @@ Write `strict_committed_results_rerun_batch*.csv` and a new `gate1_rescore_rerun
 
 **TODO / pending re-run (Gate 1 lexicon):**
 
-- [ ] 78-row coverage (or an explicit "not run" list).
-- [ ] Protocol-clean recovery count on the 61-row battery frame **and** on the 78-row section-9 frame.
-- [ ] Distinct-root collapse of those counts (grouping rule in master §17.7).
+- [x] 78-row coverage (or an explicit "not run" list).
+- [x] Protocol-clean recovery count on the 61-row battery frame **and** on the 78-row section-9 frame.
+- [x] Distinct-root collapse of those counts (grouping rule in master §17.7).
 
 ## Gate 2 (adversarial, same-language on)
 
@@ -127,8 +127,8 @@ Write `strict_committed_results_rerun_batch*.csv` and a new `gate1_rescore_rerun
 
 **TODO / pending re-run (Gate 2):**
 
-- [ ] 78-row pass (pending rows included).
-- [ ] Survive/fall table on per-token and per-distinct-root bases.
+- [x] 78-row pass (pending rows included).
+- [x] Survive/fall table on per-token and per-distinct-root bases.
 
 ## Syntax panel (analyst-level, gloss-blind)
 
@@ -149,7 +149,7 @@ Write `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Keep the 2026-07 log as history.
 
 **TODO / pending re-run (syntax):**
 
-- [ ] Gloss-blind real panel (target: at least 3 analysts).
+- [ ] Gloss-blind real panel (target: at least 3 analysts). See `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
 - [ ] Gloss-blind scrambled panel (target: at least 2 analysts, preferably matched N).
 - [ ] Analyst-level 2x2 and Fisher p.
 - [ ] Sentence-level probability bands remain **withdrawn as translation confidence** until recovery-scored token PPVs exist; even then, report Frechet bounds correctly (lower = max(0, sum p_i - n + 1), upper = min p_i). Do not call an independence product a floor.
@@ -158,7 +158,7 @@ Write `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Keep the 2026-07 log as history.
 
 Apply the §17.7 grouping rule (same §9 head root merges; shared affixes do not). Report every coverage and gate table **per token and per distinct root**. Neither base supersedes the other.
 
-**TODO / pending re-run:** rebuild the dual-base tables from the new CSVs. Until then, master §17.7 and `STATISTICAL_SUMMARY.md` §1 / §7a carry stopgap recovery counts on 61/52 and 78/69, with Battery E as a provisional third base.
+**TODO / pending re-run:** rebuild the dual-base tables from the new CSVs. Done for Gates 1/2 and the hardened share (see master §17.7 and `STATISTICAL_SUMMARY.md` §1 / §7a, re-run epoch). Syntax dual-base is not applicable; syntax p remains pending.
 
 ## Success criteria (what would replace the stopgap)
 
@@ -172,7 +172,7 @@ A re-run **may replace stopgap headlines** when:
 4. Syntax p, if quoted, is analyst-level and gloss-blind.
 5. Model-based PPV / sentence bands, if quoted as translation confidence, use recovery TPR/FPR and a non-circular b, or they stay labelled withdrawn.
 
-Until (1)-(4) are true, the stopgap remains: hardened share 17/78 measured from the rescore; matched p about 0.005 to 0.06 from archived any-C arms; PPV and sentence percentages withdrawn as translation confidence.
+As of the 2026-09-16 re-run, (1)-(3) are on disk (`NULL_MODEL_RESULTS_RERUN.md`, `gate1_rescore_rerun.csv`, `gate2_rescore_rerun.csv`, `token_classification.csv`). Criterion (4) is still open: syntax p, if quoted, must wait for the gloss-blind panel (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Criterion (5) remains withdrawn. Headlines for the lexicon and the null now come from the re-run files. The 2026-07/09 archive numbers stay labelled stopgap / historical.
 
 ## Artifacts checklist (write these, do not overwrite archives)
 
@@ -198,4 +198,4 @@ python3 score_adversarial.py
 python3 null_honesty.py
 ```
 
-(The last three still point at the stopgap archives until the rerun filenames are wired through. **TODO:** teach those scripts a `--rerun` input dir rather than silently mixing epochs.)
+(The last three still point at the stopgap archives unless `--rerun` is passed. `score.py --rerun` and `null_honesty.py --rerun` score the re-run filenames and do not mix epochs.)

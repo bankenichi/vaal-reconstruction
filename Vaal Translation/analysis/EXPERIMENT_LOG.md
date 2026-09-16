@@ -88,16 +88,46 @@ The other new terms did not earn H: the strongbox artisans *Ixtolatl* and *Mahua
 
 **Update (Battery E, 2026-07).** The three names were run as blind plants under the same strict-and-online conditions across all five seeds (`BATTERY_E_RESULTS.md`): 15/15 Gate-1 passes (Quecholli 5/5, Panquetzaliztli 5/5, Ixchel 5/5), with the real controls calibrating (naach 5/5, ek 4/5 including one wasp reading, kutsen 1/5, sakilja 0/5, kilya 0/5). The names stay H+L. They do not restore an unconditional 10^-15 null rejection. The distractor false-positive rate (10/60) remains logged for transparency. *ek* as a control is itself no longer H in the lexicon (Gate 1 recovery failed: wasp vs star/dark).
 
+## 2026-09-16 re-run (true remediation)
+
+Protocol: `EXPERIMENT_RERUN_PROTOCOL.md`. Decoder: form-first lookup over attached text dictionaries (`dict_lookup.py`, `decode_blind.py`). Seeds 1729, 9001, 271828, 42, 55555. 2026-07 archive filenames were not overwritten.
+
+**Generator.** `generate_pseudo_vaal.py --rerun` / `gen_set.py --rerun`: 500 distinct pseudo strings of 500 trials; corpus-token and long-substring rejection (leak list including *eztl*, *noche*, *ko'ja*); Spanish loan-palette hits labelled Spanish, not pure noise. Files: `pseudo_vaal_test_set_rerun.txt`, `blind_test_worksheet_rerun_s{seed}.csv`, `blind_test_key_rerun_s{seed}.csv`. Prerun freeze: `token_classification_prerun.csv`.
+
+**Batteries A-D.** Complete 5 x 4 x 130 sheets with found / confidence / root / lang / gloss / residue / notes. Result files: `blind_test_results_rerun_s{seed}.csv`, `_online_`, `_tight_`, `_tight_online_`. Pooled (`NULL_MODEL_RESULTS_RERUN.md`):
+
+| Battery | FPR(C) | TPR(C) any-root | TPR(recovery) |
+|---|---|---|---|
+| A loose/offline | 0.128 | 0.367 | 0.033 |
+| B loose/online | 0.136 | 0.367 | 0.033 |
+| C strict/offline | 0.064 | 0.233 | 0.033 |
+| D strict/online | 0.068 | 0.233 | 0.033 |
+
+Distinct-string FPR primary: A 64/500, C 32/500, D 34/500. Matched A-then-D any-C: trial p = 0.09494 (35/55 vs 32/64), item p = 0.3069 (7/11 vs 32/64). Recovery-scored matched: trial p = 1, item p = 0.9991. *Otsuks* unscorable (not in `committed_readings.csv`).
+
+**Battery E.** `BATTERY_E_RERUN.md`, `battery_e_rerun_raw.md`. Fresh unique pseudos. *Quecholli* 5/5 recovery, *Ixchel* 5/5 (Cordemex herb-string on the lexeme form), *Panquetzaliztli* 0/5 (not in attached dicts). Controls: *naach* 5/5 recovery, *ek* 0/5 recovery / 5/5 any-C wasp (C, not H), *kutsen* 0/5 recovery / 5/5 any-C, *sakilja* 0/5, *kilya* 0/5. Distractors 1/60 C.
+
+**Gate 1 lexicon.** 78/78 rows in `strict_committed_results_rerun_batch{1-4}.csv` and `gate1_rescore_rerun.csv`. Recovery yes: 7/78 (*k'áak'*, *náach*, *tul*, *xefe*, *pul / puul*, *Quecholli*, *Ixchel*). Protocol-clean the same 7. On the 61-row frame: 4/61. *pul* now has an artifact (no longer `no_artifact`).
+
+**Gate 2.** 78/78 in `adversarial_results_rerun_batch{1-4}.csv` and `gate2_rescore_rerun.csv`. Survive 50 / 75 testable (38/58 on ids 1-61). Same-language competitors on.
+
+**Hardening.** `token_classification.csv` rewritten after both gates (prerun snapshot preserved). H = 3 of 78: *xefe*, *Quecholli* H+L, *Ixchel* H+L. Dual-base: 1/61 and 1/52 on the battery frame; 3/64 and 3/55 enlarged; 3/78 and 3/69 section 9.
+
+**Syntax.** Not run. Checklist only: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Do not quote a new syntax p.
+
+**Docs.** `STATISTICAL_SUMMARY.md` and master §17 updated from these files only. Stopgap archive numbers stay labelled historical.
+
 ## Task status
 
-Batteries A-E remain the historical experimental record. 2026-09 stopgap remediation (scorer F1/N3, count reconciliation, withdrawn 10^-15 headline) is in `RESCORE_OUTPUT.md` and `NULL_HONESTY_OUTPUT.md`. Dual-base tables and the Battery E third base are restored in master §17.5-17.7 and `STATISTICAL_SUMMARY.md`; PPV / sentence bands are labelled withdrawn as translation confidence / stopgap pending re-run. True remediation: `EXPERIMENT_RERUN_PROTOCOL.md`. Remaining debt: full-pipeline unique-string null; blinded syntax re-run; pending gates on the 13 former L-only rows. Do not treat the stopgap as closing the program.
+Re-run Batteries A-E, Gate 1, and Gate 2 are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` now follow the re-run CSVs. PPV / sentence bands remain withdrawn as translation confidence. Remaining debt: gloss-blind syntax panel (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
 
 ## Reproduce / resume
 
-- Regenerate any null-model worksheet: `python3 gen_set.py <seed>` (seeds above).
-- Re-score a battery (legacy any-C plus recovery TPR): `python3 score.py <results.csv> <key.csv>`.
-- Rescore Gate 1 / rewrite `token_classification.csv`: `python3 rescore_gate1.py`.
-- Rescore Gate 2: `python3 score_adversarial.py`.
-- Selection-matched p and pseudo de-duplication: `python3 null_honesty.py`.
-- Per-token hardening test for future tokens: `HARDENING_PROTOCOL.md`.
-- Full re-run (true remediation, do not fake results): `EXPERIMENT_RERUN_PROTOCOL.md`.
+- Regenerated re-run worksheets: `python3 gen_set.py --rerun <seed>` (default without `--rerun` still writes archive names and will refuse to overwrite them).
+- Re-score a re-run battery: `python3 score.py --rerun` or `python3 score.py <rerun results.csv> <rerun key.csv>`.
+- Pooled A-D: `python3 rerun_score_pool.py` / `python3 null_honesty.py --rerun`.
+- Gate 1+2 lexicon re-run: `python3 run_gates_rerun.py` (writes `*_rerun_*.csv`; does not overwrite 2026-07 batches).
+- Battery E re-run: `python3 run_battery_e_rerun.py`.
+- Archive stopgap (do not mix): `python3 rescore_gate1.py`, `python3 score_adversarial.py`, `python3 null_honesty.py`.
+- Per-token hardening test: `HARDENING_PROTOCOL.md`.
+- Protocol: `EXPERIMENT_RERUN_PROTOCOL.md`.

@@ -1,0 +1,512 @@
+# De-duplicated re-run pseudo-Vaal set. Distinct-string count == trial count.
+# Seeds [1729, 9001, 271828, 42, 55555]. See EXPERIMENT_RERUN_PROTOCOL.md and NULL_MODEL_PROTOCOL.md
+
+# seed 1729
+  1. icte'moxe
+  2. motlotloti
+  3. qextl
+  4. chikba
+  5. axichira
+  6. xomalaplat
+  7. xomal
+  8. xech
+  9. uchiti
+ 10. atlitzi
+ 11. ik'iin
+ 12. yatzla
+ 13. chare
+ 14. maal
+ 15. buxkamala
+ 16. ictetzi
+ 17. xomapuatl
+ 18. tzoloti
+ 19. matal
+ 20. tetziri
+ 21. xibsal
+ 22. ichik
+ 23. fuks
+ 24. icte'mo
+ 25. gyani
+ 26. buxtli
+ 27. uche
+ 28. xateli
+ 29. kextlini
+ 30. ucani
+ 31. tilo
+ 32. xechitzoka
+ 33. qextani
+ 34. kuxa
+ 35. cutsuks
+ 36. aiokala
+ 37. soketzoli
+ 38. ko'jane
+ 39. ma'nuks
+ 40. telin
+ 41. azcan
+ 42. motl
+ 43. tlin
+ 44. cotatl
+ 45. ahuatzi
+ 46. jarak'ecwa
+ 47. jarak
+ 48. gual
+ 49. tani
+ 50. coti
+ 51. tzoketzi
+ 52. zela
+ 53. itziri
+ 54. asa'nuks
+ 55. xomasal
+ 56. kexcani
+ 57. ipkamaalat
+ 58. nochitzaka
+ 59. taat
+ 60. ipkan'uks
+ 61. kulin
+ 62. ikuatli
+ 63. zolotlapla
+ 64. taakiib
+ 65. puyan'tep
+ 66. ik'ecwa
+ 67. kuat
+ 68. tato
+ 69. kuemasa
+ 70. puxkalayel
+ 71. kutlotla
+ 72. koryao
+ 73. kamatzilja
+ 74. ibaliimil
+ 75. ipkali
+ 76. u'tsala
+ 77. axyeb
+ 78. itzoato
+ 79. puyani
+ 80. akaachbe
+ 81. cotli
+ 82. yuch
+ 83. elax
+ 84. asalatl
+ 85. gyane
+ 86. itsa
+ 87. taach
+ 88. ikujkulin
+ 89. chikuxka
+ 90. mucanibsa
+ 91. axilyane
+ 92. quatep
+ 93. kujuk'eli
+ 94. soxe
+ 95. cotl
+ 96. ikbaquato
+ 97. malatl
+ 98. otal
+ 99. kutl
+100. ipkane
+
+# seed 9001
+101. puatzoche
+102. xilyat
+103. donab
+104. ikbaquia
+105. quatzul
+106. mucani
+107. kahua
+108. tatzi
+109. xomasa
+110. uchbe
+111. jane
+112. kali
+113. korya
+114. ta'oxe
+115. much
+116. poke
+117. cutsalane
+118. tillin
+119. zoatlitzi
+120. puxa
+121. zoloti
+122. ipkal
+123. mujuks
+124. otaaxyeb
+125. a'oxtat
+126. quxzela
+127. moxtlen
+128. kiini
+129. mektotl
+130. yatzira
+131. tali
+132. taaxye
+133. atoti
+134. otlatzoat
+135. ketziljara
+136. tatzulani
+137. mujukuali
+138. ascene
+139. xichira
+140. yutlane
+141. ucan'te
+142. asak'ba
+143. pilya
+144. nochiri
+145. kuxtl
+146. kuemaal
+147. kaach
+148. azcane
+149. otlo
+150. sokmotan
+151. puyat
+152. mujkuemal
+153. guatzi
+154. aionuks
+155. xolinab
+156. mapuxzeh
+157. mapuyane
+158. eliib
+159. ketzokal
+160. xoli
+161. azcani
+162. yuchbe
+163. eztlatl
+164. ko'jara
+165. fuk'ba
+166. soka
+167. ucanti
+168. killi
+169. motatzi
+170. litsene
+171. ko'jani
+172. akiimek
+173. salaplaxye
+174. puatetzi
+175. tzira
+176. elinadonab
+177. gyao
+178. itilja
+179. itzlatzahk
+180. teoyuxkal
+181. ak'ba
+182. kiin
+183. yucanib
+184. jara
+185. eztlat
+186. gyat
+187. ipka'tsok
+188. otlotliina
+189. kujuk
+190. echa
+191. puyatl
+192. xicheye
+193. nochitzi
+194. tilliimil
+195. kujkuli
+196. tilyao
+197. salat
+198. xiloti
+199. cutsen
+200. ucada
+
+# seed 271828
+201. cutsak'el
+202. yucadona
+203. itzla
+204. chitzokala
+205. cheyeb
+206. zoke
+207. itzoli
+208. iche
+209. u'tsokanti
+210. kiina
+211. itzlat
+212. a'tsuks
+213. yuche
+214. ate'mo
+215. kuetzla
+216. maaka
+217. quxato
+218. buxe
+219. pilja
+220. tizolo
+221. kishare
+222. kaateli
+223. tate
+224. pokali
+225. uktul
+226. naal
+227. xicheyeb
+228. kamal
+229. itzolotl
+230. ta'oxsala
+231. zahk
+232. puatzoc
+233. kutsok
+234. mucanti
+235. ukutla
+236. xomala
+237. jani
+238. yane
+239. azcan'tsa
+240. arakani
+241. kextl
+242. nochitzira
+243. sa'oxe
+244. mucada
+245. pokan'uks
+246. chikuxec
+247. tan'tul
+248. nochitse
+249. huatl
+250. xomaliti
+251. ucan'uks
+252. tatlen
+253. pilo
+254. salapuat
+255. qextlatl
+256. ikujukuur
+257. qextal
+258. kutsuks
+259. malat
+260. buxtla
+261. ipkaachbe
+262. tatan
+263. doriekto
+264. nocheyeb
+265. elatotlene
+266. nocheye'mo
+267. nado
+268. malayel
+269. ka'nuk
+270. echira
+271. maachiti
+272. zolotl
+273. sokmo
+274. tlotse
+275. tetzula
+276. kuatl
+277. tan'uk
+278. quatlo
+279. zoatzi
+280. puxzeh
+281. tatzokal
+282. atlotsoke
+283. a'yuquate
+284. elan
+285. naali
+286. kulitzi
+287. quiquia
+288. buxkal
+289. cutsal
+290. moxe
+291. tatli
+292. tetzlane
+293. aka'nuks
+294. quxe
+295. xilli
+296. otlini
+297. aionada
+298. xiche
+299. xomaachbe
+300. kuate
+
+# seed 42
+301. ma'tsoka
+302. atotlini
+303. kextani
+304. asal
+305. kuemate
+306. kaaka
+307. quiquiquia
+308. masa'tsene
+309. ta'tse
+310. kamat
+311. tizoloti
+312. mapuyat
+313. nadona
+314. quatli
+315. ketzoatzi
+316. litil
+317. a'yutsoke
+318. ta'tsen
+319. otse
+320. pilotsukul
+321. xichiriek
+322. cota'tse
+323. kujkul
+324. guato
+325. xolotane
+326. cotla
+327. yutsen
+328. doriek
+329. ahuatl
+330. ikujkuxat
+331. naaka
+332. mali
+333. cotizoat
+334. ukuate
+335. yuquatotl
+336. aionaali
+337. kuetzil
+338. kilota
+339. ik'echira
+340. donada
+341. azcan'uks
+342. asakaaka
+343. killin
+344. ahualanti
+345. azcantil
+346. kalate
+347. ateoyuxe
+348. ucan'tul
+349. ascensiok
+350. naatle
+351. tliimil
+352. mucado
+353. xilja
+354. a'yuxkaal
+355. koryane
+356. ketzi
+357. dori
+358. kane
+359. itsali
+360. yuxa
+361. akaata
+362. yuxka
+363. cutsuk
+364. fukula
+365. napla
+366. yuquetzahk
+367. fukujuks
+368. mascen
+369. kani
+370. yutsoxe
+371. charaka
+372. xiljan
+373. ipkaachiri
+374. axye'motlo
+375. ketzula
+376. kujkuur
+377. kisha'nuks
+378. axyel
+379. ibsal
+380. koryatl
+381. qualayeb
+382. xatziljane
+383. xomaachiti
+384. ipkamascen
+385. ucan'tep
+386. aionukua
+387. motse
+388. atzoatep
+389. kuxtan'uk
+390. kutsali
+391. axiljan
+392. tane
+393. zak'elin
+394. quiquatli
+395. cotsal
+396. mapuyatatl
+397. huatli
+398. ik'iimil
+399. kulaxyeb
+400. sali
+
+# seed 55555
+401. atli
+402. quatle
+403. cotlota
+404. ikbaquxa
+405. ikuxa
+406. fukul
+407. buxka
+408. puyana
+409. atzul
+410. moxsa'oxe
+411. aiokal
+412. elayelatl
+413. kuxkane
+414. soxtani
+415. naaxibalin
+416. ikuli
+417. azcaniba
+418. a'tsokmotl
+419. kutsoke
+420. kujukua
+421. xillinab
+422. tizoat
+423. mapokaal
+424. taax
+425. tetzi
+426. echitil
+427. azcada
+428. ikbaqual
+429. mapoche
+430. pokmo
+431. atzahk
+432. mapokal
+433. puxtli
+434. ka'tsoxta
+435. telina
+436. puxtle
+437. ketzolo
+438. kujkuxe
+439. kuema
+440. puxti
+441. kiimek
+442. zakaaka
+443. motsa
+444. u'tsokexti
+445. kujuks
+446. yutse
+447. tizoli
+448. doryao
+449. tzolitziri
+450. kuatzi
+451. litziri
+452. eztla
+453. cotaala
+454. a'tsene
+455. teoyuquat
+456. chara
+457. tzakaal
+458. xechitzul
+459. atzoatzil
+460. aioka
+461. mektoti
+462. pochbe
+463. xichik
+464. mujkula
+465. aiona
+466. donuktul
+467. pilyane
+468. maliimil
+469. ucado
+470. zak'iin
+471. yanti
+472. ketzaka
+473. masala
+474. kuataat
+475. kisha'oxe
+476. yucanti
+477. quemalat
+478. xomatzi
+479. cutsukuur
+480. xomascen
+481. koryat
+482. ik'iib
+483. elane
+484. ucadoriek
+485. xicte'moxe
+486. cutsokal
+487. sak'bal
+488. icheye
+489. xomato
+490. ketzlapuxa
+491. huali
+492. itzocheyeb
+493. itzul
+494. tizokmoxe
+495. kujkuemat
+496. kuematli
+497. tzula
+498. yutsoxtlat
+499. kamatota
+500. itsaka
