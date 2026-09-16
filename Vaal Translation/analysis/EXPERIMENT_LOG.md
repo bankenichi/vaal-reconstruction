@@ -13,6 +13,8 @@ Evidence-based record of the statistical work behind the lexicon hardening (mast
 | Null model, Battery E | strict + online; 3 post-battery names as blind plants | same 5 | 3 targets + 12 pseudo + 5 controls / seed | `BATTERY_E_RESULTS.md`, `battery_e_raw.md` |
 | Adversarial pass | best root in a different language, per committed token | n/a | 61 committed tokens | `adversarial_results_batch{1..4}.csv` |
 | Strict decode of committed lexicon | strict latitude, per committed token | n/a | 61 committed tokens | `strict_committed_results_batch{1..4}.csv` |
+| Syntax confirmation (historical, 2026-07) | independent derivation + scrambled control | 1729 (scramble) | 3 real + 2 scrambled analysts | `SYNTAX_EXPERIMENT_LOG.md` |
+| Syntax confirmation (gloss-blind re-run) | same, surface lines and form-only tokens only | 1729 (scramble) | 3 real + 2 scrambled analysts | `SYNTAX_EXPERIMENT_LOG_RERUN.md` |
 
 Scorers: `score.py` (null model; prints legacy any-C and committed-recovery TPR), `score_adversarial.py` (Gate 2, including same-language homophones), `rescore_gate1.py`, `null_honesty.py`. Classification: `token_classification.csv` (78 rows). Proof of rescored counts: `RESCORE_OUTPUT.md`, `NULL_HONESTY_OUTPUT.md`.
 
@@ -113,13 +115,21 @@ Distinct-string FPR primary: A 64/500, C 32/500, D 34/500. Matched A-then-D any-
 
 **Hardening.** `token_classification.csv` rewritten after both gates (prerun snapshot preserved). H = 3 of 78: *xefe*, *Quecholli* H+L, *Ixchel* H+L. Dual-base: 1/61 and 1/52 on the battery frame; 3/64 and 3/55 enlarged; 3/78 and 3/69 section 9.
 
-**Syntax.** Not run. Checklist only: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Do not quote a new syntax p.
+**Syntax.** Gloss-blind panel on disk: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. Analyst-level 3/3 vs 0/2, Fisher p = 0.10 (not significant; N = 5). Historical 2026-07 3/3 vs 0/2 p = 0.10 is not gloss-blind.
 
 **Docs.** `STATISTICAL_SUMMARY.md` and master §17 updated from these files only. Stopgap archive numbers stay labelled historical.
 
+## 2026-09-16 syntax panel (gloss-blind)
+
+Protocol: `EXPERIMENT_RERUN_PROTOCOL.md` Syntax panel, `SYNTAX_CONFIRMATION_PROTOCOL.md`. Packets: `syntax_rerun_corpus_real.txt` (51 surface lines, English stripped), `syntax_rerun_tokens_form_only.csv` (no glosses), `syntax_rerun_corpus_scrambled_s1729.txt` (within-line shuffle, seed 1729), `syntax_rerun_brief.md`. Builder: `syntax_rerun_build_packets.py`.
+
+Real panel: analysts A, B, C. Scrambled panel: D, E (not told the corpus was scrambled). Isolation: each pass opened only copies of the three packet files. Sheets: `syntax_rerun_analyst_{A,B,C}_real.md`, `syntax_rerun_analyst_{D,E}_scrambled.md`. Scoring against the six §3 conclusions was done after all sheets existed.
+
+Analyst-level 2x2 (recovered consistent word-order regularities): 3/3 real vs 0/2 scrambled. Fisher one-sided p = 0.10. Small N. Not significant. Qualitative match to §3 is weaker without English (possession undetermined for A and B). Copula and affix findings are order-independent. Historical SYN-1 3/3 vs 0/2 p = 0.10 remains labelled not gloss-blind. Full writeup: `SYNTAX_EXPERIMENT_LOG_RERUN.md`. PPV / sentence bands stay withdrawn as translation confidence.
+
 ## Task status
 
-Re-run Batteries A-E, Gate 1, and Gate 2 are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` now follow the re-run CSVs. PPV / sentence bands remain withdrawn as translation confidence. Remaining debt: gloss-blind syntax panel (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
+Re-run Batteries A-E, Gate 1, Gate 2, and the gloss-blind syntax panel are on disk. Dual-base tables in master §17.5-17.7 and `STATISTICAL_SUMMARY.md` follow the re-run CSVs. Syntax p, if quoted, is analyst-level and gloss-blind: 3/3 vs 0/2, p = 0.10 (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). PPV / sentence bands remain withdrawn as translation confidence. The 2026-07 files and the 2026-09 stopgap rescore stay as the historical record. Do not mix epochs.
 
 ## Reproduce / resume
 
@@ -131,3 +141,4 @@ Re-run Batteries A-E, Gate 1, and Gate 2 are on disk. Dual-base tables in master
 - Archive stopgap (do not mix): `python3 rescore_gate1.py`, `python3 score_adversarial.py`, `python3 null_honesty.py`.
 - Per-token hardening test: `HARDENING_PROTOCOL.md`.
 - Protocol: `EXPERIMENT_RERUN_PROTOCOL.md`.
+- Gloss-blind syntax packets: `python3 syntax_rerun_build_packets.py`. Log: `SYNTAX_EXPERIMENT_LOG_RERUN.md`.
