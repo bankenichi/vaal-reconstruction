@@ -31,32 +31,38 @@ CACHE = os.environ.get("VAAL_DICT_CACHE", "/tmp/vaal_dict_index.pkl")
 # Gran Diccionario; do not browse the live web unless a miss requires a cite).
 DICT_FILES = {
     "cordemex": [
+        "Cordemex_FULL_c111.txt",
         "Cordemex_FULL_71b0.txt",
         "Cordemex_FULL_ae30.txt",
         "Cordemex_FULL.txt",
     ],
     "kiche": [
+        "kiche_christenson_FULL_a060.txt",
         "kiche_christenson_FULL_8527.txt",
         "kiche_christenson_FULL_3756.txt",
         "kiche_christenson_FULL.txt",
     ],
     "nawat": [
+        "nawat_Campbell_Pipil_FULL_36e2.txt",
         "nawat_Campbell_Pipil_FULL_a96f.txt",
         "nawat_Campbell_Pipil_FULL_36bc.txt",
         "nawat_Campbell_Pipil_1985_FULL.txt",
         "nawat_Campbell_Pipil_FULL.txt",
     ],
     "ilide": [
+        "ilide_SpanMaya_96de.md",
         "ilide_SpanMaya_7c66.md",
         "ilide_SpanMaya_a397.md",
         "ilide_SpanMaya.md",
     ],
     "norma": [
+        "norma_maya_cbbd.md",
         "norma_maya_1657.md",
         "norma_maya_f601.md",
         "norma_maya.md",
     ],
     "nahuatl1100": [
+        "Nahuatl_1100_MyLittleWordLand_0fa9.md",
         "Nahuatl_1100_MyLittleWordLand_c1de.md",
         "Nahuatl_1100_MyLittleWordLand_b294.md",
         "Nahuatl_1100_MyLittleWordLand.md",

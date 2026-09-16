@@ -27,6 +27,9 @@ Data loss is unacceptable. Designate the one canonical master, verify it is COMP
 - Syntax: report analyst-level Fisher **3/3 vs 0/2, p = 0.10**, not the rule-level 12/12 vs 0/8 as a significance claim. Analysts were not blind to project glosses. Gloss-blind re-run (2026-09-16): 3/3 vs 0/2, p = 0.10, not significant (`SYNTAX_EXPERIMENT_LOG_RERUN.md`). Possession undetermined for two of three real analysts; do not overclaim.
 - Tournaments / particles (2026-09-16): `RIVAL_READING_TOURNAMENTS.md`, `PARTICLE_PROBES_3_7.md`. Five new C* stars; H stays 3 of 78. §3.7 items leaning or still open.
 - Texts 1 and 2 closed and source-validated; Texts 3, 4, 5 documented with soft tokens in the §10 appendix.
+- Leave-one-text-out (2026-09-16): ok 12/51 = 23.5% [14.0, 36.8]; T3 0/13 ok (`analysis/LEAVE_ONE_TEXT_OUT.md`).
+- Secure-line grades (2026-09-16): 0/51 secure, 12/51 working, 38/51 fragile, 1/51 opaque-blocked (`analysis/SECURE_LINE_TAGS.md`). Not PPV.
+- Family audit: grouping footnotes only; distinct-root N unchanged. *Panquetzaliztli* compound pass: missing whole form, stays C+L.
 
 ## Remaining open analytical debt
 
